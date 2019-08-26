@@ -12,7 +12,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
   
 [Engaged Learning Tracking Hours Spreadsheet]()  
 Technical Instructor - Caroline McCraw - cmccraw@luc.edu
-  >> Office Hours: By appointment 
+  - Office Hours: By appointment 
 Project Manager - Emily Datskou - manintowoman@gmail.com  [backup email: ecottrell@luc.edu]   
 
 ### [ENCODING GUIDELINES](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingGuidelines.md)
