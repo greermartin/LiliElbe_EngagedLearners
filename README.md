@@ -4,19 +4,19 @@ This repository is under construction; updates for Fall 2019 forthcoming.
 Final changes to this repository will be complete by Sept. 10th, 2019. E-mail Caroline (cmccraw@luc.edu) with any technical questions in the meantime! 
 
 # Welcome, Lili Elbe Digital Archive Engaged Learners!  
-This module was originally created by Rebecca J. Parker for Dr. Pamela Caughie's Spring 2019 ENGL-283 Transgender Literature course, and adapted by Caroline McCraw for Fall 2019 as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/). The lessons and exercises constructed for this course incorporate materials from [Dr. Elisa Beshero-Bondar](https://github.com/ebeshero)'s [Digital Humanities courses](http://dh.newtfire.org/), the [Digital Mitford Coding School](https://digitalmitford.github.io/DigMitCS/), the [Text Encoding Initiative's learning resources](http://www.tei-c.org/Support/Learn/), [GitHub Guides](https://guides.github.com/), and the [GitHub Help](https://help.github.com/) resources. **This repository is public-facing, therefore, the lessons and exercises herein are licensed under a [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**       
-  
-## Here are some quick links:
-[Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
-Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!)    
-  
-[Engaged Learning Tracking Hours Spreadsheet]()  
+This module was originally created by Rebecca J. Parker for Dr. Pamela Caughie's Spring 2019 ENGL-283 Transgender Literature course, and adapted by Caroline McCraw for Fall 2019 as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/). The lessons and exercises constructed for this course incorporate materials from [Dr. Elisa Beshero-Bondar](https://github.com/ebeshero)'s [Digital Humanities courses](http://dh.newtfire.org/), the [Digital Mitford Coding School](https://digitalmitford.github.io/DigMitCS/), the [Text Encoding Initiative's learning resources](http://www.tei-c.org/Support/Learn/), [GitHub Guides](https://guides.github.com/), and the [GitHub Help](https://help.github.com/) resources. **This repository is public-facing, therefore, the lessons and exercises herein are licensed under a [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**      
 
 ## Contact Information:
 Technical Instructor - Caroline McCraw - cmccraw@luc.edu
   - Caroline's Office Hours: By appointment 
   
 Project Manager - Emily Datskou - manintowoman@gmail.com  [backup email: ecottrell@luc.edu]   
+  
+## Here are some quick links:
+[Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
+Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!)    
+  
+[Engaged Learning Tracking Hours Spreadsheet]()  
 
 ### [ENCODING GUIDELINES](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingGuidelines.md)
 ### [`<teiHeader>` Template Lesson](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Metadata#sample-teiheader)   
