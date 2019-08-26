@@ -11,8 +11,11 @@ This module was originally created by Rebecca J. Parker for Dr. Pamela Caughie's
 Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!)    
   
 [Engaged Learning Tracking Hours Spreadsheet]()  
+
+# Contact Information:
 Technical Instructor - Caroline McCraw - cmccraw@luc.edu
   - Office Hours: By appointment 
+  
 Project Manager - Emily Datskou - manintowoman@gmail.com  [backup email: ecottrell@luc.edu]   
 
 ### [ENCODING GUIDELINES](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingGuidelines.md)
