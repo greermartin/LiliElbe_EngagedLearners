@@ -38,7 +38,7 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 
 Date | Week | Topic | In Class: | By Next Class:|
 ---- | ---- | ----- | ----------|---------------|
-Tues., Sept. 17th | 4 | Intro to Version Control Software | - Create GitHub accounts - Intro to Git/GitHub - GitHub Scavenger Hunt | - Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai) - Upload Amin response to GitHub
+Tues., Sept. 17th | 4 | Intro to Version Control Software | + Create GitHub accounts</br> + Intro to Git/GitHub</br> + GitHub Scavenger Hunt | + Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai)</br> + Upload Amin response to GitHub
   
 ***  
   
