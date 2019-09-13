@@ -20,7 +20,7 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 
 ## >> Group Pages:
 *links forthcoming*  
-![#c5f015](https://placehold.it/15/c5f015/000000?text=+) **Encoding**   
+- **Encoding**   
     - [Encoding Issues Spreadsheet]
 - **Scene Collation** 
 - **Timelines/Maps**  
