@@ -38,7 +38,8 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 
 Date | Week | Topic |In Class: &nbsp;&nbsp;| By Next Class:|
 :---- | ---- | ----- | --------------------|---------------|
-Tues., Sept. 17th | 4 | Intro to Version Control Software | >> Create GitHub accounts</br></br> >> Intro to Git/GitHub</br></br> >> GitHub Scavenger Hunt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| >> Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai)</br></br> >> Upload Amin response to GitHub
+Tues., Sept 17 | 4 | Intro to Version Control Software | 1. Create GitHub accounts</br></br> 2. Intro to Git/GitHub</br></br> 3. GitHub Scavenger Hunt | 1. Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai)</br></br> 2. Upload Amin response to GitHub
+Thurs., Sept 19 | 4 | GitHub, cont'd. | 1. Discuss Amin reading </br></br> 2. Git/GitHub Intro cont'd., incl. Command Line | 1. Read "Storm Clouds on the Horizon," by Caughie, Datskou and Parker (Sakai) </br></br> 2. Upload reading response to GitHub [link]
   
 ***  
   
