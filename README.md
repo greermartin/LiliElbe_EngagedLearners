@@ -12,12 +12,12 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
   
 **Project Manager:** Emily Datskou - she/her/hers – manintowoman@gmail.com  (backup email: ecottrell@luc.edu) – @emilydatskou  
   
-## Quick Links:
+# Quick Links:
 - [Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
 - [Engaged Learners' Hours Tracking Spreadsheet]()  
 - [Meet our Fall 2019 Engaged Learners]
 
-### Group Pages:
+## Group Pages:
 *links forthcoming*  
 - **Encoding**   
     - [Encoding Issues Spreadsheet]
@@ -25,15 +25,15 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - **Timelines/Maps**  
 - **Social Mapping**
 
-### Lessons:
+## Lessons:
 *forthcoming*
 
-### Assignments:
+## Assignments:
 *forthcoming*
 
 --- 
   
-## Technical Syllabus:
+# Technical Syllabus:
 *This syllabus includes more detailed information about lessons and assignments for the technical instruction portion of the semester. The complete academic syllabus can be accessed on our [class Sakai page](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196).*
 
 Date | Week | Topic |In Class: &nbsp;&nbsp;| By Next Class:|
