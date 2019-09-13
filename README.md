@@ -18,9 +18,9 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - [Meet our Fall 2019 Engaged Learners]
 
 ### Group Pages:
-*links forthcoming*</br>
+*links forthcoming*
 **Encoding**</br>
-- [Encoding Issues Spreadsheet]</br>
+- [Encoding Issues Spreadsheet]
 **Scene Collation**</br>
 **Timelines/Maps**  
 **Social Mapping**
