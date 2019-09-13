@@ -18,7 +18,7 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - [Meet our Fall 2019 Engaged Learners]
 - [Technical Syllabus]
 
-## + Group Pages:
+## >> Group Pages:
 *links forthcoming*  
 - **Encoding**   
     - [Encoding Issues Spreadsheet]
@@ -26,10 +26,10 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - **Timelines/Maps**  
 - **Social Mapping**
 
-## + Lessons:
+## >> Lessons:
 *forthcoming*
 
-## + Assignments:
+## >> Assignments:
 *forthcoming*
 
 --- 
