@@ -18,11 +18,11 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - [Meet our Fall 2019 Engaged Learners]
 
 ### Group Pages:
-*links forthcoming*
-**Encoding**
-- [Encoding Issues Spreadsheet]
-**Scene Collation**
-**Timelines/Maps**
+*links forthcoming*</br>
+**Encoding**</br>
+- [Encoding Issues Spreadsheet]</br>
+**Scene Collation**</br>
+**Timelines/Maps**  
 **Social Mapping**
 
 ### Lessons:
