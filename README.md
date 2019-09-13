@@ -7,7 +7,7 @@ E-mail Caroline (cmccraw@luc.edu) with any questions in the meantime!
 This module was originally created by [Rebecca J. Parker](https://github.com/RJP43/LiliElbe_EngagedLearners) for Dr. Pamela Caughie's Spring 2019 ENGL-283 Transgender Literature course, and adapted by [Caroline McCraw](https://github.com/cmccraw) for Fall 2019 as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/). The lessons and exercises constructed for this course incorporate materials from [Dr. Elisa Beshero-Bondar](https://github.com/ebeshero)'s [Digital Humanities courses](http://dh.newtfire.org/), the [Digital Mitford Coding School](https://digitalmitford.github.io/DigMitCS/), the [Text Encoding Initiative's learning resources](http://www.tei-c.org/Support/Learn/), [GitHub Guides](https://guides.github.com/), and the [GitHub Help](https://help.github.com/) resources. **This repository is public-facing, therefore, the lessons and exercises herein are licensed under a [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**      
 
 ## Contact Information:
-**Technical Instructor:** Caroline McCraw – she/her/hers – cmccraw@luc.edu – @cmccraw
+**Technical Instructor:** Caroline McCraw – she/her/hers – cmccraw@luc.edu – @cmccraw</br>
 **Office Hours:** By appointment 
   
 **Project Manager:** Emily Datskou - she/her/hers – manintowoman@gmail.com  (backup email: ecottrell@luc.edu) – @emilydatskou  
