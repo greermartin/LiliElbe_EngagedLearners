@@ -36,9 +36,9 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 ## Technical Syllabus:
 *This syllabus includes more detailed information about lessons and assignments for the technical instruction portion of the semester. The complete academic syllabus can be accessed on our [class Sakai page](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196).*
 
-Date | Week | Topic |Doing In Class:| By Next Class:|
-:---- | ---- | ----- | -------------|---------------|
-Tues., Sept. 17th | 4 | Intro to Version Control Software | >> Create GitHub accounts</br></br> >> Intro to Git/GitHub</br></br> >> GitHub Scavenger Hunt | >> Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai)</br></br> >> Upload Amin response to GitHub
+Date | Week | Topic |In Class: &nbsp;&nbsp;| By Next Class:|
+:---- | ---- | ----- | --------------------|---------------|
+Tues., Sept. 17th | 4 | Intro to Version Control Software | >> Create GitHub accounts</br></br> >> Intro to Git/GitHub</br></br> >> GitHub Scavenger Hunt &nbsp;&nbsp;&nbsp;&nbsp;| >> Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai)</br></br> >> Upload Amin response to GitHub
   
 ***  
   
