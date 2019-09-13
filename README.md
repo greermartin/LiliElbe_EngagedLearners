@@ -19,11 +19,11 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 
 ### Group Pages:
 *links forthcoming*  
-  #### Encoding   
+- **Encoding**   
     - [Encoding Issues Spreadsheet]
-  #### Scene Collation  
-  #### Timelines/Maps  
-  #### Social Mapping
+- **Scene Collation** 
+- **Timelines/Maps**  
+- **Social Mapping**
 
 ### Lessons:
 *forthcoming*
@@ -36,8 +36,8 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 ## Technical Syllabus:
 *This syllabus includes more detailed information about lessons and assignments for the technical instruction portion of the semester. The complete academic syllabus can be accessed on our [class Sakai page](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196).*
 
-Date | Week | Topic | In Class: | By Next Class:
---- | --- | --- | ---
+Date | Week | Topic | In Class: | By Next Class:|
+---- | ---- | ----- | ----------|---------------|
 Tues., Sept. 17th | 4 | Intro to Version Control Software | - Create GitHub accounts - Intro to Git/GitHub - GitHub Scavenger Hunt | - Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai) - Upload Amin response to GitHub
   
 ***  
