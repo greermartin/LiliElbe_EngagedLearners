@@ -37,16 +37,16 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 # Technical Syllabus:
 *This syllabus includes more detailed information about lessons and assignments for the technical instruction portion of the semester. The complete academic syllabus can be accessed on our [class Sakai page](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196).*
 
-Date | Week | Topic |In Class: &nbsp;&nbsp;| By Next Class:|
-:---- | ---- | ----- | --------------------|---------------|
-Tues., Sept. 17 | 4 | Intro to Version Control Software | 1. Create GitHub accounts</br></br> 2. Intro to Git/GitHub</br></br> 3. GitHub Scavenger Hunt | 1. Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai)</br></br> 2. Upload Amin response to GitHub
-Thurs., Sept. 19 | 4 | GitHub, cont'd. | 1. Discuss Amin reading </br></br> 2. Git/GitHub Intro cont'd., incl. Command Line | 1. Read "Storm Clouds on the Horizon," by Caughie, Datskou and Parker (Sakai) </br></br> 2. Upload reading response to GitHub [link]
-Tues., Sept. 24 | 5 | Prosopography | 1. Discuss "Storm Clouds"</br></br> 2. Introduction to Digital Humanities: Prosopography | 1. Reading + response, TBD
-Thurs., Sept. 26 | 5 | Introduction to Mark-Up Language | 1. Install Oxygen and register</br></br> 2. Review [Encoding Assessment Sheets]</br></br> 3. Introduction to XML</br></br> 4. Introduction to TEI</br></br> 5. Review encoding examples</br></br> 6. Group encoding activity</br></br> 7. Decide encoding and project groups | 1. [Encoding homework assignment]
-Tues., Oct. 1 | 6 | Encoding, cont'd. | 1. Review encoding homework</br></br> 2. Headers and metadata</br></br> 3. [Group encoding assignment] + peer-editing | 1. Review Proofing Lesson</br></br> 2. Post two take-aways or questions from the Proofing Lesson on [Issues]
-Thurs., Oct. 3 | 6 | Proofing | 1. Introduction to Proofing</br></br> 2. Reflective encoding exercise | 1. Revise what you wrote during the reflective encoding exercise to generate a 250-word reflection; post to [Sakai].
-Tues., Oct. 8 | 7 | **FALL BREAK** |  |
-Thurs., Oct. 10 | 7 | Group Encoding | 1. Review [Hour Tracking Spreadsheet]</br></br> 2. Encoding groups</br></br> 3. Allocate tasks for homework</br></br> 4. [Check-In on Sakai] | 1. Group assignment (update hour tracking spreadsheet)</br></br> 2. Encoding Assessment Sheet for next materials
+Date | Topic |In Class: &nbsp;&nbsp;| By Next Class:|
+:----| ----- | --------------------|---------------|
+Tues., Sept. 17 | Intro to Version Control Software | 1. Create GitHub accounts</br></br> 2. Intro to Git/GitHub</br></br> 3. GitHub Scavenger Hunt | 1. Read Amin, "Glands, Eugenics, and Rejuvenation in *Man into Woman*" (Sakai)</br></br> 2. Upload Amin response to GitHub
+Thurs., Sept. 19 | GitHub, cont'd. | 1. Discuss Amin reading </br></br> 2. Git/GitHub Intro cont'd., incl. Command Line | 1. Read "Storm Clouds on the Horizon," by Caughie, Datskou and Parker (Sakai) </br></br> 2. Upload reading response to GitHub [link]
+Tues., Sept. 24 | Prosopography | 1. Discuss "Storm Clouds"</br></br> 2. Introduction to Digital Humanities: Prosopography | 1. Reading + response, TBD
+Thurs., Sept. 26 | Introduction to Mark-Up Language | 1. Install Oxygen and register</br></br> 2. Review [Encoding Assessment Sheets]</br></br> 3. Introduction to XML</br></br> 4. Introduction to TEI</br></br> 5. Review encoding examples</br></br> 6. Group encoding activity</br></br> 7. Decide encoding and project groups | 1. [Encoding homework assignment]
+Tues., Oct. 1 | Encoding, cont'd. | 1. Review encoding homework</br></br> 2. Headers and metadata</br></br> 3. [Group encoding assignment] + peer-editing | 1. Review Proofing Lesson</br></br> 2. Post two take-aways or questions from the Proofing Lesson on [Issues]
+Thurs., Oct. 3 | Proofing | 1. Introduction to Proofing</br></br> 2. Reflective encoding exercise | 1. Revise what you wrote during the reflective encoding exercise to generate a 250-word reflection; post to [Sakai].
+Tues., Oct. 8 | **FALL BREAK** |  |
+Thurs., Oct. 10 | Group Encoding | 1. Review [Hour Tracking Spreadsheet]</br></br> 2. Encoding groups</br></br> 3. Allocate tasks for homework</br></br> 4. [Check-In on Sakai] | 1. Group assignment (update hour tracking spreadsheet)</br></br> 2. Encoding Assessment Sheet for next materials
 
   
 ***  
