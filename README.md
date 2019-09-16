@@ -14,11 +14,11 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 
 ## >> Group Project Pages:
 *links forthcoming*  
-- :memo: **Encoding**   
+- :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding)   
     - [Encoding Issues Spreadsheet]
-- :books: **Scene Collation** 
-- :world_map: **Timelines/Maps**  
-- :busts_in_silhouette: **Social Mapping**
+- :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) 
+- :world_map: [**Timelines/Maps**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Timelines-&-Mapping)  
+- :busts_in_silhouette: [**Social Mapping**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Social-Mapping)
 
 ## >> Lessons:
 *forthcoming*
