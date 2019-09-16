@@ -12,7 +12,7 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - :family: [Meet our Fall 2019 Engaged Learners]
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
 
-### >> Group Pages:
+## >> Group Pages:
 *links forthcoming*  
 - :memo: **Encoding**   
     - [Encoding Issues Spreadsheet]
@@ -20,10 +20,10 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - :world_map: **Timelines/Maps**  
 - :busts_in_silhouette: **Social Mapping**
 
-### >> Lessons:
+## >> Lessons:
 *forthcoming*
 
-### >> Assignments:
+## >> Assignments:
 *forthcoming*
 
 --- 
@@ -51,7 +51,7 @@ Date | Topic | In Class: | By Next Class: |
 ***  
   
 ### Why are we using GitHub?  
-As an academic and professional in an increasingly digital world it is important to consider our online presence. For students and faculty alike engaging and traversing a variety of digital environments is a powerful professional skill. The open-access nature of GitHub and the powerful version-control of Git has placed GitHub among the most used as well as most useful tools of today's tech. developers. By asking our students to create GitHub profiles and contribute to content on this platform we are placing students in an environment where the opportunities for personal knowledge development are truly extensible. At the same time, we hope to broaden the resources and materials made available on GitHub not just for the tech. developers of the world but for the public more broadly. In this course we are committed to having students engage with the power of version control via the underlying software linked to Github, Git, as well as some of the social/collaborative components of this interface including ([our Repo. Wiki](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki) and [our Issues Board](https://github.com/RJP43/LiliElbe_EngagedLearners/issues)). For those interested in learning more about Git check out [git-scm.com](https://git-scm.com/). For those interested in learning more about GitHub check out [the GitHub guides](https://guides.github.com/).  
+As an academic and professional in an increasingly digital world it is important to consider our online presence. For students and faculty alike engaging and traversing a variety of digital environments is a powerful professional skill. The open-access nature of GitHub and the powerful version-control of Git has placed GitHub among the most used as well as most useful tools of today's tech. developers. By asking our students to create GitHub profiles and contribute to content on this platform we are placing students in an environment where the opportunities for personal knowledge development are truly extensible. At the same time, we hope to broaden the resources and materials made available on GitHub not just for the tech. developers of the world but for the public more broadly. In this course we are committed to having students engage with the power of version control via the underlying software linked to Github, Git, as well as some of the social/collaborative components of this interface including ([our Repo. Wiki](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki) and [our Issues Board](https://github.com/cmccraw/LiliElbe_EngagedLearners/issues)). For those interested in learning more about Git check out [git-scm.com](https://git-scm.com/). For those interested in learning more about GitHub check out [the GitHub guides](https://guides.github.com/).  
 
  ***
-<sub>Many thanks to [oXygen XML editor](https://github.com/oxygenxml) for generously providing a trial license for our students to learn with this semester.</sub>
+<sup>Many thanks to [oXygen XML editor](https://github.com/oxygenxml) for generously providing a trial license for our students to learn with this semester.</sup>
