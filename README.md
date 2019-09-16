@@ -47,6 +47,11 @@ Tues., Oct. 1 | Encoding, cont'd. | 1. Review encoding homework</br></br> 2. Hea
 Thurs., Oct. 3 | Proofing | 1. Introduction to Proofing</br></br> 2. Reflective encoding exercise | 1. Revise what you wrote during the reflective encoding exercise to generate a 250-word reflection; post to [Sakai].
 Tues., Oct. 8 | **FALL BREAK** |  |
 Thurs., Oct. 10 | Group Encoding | 1. Review [Hour Tracking Spreadsheet]</br></br> 2. Encoding groups</br></br> 3. Allocate tasks for homework</br></br> 4. [Check-In on Sakai] | 1. Group assignment (update hour tracking spreadsheet)</br></br> 2. Encoding Assessment Sheet for next materials
+Tues., Oct. 22 | Group Encoding | 1. Encoding in groups</br></br> 2. Allocate tasks for homework</br></br> 3. Check in on Sakai | 1. Group assignment (update hour tracking spreadsheet)</br></br> 2. Encoding Assessment Sheet for next materials
+Thurs., Oct. 24 | 1. Encoding in groups</br></br> 2. Allocate tasks for homework</br></br> 3. Check in on Sakai | 1. Group assignment (update hour tracking spreadsheet)</br></br> 2. Encoding Assessment Sheet for next materials
+Tues., Oct. 29 | Group Encoding | 1. Encoding in groups</br></br> 2. Allocate tasks for homework</br></br> 3. Check in on Sakai | 1. Group assignment (update hour tracking spreadsheet)</br></br> 2. Finish blog post draft
+Thurs., Oct. 31 | 1. Create Group Project timelines (w/ Emily)</br> 2. Work on group projects | TBD
+Nov. 5 – Dec 5 | See course syllabus on Sakai for readings; work on group projects outside of class using hour tracking spreadsheet
 
   
 ***  
