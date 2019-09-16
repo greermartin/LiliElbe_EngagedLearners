@@ -12,8 +12,7 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 - :family: [Meet our Fall 2019 Engaged Learners]
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
 
-## >> Group Project Pages:
-*links forthcoming*  
+## >> Group Project Pages:  
 - :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding)   
     - [Encoding Issues Spreadsheet]
 - :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) 
