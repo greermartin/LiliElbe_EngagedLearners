@@ -30,7 +30,7 @@
 1. [Screen Health](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%231:-Screen-Health)
 2. [Getting Started with GitHub](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%232:-Getting-Started-with-GitHub)
 3. [Introduction to Version Control Software](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%233:-Introduction-to-Version-Control-Software)
-4. GitHub Scavenger Hunt [link]
+4. [GitHub Scavenger Hunt](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%234:-GitHub-Scavenger-Hunt)
 5. [Getting Started with oXygen](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%235:-Getting-Started-with-oXygen)
 6. [Introduction to Encoding: XML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%236:-Introduction-to-Encoding:-XML)
 7. [Introduction to Encoding: Schematizing & TEI](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%236:-Introduction-to-Encoding:-XML)
