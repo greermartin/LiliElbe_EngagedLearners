@@ -5,10 +5,12 @@
 *Office Hours:* By appointment 
   
 **Project Manager:** Emily Datskou // she/her/hers // manintowoman@gmail.com (backup e-mail: ecottrell@luc.edu) // [@emilydatskou](https://github.com/emilydatskou)  
+
+**Professor/Project Editor:** Dr. Caughie // she/her/hers // pcaughi@luc.edu // @ProfPLC
   
 ## Quick Links:
 - :house: [Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
-- :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet]()  
+- :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet]  
 - :family: [Meet our Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
 
