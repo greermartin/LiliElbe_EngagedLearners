@@ -10,13 +10,13 @@
   
 ## Quick Links:
 - :house: [Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
-- :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet]  
+- :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet] *forthcoming* 
 - :family: [Meet our Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
 
 ## >> Group Project Pages:  
 - :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding)   
-    - [Encoding Issues Spreadsheet]
+    - [Encoding Issues Spreadsheet] *forthcoming*
 - :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) 
 - :world_map: [**Timelines/Maps**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Timelines-&-Mapping)  
 - :busts_in_silhouette: [**Social Mapping**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Social-Mapping)
@@ -34,18 +34,18 @@
 
 Date | Topic | In Class: | By Next Class: |
 :----| ------| --------  | -------------  |
-*Tues.*, **Sept. 17** | *Intro to Version Control Software* | >> Create GitHub accounts</br> >> Intro to Git/GitHub</br> >> GitHub Scavenger Hunt | **(1)** Read Amin, "Glands, Eugenics, and</br> Rejuvenation in *Man into Woman*" (Sakai)</br></br> **(2)** Upload [response to Amin reading](https://github.com/cmccraw/LiliElbe_EngagedLearners/issues/1)
-*Thurs.*, **Sept. 19** | *GitHub, cont'd.* | >> Discuss Amin reading </br> >> Git/GitHub Intro cont'd., incl. Command Line | **(1)** Read "Storm Clouds on the Horizon," by Caughie, Datskou and Parker (Sakai) </br></br> **(2)** Upload reading response to GitHub [link]
-*Tues.*, **Sept. 24** | *Prosopography* | >> Discuss "Storm Clouds"</br> >> Introduction to Digital Humanities: Prosopography | **(1)** Reading + response, **TBD**
-*Thurs.*, **Sept. 26** | *Introduction to Mark-Up Language* | >> Install Oxygen and register</br> >> Review [Encoding Assessment Sheets]</br> >> [Introduction to XML]</br> >> [Introduction to TEI]</br> >> Review encoding examples</br> >> Group encoding activity</br> >> Decide encoding and project groups | **(1)** [Encoding homework assignment]
-*Tues.*, **Oct. 1** | *Encoding, cont'd.* | >> Review encoding homework</br> >> [Headers and metadata]</br> >> [Group encoding assignment] + peer-editing | **(1)** Review Proofing Lesson</br></br> **(2)** Post two take-aways or questions from the Proofing Lesson on [Issues]
-*Thurs.*, **Oct. 3** | *Proofing Encoding* | >> Introduction to Proofing</br> >> Reflective encoding exercise | **(1)** Revise what you wrote during the reflective encoding exercise to generate a 250-word reflection upon your encoding experience thus far; post to [Sakai].
+*Tues.*, **Sept. 17** | *Intro to Version Control Software* | *In Class:*</br> >> Create GitHub accounts</br> >> Intro to Git/GitHub</br> >> GitHub Scavenger Hunt | *By Next Class:*</br></br> **(1)** Read Amin, "Glands, Eugenics, and</br> Rejuvenation in *Man into Woman*" (Sakai)</br></br> **(2)** Upload [response to Amin reading](https://github.com/cmccraw/LiliElbe_EngagedLearners/issues/1)
+*Thurs.*, **Sept. 19** | *GitHub, cont'd.* | *In Class:*</br> >> Discuss Amin reading </br> >> Git/GitHub Intro cont'd., incl. Command Line | *By Next Class:*</br></br> **(1)** Read "Storm Clouds on the Horizon," by Caughie, Datskou and Parker (Sakai) </br></br> **(2)** Upload reading response to GitHub [link]
+*Tues.*, **Sept. 24** | *Prosopography* | *In Class:*</br> >> Discuss "Storm Clouds"</br> >> Introduction to Digital Humanities: Prosopography</br> >> Make encoding groups | *By Next Class:*</br></br> **(1)** Reading + response, **TBD**
+*Thurs.*, **Sept. 26** | *Introduction to Mark-Up Language* | *In Class:*</br> >> Install Oxygen and register</br> >> Review [Encoding Assessment Sheets]</br> >> Review [Hours Tracking Spreadsheet]</br> >> [Introduction to XML]</br> >> [Introduction to TEI]</br> >> Review encoding examples</br> >> Group encoding activity | *By Next Class:*</br></br> **(1)** [Encoding homework assignment]
+*Tues.*, **Oct. 1** | *Encoding, cont'd.* | *In Class:*</br> >> Review encoding homework</br> >> [Headers and metadata]</br> >> [Group encoding assignment] + peer-editing | *By Next Class:*</br></br> **(1)** Review Proofing Lesson</br></br> **(2)** Post two take-aways or questions from the Proofing Lesson on [Issues]
+*Thurs.*, **Oct. 3** | *Proofing Encoding* | *In Class:*</br> >> Introduction to Proofing</br> >> Reflective encoding exercise | *By Next Class:*</br></br> **(1)** Revise what you wrote during the reflective encoding exercise to generate a 250-word reflection upon your encoding experience thus far; post to [Sakai].</br></br> **(2)** Update Dr. Caughie or Caroline if your group project preferences (scene collation, encoding, timelines/maps, social mapping) have changed since the Technical Skills Survey. 
 *Tues.*, **Oct. 8** | **FALL BREAK** |  |
-*Thurs.*, **Oct. 10** | *Group Encoding* | >> Review [Hour Tracking Spreadsheet]</br> >> Encoding groups</br> >> Allocate tasks for homework</br> >> [Check-In on Sakai] | **(1)** Group assignment (update hour tracking spreadsheet)</br></br> **(2)** Encoding Assessment Sheet for next materials
-*Tues.*, **Oct. 22** | *Group Encoding* | >> Encoding in groups</br> >> Allocate tasks for homework</br> >> Check in on Sakai | **(1)** Group assignment (update hour tracking spreadsheet)</br> **(2)** Encoding Assessment Sheet for next materials
-*Thurs.*, **Oct. 24** | *Group Encoding* | >> Encoding in groups</br> >> Allocate tasks for homework</br> >> Check in on Sakai | **(1)** Group assignment (update hour tracking spreadsheet)</br></br> **(2)** Encoding Assessment Sheet for next materials
-*Tues.*, **Oct. 29** | *Group Encoding* | >> Encoding in groups</br> >> Allocate tasks for homework</br> >> Check in on Sakai | **(1)** Group assignment (update hour tracking spreadsheet)</br></br> **(2)** Finish blog post draft
-*Thurs.*, **Oct. 31** | *Group Projects* | >> Create Group Project timelines (w/ Emily)</br> >> Work on group projects | TBD
+*Thurs.*, **Oct. 10** | *Group Encoding* | *In Class:*</br> >> Decide project groups</br> >> Encoding in groups</br> >> Allocate tasks for homework</br> >> [Check-In on Sakai] | *By Next Class:*</br></br> **(1)** Group assignment (update hour tracking spreadsheet)</br></br> **(2)** Encoding Assessment Sheet for next materials
+*Tues.*, **Oct. 22** | *Group Encoding* | *In Class:*</br> >> Encoding in groups</br> >> Allocate tasks for homework</br> >> Check in on Sakai | *By Next Class:*</br></br> **(1)** Group assignment (update hour tracking spreadsheet)</br> **(2)** Encoding Assessment Sheet for next materials
+*Thurs.*, **Oct. 24** | *Group Encoding* | *In Class:*</br> >> Encoding in groups</br> >> Allocate tasks for homework</br> >> Check in on Sakai | *By Next Class:*</br></br> **(1)** Group assignment (update hour tracking spreadsheet)</br></br> **(2)** Encoding Assessment Sheet for next materials
+*Tues.*, **Oct. 29** | *Group Encoding* | *In Class:*</br> >> Encoding in groups</br> >> Allocate tasks for homework</br> >> Check in on Sakai | *By Next Class:*</br></br> **(1)** Group assignment (update hour tracking spreadsheet)</br></br> **(2)** Finish blog post draft
+*Thurs.*, **Oct. 31** | *Group Projects* | *In Class:*</br> >> Create Group Project timelines (w/ Emily)</br> >> Work on group projects | *By Next Class:*</br></br> TBD
 **Nov. 5 – Dec 5** | See course syllabus on Sakai for readings; work on group projects outside of class using hour tracking spreadsheet.
 
   
