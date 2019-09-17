@@ -32,7 +32,7 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 
 Date | Topic | In Class: | By Next Class: |
 :----| ------| --------  | -------------  |
-*Tues.*, **Sept. 17** | *Intro to Version Control Software* | >> Create GitHub accounts</br> >> Intro to Git/GitHub</br> >> GitHub Scavenger Hunt | **(1)** Read Amin, "Glands, Eugenics, and</br> Rejuvenation in *Man into Woman*" (Sakai)</br></br> **(2)** Upload response to Amin reading on [GitHub Issue]
+*Tues.*, **Sept. 17** | *Intro to Version Control Software* | >> Create GitHub accounts</br> >> Intro to Git/GitHub</br> >> GitHub Scavenger Hunt | **(1)** Read Amin, "Glands, Eugenics, and</br> Rejuvenation in *Man into Woman*" (Sakai)</br></br> **(2)** Upload response to Amin reading on [GitHub Issue](https://github.com/cmccraw/LiliElbe_EngagedLearners/issues/1)
 *Thurs.*, **Sept. 19** | *GitHub, cont'd.* | >> Discuss Amin reading </br> >> Git/GitHub Intro cont'd., incl. Command Line | **(1)** Read "Storm Clouds on the Horizon," by Caughie, Datskou and Parker (Sakai) </br></br> **(2)** Upload reading response to GitHub [link]
 *Tues.*, **Sept. 24** | *Prosopography* | >> Discuss "Storm Clouds"</br> >> Introduction to Digital Humanities: Prosopography | **(1)** Reading + response, **TBD**
 *Thurs.*, **Sept. 26** | *Introduction to Mark-Up Language* | >> Install Oxygen and register</br> >> Review [Encoding Assessment Sheets]</br> >> [Introduction to XML]</br> >> [Introduction to TEI]</br> >> Review encoding examples</br> >> Group encoding activity</br> >> Decide encoding and project groups | **(1)** [Encoding homework assignment]
