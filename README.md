@@ -14,7 +14,7 @@
 - :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet] *forthcoming* 
 - :family: [Meet our Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
-- :handshake: [Engaged Learners GitHub Workflow & Digital Etiquette Expectations](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Our-GitHub-Workflow---Digital-Etiquette-Expectations) 
+- :handshake: [Engaged Learners GitHub Workflow & Digital Etiquette Expectations](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Our-GitHub-Workflow-&-Digital-Etiquette-Expectations) 
 - ➕[Additional Resources](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Additional-Resources)
 
 ## >> Group Project Pages:  
