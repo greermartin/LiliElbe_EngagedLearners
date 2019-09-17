@@ -9,10 +9,13 @@
 **Professor/Project Editor:** Dr. Caughie // she/her/hers // pcaughi@luc.edu // [@ProfPLC](https://github.com/ProfPLC)
   
 ## Quick Links:
+
 - :house: [Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
 - :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet] *forthcoming* 
 - :family: [Meet our Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
+- :handshake: [Engaged Learners GitHub Workflow + Digital Etiquette Expectations](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Our-GitHub-Workflow---Digital-Etiquette-Expectations) 
+- ➕[Additional Resources](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Additional-Resources)
 
 ## >> Group Project Pages:  
 - :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding)   
@@ -22,10 +25,16 @@
 - :busts_in_silhouette: [**Social Mapping**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Social-Mapping)
 
 ## >> Lessons:
-*forthcoming*
-
-## >> Assignments:
-*forthcoming*
+1. [Screen Health](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%231:-Screen-Health)
+2. [Getting Started with GitHub](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%232:-Getting-Started-with-GitHub)
+3. [Introduction to Version Control Software](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%233:-Introduction-to-Version-Control-Software)
+4. GitHub Scavenger Hunt [link]
+5. [Getting Started with oXygen](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%235:-Getting-Started-with-oXygen)
+6. [Introduction to Encoding: XML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%236:-Introduction-to-Encoding:-XML)
+7. [Introduction to Encoding: Schematizing & TEI](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%236:-Introduction-to-Encoding:-XML)
+8. [Capturing Metadata](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%238:-Capturing-Metadata)
+9. [LEDA Encoding Guidelines](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%239:-LEDA-Encoding-Guidelines)
+10. [Proofing HTML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%2310:-Proofing-HTML)
 
 --- 
   
