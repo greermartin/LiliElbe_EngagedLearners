@@ -28,7 +28,7 @@ This module was originally created by [Rebecca J. Parker](https://github.com/RJP
 --- 
   
 # Technical Syllabus:
-*This syllabus includes more detailed information about lessons and assignments for the technical instruction portion of the semester. The complete academic syllabus can be accessed on our [class Sakai page](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196).*
+<sup>*This syllabus includes more detailed information about lessons and assignments for the technical instruction portion of the semester. The complete academic syllabus can be accessed on our [class Sakai page](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196).*</sup>
 
 Date | Topic | In Class: | By Next Class: |
 :----| ------| --------  | -------------  |
