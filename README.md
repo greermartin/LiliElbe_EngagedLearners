@@ -7,6 +7,8 @@
 **Project Manager:** Emily Datskou // she/her/hers // manintowoman@gmail.com (backup e-mail: ecottrell@luc.edu) // [@emilydatskou](https://github.com/emilydatskou)  
 
 **Professor/Project Editor:** Dr. Caughie // she/her/hers // pcaughi@luc.edu // [@ProfPLC](https://github.com/ProfPLC)
+
+**Digital Editor:** Rebecca J. Parker // she/her/hers // rparker3@luc.edu // [@rjp43](https://github.com/RJP43)
   
 ## Quick Links:
 
