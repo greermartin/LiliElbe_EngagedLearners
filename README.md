@@ -6,7 +6,7 @@
   
 **Project Manager:** Emily Datskou // she/her/hers // manintowoman@gmail.com (backup e-mail: ecottrell@luc.edu) // [@emilydatskou](https://github.com/emilydatskou)  
 
-**Professor/Project Editor:** Dr. Caughie // she/her/hers // pcaughi@luc.edu // @ProfPLC
+**Professor/Project Editor:** Dr. Caughie // she/her/hers // pcaughi@luc.edu // [@ProfPLC](https://github.com/ProfPLC)
   
 ## Quick Links:
 - :house: [Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
