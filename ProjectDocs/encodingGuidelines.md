@@ -9,7 +9,7 @@ Change any XML special characters to designated XML entities (ie. `&` becomes `&
 _For special characters, use the HTML Entity codes preceded by “&#” and followed by a semicolon “;”. For example, to render an en dash (HTML Entity Code 8211), you would enter “&#8211;”. Here’s a list of HTML Entity Codes: https://www.html.am/reference/html-special-characters.cfm - Use column titled: HTML Entity Number._
   
 ### Standardize XML Filename  
-_note: XML documents should be named the same as the .docx transcription files without the parentheticals and any text that follows the first whitespace._  
+_note: XML documents should be named the same as the .docx transcription files without the parentheticals and any text that follows the first whitespace. Verify with Dr. Caughie or Emily on the correct filename._  
 ````
 19211922ThomsenSdiaryentries Comments(9.21.18).docx   
 ↓  
@@ -21,7 +21,7 @@ _note: XML documents should be named the same as the .docx transcription files w
 The Lili Elbe Digital Archive deals with several different types of texts including: entire books, book sections and chapters, diary entries, magazine and journal articles, and letters. Each of these different text-types require slightly different structuring of the TEI `<text>` element's descendant elements. In this section of the guidelines each text-types' basic structure is defined.   
   
 ### Texts with Translations  
-Any text that has an English translation should have the following  double `<div>` structure surrounding that particular text-type's encoding structure. For example, if encoding a letter that has a translation then first implement this "Texts with Translations" structural markup and then continue with the structural markup specified under the "Letters" text-type heading for the original-language text inside the `<div type="original">` as well as the translated text inside the `<div type="translation">`. _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._   
+Any text that has an English translation should have the following  double `<div>` structure surrounding that particular text-type's encoding structure. For example, if encoding a letter that has a translation then first implement this "Texts with Translations" structural markup and then continue with the structural markup specified under the "Letters" text-type heading for the original-language text inside the `<div type="original">` as well as the translated text inside the `<div type="translation">`. _See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml) as example._  
   
 ````
 <text>
@@ -37,7 +37,7 @@ Any text that has an English translation should have the following  double `<div
 ````
   
 ### Books / Book Sections / Book Chapters   
-_See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. If a translated section/chapter, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.  _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/LiliForward/LiliForeword.xml) as example._  
+_See [A1.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. If a translated section/chapter, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.  _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/LiliForeword.xml) as example._  
 
 ````
 <text>
@@ -78,49 +78,40 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as editio
 ````  
   
 ### Journal, Magazine, Newspaper Articles  
-_See [Politiken articles](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials/Danish_archive/Politiken) as examples._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
+_See [Sandheden](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/Sanheden.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
-<div rend="head"<!--text that appears before headlines; could include title and date-->
+<div rend="head" style="periodical"><!--text that appears before headlines; could include title and date-->
    <p>
       <title><!--name of newspaper/mag/journal, if included in facsimile image otherwise delete--></title>
       <date when="yyyy-mm-dd"><!--exact transcription of date, if included in facsimile image otherwise delete--></date>
-   <!--The `<seg>` markup should go within each of the title and date elements if the text has a translation.--> 
    <p>    
 </div>
 <div rend="headlines">
       <list>
            <item rend="primary"><!--text of main headline--></item>
            <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
-	   <!--The `<seg>` markup should go within each of the item elements if the text has a translation.--> 
       </list>
 </div>
 <div rend="body">
 <!--<p> elements should be used for each of the paragraphs making up the article body-->
-<!--The `<seg>` markup should go within each of the p elements if the text has a translation.--> 
 </div>
 ````  
   
 ### Letters  
-_See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
+_See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
-<div rend="head">
-  <!--letter head; often includes address lines (with <placeName> elements) and date (in <date> elements)-->
+<div rend="head" syle="letter">
+  <!--letter head; often includes address lines (with <placeName> elements) and date (in <date> elements)use <p> elements to separate lines -->
 </div>
 <div rend="body">
-  <salute><!--salutation; dear so and so--></salute>
+  <p><!--salutation; dear so and so--></p>
   <!--<p> elements should be used for each of the paragraphs making up the letter body-->
-  <!--The `<seg>` markup should go around each of the sentences within the p elements that have a translation.--> 
-  <closer>
-    <salute><!--valediction; best wishes--></salute>
-    <!--use a new salute for each valediiction paragraphs of the closer-->
-    <signed><!--transcription of signature in a linked <persName> element--></signed>    
-  </closer>
+    <signed><!--transcription of signature in a linked <persName> element--></signed>  
   <postscript>
     <!--transcription of content written after signature by letter author; ps-->
     <!--<p> elements should be used for each of the paragraphs making up postcript--> 
-    <!--The `<seg>` markup should go within each of the p elements if the text has a translation.--> 
   </postscript>
 </div>
 ````  
@@ -146,7 +137,7 @@ _should mimic Text/Symbols dividing text in original, print rendition; is the p 
  _used to indicate there is a carriage return in the original, print rendition; this is the only acceptable self-closing `<p>` element_   
    
 ### Collation Paragraphs
-_note: Besides letter and diary entries collation IDs for paragraphs are added in the pipeline process transforming to HTML. See [A1/B1 Paragraph Numbering XSLT](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/numberingParagraphs_MIW_A1andB1.xsl) for example._   
+_note: Besides letter and diary entries collation IDs for paragraphs are added in the pipeline process transforming to HTML._
   
 `<p style="letter" xml:id="a1c00l00p00">Letter Text</p>`  
 `<p style="GreteDiary" xml:id="a1c00d00p00">Diary Text</p>`  
@@ -179,47 +170,21 @@ _In articles, there are sometime columns. At the end of each column use the `<cb
 _note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding.**_   
 
 ### Figures, Photos, Illustrations, Images  
-_note: We assign image XML:IDs so that if an image is referenced anywhere else in the document we can link such instances by providing a corresp attribute value containing the XML:ID preceded by a hashtag (like this: `<p corresp=”#i00>Reference to image.</p>`). When assigning an XML:ID for images start with `i` which stands for image. Follow this with a two digit representation of the number image in the parent text; So the first image would be `i01`._ See example below.
+_note: In the main editions we have assigned image XML:IDs so that if an image is referenced anywhere else in the document we can link such instances by providing a corresp attribute value containing the XML:ID preceded by a hashtag (like this: `<p corresp=”#i00>Reference to image.</p>`). When assigning an XML:ID for images start with `i` which stands for image. Follow this with a two digit representation of the number image in the parent text; So the first image would be `i01`._ See example below.
 
 ````
-<figure xml:id="i##">
+<figure xml:id="i##" facs="URL">
    <figDesc><!--direct transcription of image caption provided in print rendition--></figDesc>
       <!--If there is no caption on the image then leave a self-closing `<figDesc/>` element.-->
       <!-- figDesc should include any markup indicating styling, people, places as well as the seg markup if there is translation-->
    <note source="team member ID">Encoder description of image (that can be used as alt. text); any information about the placement of the photo on the print page and image credit. Please use complete sentences.</note>
 </figure>
 ````
-    
-### Translation Segmentation  
   
-_note: For smaller texts like letters and diary entries, we are linking shorter segments of text so as to better align the transcription and translation when transformed into HTML. With larger prose text, segments tend to be longer but never longer than a single paragraph again to try to keep the alignment between transcription and translation as clear as possible._  
-  
-**Steps for Linking Transcription and Translation**  
-1.  Determine text divisions based on side-by-side translations.  _(sentences or paragraphs)_  
-2.  Wrap segment in original text in a `<seg>` element. _`<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_  
-3.  Assign n attribute value. _segment IDs (`@n` attribute values) should start with a lowercase letter indicating the language of the original text (ex. d for Danish) followed by a two-digit number indicating the numerical numbering of text segments with translations._  
-4.  Then wrap segment in translated text in a `<seg>` element.  _`<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_   
-5.  Link `@corresp` attribute-value with `@n` attribute from transcription `<seg>` element created in step 3. _`@corresp` segment IDs should start with a hash symbol (#)_  
-
-**Examples:**   
-`<seg n="d01">Original Text</seg>`  
-_- this text as an original transcription with a linked translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `original` - `<div type="original">`._  
-  
-`<seg corresp=”#d01”>Translated Text</seg>`   
-_- this text as a translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `translation` - `<div type="translation">`._ 
-  
-````  
-<seg n="g03">  
-Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach meiner Operation geöffnet habe.  
-</seg>  
-````
-````
-`<seg corresp="#g03">    
-Thank you so much for your letter. Yours is the first one that I opened after my operation.    
-</seg>  
-````
-  
-### Prosopography Markup   
+**All figures must have a `facs` attribute. The attribute value for each illustraion should provide the url to the illustration in the Lili Elbe Digital Archive's media library.**  
+Example: `facs="http://www.lilielbe.org/media/periodicals/Sandheden_i01.jpg"`  
+   
+### Prosopography Markup    
 _note: All proper people and places (and some not proper) are captured in the following two elements: `<persName>` and `<placeName>`. Both elements can have a key attribute-value that gets checked against a prosopography list imported into our ODD schema of all the people and places across the entire project. This allows us to keep track of people and place across files no matter if the literal string of text is directly providing the proper name of the person/place or not. When encoding prosopography information it is important to refer to our [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) in order to determine the appropriate keys to use for each person or place you come across in your XML. Every `@xml:id` attribute-value in the [`LEDA_Prosopography.xml` file](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) is a possible key attribute-value that can be used in your XML files. If a person or place is not listed [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml), or if there is an alternate name used in your XML for an existing person/place not included in the `LEDA_Prosopography.xml`, then encoders are instructed to notify Rebecca - **@RJP43** in their team issue or [create an issue](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/23) to alert Dr. Caughie - **@profPLC** and the rest of the team of the newly identified person/place.  From there the project editors will determine if the person or place will get a key ID or simply exist as an encoded `<persName>` or `<placeName>` without a key attribute-value pairing._    
    
 **When encoding people and places be sure to only include the name of the person or place inside of the element. As with most elements, exclude any unnecessary spaces within the element content, but you will also want to be particularly aware when encoding people and places to not include apostrophes or pluralizations within the element.**   
@@ -294,6 +259,23 @@ _note: change xml:id attribute-value to match the paragraph collation ID found i
   
 `@type "foot" or "end"`  
 `@rend "asterisk" or numerical value`   
+  
+### Editor/Translator Comments   
+````
+<anchor type="commentRangeStart" n="<!--comment number-->"/>  
+TEXT BEING REFERENCED<anchor type="commentRangeEnd" n="<!--comment number-->"/><note type="translator or editor" source="team member ID"  
+corresp="comment_<!--same comment number-->">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
+````
+
+_Source attribute-values should be changed to the two or three letter editor's, encoder’s, or primary translator's initials, which should also be identified in the `<respStmt>` elements in the XML’s teiHeader. Encoders should select whether translator or editor for the note type attribute and changes the comment# to reflect the order of the comment in relation to all of the other comments in the file._  
+
+  
+### Encoder Comments
+`<!-- Encoder Initials:yyyy-mm-dd: Encoder comment here.-->`
+_Change yyyy-mm-dd date to the date of the XML comment's creation._  
+  
+### Responsibility Stmts and Source Attributes  
+_note: When linking an encoder, editor, or translator to a note the encoder’s, editor’s, or translator’s full name and the digitization task associated to them should be detailed in `<respStmt>` elements of the teiHeader. The ref attribute-value linked to the persName in the teiHeader `<respStmt>` elements are what get used as the values in the source attribute of any note elements in the rest of the XML._  
    
 ### Correcting Errors from Print / Facsimile Images
 _note: The LEDA project has decided to make no silent corrections; however, we want to be able to display a corrected version of misspelled text, punctuation errors, etc. for searchability and standardization._  
@@ -373,20 +355,3 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
 "strikethrough"  
 "overwrite"  
 "overtype"   
-  
-### Editor/Translator Comments   
-````
-<anchor type="commentRangeStart" n="<!--comment number-->"/>  
-TEXT BEING REFERENCED<anchor type="commentRangeEnd" n="<!--comment number-->"/><note type="translator or editor" source="team member ID"  
-corresp="comment_<!--same comment number-->">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
-````
-
-_If there are multiple editors/translators and comments are not able to be directly identified to a single person than simply put u (for unidentified) as the source attribute-value. Source attribute-values should be changed to the two or three letter editor's, encoder’s, or translator's initials, which should also be identified in the `<respStmt>` elements in the XML’s teiHeader. Encoders should select whether translator or editor for the note type attribute and changes the comment# to reflect the order of the comment in relation to all of the other comments in the file._  
-
-  
-### Encoder Comments
-`<!-- Encoder Initials:yyyy-mm-dd: Encoder comment here.-->`
-_Change yyyy-mm-dd date to the date of the XML comment's creation._  
-  
-### Responsibility Stmts and Source Attributes  
-_note: When linking an encoder, editor, or translator to a note the encoder’s, editor’s, or translator’s full name and the digitization task associated to them should be detailed in `<respStmt>` elements of the teiHeader. The ref attribute-value linked to the persName in the teiHeader `<respStmt>` elements are what get used as the values in the source attribute of any note elements in the rest of the XML._
