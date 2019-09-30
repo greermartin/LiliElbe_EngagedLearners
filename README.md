@@ -33,7 +33,7 @@
 4. [GitHub Scavenger Hunt](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%234:-GitHub-Scavenger-Hunt)
 5. [Getting Started with oXygen](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%235:-Getting-Started-with-oXygen)
 6. [Introduction to Encoding: XML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%236:-Introduction-to-Encoding:-XML)
-7. [Introduction to Encoding: Schematizing & TEI](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%236:-Introduction-to-Encoding:-XML)
+7. [Introduction to Encoding: Schematizing & TEI](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%237:-Introduction-to-Encoding:-Schematizing-&-TEI)
 8. [Capturing Metadata](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%238:-Capturing-Metadata)
 9. [LEDA Encoding Guidelines](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%239:-LEDA-Encoding-Guidelines)
 10. [Proofing HTML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%2310:-Proofing-HTML)
