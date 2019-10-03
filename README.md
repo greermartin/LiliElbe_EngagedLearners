@@ -25,7 +25,9 @@
     - [**LEDA Prosopography**](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) (for key IDs)
     - [**Complete Letter Example**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml)
     - [**TEI Header Template**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/TEIHeader_Template.xml)
-    - [**TEI Header Info for Supplemental Materials [Metadata Spreadsheet #1]**](https://docs.google.com/spreadsheets/d/1yrAgk_F5xjuH9PuGPC4IcQKpynV04X9tASpehm_9-vQ/edit#gid=0) (2nd spreadsheet is posted under "Announcements" on Sakai)
+    - **TEI Header Metadata Spreadsheets**
+      - [**#1: "TEI Header Info for Supplemental Materials"**](https://docs.google.com/spreadsheets/d/1yrAgk_F5xjuH9PuGPC4IcQKpynV04X9tASpehm_9-vQ/edit#gid=0)
+      - [**#2: "LEDA Metadata Spreadsheet"**](https://docs.google.com/spreadsheets/d/1mjx2woFRvFUyuGWtDUyObjb6D2OXvWsbyIhWzeHwxZ8/edit?usp=sharing)
      - [**LEDA ODD**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_ODD.rng) (for schema validation)
     - **Team Member Initials/Refs**
       - [Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
