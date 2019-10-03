@@ -24,8 +24,11 @@
     - [**LEDA Prosopography**](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) (for key IDs)
     - [**Complete Letter Example**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml)
     - [**TEI Header Template**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/TEIHeader_Template.xml)
-    - [**TEI Header Info for Supplemental Materials**](https://docs.google.com/spreadsheets/d/1yrAgk_F5xjuH9PuGPC4IcQKpynV04X9tASpehm_9-vQ/edit#gid=0)
+    - [**TEI Header Info for Supplemental Materials [Metadata Spreadsheet #1]**](https://docs.google.com/spreadsheets/d/1yrAgk_F5xjuH9PuGPC4IcQKpynV04X9tASpehm_9-vQ/edit#gid=0) (2nd spreadsheet is posted under "Announcements" on Sakai)
      - [**LEDA ODD**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_ODD.rng) (for schema validation)
+    - **Team Member Initials/Refs**
+      - [Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
+      - [Additional LEDA Team Members](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/35#issuecomment-476646163)
     - Post technical questions/problems on our [GitHub Issues](https://github.com/cmccraw/LiliElbe_EngagedLearners/issues). If there is not a relevant Issue already open to comment on, create a new Issue with the "help wanted" label. Be sure to tag @cmccraw and your groupmates. 
     - Post content-related questions/problems on your [Hour Tracking Spreadsheet](https://docs.google.com/spreadsheets/d/1pnN_HHr5SKX0AgF3wYu3F1XlqMcjZK-rfms4DCGTQug/edit?usp=sharing) under "Questions for the Editor(s)." These questions will be monitored by Dr. Caughie and Emily. 
 - :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) 
