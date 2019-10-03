@@ -46,7 +46,8 @@
 7. [Introduction to Encoding: Schematizing & TEI](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%237:-Introduction-to-Encoding:-Schematizing-&-TEI)
 8. [Capturing Metadata](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%238:-Capturing-Metadata)
 9. [LEDA Encoding Guidelines](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%239:-LEDA-Encoding-Guidelines)
-10. [Proofing HTML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%2310:-Proofing-HTML)
+10. [Proofing XML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/10.-Proofing-XML)
+11. [Proofing HTML](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%2310:-Proofing-HTML)
 
 --- 
   
