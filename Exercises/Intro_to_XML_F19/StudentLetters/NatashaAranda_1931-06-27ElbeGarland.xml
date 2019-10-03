@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- NMA:2019-10-03: Find out what proper schema is. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+   <!-- NMA:2019-10-03: Find out what URL of this letter should be. -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <date>1931-06-27</date> Letter to <persName key ="garlandM">Freundin</persName>
+            </title>
+            <author>
+               <persName key ="LiliElbe">Lili Elbe</persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref= "twj" role="TRL"></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation reviewed by</resp>
+               <persName ref="sm"></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription completed by </resp>
+               <persName ref="twj"></persName>
+            </respStmt>
+            <sponsor>Loyola University Chicago Libraries</sponsor>
+            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="2019-07-06">July 6th, 2019</date>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+            <availability>
+               <!-- Start Example 1 & 2 -->
+               <p select="source">Private Collection.</p> <!--OR--> <p select="source">Harvard University Library</p>
+               <!-- End Example 1 -->
+               <!-- Start Example 3-->
+               <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                  Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                  Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+               <!-- End Example 3 -->
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+         <!-- Start Edition Example -->
+         <sourceDesc source="Codex" xml:lang="eng">
+            <p>Hardbound book, 323 total pages, 288 pages with text and 18 illustrations.</p>
+         </sourceDesc>
+         <!-- End Edition Example -->
+         <!-- Start Contextual Example -->
+         <sourceDesc source="Manuscript" xml:lang="dan">
+            <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences; Dr. Caughie must approve all source descriptions before transformation --></p>
+         </sourceDesc>
+         <!-- End Contextual Example -->
+      </fileDesc>
+      <encodingDesc>
+         <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
+         <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+               <category source="collex" xml:id="discipline">
+                  <catDesc><!-- discipline metadata --></catDesc>
+               </category>
+               <category source="collex" xml:id="genre">
+                  <catDesc><!-- genre metadata --></catDesc>
+               </category>
+               <!-- Use the following category only when the text you are encoding contains illustrations -->
+               <category source="collex" xml:id="image">
+                  <catDesc><!-- media library illustration URL --></catDesc>
+                  <catDesc><!-- media library illustration URL --></catDesc>
+               </category>
+               <category source="collex" xml:id="text">
+                  <catDesc>URL to Plain Text</catDesc>
+               </category>
+               <category source="dc" xml:id="date">
+                  <catDesc>
+                     <![CDATA[<dc:date>date metadata</dc:date>]]>
+                  </catDesc>
+               </category>
+               <!-- Use the following category only when encoding a book section or periodical -->
+               <category source="dcterms" xml:id="isPartOf">
+                  <catDesc><!-- book or periodical title --></catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+            <hyphenation>
+               <p>We have removed the hyphenation that appears in the printed text during
+                  digitization and encoding. Original hyphenation can be consulted in the facsimile
+                  images.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+</TEI>
+<text>
+   <body>
+      <div>
+         <p><placeName key ="Dresden">Dresden</placeName> den 27. Juni 1931.</p>
+         
+         <p>Liebe <persName key ="garlandM">Freundin</persName>,</p> 
+         <p>Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach meiner Operation geöffnet habe. 
+         Ich kann noch nicht selbst schreiben.
+         Diese letzte Operation war furchtbar. Jedesmal Verbinden verursacht mir furchtbare Schmerzen. 
+         Ich bekomme fast nichts zu essen und zu trinken. So bleibt es sicherlich noch eine Woche. 
+         Ich sehe mit Schrecken dem Moment entgegen, wenn die Klammern aus beiden Wunden entfernt werden. 
+         Sie sind glücklich in der Sommerfrische da in <placeName key ="Hven">Hven</placeName>.
+         Montag will ich nach <placeName key="Paris">Paris</placeName> schreiben, dass ihr Gatte so schnell wie möglich Photographien von unserer Arbeit bekommen wird.</p> 
+         <p>Ich finde es auch besser, wenn die dänische Arbeit später herauskommen wird als die deutsche. 
+         Nächste Woche bekommen auch Sie einen besseren Brief.</p>
+         
+         <p>Viel Liebe und Grüße
+         Von Ihrer armen kleinen Freundin. 
+         Viele Grüße an Ihren lieben Mann, <persName>Lilimoe</persName> und seinem Bruder.</p> 
+         
+         <signed><persName key ="LiliElbe">Lili Elbe</persName></signed>
+      </div>
+      
+      <div>
+         <p><placeName key ="Dresden">Dresden</placeName>, the 27th of June 1931.</p>
+         
+         <p>Dear <persName key ="garlandM">Girlfriend</persName>,</p> 
+         <p>Thank you so much for your letter. Yours is the first one that I opened after my operation. 
+         I can’t write by myself yet. 
+         This last operation was awful. 
+         Every change of bandages causes me terrible pain. 
+         I barely get anything to eat or to drink. This is probably how it will be for another week.
+         
+         I am dreading the moment when they will remove the staples from both wounds. 
+         
+         You are happy in the breezy summer weather in <placeName key ="Hven">Hven</placeName>.
+         On Monday I am going to write to <placeName>Paris</placeName>, so that your husband can receive photographs of our work as soon as possible.</p> 
+        
+         <p>I would prefer, if the Danish work would be published later than the German work. 
+         
+         Next week you’ll receive a better letter.</p> 
+         
+         
+         <p>Much love and greetings, 
+         from your poor little friend. 
+         Greetings to your dear husband, <persName>Lilimoe</persName> and his brother.</p>
+         
+         <signed><persName key ="LiliElbe">Lili Elbe</persName></signed>
+      </div>
+   </body>
+</text>
+
+
+
