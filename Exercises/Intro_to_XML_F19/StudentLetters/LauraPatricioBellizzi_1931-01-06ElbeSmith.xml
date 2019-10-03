@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <body>
+        <div>
+            <p><placeName key ="Dresden">Dresden</placeName> den 27. Juni 1931.</p>
+            
+            <p>Liebe <persName key ="garlandM">Freundin</persName>,</p> 
+            <p>Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach meiner Operation geöffnet habe. 
+                Ich kann noch nicht selbst schreiben.
+                Diese letzte Operation war furchtbar. Jedesmal Verbinden verursacht mir furchtbare Schmerzen. 
+                Ich bekomme fast nichts zu essen und zu trinken. So bleibt es sicherlich noch eine Woche. 
+                Ich sehe mit Schrecken dem Moment entgegen, wenn die Klammern aus beiden Wunden entfernt werden. 
+                Sie sind glücklich in der Sommerfrische da in <placeName key ="Hven">Hven</placeName>.
+                Montag will ich nach <placeName>Paris</placeName> schreiben, dass ihr Gatte so schnell wie möglich Photographien von unserer Arbeit bekommen wird.</p> 
+            <p>Ich finde es auch besser, wenn die dänische Arbeit später herauskommen wird als die deutsche. 
+                Nächste Woche bekommen auch Sie einen besseren Brief.</p>
+            
+            <p>Viel Liebe und Grüße
+                Von Ihrer armen kleinen Freundin. 
+                Viele Grüße an Ihren lieben Mann, <persName>Lilimoe</persName> und seinem Bruder.</p> 
+            
+            <signed><persName key ="LiliElbe">Lili Elbe</persName></signed>
+        </div>
+        
+        <div>
+            <p><placeName key ="Dresden">Dresden</placeName>, the 27th of June 1931.</p>
+            
+            <p>Dear <persName key ="garlandM">Girlfriend</persName>,</p> 
+            <p>Thank you so much for your letter. Yours is the first one that I opened after my operation. 
+                I can’t write by myself yet. 
+                This last operation was awful. 
+                Every change of bandages causes me terrible pain. 
+                I barely get anything to eat or to drink. This is probably how it will be for another week.
+                
+                I am dreading the moment when they will remove the staples from both wounds. 
+                
+                You are happy in the breezy summer weather in <placeName key ="Hven">Hven</placeName>.
+                On Monday I am going to write to <placeName>Paris</placeName>, so that your husband can receive photographs of our work as soon as possible.</p> 
+            
+            <p>I would prefer, if the Danish work would be published later than the German work. 
+                
+                Next week you’ll receive a better letter.</p> 
+            
+            
+            <p>Much love and greetings, 
+                from your poor little friend. 
+                Greetings to your dear husband, <persName>Lilimoe</persName> and his brother.</p>
+            
+            <signed><persName key ="LiliElbe">Lili Elbe</persName></signed>
+        </div>
+    </body>
+</text>
+
+
+
