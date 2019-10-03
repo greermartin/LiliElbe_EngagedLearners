@@ -1,6 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- Be sure to remove the schema line above and re-associate your file to your locally downloaded schema.  -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+    <!-- insert correct URLs, above, for your text -->
+    <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
+      For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
+      should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
+      and the two-letter (or three-letter), initials of your colleague on the persName elements.-->
+    <!-- People in <respStmt> elements: Each person on the project team has a special identifier (including you as an encoder). These IDs should be used in the blank ref attribute-values below. IDs are created by taking the first and last initial of the person's name. Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp. If unsure, verify with project managers various team members' IDs. -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- Start For Letters; Remove the following if not encoding a Letter; Correct the following to match specific letter's info. -->
+                <title>
+                    <date>1931-03-06</date> Letter to <persName key="knudsenPaul">Paul Knudsen</persName>
+                </title>
+                <author>
+                    <persName key="elbeLili" role="AUT">Lili Elbe</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="kej" role="TRL">Kristin Jacobsen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="">Maiken Boysen</persName>
+                </respStmt>
+                <!-- mek: 2019-10-03: Also reviewed by Maiken Boysen, no initials given-->
+                <respStmt>
+                    <resp>Transcription completed by </resp>
+                    <persName ref="kej">Kristin Jacobsen</persName>
+                </respStmt>
+                <!-- End For Letters; -->
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="mek">Molly Kaull</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="bt">Brenda Torres</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="dlr">Dove Rebmann</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="mf">Megan Fries</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="mn">Maddie Nesbitt</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="me">Melissa Elezovic</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="mos">Malone Simmons</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="kd">Kritika Dabral</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                        by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref=""><!-- Insert name and initials in @ref--></persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+                <availability>
+                    <!-- Start Example 1 & 2 -->
+                    <p select="source">Private Collection.</p> <!--OR--> <p select="source">Harvard University Library</p>
+                    <!-- End Example 1 -->
+                    <!-- Start Example 3-->
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                        Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                        Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+                    <!-- End Example 3 -->
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+            <!-- Start Edition Example -->
+            <sourceDesc source="Codex" xml:lang="eng">
+                <p>Hardbound book, 323 total pages, 288 pages with text and 18 illustrations.</p>
+            </sourceDesc>
+            <!-- End Edition Example -->
+            <!-- Start Contextual Example -->
+            <sourceDesc source="Manuscript" xml:lang="dan">
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences; Dr. Caughie must approve all source descriptions before transformation --></p>
+            </sourceDesc>
+            <!-- End Contextual Example -->
+        </fileDesc>
+        <encodingDesc>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc><!-- discipline metadata --></catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc><!-- genre metadata --></catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+                <hyphenation>
+                    <p>We have removed the hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the facsimile
+                        images.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+</TEI>
 <text>
     <body>
         <div type="original">
@@ -41,5 +184,3 @@
         </div>
     </body>
 </text>
-
-
