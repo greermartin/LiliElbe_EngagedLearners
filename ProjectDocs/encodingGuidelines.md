@@ -102,7 +102,7 @@ _See [Sandheden](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/P
 _See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
-<div rend="head" syle="letter">
+<div rend="head" style="letter">
   <!--letter head; often includes address lines (with <placeName> elements) and date (in <date> elements)use <p> elements to separate lines -->
 </div>
 <div rend="body">
