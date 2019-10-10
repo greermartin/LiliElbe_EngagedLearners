@@ -21,7 +21,7 @@
 
 ## >> Group Project Pages:  
 - :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding)  
-    - [**Encoding Workflow Cheatsheet**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Encoding-Workflow-Cheatsheet)
+    - *** [**Encoding Workflow Cheatsheet**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Encoding-Workflow-Cheatsheet) ***
     - [**LEDA Encoding Guidelines**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingGuidelines.md)
     - [**LEDA Prosopography**](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) (for key IDs)
     - [**Complete Letter Example**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml)
