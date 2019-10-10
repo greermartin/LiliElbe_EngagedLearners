@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- Be sure to remove the schema line above and re-associate your file to your locally downloaded schema.  -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
-    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Letters/1931-03-06ElbeKnudsen.html"
+    xml:base="lilielbe.org/context/Letters/0000-00-00ThomsenTHoyer.html" xml:base="">
     <!-- insert correct URLs, above, for your text -->
     <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
       For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
@@ -40,33 +40,12 @@
                 <respStmt>
                     <resp>Encoding completed by</resp>
                     <persName ref="mek">Molly Kaull</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding completed by</resp>
                     <persName ref="bt">Brenda Torres</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding completed by</resp>
                     <persName ref="dlr">Dove Rebmann</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding completed by</resp>
                     <persName ref="mf">Megan Fries</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding completed by</resp>
                     <persName ref="mn">Maddie Nesbitt</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding completed by</resp>
                     <persName ref="me">Melissa Elezovic</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding completed by</resp>
                     <persName ref="mos">Malone Simmons</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding completed by</resp>
                     <persName ref="kd">Kritika Dabral</persName>
                 </respStmt>
                 <respStmt>
