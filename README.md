@@ -20,7 +20,7 @@
 - ➕[Additional Resources](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Additional-Resources)
 
 ## >> Group Project Pages:  
-- :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding)  
+- :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding) **(Natasha, John, Orion, Brenda, Susan, Colin)**
     - *** [**Encoding Workflow Cheatsheet**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Encoding-Workflow-Cheatsheet) ***
     - [**LEDA Encoding Guidelines**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingGuidelines.md)
     - [**LEDA Prosopography**](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) (for key IDs)
@@ -35,9 +35,9 @@
       - [Additional LEDA Team Members](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/35#issuecomment-476646163)
     - Post technical questions/problems on our [GitHub Issues](https://github.com/cmccraw/LiliElbe_EngagedLearners/issues). If there is not a relevant Issue already open to comment on, create a new Issue with the "help wanted" label. Be sure to tag @cmccraw and your groupmates. 
     - Post content-related questions/problems on your [Hour Tracking Spreadsheet](https://docs.google.com/spreadsheets/d/1pnN_HHr5SKX0AgF3wYu3F1XlqMcjZK-rfms4DCGTQug/edit?usp=sharing) under "Questions for the Editor(s)." These questions will be monitored by Dr. Caughie and Emily. 
-- :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) 
-- :world_map: [**Timelines/Maps**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Timelines-&-Mapping)  
-- :busts_in_silhouette: [**Social Mapping**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Social-Mapping)
+- :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) **(Malone, Melissa, Diosa)** 
+- :world_map: [**Timelines/Maps**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Timelines-&-Mapping) **(Megan, Kritika, Mylinh, Phylicia, Molly)** 
+- :busts_in_silhouette: [**Social Mapping**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Social-Mapping) **(Dove, Maddie, Josh)**
 
 ## >> Lessons:
 1. [Screen Health](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%231:-Screen-Health)
