@@ -17,7 +17,8 @@
 - :family: [Meet our Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
 - :handshake: [Engaged Learners GitHub Workflow & Digital Etiquette Expectations](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Our-GitHub-Workflow-&-Digital-Etiquette-Expectations) 
-- ➕[Additional Resources](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Additional-Resources)
+- ➕ [Additional Resources](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Additional-Resources)
+- 🎶 [Encoding Playlist Link (on Spotify)](https://open.spotify.com/playlist/3dGsX7pfx5rPaeDpdU2t7R?si=NIfrg5kMRuqfvuiDuqMxFA) 
 
 ## >> Group Project Pages:  
 - :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding) **(Natasha, John, Orion, Brenda, Susan, Colin)**
