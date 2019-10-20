@@ -17,20 +17,21 @@
 - :family: [Meet our Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
 - :handshake: [Engaged Learners GitHub Workflow & Digital Etiquette Expectations](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Our-GitHub-Workflow-&-Digital-Etiquette-Expectations) 
+- 🎶 [Encoding Playlist Link (on Spotify)](https://open.spotify.com/playlist/3dGsX7pfx5rPaeDpdU2t7R?si=NIfrg5kMRuqfvuiDuqMxFA)
 - ➕ [Additional Resources](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Additional-Resources)
-- 🎶 [Encoding Playlist Link (on Spotify)](https://open.spotify.com/playlist/3dGsX7pfx5rPaeDpdU2t7R?si=NIfrg5kMRuqfvuiDuqMxFA) 
 
 ## >> Group Project Pages:  
 - :memo: [**Encoding**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Encoding) **(Natasha, John, Orion, Brenda, Susan, Colin)**
     - :star: [**Encoding Workflow Cheatsheet**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Encoding-Workflow-Cheatsheet) :star: - _Step-by-step guide for encoding, XML proofing, and HTML proofing supplemental archival materials for LEDA._
     - [**LEDA Encoding Guidelines**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingGuidelines.md) - _Reference-style list of specific LEDA encoding rules._
     - [**LEDA Prosopography**](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) - _For locating key IDs for people and places._
-    - [**Complete Letter Example**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/letterExample_0000-00-00ThomsenTHoyer.xml) - _Sample encoded letter, for reference._
+    - [**Sample Encoded Documents**](https://github.com/cmccraw/LiliElbe_EngagedLearners/tree/master/ProjectDocs/encodingExamples) - _Finished encoded documents, for reference._ ```(LiliElbe_EngagedLearners >> ProjectDocs >> encodingExamples)```
     - [**TEI Header Template**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/TEIHeader_Template.xml) - _Blank LEDA TEI header to be copy and pasted._
     - **TEI Header Metadata Spreadsheets** - _For locating metadata about archival material to include in the TEI header._
       - [**#1: "TEI Header Info for Supplemental Materials"**](https://docs.google.com/spreadsheets/d/1yrAgk_F5xjuH9PuGPC4IcQKpynV04X9tASpehm_9-vQ/edit#gid=0)
       - [**#2: "LEDA Metadata Spreadsheet"**](https://docs.google.com/spreadsheets/d/1mjx2woFRvFUyuGWtDUyObjb6D2OXvWsbyIhWzeHwxZ8/edit?usp=sharing)
      - [**LEDA ODD**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_ODD.rng) - _For schema validation during XML proofing._
+     - [**Using Git Through Command Line**](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/WIKIandREADMEmaterials/Git_BasicCommands.md)
     - **Team Member Initials/Refs** - _For attributing credit to LEDA team members in respStmts in the TEI header._
       - [Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
       - [Additional LEDA Team Members](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/35#issuecomment-476646163)
@@ -40,7 +41,8 @@
 - :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) **(Malone, Melissa, Diosa)** 
 - :world_map: [**Timelines/Maps**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Timelines-&-Mapping) **(Megan, Kritika, Mylinh, Phylicia, Molly)** 
 - :busts_in_silhouette: [**Social Mapping**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Social-Mapping) **(Dove, Maddie, Josh)**
-- :mag: **HTML Proofing** _(link forthcoming)_ **(Laura :muscle:)**
+- :mag: [**HTML Proofing**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%2310:-Proofing-HTML) **(Laura :muscle:)**
+     - [HTML Proofing Corrections Spreadsheet](https://docs.google.com/spreadsheets/d/14u5E9qRmaMs51TSS6GdRaHztSNG_KAuKKD1r5sRwcE4/edit?usp=sharing)
 
 ## >> Lessons:
 1. [Screen Health](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%231:-Screen-Health)

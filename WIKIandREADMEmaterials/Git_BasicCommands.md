@@ -12,6 +12,8 @@ This file has been modified from its original rendition made available via [@ebe
 * `git status` -- list of changes should be green
 * `git commit -m "message here"`
 * `git push`
+
+_See [Setting Up Git](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%233:-Introduction-to-Version-Control-Software#working-with-git-at-command-line) if this is your first time using command line to access our class repo._
   
 ## Detailed walk-through
 
