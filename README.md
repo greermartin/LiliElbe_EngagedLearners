@@ -41,7 +41,8 @@
 - :books: [**Scene Collation**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Scene-Collation) **(Malone, Melissa, Diosa)** 
 - :world_map: [**Timelines/Maps**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Timelines-&-Mapping) **(Megan, Kritika, Mylinh, Phylicia, Molly)** 
 - :busts_in_silhouette: [**Social Mapping**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Group-Project:-Social-Mapping) **(Dove, Maddie, Josh)**
-- :mag: **HTML Proofing** _(link forthcoming)_ **(Laura :muscle:)**
+- :mag: [**HTML Proofing**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%2310:-Proofing-HTML) **(Laura :muscle:)**
+     - [HTML Proofing Corrections Spreadsheet](https://docs.google.com/spreadsheets/d/14u5E9qRmaMs51TSS6GdRaHztSNG_KAuKKD1r5sRwcE4/edit?usp=sharing)
 
 ## >> Lessons:
 1. [Screen Health](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Lesson-%231:-Screen-Health)
