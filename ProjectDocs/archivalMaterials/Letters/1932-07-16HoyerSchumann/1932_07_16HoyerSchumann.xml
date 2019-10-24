@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition=""
+    xml:base="">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>
+                <date> when="1932-07-16"</date> Letter to <persName key="schumannH">Harry Shumann</persName>
+            </title>
+            <author>
+                <persName key="hoyerNiels" role="AUT">Niels Hoyer</persName>
+            </author>
+            <respStmt>
+                <resp>Photographed by</resp>
+                <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Images prepared by</resp>
+                <persName ref="mg">Matthew Gallagher</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Transcription completed by</resp>
+                <persName ref="twj">Tatjana Willms-Jones</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Translation completed by</resp>
+                <persName ref="twj">Tatjana Willms-Jones</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Translation reviewed by</resp>
+                <persName ref="Kj">Kristin Jacobson</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding completed by</resp>
+                <persName ref="lpb">Laura Patricio-Bellizzi</persName>
+                <persName ref="pmh">Phylicia Hall</persName>
+                <persName ref="mek">Molly Kaull</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding assistance and/or XML proofing completed by</resp>
+                <persName ref="pmh">Phylicia Hall</persName>
+                <persName ref="mek"> Molly Kaull</persName>
+            </respStmt>
+            <respStmt>
+                <resp>XML transformed into HTML
+                    <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                <persName ref="">         </persName>
+            </respStmt>
+            <respStmt>
+                <resp>HTML proofing completed by</resp>
+                <persName ref="lpb">Laura Patricio-Bellizzi</persName>
+            </respStmt>            
+            <sponsor>Loyola University Chicago Libraries</sponsor>
+            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date>July 6th, 2019</date>
+            <availability>
+                <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+                <licence>Distributed under a Creative Commons
+                    Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc source="Manuscript" xml:lang="dan">
+            <p><!-- PLC provided description goes here. --></p>
+        </sourceDesc>         
+    </fileDesc>
+    <encodingDesc>
+        <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                <category source="collex" xml:id="discipline">
+                    <catDesc>History/Book History</catDesc>
+                </category>
+                <category source="collex" xml:id="genre">
+                    <catDesc>Correspondence</catDesc>
+                </category>               
+                <category source="collex" xml:id="text">
+                    <catDesc><!-- URL to Plain Text will go here.--></catDesc>
+                </category>
+                <category source="dc" xml:id="date">
+                    <catDesc>
+                        <![CDATA[<dc:date>nodate</dc:date>]]>
+                    </catDesc>
+                </category>
+            </taxonomy>
+        </classDecl>
+        <editorialDecl>
+            <hyphenation>
+                <p>We have removed the hyphenation that appears in the printed text during
+                    digitization and encoding. Original hyphenation can be consulted in the facsimile
+                    images.</p>
+            </hyphenation>
+        </editorialDecl>
+    </encodingDesc>      
+</teiHeader>
+
+    <text>
+        <body>
+            <div type="original">
+                <div rend="head" style="letter">
+                    <p><persName key="hoyerNiels">NIELS HOYER</persName> (ERNST HARTHERN)</p>                            
+                    <p><placeName key="copenhagen">Kopenhagen</placeName> <date>16.7.32</date></p>
+                    <p><persName key="reissnerCarl">Carl Reissner</persName> Verlag</p> 
+                    <p><placeName key="dresden">Dresden</placeName> N.</p>
+                </div>
+                <div rend="body">
+                    <p>Lieber Herr <persName key="schumannH">Schumann</persName>!</p> 
+                    <p>Heute reise ich in meinen Urlaub. Meine Adresse lautet bis</p>
+                    <p>auf weiteres:</p> 
+                    
+                    <p><persName key="hoyerNiels">Niels Hoyer</persName> (Ernst Harthern)</p> 
+                    <p>Badepensionat Grönnestrand</p> 
+                    <p>Per Fjerritslev (Nordjütland)</p> 
+                    <p><placeName key="denmark">Dänemark</placeName></p>
+                    
+                    <p>Ich bitte, genau so zu adressieren! 
+                        Die erste Korrektur habe ich ja, -bis auf Vorwort und die paar Ein-bzw.“Hinzu-fügungen“ gelesen; von der 2. Korrektur dagegen nur die ersten 6 Bogen. Dann setzen alle weiteren Sendungen aus. Weshalb? H i e r  kann ich nicht länger warten. Sie müssen mir also den Rest der 2. Korrektur an meine obige Adresse senden lassen.</p> 
+                    
+                    <p><persName key="brandstetterO">Brandstetter</persName> hatten mich in eine nette Aufregung gebracht: plötzlich schrieb man mir, die Sendung mit meinem Vorwort und der Titelei sei nicht einge-troffen, es wurde telegrafiert und telefoniert, -bis sich herausstellte, dass <persName key="brandstetterO">Brandstetter</persName> Ihnen ja meine “korrigierte Korrektur“ mit Zufügungen und Vor-wort gesandt habe; also liegt alles bei Ihnen.</p> 
+                    
+                    <p>So, wie Vorwort, Anfang und Ende jetzt ist, erscheint es mir gut und wirkungs-voll zu sein. Ein l a n g e s  Vorwort meinerseits 
+                        hätte den Dokument-Charak-ter des Buches gestört. Die Propaganda-Texte sind inzwischen auch bei Ihnen eingetroffen.</p> 
+                    
+                    <p>Ich vermisse immer noch Ihre Antwort auf meine verschiedenen Fragen, so vor allem, welche Bildbeilagen kommen. Es ist doch selbstverständlich, dass ich als Autor erfahre, welche Bilder Sie meinem Buche beifügen.- Nur 2 Reproduktionen habe ich bisher gesehen.</p> 
+                    
+                    <p>Wann erscheint das Buch? Ich bitte auch um Einsendung des Entwurfes des Umschlages.-</p> 
+                    
+                    <p>In <placeName key="gronnestrand">Grönnestrand</placeName>, das unmittelbar an der Nordsee zwischen Dünen, etwas südwest-lich von <placeName key="skagen">Skagen</placeName> liegt, will ich mich ausruhen und ein neues Schauspiel von mir fertig machen; der Chronos Verlag (Deutsche Verlagsanstalt) hat gerade ein Schauspiel von einem dänischen Autor und mir herausgebracht, es an <placeName key="america">Ame-rika</placeName>, <placeName key="france">Frankreich</placeName> etc. verkauft.-</p> 
+                    
+                    <p>Wie steht es jetzt mit der Vorabdrucksmöglichkeit meines <persName key="lili">Lili Elbe</persName> Buches? Lässt sich das noch machen?</p> 
+                    
+                    <p>Übrigens heisst die Heldin des “gemeinsamen Stückes“ bei Chronos ebenfalls <persName key="lili">Lili</persName>…Hoffentlich bringen beide <persName key="lili">Lili</persName> allen Beteiligten Glück….</p>
+                    
+                    <signed>Die besten Grüsse!
+                        Ihr</signed>
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="letter">
+                    <p><persName key="hoyerNiels">NIELS HOYER</persName> (ERNST HATHERN)</p>                                
+                    <p><placeName key="copenhagen">Copenhagen</placeName> <date>7/16/32</date></p>  
+                    <p><persName key="reissnerCarl">Carl Reissner</persName> Publisher</p>
+                    <p><placeName key="dresden">Dresden</placeName> N.</p> 
+                </div>
+                <div rend="body">
+                    <p>Dear Mr.<persName key="schumannH">Schumann</persName>!</p>
+                        <p>Today I’m going on vacation. My address will be:</p> 
+                        
+                    <p><persName key="hoyerNiels">Niels Hoyer</persName> (Ernst Harthern)</p> 
+                        <p>Badepensionat Gönnestrand</p> 
+                            <p>Per Fjerritslev (Nordjütland)</p> 
+                    <p><placeName key="denmark">Denmark</placeName></p>
+                        
+                    <p>I kindly ask you, to address it exactly like this! 
+                        I read the correction, except for the foreword and a couple of “add-ins”; from the second correction I only read the first 6 pages. 
+                        Everything else that you have sent will not get to me. Why? 
+                        I cannot wait h e r e  for this. You have to send the rest of the second correction to the above address.</p> 
+                        
+                    <p><persName key="brandstetterO">Brandstetter</persName> sent me into a little frenzy: all of a sudden, I received notice that my mail with the foreword wasn’t received, we faxed and telephoned, until it was discovered, that <persName key="brandstetterO">Brandstetter</persName> had sent you my “corrected corrections” with add-ins and the foreword; so all the documents are with you.</p> 
+                        
+                    <p>The way that the foreword, beginning and end is now, appears to be good and effective to me. A  l o n g  foreword on my part would have disturbed the book’s character. The texts for the advertisements have already been sent to you.</p> 
+                        
+                    <p>I am still missing the answers to my questions, especially about the questions concerning which pictures will be included. It goes without saying, that as the author, I will find out, which pictures you will include in my book.- I have only seen 2 photocopies so far.</p> 
+                        
+                        
+                    <p>When will the book be published? I am also asking for a design for the cover page.-</p> 
+                        
+                    <p>In <placeName key="gronnestrand">Grönnestrand</placeName>, which is right at the North Sea between the dunes, a little southwest from <placeName key="skagen">Skagen</placeName>, I am going to relax and finish a new play; the Chronos publisher (a German publisher) just published a play by a Danish author and me, and sold it to <placeName key="america">America</placeName>, <placeName key="france">France</placeName>, etc.-</p> 
+                        
+                        
+                    <p>How is the advance print of my <persName key="lili">Lili Elbe</persName> book looking? Is that still possible?</p> 
+                        
+                    <p>The heroine of the “combined play” with Chronos was also called <persName key="lili">Lili</persName>… I hope that both <persName key="lili">Lilis</persName> bring everyone involved luck….</p>
+                    <signed>Kindest regards! 
+                        Your</signed>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
