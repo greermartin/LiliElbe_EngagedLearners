@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+    <!-- NMA:2019-10-10: Find out what URL of this letter should be. -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- Start For Periodicals; Remove the following if not encoding a periodical; Correct the following to match specific periodical's info.  -->
+                <title>Manden, der blev Kvinde</title>
+                <title type="alternative">The Man who became a Woman</title>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="mo" role="TRL">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="plc">Pamela L. Caughie</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by </resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                </respStmt>
+                <!-- End for Periodicals; -->
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="NMA">Natasha Aranda</persName> 
+                    <persName ref="OE">Orion Elrod</persName> 
+                    <persName ref="JM">John Meehan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="tbd"><!-- Insert Proofers name and initials in @ref--></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                        by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref="tbd"><!-- Insert Proofers name and initials in @ref--></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref="mg"><!-- Insert name and initials in @ref--></persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+                <availability>
+                    <!-- Start Example 3-->
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                        Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                        Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+                    <!-- End Example 3 -->
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+            <!-- Start Contextual Example -->
+            <sourceDesc source="Periodical" xml:lang="ger">
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences; Dr. Caughie must approve all source descriptions before transformation --></p>
+            </sourceDesc>
+            <!-- End Contextual Example -->
+        </fileDesc>
+        <encodingDesc>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc>History/Gender Studies</catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc>Essay/Nonfiction</catDesc>
+                    </category>
+                    <category source="collex" xml:id="text">
+                        <catDesc>URL to Plain Text</catDesc>
+                    </category>
+                    <category source="dc" xml:id="date">
+                        <catDesc>
+                            <![CDATA[<dc:date>1931</dc:date>]]>
+                        </catDesc>
+                    </category>
+                    <!-- Use the following category only when encoding a book section or periodical -->
+                    <category source="dcterms" xml:id="isPartOf">
+                        <catDesc>Originally published in <hi rend="italics">Socialdemokraten</hi></catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+                <hyphenation>
+                    <p>We have removed the hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the facsimile
+                        images.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>    
+<text>
+    <body>
+        <div type="original">
+            <div rend="head" style="periodical">
+                <!--text that appears before headlines; could include title and date-->
+            </div>
+            <div rend="headlines">
+                <list>
+                    <item rend="primary"><hi rend="italics"><hi rend="bold"><!-- OE:2019-10-21 not sure how to italicize and bold the same text. should be changed later.-->Manden, der blev Kvinde</hi></hi></item>
+                    <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+                    <item><hi rend="bold">Redaktør <persName key="harthernE">Harthern</persName> fortæller om Bogen om Maleren <persName key="wegenerE">Ejnar Wegener</persName>, som blev til fru <persName key="lili">Lili Elbe</persName>.</hi></item>
+                </list>
+            </div>
+            <div rend="body">
+                <p>En af de sidse Aars mest opsigtsvækkende lægevidenskabelige Begivenheder har været Dresdener-Professoren Dr. <persName key="warnekros"><hi rend="italics">Kurt Warnekros</hi></persName>' Operation, der forvandlede den danske Maler <persName key="wegenerE"><hi rend="italics">Ejnar Wegener</hi></persName> til Kvinden <persName key="lili"><hi rend="italics">Lili Elbe</hi></persName>. For knapt et Par Maaneder siden afgik <persName key="lili">Lili Elbe</persName> ved Døden, men forinden havde hun forfattet en Bog, der skildrede hendes Tilværelses to Perioder, og som tidligere omtalt vil Bogen om kort Tid udkomme paa <hi rend="italics">Hage &amp; Clausens</hi> Forlag. Det er den tyske Forfatter og Journalist, Redaktør <persName key="harthernE"><hi rend="italics">Harthern</hi></persName>; bedre kendt u 
+                    der sit Pseudonym <hi rend="italics"><persName key="hoyerNiels">Niels Hoyer</persName></hi>, der efter den Afdødes Ønske har foretaget Udgivelsen. Vi havde i Gaar en Samtale med Redaktør <persName key="harthernE">Harthern</persName>, der fortalte om den ejendommelige Bogs Tilblivelseshistorie og <persName key="wegenerE">Ejnar Wegener</persName>-<persName key="lili">Lili Elbes</persName> Tragedie.</p>
+            <list> 
+                <item><hi rend="bold"><persName key="lili">Lili Elbes</persName> Bekendelser.</hi></item>
+            </list>   
+                <p>-Bogen, der er paa ca. 200 Sider, faar Titlen “Fra Mand til Kvinde” og Undertitlen “<persName key="lili">Lili Elbe</persName>s Bekendelser”, og den er en Selvbiografi, forsynet med et Forord og et Afslutningskapitel af mig, som jeg har udarbejdet paa Grundlag af <persName key="lili">Lili Elbes</persName> Breve, da hun ved sin Død manglede et Kapitel i Bogens Fuldendelse. Forfatterindens Formål med sit Arbejde har været at give en for alle Sensationer befriet Fremstilling af sit Tilfælde, og Bogen er blevet til paa <persName key="warnekros">Prof. Warnekros</persName> Foranledning, idet Fru <persName key="lili">Elbe</persName> dog allerede før operationen havde skrevet 2030 Ark om sit Liv til privat Brug, som danner Bogens første del. Skildringen er en Selvbiografi, hvori kun Navnet <persName key="lili">Lili Elbe</persName>, der er dannet efter <placeName key="elbeRiver">Floden, der løber gennem <placeName key="dresden">Dresden</placeName></placeName>, er bevaret uforandret, medens alle andre Personer af Diskretionshensyn bærer fingerede Navne. <persName key="wegenerE">Ejnar Wegener</persName> hedder saaledes <persName key="sparreAn"><hi rend="italics">Andreas Sparre</hi></persName>. I øvrigt kaldte <persName key="lili">Lili Elbe</persName> sig tilsidst i Privatlivet for <hi rend="italics">Lili Ilse Elvenes</hi>.</p>
+                <list>
+                <item><hi rend="bold"><persName key="wegenerE">Ejnar Wegener</persName>s tragiske Liv.</hi></item>
+                </list>
+                <p>-Hvem var <persName key="wegenerE">Ejnar Wegener</persName>?</p>
+                <p>-Maleren <persName key="wegenerE">Wegener</persName> var, da han blev opereret, en Mand i 40’ne. Hans Historie betegner ifølge de videnskabelige Autoriteter, der har undersøgt ham, noget enestaaende. I sin ungdom var han udpræget maskulin og indgik da ægteskab med <hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName></hi>, men i Tidens Løb ændredes hans Køns Karakter i stedse voksende Grad i kvindelig Retning, indtil det feminine helt tog Overhaand, uden at han dog blot i det mindste blev homoseksuel. I hans splittede Sind udkæmpedes frygtelige Kampe, der gjorde ham fortvivlet og tilsidst bragte ham på Selvmordets Rand, da han i <placeName key="paris">Paris</placeName> lærte <persName key="warnekros">Prof. Warnekros</persName>at kende, og denne vovede Operationen, der foretoges paa <placeName key="womensClinic">Statens Kvindeklinik</placeName> i <placeName key="dresden">Dresden</placeName>. Det første Indgreb foretoges i Marts 1930 og det næste i Juni, og efter det sidste var Forvandlingen saa fuldstændig, at <persName key="lili">Lili Elbe</persName> helt og fuldt kunde føre en Normal Kvindes sædvanlige Liv, da Døden rev hende bort.</p>   
+            <list>
+                <item><hi rend="bold">Den fuldstændige Forvandling.</hi></item>
+            </list>
+                <p>-Hvordan følte hun Forandringen?</p>
+                <p>-<persName key="wegenerE">Ejnar Wegener</persName> var en elegant, intellektuel Mand, en forfinet Københavner med et vist Parisersnit, men at se til et Mandfolk. Jeg husker tydeligt hans intelligente faste Blik. <persName key="lili">Lili Elbe</persName> var af Ydre en kraftig Kvinde i 30,erne med store smukke brune Øjne af ægte kvindelig Karakter, blide og lidt hjælpeløse. Skikkelsen var udpræget feminin. Jeg hu-
+                    sker, at jeg var uhyggelig til mode ved at skulle træffe hende, men hun var saa naturlig, at al Uhygge svandt væk – dog var hun ofte noget uligevægtig, ja næsten tøseagtig, hvad der skyldtes, at hun ligesom manglede den naturlige kvindelige Udviklings Forudsætninger, der ligger i Barndommens og Ungdommens Oplevelser. Hun saa paa <persName key="wegenerE">Ejnar Wegener</persName> som en afdød Broder, men hun ville ikke beskæftige sig med noget, der kunde minde hende om Fortiden. Hun opgav saaledes at male. Det pinte hende at blive opfattet som en Sensation og hun følte sig lykkeligst, hvor hun var ukendt.</p>
+                <list>
+               <item><hi rend="bold">Arbejdet er ikke Spekulation.</hi></item>
+                </list>
+                <p>-Vil Bogen ikke blive opfattet som grim Spekulation?</p>
+                <p>-Det er mig ganske utænkeligt og i alt Fald ganske uberettiget! <persName key="lili">Lili Elbe</persName>s Tilfælde er saa enestaaende i Menneskehedens Historie, at det ville være forkasteligt at hemmeligholde det. <persName key="warnekros">Prof. Warnekros</persName> erklærer, at mens tvekønnede Dyr ofte er observeret, saa er det første gang et 100 Procents tvekønnet Menneske har været undersøgt. Kort før Operationen, konstaterede Seksualforskeren Prof. <hi rend="italics"><persName key="hirschfeld">>Magnus Hirschfeld</persName></hi> 80 pCt.s Kvindepræg i Manden <persName key="wegenerE">Ejnar Wegener</persName>s Blod.</p>
+                <p>Hvordan blev de Udgiver af Bogen?</p>
+                <p>-Efter Operationen bragte Kunsthandler <hi rend="italics">Ole Haslund</hi> mig i forbindelse med <persName key="wegenerG">Fru Wegener</persName>, der bad mig foretage Udgivelsen. Bogen, der nu kommer paa Fransk, Tysk og Engelsk, er gennemset af <persName key="warnekros">Prof Warnekros</persName>, der paa 200 Sider højst har foretaget et halvt Hundrede Rettelser. Han betegner Værket som en Guldgrube for enhver Psykiatriker.</p>
+                <p><hi rend="italics">Rex.</hi></p> 
+                <list>
+                <item><hi rend="bold">Billedtekster</hi></item>
+                </list>
+               <p> Maleren <persName key="wegenerE">Ejnar Wegener</persName> før Operationen gjorde ham til Kvinde.</p>
+                
+                <p>Fru <persName key="lili">Lili Elbe</persName> paa Spadseretur i <placeName key="copenhagen">København</placeName> efter <persName key="warnekros">Prof. Warnekros</persName>’ Behandling.</p>
+                <!--encode above captions later. not yet sure how to do it.-->
+            </div>
+        </div>
+        <div type="translation">
+            <div rend="head" style="periodical">
+            </div>           
+ <div rend="headlines">
+  <list>                
+      <item rend="primary"><hi rend="italics"><hi rend="bold"><!-- OE:2019-10-21 not sure how to italicize and bold the same text. should be changed later.-->The Man who Became a Woman</hi></hi></item>
+      <item><hi rend="bold">Editor <persName key = "harthernE">Harthern</persName> talks about the book about the painter <persName key="wegenerE">Einar Wegener</persName> who became Mrs. <persName key ="lili">Lili Elbe</persName>.</hi></item>
+  </list>
+ </div>
+ <div rend="body">          
+<p>One of the most sensational medical events of the last years has
+    been the <placeName key="dresden">Dresden</placeName> Professor <persName key="warnekros">Dr. <hi rend="italics">Kurt Warnekros</hi></persName>’s operation that
+    transformed the Danish painter <persName key ="wegenerE"><hi rend="italics">Einar Wegener</hi></persName> to the woman <persName key ="lili"><hi rend="italics">Lili
+        Elbe</hi></persName>. Just a few months ago <persName key ="lili">Lili Elbe</persName> passed away but by then she
+    had written a book describing the two periods of her life and as
+    previously mentioned, the book will be published by <hi rend="italics">Hage &amp;
+    Clausen</hi> publishers in the near future. It is the German writer and
+    Journalist, editor <persName key = "harthernE"><hi rend="italics">Harthern</hi></persName>; better known under
+his pseudonym <persName key = "hoyerNiels"><hi rend="italics">Niels Hoyer</hi></persName>, who at the request of the deceased has
+undertaken the publication. Yesterday, we had a conversation with
+editor <persName key = "harthernE">Harthern</persName> who talked about the genesis of the extraordinary
+    book and <persName key ="wegenerE">Einar Wegener</persName>-<persName key ="lili">Lili Elbe</persName>’s tragedy.</p>
+<list>
+<item><hi rend="bold">The Confessions of <persName key ="lili">Lili Elbe</persName>.</hi></item>
+</list>
+<p> -The book, which is about 200 pages long, will have the title
+    “From Man into Woman” and the subtitle “The Confessions of <persName key ="lili">Lili
+    Elbe</persName>”, and it is an autobiography with a prefatory note and a
+        closing chapter by me, which I have compiled on the basis of <persName key ="lili">Lili
+    Elbe</persName>’s letters as she was one chapter short of completing the book
+    at her death. The <persName key="lili">writer</persName>’s intention with her work has been to give
+an account of her case free of all sensation, and the book has come
+about at <persName key="warnekros">Prof. Warnekros</persName>’s request, though before the operation
+    <persName key ="lili">Mrs. Elbe</persName> had already written 2030 sheets about her life that form
+the first part of the book. The depiction is an autobiography
+wherein only the name <persName key ="lili">Lili Elbe</persName>, which is taken from <placeName key="elbeRiver">the river that
+    runs through <placeName key="dresden">Dresden</placeName></placeName>, is kept unchanged while all other characters
+    for reasons of discretion bear fictitious names. <persName key ="wegenerE">Einar Wegener</persName> for
+    instance is called <persName key="sparreAn"><hi rend="italics">Andreas Sparre</hi></persName>. Incidentally, at the end <persName key ="lili">Lili Elbe</persName>
+    called herself <persName key ="lili"><hi rend="italics">Lili Ilse Elvenes</hi></persName> in her private life. </p>
+<list>
+<item><hi rend="bold"><persName key ="wegenerE">Einar Wegener</persName>’s Tragic Life</hi></item>
+</list>
+<p> -Who was <persName key ="wegenerE">Einar Wegener</persName>?</p>
+<p>-The painter <persName key ="wegenerE">Wegener</persName> was, when he had the operation, a man in
+    his 40’s. According to the scientific authorities, who have
+    examined him, his story constitutes something unique. In his youth
+    he was distinctly masculine and then he married <persName key="wegenerG"><hi rend="italics">Gerda Wegener</hi></persName>,
+    but over the years, his sexual character changed to an ever-
+    increasing degree in a female direction, until the feminine
+    prevailed completely, without him becoming even in the least
+    homosexual. In his divided mind terrible struggles were fought that
+    made him despair, and in the end brought him to the verge of
+    suicide, when he met Prof. <persName key="warnekros">Warnekros</persName> in <placeName key="paris">Paris</placeName> who risked the
+    operation that was performed at the <placeName key="womensClinic">Municipal Women’s Clinic</placeName> in
+    <placeName key="dresden">Dresden</placeName>. The first procedure was performed in March 1930 and the
+    next one in June, and after the last one the transformation was so
+    complete that <persName key ="lili">Lili Elbe</persName> could fully lead the usual life of a normal
+    woman, when death snatched her way.</p>
+<list>
+<item><hi rend="bold">The Complete Transformation.</hi></item>
+</list>
+<p> -How did she experience the transformation?</p>
+<p>-<persName key ="wegenerE">Einar Wegener</persName> was an elegant intellectual man, a refined
+    Copenhagener with a certain Parisian style, but a man by
+    appearance. I clearly remember his firm intelligent look. In
+    appearance <persName key ="lili">Lili Elbe</persName> was a sturdy woman in her 30’s with big
+    beautiful brown eyes of genuinely female character, gentle and a
+    little helpless. Her figure was distinctly feminine. I
+    remember that I felt uneasy about meeting her, but she was so
+    natural that all uneasiness faded away – though often she was a
+    little unbalanced, yes almost silly, which was due to the fact that
+    she kind of lacked the basis of the natural female development,
+    which lies in the experiences of childhood and youth. She looked
+    on <persName key ="wegenerE">Einar Wegener</persName> as a deceased brother, but she did not want to
+    concern herself with anything that could remind her of the past.
+    Therefore she gave up painting. It pained her to be regarded as a
+    sensation and she felt happiest where she was unknown.</p>
+<list>
+<item><hi rend="bold">The Work is Not Speculation.</hi></item>
+</list>
+<p>-Will the book not be seen as distasteful speculation?</p>
+<p>-That is quite inconceivable to me and certainly quite
+    unjustifiable! <persName key ="lili">Lili Elbe</persName>’s case is so unique in the history of
+    mankind that it would be unacceptable to keep it secret.  <persName key="warnekros">Prof.
+   Warnekros</persName> states that while hermaphrodite animals have often
+    been observed, it is the first time that a 100 percent hermaphrodite
+    human has been examined. Shortly before the surgery, the
+    sexologist <persName key="hirschfeld"><hi rend="italics">Magnus Hirschfeld</hi></persName> established 80 percent female
+    qualities in the man <persName key ="wegenerE">Einar Wegener</persName>’s blood.</p>
+<p>-How did you become the publisher of the book?</p>
+     <p>-After the surgery, the art dealer <!-- OE:2019-10-21 add persName later, not currently in prosopography.--><hi rend="italics">Ole Haslund</hi> put me in touch
+    with <persName key="wegenerG">Mrs. Wegener</persName>, who asked me to undertake the publication. 
+    The book, which will now appear in French, German and English,
+    has been reviewed by <persName key="warnekros">Prof. Warnekros</persName> who in 200 pages has made
+    about fifty corrections at the most. He describes the work as a gold 
+    mine for any psychiatrist.</p>
+<p><hi rend="italics"></hi>Rex.</p>
+<list>  
+    <item><hi rend="bold">Captions</hi></item>
+</list>
+<p>The painter <persName key ="wegenerE">Einar Wegener</persName> before the operation made him a woman.</p>
+     <p><persName key ="lili">Mrs. Lili Elbe</persName> taking a walk in <placeName key="copenhagen">Copenhagen</placeName> after <persName key="warnekros">Prof. Warnekros</persName>’s treatment.</p>
+<!--encode above captions later. not yet sure how to do it.--> 
+ </div>
+        </div>
+    </body>
+</text>
+</TEI>
+    
