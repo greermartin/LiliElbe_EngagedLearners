@@ -9,6 +9,9 @@
                 <!-- Start For Periodicals; Remove the following if not encoding a periodical; Correct the following to match specific periodical's info.  -->
                 <title>Manden, der blev Kvinde</title>
                 <title type="alternative">The Man who became a Woman</title>
+                 <author>
+                    <persName key="rex" role="AUT">Rex.</persName>
+                </author>
                 <respStmt>
                     <resp>Translation completed by</resp>
                     <persName ref="mo" role="TRL">Marianne Ølholm</persName>
