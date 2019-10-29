@@ -69,9 +69,8 @@
             </publicationStmt>
             <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
             <!-- Start Contextual Example -->
-            <sourceDesc source="Periodical" xml:lang="ger">
-                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
-               encoder's description must be in complete, logical sentences; Dr. Caughie must approve all source descriptions before transformation --></p>
+            <sourceDesc source="Periodical" xml:lang="dan">
+                <p><A three-column clipping in the EHA affixed to thin paper, damanged on the sides, with two holes punched in the lefthand margin; a photograph of Einar Wegener appears at the top of the first column, and a photograph of Lili Elbe appears in the third column; the publication information, with the newspaper title abbreviated and the date incorrectly noted, is handwritten in black ink at the top of the paper></p>
             </sourceDesc>
             <!-- End Contextual Example -->
         </fileDesc>
