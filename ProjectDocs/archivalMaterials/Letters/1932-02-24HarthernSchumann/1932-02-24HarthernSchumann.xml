@@ -39,7 +39,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
-                    <persName ref="cm">Caroline McCraw</persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
               
                 </respStmt>
                 <respStmt>
@@ -49,7 +49,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
-                    <persName ref="aa">Adeline Azungue</persName>
+                    <persName ref=""></persName>
                 </respStmt>            
                 <sponsor>Loyola University Chicago Libraries</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>

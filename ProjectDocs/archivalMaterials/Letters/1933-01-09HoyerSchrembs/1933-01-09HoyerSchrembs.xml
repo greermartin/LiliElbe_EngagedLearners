@@ -35,7 +35,7 @@
             </respStmt>
             <respStmt>
                <resp>Encoding assistance and/or XML proofing completed by</resp>
-               <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+               <persName ref="ccm">Caroline McCraw</persName>
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
