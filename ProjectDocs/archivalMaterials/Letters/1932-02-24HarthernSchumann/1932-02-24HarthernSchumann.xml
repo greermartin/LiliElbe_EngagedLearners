@@ -8,7 +8,7 @@
                     <date>(24.2.32)</date> Letter to <persName key="schumannH">Mr. Schumann</persName>
                 </title>
                 <author>
-                    <persName key="thomsenTC" role="AUT">TC Thomsen</persName>
+                    <persName key="harthernE" role="AUT"</persName>
                 </author>
                 <respStmt>
                     <resp>Photographed by</resp>
@@ -57,7 +57,7 @@
             <publicationStmt>
                 <authority>Lili Elbe Digital Archive</authority>
                 <pubPlace>Chicago, IL, USA</pubPlace>
-                <date>July 6th, 2019</date>
+                <date>2019-07-06</date>
                 <availability>
                     <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
                     <licence>Distributed under a Creative Commons
@@ -108,7 +108,7 @@
                 <div rend="body">
                     <p><persName key="hoyerNiels">Niels Hoyer</persName></p>
                     <p><placeName>Havnegade</placeName>
-                       <placeName> Kopenhagen</placeName> <date>(24.2.32)</date> 	An <persName key="reissnerCarl">Carl Reissner Verlag Dresden</persName></p>
+                       <placeName> Kopenhagen</placeName> <date>1932-24-02</date> 	An <persName key="reissnerCarl">Carl Reissner Verlag Dresden</persName></p>
 
 <p>Lieber <persName key="schumannH">Mr. Schumann</persName></p>
 
