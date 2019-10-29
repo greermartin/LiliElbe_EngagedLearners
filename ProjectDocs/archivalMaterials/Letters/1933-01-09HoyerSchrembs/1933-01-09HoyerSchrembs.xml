@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <!-- Carl Schrembs needs a key id - CO 10/22/19-->
-               <date>1933-01-09</date> Letter to <persName>Carl Schrembs</persName>
+               <date>1933-01-09</date> Letter to <persName key="schrembsCarl">Carl Schrembs</persName>
             </title>
             <author>
                <persName key="hoyerNiels" role="AUT">Niels Hoyer</persName>
@@ -105,14 +104,13 @@
          <div type="original">
             <div rend="head" style="letter">
                <p><date>9.1.33.</date></p>
-               <p><persName>Herrn 
+               <p><persName key="schrembsCarl">Herrn 
                   Driektor Carl Th.Schrembs</persName>
                   München 0 51 
                   Haralaching 3</p>
             </div>
             <div rend="body">
-               <!-- Carl Schrembs and place names within the postscript of this letter need key IDs -CO 10/22/19 -->
-               <p>Sehr geehrter <persName>Herr Schrembs</persName>!</p>
+               <p>Sehr geehrter <persName key="schrembsCarl">Herr Schrembs</persName>!</p>
                <p>Ich denke Ihnen sehr herzlich fuer Ihre freundl-
                   ichen Worte über mein <persName key="lili">Lili Elbe</persName> Buch.</p>
                <p>Ihr Brief ist nicht der erste, der deswegen Fragen an mich 
@@ -170,7 +168,7 @@
                <signed>Ihr ergebener</signed>
                <postscript>
                   <p>Esdürfte Sie vielleicht interessieren, dass mein Buch in <placeName key="london">London</placeName>, 
-                  <placeName>New Jork</placeName>, <placeName>Budapest</placeName>, <placeName key="paris">Paris</placeName>, <placeName>Belgrad</placeName> etc. in einigen Monaten er-
+                  <placeName key="newYork">New Jork</placeName>, <placeName key="budapest">Budapest</placeName>, <placeName key="paris">Paris</placeName>, <placeName key="belgrad">Belgrad</placeName> etc. in einigen Monaten er-
                   scheinen wird. Falls Sie in den Zeitungen <placeName>Münchens</placeName> Besprechun-
                   gen find n sollten, wäre ich Ihnen dankbar, wenn Sie mir Aus-
                   schnitte zusenden könnten.-</p>
@@ -180,14 +178,13 @@
          <div type="translation">
             <div rend="head" style="letter">
                <p><date>1/9/33</date></p>
-               <p><persName>Mr. 
+               <p><persName key="schrembsCarl">Mr. 
                   Director Carl Th.Schrembs</persName>
                   Munich 0 51
                   Haralaching 3</p>  
             </div>
             <div rend="body">
-               <!-- Carl Schrembs and place names within the postscript of this letter need key IDs -CO 10/22/19 -->
-               <p>Dear<persName>Mr. Schrembs</persName>!</p>
+               <p>Dear<persName key="schrembsCarl">Mr. Schrembs</persName>!</p>
                <p>I would like to thank you for your kind 
                   words about my <persName key="lili">Lili Elbe</persName> book.</p> 
                <p>Your letter isn’t the first one asking questions 
@@ -230,7 +227,7 @@
                <signed>Yours Sincerely</signed>
                <postscript>
                  <p>It might be of interest to you, that my book will be published in <placeName key="london">London</placeName>,
-                    <placeName>New York</placeName>, <placeName>Budapest</placeName>, <placeName key="paris">Paris</placeName>, <placeName>Belgrade</placeName>, etc. in a few months. 
+                    <placeName key="newYork">New York</placeName>, <placeName key="budapest">Budapest</placeName>, <placeName key="paris">Paris</placeName>, <placeName key="belgrad">Belgrade</placeName>, etc. in a few months. 
                     If you happen to find any conversation about it in Munich's newspapers, please send them to me.</p>
                </postscript>
             </div>
