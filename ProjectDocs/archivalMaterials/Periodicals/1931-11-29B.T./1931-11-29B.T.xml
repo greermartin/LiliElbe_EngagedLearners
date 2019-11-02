@@ -179,11 +179,14 @@
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
                     </p>
                     <!-- CCM: Not sure what to do about this image? of handwriting... See JPEG. -->
-                    <p>Billedtekst:</p>
-                    <p>To Dedikationer fra en fransk Bog, den øverste skrevet af Maleren <persName
+                    <list>
+                    <item>Billedtekst:</item>
+                    </list>
+                   <figure>
+                    <figDesc>To Dedikationer fra en fransk Bog, den øverste skrevet af Maleren <persName
                             key="wegenerE">Ejnar Wegener,</persName> den nederste af <persName
-                            key="lili">Lili Elbe</persName>.</p>
-                    <!-- OE 11-24-2019 not yet sure how to encode captions-->
+                            key="lili">Lili Elbe</persName>.</figDesc>
+                    </figure>  
                 </div>
             </div>
             <div type="translation">
@@ -262,10 +265,14 @@
                     <p>
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
                     </p>
-                    <p>Caption:</p>
-                    <p>Two dedications from a French book, the top one written by the painter
+                  <list>
+                      <item>Caption:</item>
+                  </list>
+                    <figure>
+                    <figDesc> Two dedications from a French book, the top one written by the painter
                             <persName key="wegenerE">Einar Wegener</persName>, the bottom one by
-                            <persName key="lili">Lili Elbe</persName>.</p>
+                            <persName key="lili">Lili Elbe</persName>.</figDesc>
+                    </figure>  
                 </div>
             </div>
         </body>
