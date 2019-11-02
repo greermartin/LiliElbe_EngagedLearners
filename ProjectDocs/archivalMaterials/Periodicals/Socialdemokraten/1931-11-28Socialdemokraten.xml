@@ -259,10 +259,10 @@ wherein only the name <persName key ="lili">Lili Elbe</persName>, which is taken
 <list>  
     <item><hi rend="bold">Captions</hi></item>
 </list>
- <figure >
+ <figure>
     <figDesc>The painter <persName key ="wegenerE">Einar Wegener</persName> before the operation made him a woman.</figDesc>
  </figure> 
- <figure >
+ <figure>
     <figDesc>persName key ="lili">Mrs. Lili Elbe</persName> taking a walk in <placeName key="copenhagen">Copenhagen</placeName> after <persName key="warnekros">Prof. Warnekros</persName>’s treatment.</figDesc>
  </figure>    
  </div>
