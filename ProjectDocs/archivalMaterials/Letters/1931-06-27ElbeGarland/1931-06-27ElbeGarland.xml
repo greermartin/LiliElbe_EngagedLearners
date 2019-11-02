@@ -14,18 +14,6 @@
                <persName key="lili" role="AUT">Lili Elbe</persName>
             </author>
             <respStmt>
-               <resp>Photographed by</resp>
-               <persName ref="plc">Pamela L. Caughie</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Images prepared by</resp>
-               <persName ref="mg">Matthew Gallagher</persName>
-            </respStmt>
-            <respStmt>
-            <resp>Transcription completed by</resp>
-            <persName ref="twj">Tatjana Willms-Jones</persName>
-            </respStmt>
-            <respStmt>
                <resp>Translation completed by</resp>
                <persName ref="twj" role="TRL">Tatjana Willms-Jones</persName>
             </respStmt>
@@ -34,13 +22,17 @@
                <persName ref="sm">Sabine Meyer</persName>
             </respStmt>
             <respStmt>
+               <resp>Transcription completed by </resp>
+               <persName ref="twj">Tatjana Willms-Jones</persName>
+            </respStmt>
+            <respStmt>
                <resp>Encoding completed by</resp>
                <persName ref="co">Colin O'Connell</persName>
                <persName ref="nma">Natasha Aranda</persName>
                <persName ref="swv">Susan VanDerveer</persName>
                <persName ref="pmh">Phylicia Hall</persName>
                <persName ref="jm">John Meehan</persName>
-               <persName ref="lpd">Laura PatricioBellizzi</persName>
+               <persName ref="lpd">Laura Patricio-Bellizzi</persName>
                <persName ref="db">Diosa Bahe</persName>
             </respStmt>
             <respStmt>
@@ -49,12 +41,17 @@
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
-                     <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                     <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                  by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
                <resp>HTML proofing completed by</resp>
                <persName ref="ccm">Caroline McCraw</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Images prepared by</resp>
+               <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
             <sponsor>Loyola University Chicago Libraries</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -63,6 +60,7 @@
             <authority>Lili Elbe Digital Archive</authority>
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date when="2019-07-06">July 6th, 2019</date>
+            <!-- CCM: Is this date still accurate? Or should it be Nov. 6 2019? -->
             <availability>
                <p>Reproduced by courtesy of the <orgName select="source" key="EHA">Ernst Harthern
                      Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's
@@ -91,11 +89,14 @@
                   <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-06-27ElbeGarland.txt</catDesc>
                </category>
                <category source="dc" xml:id="date">
-                  <catDesc> 1931 </catDesc>
+                  <catDesc>
+                     <![CDATA[<dc:date>1931</dc:date>]]>
+                  </catDesc>
                </category>
             </taxonomy>
          </classDecl>
          <editorialDecl>
+            <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
             <hyphenation>
                <p>We have removed the hyphenation that appears in the printed text during
                   digitization and encoding. Original hyphenation can be consulted in the facsimile
@@ -107,7 +108,8 @@
    <text>
       <body>
          <div type="original">
-            <pb facs="http://lilielbe.org/media/letters/1931-06-27ElbeGarland.jpg"/>
+            <pb style="page" n="1"
+               facs="http://lilielbe.org/media/letters/1931-06-27ElbeGarland.jpg"/>
             <div rend="head" style="letter">
                <p>
                   <placeName key="dresden">Dresden</placeName>
@@ -129,14 +131,17 @@
                   Photographien von unserer Arbeit bekommen wird.</p>
                <p>Ich finde es auch besser, wenn die dänische Arbeit später herauskommen wird als
                   die deutsche. Nächste Woche bekommen auch Sie einen besseren Brief.</p>
-               <p>Viel Liebe und Grüße Von Ihrer armen kleinen Freundin. Viele Grüße an Ihren lieben
-                  Mann, <persName key="ruth">Lilimoe</persName> und seinem Bruder.</p>
+               <p>Viel Liebe und Grüße</p>
+               <p>Von Ihrer armen kleinen Freundin.</p>
+               <p>Viele Grüße an Ihren lieben Mann, <persName key="ruth">Lilimoe</persName> und
+                  seinem Bruder.</p>
                <signed>
                   <persName key="lili">Lili Elbe</persName>
                </signed>
             </div>
          </div>
          <div type="translation">
+            <pb style="page" n="1"/>
             <div rend="head" style="letter">
                <p>
                   <placeName key="dresden">Dresden</placeName>
@@ -157,8 +162,10 @@
                   receive photographs of our work as soon as possible.</p>
                <p>I would prefer, if the Danish work would be published later than the German work.
                   Next week you’ll receive a better letter.</p>
-               <p>Much love and greetings, from your poor little friend. Greetings to your dear
-                  husband, <persName key="ruth">Lilimoe</persName> and his brother.</p>
+               <p>Much love and greetings,</p>
+               <p>from your poor little friend.</p>
+               <p>Greetings to your dear husband, <persName key="ruth">Lilimoe</persName> and his
+                  brother.</p>
                <signed>
                   <persName key="lili">Lili Elbe</persName>
                </signed>

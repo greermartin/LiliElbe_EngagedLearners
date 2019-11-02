@@ -7,24 +7,12 @@
     <fileDesc>
       <titleStmt>
         <title>
-          <date when="1931-03-06">1931-03-06</date> Letter to <persName key="knudsenP">Paul
+          <date when="1933-03-06">1933-03-06</date> Letter to <persName key="knudsenP">Paul
             Knudsen</persName>
         </title>
         <author>
           <persName key="lili" role="AUT">Lili Elbe</persName>
         </author>
-        <respStmt>
-          <resp>Photographed by</resp>
-          <persName ref="plc">Pamela L. Caughie</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Images prepared by</resp>
-          <persName ref="mg">Matthew Gallagher</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Transcription completed by </resp>
-          <persName ref="kej">Kristin Jacobsen</persName>
-        </respStmt>
         <respStmt>
           <resp>Translation completed by</resp>
           <persName ref="kej" role="TRL">Kristin Jacobsen</persName>
@@ -32,8 +20,11 @@
         <respStmt>
           <resp>Translation reviewed by</resp>
           <persName ref="mo">Marianne Ølholm</persName>
-          <persName ref="">Maiken Boysen</persName>
-          <!-- CCM: Need ref for Maiken Boysen -->
+          <persName ref="mb">Maiken Boysen</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription completed by </resp>
+          <persName ref="kej">Kristin Jacobsen</persName>
         </respStmt>
         <respStmt>
           <resp>Encoding completed by</resp>
@@ -60,6 +51,10 @@
           <resp>HTML proofing completed by</resp>
           <persName ref="ccm">Caroline McCraw</persName>
         </respStmt>
+        <respStmt>
+          <resp>Images prepared by</resp>
+          <persName ref="mg">Matthew Gallagher</persName>
+        </respStmt>
         <sponsor>Loyola University Chicago Libraries</sponsor>
         <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
       </titleStmt>
@@ -67,8 +62,8 @@
         <authority>Lili Elbe Digital Archive</authority>
         <pubPlace>Chicago, IL, USA</pubPlace>
         <date when="2019-07-06">July 6th, 2019</date>
+        <!-- CCM: Is this date still accurate? Or should it be Nov. 6 2019? -->
         <availability>
-          <p select="source">Private Collection.</p>
           <p><!-- CCM: What are details for NKS Royal Library? --></p>
           <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
             International license.</licence>
@@ -77,7 +72,7 @@
       <sourceDesc source="Manuscript" xml:lang="dan">
         <p>One-page, one-sided handwritten letter on beige paper with writing extending to the
           margins and a comment written sideways down the lefthand margin; appears to have been
-          folded into eighths </p>
+          folded into eighths</p>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -88,6 +83,14 @@
           </category>
           <category source="collex" xml:id="genre">
             <catDesc>Correspondence</catDesc>
+          </category>
+          <category source="collex" xml:id="text">
+            <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-03-06ElbeKnudsen.txt</catDesc>
+          </category>
+          <category source="dc" xml:id="date">
+            <catDesc>
+              <![CDATA[<dc:date>1931</dc:date>]]>
+            </catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -103,16 +106,18 @@
   <text>
     <body>
       <div type="original">
+        <pb style="page" n="1" facs="http://lilielbe.org/media/letters/1931-03-06ElbeKnudsen.jpg"/>
         <div rend="head" style="letter">
           <p>
-            <placeName key="lindevangen">Lindevangen</placeName>10. <date>6 Mars 1931</date>.</p>
+            <placeName key="lindevangen">Lindevangen</placeName> 10. <date>6 Mars 1931</date>.</p>
         </div>
         <div rend="body">
           <p>Kære <persName key="knudsenP">Poul</persName>.</p>
           <p>Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen
-            med Bogen havde taget saa stærk paa mig at jeg blev syg, derpaa kom <persName
-              key="wegenerG">Gerda</persName> hjem, og jeg har haft saa meget at gøre med
-            Udstillingen.</p>
+            med Bogen havde taget saa <anchor type="commentRangeStart" n="1"/>stærk<anchor
+              type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1"
+              >Should be stærkt.</note> paa mig at jeg blev syg, derpaa kom <persName key="wegenerG"
+              >Gerda</persName> hjem, og jeg har haft saa meget at gøre med Udstillingen.</p>
           <p>Da jeg mærkede, hvor daarligt Resultatet truede med at blive, trak jeg Bogen helt
             tilbage.</p>
           <p><persName key="hasselbalchS">Hasselbalch</persName> gav som en af de vægtige Grunde til
@@ -129,45 +134,52 @@
             kort Tid henvender mig til Dig, men ikke igennem Forlægger.</p>
 
           <p>De allerhjærteligste Hilsner fra Din</p>
-          <signed><persName key="lili">Lili</persName></signed>
+          <signed>
+            <persName key="lili">Lili</persName>
+          </signed>
           <postscript>
-            <p>Jeg længes saa meget efter <persName key="knudsenV">Vibeke</persName>. Hils hende fra
-              mig og sig hende at jeg finder hendes Portrait et af Gerdas bedste Billeder.</p>
+            <p><anchor type="commentRangeStart" n="2"/> Jeg længes saa meget efter <persName
+                key="knudsenV">Vibeke</persName>. Hils hende fra mig og sig hende at jeg finder
+              hendes Portrait et af Gerdas bedste Billeder.<anchor type="commentRangeEnd" n="2"
+                /><note type="translator" source="kej" corresp="comment_2">Written along left edge
+                of letter.</note></p>
           </postscript>
         </div>
-
-        <div type="translation">
-          <div rend="head" style="letter">
-            <p><placeName key="lindevangen">Lindevagen</placeName> 10. <date>6 March 1931</date>.</p>
-          </div>
-          <div rend="body">
-            <p>Dear <persName key="knudsenP">Poul.</persName></p>
-            <p> Thousand thanks for your letter, – and I’m sorry that I am just now answering; but
-              the affair with the book was so intense that I was drained and I became ill, then
-                <persName key="wegenerG">Gerda</persName> came home, and I have had so much to do
-              with the exhibition.</p>
-            <p>When I realized how bad the result threatened to become, I withdrew the book
-              altogether.</p>
-            <p><persName key="hasselbalchS">Hasselbach</persName> gave as one of his weightiest
-              reasons not to publish the book: that a libeler in his newspaper had written something
-              about me, which incidentally I have never read.</p>
-            <p>I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison
-              fog of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak
-              girl. I just wanted to die. But now the table has turned. People express to me their
-              sympathy – I would have preferred to do without both parts, first: that they were mean
-              to me as well as that they now feel sorry for me.</p>
-            <p>Several publishers have now approached me and I am aware that I can get my book out
-              when I want – there have also been approaches from abroad.</p>
-            <p>You showed yourself again as my good friend, when you wrote to me! It is very
-              possible I will approach you shortly, but not through a publisher.</p>
-            <p> Very heartfelt greetings from your</p>
-            <signed><persName key="lili">Lili</persName></signed>
-            <postscript>
-              <p>I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her from me
-                and tell her that I find her portrait one of <persName key="wegenerG"
-                  >Gerda's</persName> best pictures.</p>
-            </postscript>
-          </div>
+      </div>
+      <div type="translation">
+        <pb style="page" n="1"/>
+        <div rend="head" style="letter">
+          <p><placeName key="lindevangen">Lindevagen</placeName> 10. <date>6 March 1931</date>.</p>
+        </div>
+        <div rend="body">
+          <p>Dear <persName key="knudsenP">Poul.</persName></p>
+          <p> Thousand thanks for your letter, – and I’m sorry that I am just now answering; but the
+            affair with the book was so intense that I was drained and I became ill, then <persName
+              key="wegenerG">Gerda</persName> came home, and I have had so much to do with the
+            exhibition.</p>
+          <p>When I realized how bad the result threatened to become, I withdrew the book
+            altogether.</p>
+          <p><persName key="hasselbalchS">Hasselbach</persName> gave as one of his weightiest
+            reasons not to publish the book: that a libeler in his newspaper had written something
+            about me, which incidentally I have never read.</p>
+          <p>I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison fog
+            of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak girl.
+            I just wanted to die. But now the table has turned. People express to me their sympathy
+            – I would have preferred to do without both parts, first: that they were mean to me as
+            well as that they now feel sorry for me.</p>
+          <p>Several publishers have now approached me and I am aware that I can get my book out
+            when I want – there have also been approaches from abroad.</p>
+          <p>You showed yourself again as my good friend, when you wrote to me! It is very possible
+            I will approach you shortly, but not through a publisher.</p>
+          <p> Very heartfelt greetings from your</p>
+          <signed>
+            <persName key="lili">Lili</persName>
+          </signed>
+          <postscript>
+            <p>I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her from me and
+              tell her that I find her portrait one of <persName key="wegenerG">Gerda's</persName>
+              best pictures.</p>
+          </postscript>
         </div>
       </div>
     </body>
