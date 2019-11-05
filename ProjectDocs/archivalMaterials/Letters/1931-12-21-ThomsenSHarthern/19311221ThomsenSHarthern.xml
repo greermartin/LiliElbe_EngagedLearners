@@ -42,6 +42,7 @@
                <resp>Encoding assistance and/or XML proofing completed by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
                <persName ref="nw">Nikolaus Wasmoen</persName>
+               <persName ref="ccm">Caroline McCraw</persName>
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
@@ -51,6 +52,7 @@
             <respStmt>
                <resp>HTML proofing completed by</resp>
                <persName ref="aa">Adeline Azungue</persName>
+               <persName ref="lpb">Laura Patricio-Bellizzi</persName>
             </respStmt>
             <sponsor>Loyola University Chicago</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
