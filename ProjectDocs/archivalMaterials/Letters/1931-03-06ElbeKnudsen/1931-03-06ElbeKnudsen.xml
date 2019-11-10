@@ -62,9 +62,8 @@
         <authority>Lili Elbe Digital Archive</authority>
         <pubPlace>Chicago, IL, USA</pubPlace>
         <date when="2019-07-06">July 6th, 2019</date>
-        <!-- CCM: Is this date still accurate? Or should it be Nov. 6 2019? -->
         <availability>
-          <p><!-- CCM: What are details for NKS Royal Library? --></p>
+          <p>Reproduced by courtesy of the <orgName select="source" key="NKS">The Royal Library</orgName> in <placeName>Copenhagen</placeName>.</p>
           <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
             International license.</licence>
         </availability>
@@ -88,14 +87,11 @@
             <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-03-06ElbeKnudsen.txt</catDesc>
           </category>
           <category source="dc" xml:id="date">
-            <catDesc>
-              <![CDATA[<dc:date>1931</dc:date>]]>
-            </catDesc>
+            <catDesc>1931</catDesc>
           </category>
         </taxonomy>
       </classDecl>
       <editorialDecl>
-        <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
         <hyphenation>
           <p>We have removed the hyphenation that appears in the printed text during digitization
             and encoding. Original hyphenation can be consulted in the facsimile images.</p>
@@ -106,7 +102,7 @@
   <text>
     <body>
       <div type="original">
-        <pb style="page" n="1" facs="http://lilielbe.org/media/letters/1931-03-06ElbeKnudsen.jpg"/>
+        <pb style="page" facs="http://lilielbe.org/media/letters/1931-03-06ElbeKnudsen.jpg"/>
         <div rend="head" style="letter">
           <p>
             <placeName key="lindevangen">Lindevangen</placeName> 10. <date>6 Mars 1931</date>.</p>
@@ -147,7 +143,6 @@
         </div>
       </div>
       <div type="translation">
-        <pb style="page" n="1"/>
         <div rend="head" style="letter">
           <p><placeName key="lindevangen">Lindevagen</placeName> 10. <date>6 March 1931</date>.</p>
         </div>
