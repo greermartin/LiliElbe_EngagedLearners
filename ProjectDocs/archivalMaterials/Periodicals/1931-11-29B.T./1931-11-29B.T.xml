@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    rendition="lilielbe.org/context/periodicals/1931-11-29B.T.html"
-    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/periodicals/1931-11-29B.T.xml">
+    rendition="lilielbe.org/context/Periodicals/1931-11-29_BT.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/periodicals/1931-11-29_BT.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fra Mand til Kvinde.<hi rend="italics">B.T.</hi> (<date when="1931-11-29">29
+                <title>Fra Mand til Kvinde in <hi rend="italics">B.T.</hi> (<date when="1931-11-29">29
                         November 1931</date>)</title>
-                <title type="alternative">From Man into Woman. <hi rend="italics">B.T.</hi> (<date
-                        when="1931-11-29">29 November1931</date>)</title>
+                <title type="alternative">From Man into Woman in <hi rend="italics">B.T.</hi> (<date
+                        when="1931-11-29">29 November 1931</date>)</title>
                 <author>
                     <persName key="leo" role="AUT">Leo</persName>
                 </author>
@@ -27,8 +27,8 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed by</resp>
-                    <persName ref="OE">Orion Elrod</persName>
-                    <persName ref="NMA">Natasha Aranda</persName>
+                    <persName ref="oe">Orion Elrod</persName>
+                    <persName ref="nma">Natasha Aranda</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
@@ -55,7 +55,7 @@
                 <authority>Lili Elbe Digital Archive</authority>
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date when="2019-07-06">July 6th, 2019</date>
-                <!-- CCM: Does this date need to change? -->
+                <!-- CCM: Does this date need to change? RJP: No, we are leaving all of the texts publiction dates as the day of the launch since the facsimile images were made available on the site on that day-->
                 <availability>
                     <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
                             Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
@@ -66,7 +66,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc source="Periodical" xml:lang="dan">
-                <p>A clipping affixed to a thin piece of paper in the EHA shows a one-column article
+                <p>A clipping affixed to a thin piece of paper shows a one-column article
                     with the signatures by Einar Wegener and Lili Elbe used in the German edition at
                     the top of the second column; the publication information is written in black
                     ink across the top and a name written in what appears to be pencil on the
@@ -84,23 +84,17 @@
                         <catDesc>Essay/Nonfiction</catDesc>
                     </category>
                     <category source="collex" xml:id="text">
-                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-11-29B.T.txt</catDesc>
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-11-29_BT.txt</catDesc>
                     </category>
                     <category source="dc" xml:id="date">
-                        <catDesc>
-                            <![CDATA[<dc:date>1931</dc:date>]]>
-                        </catDesc>
+                        <catDesc>1931</catDesc>
                     </category>
                     <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
-                        <catDesc>B.T</catDesc>
-                    </category>
-                    <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
-                        <catDesc>B.T</catDesc>
+                        <catDesc>Originally published in <hi rend="italics">B.T.</hi></catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
             <editorialDecl>
-                <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
                 <hyphenation>
                     <p>We have removed the hyphenation that appears in the printed text during
                         digitization and encoding. Original hyphenation can be consulted in the
@@ -178,11 +172,8 @@
                     <p>
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
                     </p>
-                    <!-- CCM: Not sure what to do about this image? of handwriting... See JPEG. -->
-                    <list>
-                    <item>Billedtekst:</item>
-                    </list>
-                   <figure>
+                    <!-- CCM: Not sure what to do about this image? of handwriting... See JPEG. RJP: Emailed Greer and team to create media library image -->
+                    <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
                     <figDesc>To Dedikationer fra en fransk Bog, den øverste skrevet af Maleren <persName
                             key="wegenerE">Ejnar Wegener,</persName> den nederste af <persName
                             key="lili">Lili Elbe</persName>.</figDesc>
@@ -265,10 +256,7 @@
                     <p>
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
                     </p>
-                  <list>
-                      <item>Caption:</item>
-                  </list>
-                    <figure>
+                    <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
                     <figDesc> Two dedications from a French book, the top one written by the painter
                             <persName key="wegenerE">Einar Wegener</persName>, the bottom one by
                             <persName key="lili">Lili Elbe</persName>.</figDesc>
