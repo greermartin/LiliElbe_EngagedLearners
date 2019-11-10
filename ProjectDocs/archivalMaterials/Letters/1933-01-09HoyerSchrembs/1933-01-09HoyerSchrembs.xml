@@ -56,9 +56,8 @@
             <authority>Lili Elbe Digital Archive</authority>
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date when="2019-07-06">July 6th, 2019</date>
-            <!-- CCM: Is this date still accurate? Or should it be Nov. 6 2019? -->
             <availability>
-               <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+               <p>Reproduced by courtesy of the <orgName select="source" key="EHA">Ernst Harthern Archives,
                      Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
                      Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
@@ -83,14 +82,10 @@
                   <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1933-01-09HoyerSchrembs.txt</catDesc>
                </category>
                <category source="dc" xml:id="date">
-                  <catDesc>
-                     <![CDATA[<dc:date>1933</dc:date>]]>
-                  </catDesc>
-               </category>
+                  <catDesc>1933</catDesc></category>
             </taxonomy>
          </classDecl>
          <editorialDecl>
-            <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
             <hyphenation>
                <p>We have removed the hyphenation that appears in the printed text during
                   digitization and encoding. Original hyphenation can be consulted in the facsimile
@@ -102,8 +97,7 @@
    <text>
       <body>
          <div type="original">
-            <pb style="page" n="1"
-               facs="http://lilielbe.org/media/letters/1933-01-09HoyerSchrembs01.jpg"/>
+            <pb style="page" facs="http://lilielbe.org/media/letters/1933-01-09HoyerSchrembs01.jpg"/>
             <div rend="head" style="letter">
                <p><date>9.1.33.</date></p>
                <p>Herrn</p>
@@ -183,7 +177,6 @@
             </div>
          </div>
          <div type="translation">
-            <pb style="page" n="1"/>
             <div rend="head" style="letter">
                <p><date>1/9/33</date></p>
                <p>Mr.</p>
