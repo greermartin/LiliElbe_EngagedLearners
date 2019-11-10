@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   rendition="lilielbe.org/context/Letters/1931-06-27ElbeGarland.html"
-   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/1931-06-27ElbeGarland.xml">
+   rendition="lilielbe.org/context/Letters/1931-06-27LEGarland.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/19310627LEGarland.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
