@@ -30,12 +30,13 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed by</resp>
-                    <persName ref="co">Colin OConnell</persName>
+                    <persName ref="co">Colin O'Connell</persName>
                     <persName ref="swv">Susan VanDerveer</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
-                    <persName ref="co">Colin OConnell</persName>
+                    <persName ref="co">Colin O'Connell</persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
