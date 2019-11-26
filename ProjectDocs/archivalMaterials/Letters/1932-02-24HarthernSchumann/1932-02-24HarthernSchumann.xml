@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD%20(1).rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Letters/0000-00-00ThomsenTHoyer.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/0000-00-00ThomsenTHoyer.xml">
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Letters/1932-02-24HarthernSchumann.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/1932-02-24HarthernSchumann.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -8,7 +8,7 @@
                     <date when="1932-02-24">February 24th, 1932</date> Letter to <persName key="schumannH">Mr. Schumann</persName>
                 </title>
                 <author>
-                    <persName key="harthernE" role="AUT"</persName>
+                    <persName key="harthernE" role="AUT">Ernst Harthern</persName>
                 </author>
                 <respStmt>
                     <resp>Photographed by</resp>
@@ -40,7 +40,7 @@
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="ccm">Caroline McCraw</persName>
-              
+                    <persName ref="co">Colin O'Connell</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -49,7 +49,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
-                    <persName ref=""></persName>
+                    <persName ref="co">Colin O'Connell</persName>
                 </respStmt>            
                 <sponsor>Loyola University Chicago Libraries</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -98,60 +98,119 @@
     </teiHeader>
     <text>
         <body>
-            <pb facs="http://lilielbe.org/media/letters/0000-00-00ThomsenHoyer.jpg"/>
             <div type="original">
-                <pb facs="http://lilielbe.org/media/letters/0000-00-00ThomsenHoyer.jpg"/>
                 <div rend="head" style="letter">
-                    <p><anchor type="commentRangeStart" n="1"/><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1">Written in the top left corner in another hand.</note></p>
-                    <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144</p>
+                    <p><placeName key="copenhagen">Kopenhagen</placeName> 24.2.32 <anchor type="commentRangeStart" n="1"/>An Carl Reissner Verlag <placeName key="dresden">Dresden</placeName><anchor type="commentRangeEnd" n="1"/><note type="translator" source="twj" corresp="comment_1">Printed in blue ink instead of black, like the rest of the letter</note></p>
                 </div>
                 <div rend="body">
-                    <p><persName key="hoyerNiels">Niels Hoyer</persName></p>
-                    <p><placeName>Havnegade</placeName>
-                       <placeName> Kopenhagen</placeName> <date when="1932-24-02">February 24th, 1932</date> 	An <persName key="reissnerCarl">Carl Reissner Verlag Dresden</persName></p>
-
-<p>Lieber <persName key="schumannH">Mr. Schumann</persName></p>
-
-<p>Ich war mehrere Tage recht unpässlich, durch etwas Influenza. Deshalb kann ich erst heute Ihren Brief <date when="1932-15-02"> vom 15 Februar</date> vom 15. Februar beantworten. Einen grossen Teil des Manuskriptes habe ich bereits druckfertig gemacht. Von mir werden dann keine Textkorrekturen mehr vorgenommen werden. Darauf können Sie sich fest verlassen. Spätere Einschaltungen werden wohl auch nicht mehr notwendig sein. Ich verarbeite bereits jetzt die wichtigen Briefe. Die ersten 100 Seiten des druckreifen Manuskriptes werden Sie Anfang nächster Woche erhalten. Den Rest dann 8 Tage danach.- </p>
-
-<p>Das Kapitel 14 wird an die 20 Briefe, von <persName key="lili">Lili Elbe</persName> aus <placeName>Dresden</placeName> an <persName key="wegenerG">Grete</persName> geschrieben, als Ergänzung erhalten. Es ist aber ganz unmöglich, das erste Kapitel wesentlich zu erweitern. Denn die dänische Originalausgabe liegt ja vor. Zudichten darf ich keinesfalls etwas. Sonst könnte man mir daraus einen Strick drehen. Ich glaube, Sie werden mit der jetzt Ihnen zugehenden deutschen Fassung einverstanden sein. M e i n e  Einleitung, die auch die dänische Ausgabe erhielt, lege ich im Durchschlag diesen heutigen Zeilen bei. Ich werde sie nur noch mit einem kurzen Hinweis, dass <persName key="lili">Lili Elbe</persName> das Buch in wenigen Monaten, nämlich von <date>Januar bis Juni 1931</date>, kaum von den ersten schweren Operationen genesen, niedergeschrieben hat, eine Leistung, die Bewunderung verdient! – Ihr eigenes Vorwort werde ich Ihnen übersetzt in wenigen Tagen zusenden. Ob wir es aber als Vorwort nach meiner kurzen Einführung (die wegen der Namen etc.notwendig ist) nehmen werden, oder es in dem Nachtrag bringen, darüber können wir uns ja noch verständigen.- </p>
-    
-<p>Heute lege ich ihnen ebenfalls im Durchschlag die neue, einzuschaltende Seite 21 a  bei, sie hat zwischen Seite 21 und Seite 22 zu stehen, schliesst sich unmittelbar an Seite 21 an. Von Seite 22 werden dann die ersten zehn Zeilen gestrichen.- Die neue Seite, also 21 a enthält jenen sehr wichtigen Originalbrief, den <persName key="wegenerE">Einar Wegener</persName> unmittelbar nach dem Gespräch mit <persName key="warnekros">Prof. Warnekros</persName> in <placeName>Paris</placeName> an seinen Schwager in Kopenhagen geschrieben hat. Diesen Brief erhalten Sie im Original zu Reproduktionszwecke mit dem Manuskript zugesandt, ebenfalls die Original-Vorwort von <persName key="lili">Lili Elbe</persName>, unmittelbar vor Ihrer Abreise nach <placeName>Dresden</placeName> im <date>Frühjahr 1931</date> geschrieben. </p>
-
-
-<p>Wegen des ev.Vorabdrucks in Zeitungen erhielt ich von einem Freunde in <placeName>Wien</placeName> eine Anfrage. Es wäre ja vielleicht möglich, hierfür eine reichsdeutsche und eine österreichische Zeitung zu bekommen. Darüber können wir uns aber noch unterhalten.- </p>
-
-<p>Eins würde ich sehr gern noch geordnet sehen, nämlich, dass die Verrechnung der 15 bzw.später der 20% unter Zugrundelegung des brochierten Preises geschieht, wobei der Einband bei den gebundenen Exemplaren mit 1.50 in Rechnung gestellt wird. Ich selber gebe an die Erbin von <persName key="lili">Lili Elbe</persName>, <persName key="sparreGre">Grete</persName> nämlich 50% ab, sie lebt in <placeName>Marokko</placeName>, Lili Elbe Schwager <persName key="thomsenTC">Thomas Christian Thomsen</persName> hier nimmt ihr Interesse wahr. </p>
-        
-<p> Er bat mich, dies doch bei Ihnen zu erwirken, zumal dies auch in den Verträgen mit anderen Ländern geschieht. Aber auch hierüber werden wir sicherlich ohne weiteres zu einem beiderseitigen Einverständnis gelangen.- Ich bestätige noch dankend den Eingang Ihrer Schecksendung in <placeName>Hamburg Altona</placeName> und danke Ihnen weiter sehr herzlich für die heute erhaltenen sehr schönen Bücher. Sie werden bald weiteres hierüber von mir hören. </p>
-
-<p>Mit freundlichen Grüssen ganz Ihr</p>
-
-                            <p><placeName> Copenhagen</placeName> <date>2/24/32</date>	To <persName key="reissnerCarl">Carl Reissner Verlag Dresden</persName></p>
-
-<p>Dear <persName key="schumannH">Mr. Schumann</persName>!</p>
-
-<p>I had influenza and was unwell for several days. That’s why I’m only answering your letter from the <date when="1932-15-02"> February 15th, 1932</date> today. I have made a large part of the manuscript ready for printing. I will no longer be making any corrections to the text. You can be sure of this. Later changes will not be necessary either. I am already editing the important letters now. You will receive the first 100 pages of the manuscript that are ready for printing at the beginning of next week. The rest will come 8 days after that.-</p>
-
-<p>20 letters, written by <persName key="lili">Lili Elbe</persName> in <placeName>Dresden</placeName> to <persName key="sparreGre">Grete</persName>, will be added to chapter 14. However, it is impossible to elaborate on the first chapter, since we have the original Danish version to go on. I cannot add anything myself. Otherwise, it could be used against me. I think that you will be satisfied with the German version that is being sent to you now. I will send you my foreword, that’s also included in the Danish version, with this letter. I would like to add, that <persName key="lili">Lili Elbe</persName> wrote this book in just a few months, from <date>January to June 1931</date>, while she had barely recovered from her first severe operations. This is an accomplishment that deserves admiration!- I will send you your translated foreword in a couple of days. We can still discuss if we will use it as a foreword after my short introduction (which is necessary because of the names, etc.) or include it in the epilogue.- </p>
-
-<p>Today I am sending you the new page 21a, which should be added between page 21 and page 22. It should immediately follow page 21. Then, the first ten lines of page 22 will be cut.- The new page, page 21a, contains a very important letter that <persName key="wegenerE">Einar Wegener</persName> wrote to his brother-in-law in <placeName>Copenhagen</placeName> right after his conversation with <persName key="warnekros">Prof. Warnekros</persName> in <placeName>Paris</placeName>. You will receive the original version of this letter, along with the manuscript, for printing purposes. You will also receive the original foreword that <persName key="lili">Lili Elbe</persName> wrote right before her departure to <placeName>Dresden</placeName> in the <date>Spring of 1931</date>.</p>
-
-
-<p>I received a request from a friend in <placeName>Vienna</placeName> regarding the possible pre-prints in newspapers. Perhaps it would be possible to get a German and an Austrian newspaper for this. We can discuss this at a later time.- </p>
-
-<p>There is one last thing I would like to arrange, which is that the calculation of the 15 and later 20% happens in 
-I myself will give Lili Elbe’s heir, <persName key="wegenerG">Gerda Wegener</persName>, 50%. She lives in <placeName>Morocco</placeName>, and Lili Elbe’s brother-in-law is …
-    He asked me to </p>
-
-<p>I’m certain we can come to a mutual agreement about this too.- I would like to thank you and confirm that your wire-transfer has been received in <placeName>Hamburg Altona</placeName> and further thank you for the wonderful books I received today. You will be hearing more about this from me soon. </p>
-    
-<p>Kind regards</p>
-                    
+                    <p>Lieber <persName key="schumannH">Herr Schumann</persName>!</p>
+                    <p>Ich war mehrere Tage recht unpässlich, durch etwas Influenza. 
+                        Deshalb kann ich erst heute Ihren Brief vom 15. Februar beantworten.
+                        Einen grossen Teil des Manuskriptes habe ich bereits druckfertig 
+                        gemacht. Von mir werden dann keine Textkorrekturen mehr 
+                        vorgenommen werden. Darauf können Sie sich fest verlassen. Spätere 
+                        Einschaltungen werden wohl auch nicht mehr notwendig sein. Ich 
+                        verarbeite bereits jetzt die wichtigen Briefe. Die ersten 100 Seiten des 
+                        druckreifen Manuskriptes werden Sie Anfang nächster Woche 
+                        erhalten. Den Rest dann 8 Tage danach.-</p>
+                    <p>Das Kapitel 14 wird an die 20 Briefe, von <persName key="lili">Lili Elbe</persName> aus <placeName key="dresden">Dresden</placeName> an <persName key ="wegenerG">Grete</persName> 
+                        geschrieben, als Ergänzung erhalten. Es ist aber ganz unmöglich, das 
+                        erste Kapitel wesentlich zu erweitern. Denn die dänische 
+                        Originalausgabe liegt ja vor. Zudichten darf ich keinesfalls etwas. Sonst 
+                        könnte man mir daraus einen Strick drehen. Ich glaube, Sie werden mit 
+                        der jetzt Ihnen zugehenden deutschen Fassung einverstanden sein. M e i n e  
+                        Einleitung, die auch die dänische Ausgabe erhielt, lege ich im 
+                        Durchschlag diesen heutigen Zeilen bei. Ich werde sie nur noch mit 
+                        einem kurzen Hinweis, dass <persName key="lili">Lili Elbe</persName> das Buch in wenigen Monaten, 
+                        nämlich von Januar bis Juni 1931, kaum von den ersten schweren 
+                        Operationen genesen, niedergeschrieben hat, eine Leistung, die 
+                        Bewunderung verdient! – Ihr eigenes Vorwort werde ich Ihnen 
+                        übersetzt in wenigen Tagen zusenden. Ob wir es aber als Vorwort nach 
+                        meiner kurzen Einführung (die wegen der Namen etc.notwendig ist) 
+                        nehmen werden, oder es in dem Nachtrag bringen, darüber können 
+                        wir uns ja noch verständigen.-</p>
+                    <p>Heute lege ich ihnen ebenfalls im Durchschlag die neue, 
+                        einzuschaltende <hi rend="underline">Seite 21 a</hi>  bei, sie hat zwischen Seite 21 und Seite 22 
+                        zu stehen, schliesst sich unmittelbar an Seite 21 an. Von Seite 22 
+                        werden dann die ersten <hi rend="underline">zehn</hi> Zeilen gestrichen.- Die neue Seite, also 
+                        21 a enthält jenen sehr wichtigen Originalbrief, den <persName key="wegenerE">Einar Wegener</persName>
+                        (<persName key="sparreAn">Andreas Sparre</persName>) unmittelbar nach dem Gespräch mit <persName key="warnekros">Prof. Warnekros</persName> 
+                        in <placeName key="paris">Paris</placeName> an seinen Schwager in <placeName key="copenhagen">Kopenhagen</placeName> geschrieben hat. Diesen 
+                        Brief erhalten Sie im Original zu Reproduktionszwecke mit dem 
+                        Manuskript zugesandt, ebenfalls die Original-Vorwort von <anchor type="commentRangeStart" n="2"/><persName key="lili">Lili Elbe</persName><anchor type="commentRangeEnd" n="2"/><note type="translator" source="twj" corresp="comment_2">Typo: the second "i" was typed over an "o"</note>, 
+                        <anchor type="commentRangeStart" n="3"/>unmittelbar vor Ihrer Abreise<anchor type="commentRangeEnd" n="3"/><note type="translator" source="twj" corresp="comment_3">Typo: These words were typed over different letters. The letters underneath this are illegible. </note> nach <placeName key="dresden">Dresden</placeName> im Frühjahr 1931 
+                        geschrieben.</p>
+                    <p>Wegen des ev.Vorabdrucks in Zeitungen erhielt ich von einem Freunde 
+                        in <placeName key="vienna">Wien</placeName> eine Anfrage. Es wäre ja vielleicht möglich, hierfür eine 
+                        reichsdeutsche und eine österreichische Zeitung zu bekommen. 
+                        Darüber können wir uns aber noch unterhalten.-</p>
+                    <!-- Hamburg does not have a keyID within the prosopography 11/26/19 -CO -->
+                    <p>Eins würde ich sehr gern noch geordnet sehen, nämlich, dass die 
+                        Verrechnung der 15 bzw.später der 20% unter Zugrundelegung des 
+                        brochierten Preises geschieht, wobei der Einband bei den gebundenen 
+                        Exemplaren mit 1.50 in Rechnung gestellt wird. Ich selber gebe an die 
+                        Erbin von <persName key="lili">Lili Elbe</persName>, <persName key="wegenerG">Gerda Wegener</persName> nämlich 50% ab, sie lebt in 
+                        <placeName key="morocco">Marokko</placeName>, <persName key="lili">Lili Elbes</persName> <anchor type="commentRangeStart" n="4"/>Schwager<anchor type="commentRangeEnd" n="4"/><note type="translator" source="twj" corresp="comment_4">Typo: The "a" was typed over an "e"</note> hier nimmt ihr Interesse wahr. Er bat 
+                        mich, dies doch bei Ihnen zu erwirken, zumal dies auch in den 
+                        Verträgen mit anderen Ländern geschieht. Aber auch hierüber werden 
+                        wir sicherlich ohne weiteres zu einem beiderseitigen Einverständnis 
+                        gelangen.- Ich bestätige noch dankend den Eingang Ihrer 
+                        Schecksendung in Hamburg Altona und danke Ihnen weiter sehr 
+                        herzlich für die heute erhaltenen sehr schönen Bücher. Sie werden 
+                        bald weiteres hierüber von mir hören.</p>
+                    <signed>Mit freundlichen Grüssen ganz Ihr</signed>
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="letter">
+                   <p><placeName key="copenhagen"> Copenhagen</placeName> 2/24/32 To Carl Reissner Verlag <placeName key="dresden">Dresden</placeName></p>
+                </div>
+                <div rend="body">
+                    <p>Dear <persName key="schumannH">Mr. Schumann</persName>!</p>
+                    <p>I had influenza and was unwell for several days. That’s why I’m only 
+                        answering your letter from the 15th February today. 
+                        I have made a large part of the manuscript ready for printing. I will no 
+                        longer be making any corrections to the text. You can be sure of this. 
+                        Later changes will not be necessary either. I am already editing the 
+                        important letters now. You will receive the first 100 pages of the 
+                        manuscript that are ready for printing at the beginning of next week. 
+                        The rest will come 8 days after that.-</p>
+                    <p>20 letters, written by <persName key="lili">Lili Elbe</persName> in <placeName key="dresden">Dresden</placeName> to <persName key="wegenerG">Grete</persName>, will be added 
+                        to chapter 14. However, it is impossible to elaborate on the first chapter, 
+                        since we have the original Danish version to go on. I cannot add 
+                        anything myself. Otherwise, it could be used against me. I think that 
+                        you will be satisfied with the German version that is being sent to you 
+                        now. I will send you my foreword, that’s also included in the Danish 
+                        version, with this letter. I would like to add, that <persName key="lili">Lili Elbe</persName> wrote this 
+                        book in just a few months, from January to June 1931, while she had 
+                        barely recovered from her first severe operations. This is an 
+                        accomplishment that deserves admiration!- I will send you your 
+                        translated foreword in a couple of days. We can still discuss if we will 
+                        use it as a foreword after my short introduction (which is necessary 
+                        because of the names, etc.) or include it in the epilogue.-</p>
+                    <p>Today I am sending you the new <hi rend="underline">page 21a</hi>, which should be added
+                        between page 21 and page 22. It should immediately follow page 21. 
+                        Then, the first <hi rend="underline">ten</hi> lines of page 22 will be cut.- The new page, page 
+                        21a, contains a very important letter that <persName key="wegenerE">Einar Wegener</persName> (<persName key="sparreAn">Andreas Sparre</persName>) 
+                        wrote to his brother-in-law in <placeName key="copenhagen">Copenhagen</placeName> right after his 
+                        conversation with <persName key="warnekros">Prof. Warnekros</persName> in <placeName key="paris">Paris</placeName>. You will receive the 
+                        original version of this letter, along with the manuscript, for printing 
+                        purposes. You will also receive the original foreword that Lili Elbe
+                        wrote right before her departure to <placeName key="dresden">Dresden</placeName> in the Spring of 1931.</p>
+                    <p>There is one last thing I would like to arrange, which is that the 
+                        calculation of the 15 and later 20% happens in 
+                        I myself will give <persName key="lili">Lili Elbe’s</persName> heir, <persName key="wegenerG">Gerda Wegener</persName>, 50%. She lives in 
+                        <placeName key="morocco">Morocco</placeName>, and <persName key="lili">Lili Elbe’s</persName> brother-in-law is …
+                        He asked me to</p>
+                    <!-- Hamburg does not have a keyID within the prosopography 11/26/19 -CO -->
+                    <p>I’m certain we can come to a mutual agreement about this too.- I 
+                        would like to thank you and confirm that your wire-transfer has been 
+                        received in Hamburg Altona and further thank you for the wonderful
+                        books I received today. You will be hearing more about this from me 
+                        soon. </p>
+                    <signed>Kind Regards</signed>
                 </div>
             </div>
         </body>
     </text>
 </TEI>
-                    
-                
