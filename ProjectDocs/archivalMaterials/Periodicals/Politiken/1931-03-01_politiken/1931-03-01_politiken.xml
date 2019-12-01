@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA%20XML/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+    <!-- insert correct URLs, above, for your text -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><hi rend="bold">Kønskarakteren og dens Svingninger</hi><hi rend="italics">– Prof. Knud Sand udtaler sig om abnorme Kønstilstande hos Mennesker.</hi>(<date>Marts
+                        1931</date>)</title>
+                <title type="alternative"><hi rend="bold">Sexual Character and its Variations</hi><hi rend="italics">– Prof. Knud Sand Speaks About Abnormal Sexual States in Humans.</hi>(<date>March 1931</date>)</title>
+                <author>
+                    <persName key="louLou" role="AUT"
+                        >Loulou Lassen</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="mo" role="TRL"
+                        >Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="mo"
+                        >Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by </resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="co">Colin O'Connell</persName>
+                    <persName ref="bt">Brenda Torres</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="co">Colin O'Connell</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                        by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <availability>
+                    <p select="source">Private Collection.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc source="Manuscript" xml:lang="dan">
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc><!-- discipline metadata --></catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc><!-- genre metadata --></catDesc>
+                    </category>
+                    <!-- Use the following category only when encoding a book section or periodical -->
+                    <category source="dcterms" xml:id="isPartOf" xml:lang="dan"><!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
+                        <catDesc>Kønskarakteren og dens Svingninger</catDesc>
+                    </category>
+                    <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                        <catDesc>Sexual Character and its Variations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+                <hyphenation>
+                    <p>We have removed the hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the facsimile
+                        images.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <div rend="head" style="periodical">
+                    <p>
+                        <title>Politiken</title>
+                        <date when="1931-03-01">søndag den 1. Marts 1931</date>
+                    </p>
+                </div>
+                <div rend="headlines">
+                    <!-- Prof. Knud Sand not included in the prosopography -CO 12/01/19 -->
+                    <list>
+                        <item rend="primary"><hi rend="bold">Kønskarakteren og dens Svingninger</hi></item>
+                        <item><hi rend="italics">– Prof. Knud Sand udtaler sig om abnorme Kønstilstande hos Mennesker.</hi></item>
+                    </list>
+                </div>
+                <div rend="body">
+                    <p>I Anledning af vor Meddelelse i Gaar om en kendt Kunstners 
+                        omskiftede Tilværelse har vi henvendt os til vor hjemlige 
+                        Seksualbiolog, <persName>Professor <hi rend="italics">Knud Sand</hi></persName>, hvis Forskninger over 
+                        Kønsomdannelser og Kønshormoner i det hele er Offentligheden 
+                        bekendt, og spurgt ham, om saadanne Forhold er almindelige, og 
+                        hvorledes Udsigterne er til at hjælpe de Mennesker, der i kønslig 
+                        Henseende afviger fra det normale.</p>
+                    <p>Under vor Samtale udtalte <persName>Professoren</persName> bl. a. følgende:</p>
+                    <p>– Hidtil har jeg væsentlig fulgt det Princip hverken at skrive eller 
+                        udtale mig i Pressen om disse Forhold og Forskninger, der vel næppe 
+                        endnu er helt saa langt fremme, at de mere indgaaende bør 
+                        forelægges for Offentligheden; i de senere Aar har jeg dog Indtryk 
+                        af, at Folk er blevet mere lydhøre for en rigtig Forstaaelse af disse 
+                        Problemer, end Tilfældet var blot for en seksten-sytten Aar siden, da 
+                        jeg begyndte mine Arbejder paa dette Felt. Det er da at haabe, at 
+                        ogsaa det omtalte Tilfælde vil møde Forstaaelse, og da 
+                        vedkommende Patient nu selv – formentlig for at faa Ro om Sagen
+                        – har ønsket denne offentliggjort og dermed forhaabentlig skrinlagt, 
+                        skal jeg, ganske særlig ogsaa for at berolige Lidelsesfæller af hende, 
+                        give Deres Blad, som har bragt Meddelelsen, nogle Oplysninger, 
+                        idet jeg dog af forskellige Grunde ikke ønsker at udtale mig om selve 
+                        det omhandlede Tilfælde.</p>
+                    <p>Abnorme Kønstilstande hos Mennesker <hi rend="italics">er i Virkeligheden 
+                        langt hyppigere</hi>, end Folk tror. Ikke alene udgør Afvigelserne i selve 
+                        Kønsdriften, de saakaldte psykoseksuelle Abnormiteter som
+                        Homoseksualisme, Biseksualisme o. a. et ikke ringe Procenttal, men 
+                        selv saadanne Tilfælde, hvor det ogsaa drejer sig om udtalte 
+                        legemlige Abnormiteter i Henseende til hele Kønssystemets 
+                        Udvikling, er ikke Sjældenheder. Selv har jeg herhjemme Kendskab 
+                        til en Række af dem.</p>
+                    <p>I det hele forholder det sig saaledes, at <hi rend="italics">maaske kun ganske faa 
+                        af os kan karakteriseres som absolut Mænd eller Kvinder</hi>; den 
+                        Kyndige vil oftest kunne paavise et mere eller mindre udtalt Islæt af 
+                        det modsatte Køn, i legemlig eller psykisk Henseende, svagere eller 
+                        stærkere prægede Mellemstadier mellem de to Yderpunkter.</p>
+                    <p>For langt de flestes Vedkommende er det jo lykkeligvis 
+                        saaledes, at dette slet ikke kommer til synligt Udtryk eller faar 
+                        Betydning for Individets Liv eller sociale Indstilling … Kun naar 
+                        Abnormiteten er stærkere, indtræder Kalamiteter af den ene eller 
+                        anden Art.</p>
+                    <p>Misèren stammer i de mest abnorme Tilfælde, de saakaldte 
+                        <hi rend="italics">hermafroditiske</hi>, oftest derfra, at Individets Kønsbestemmelse ved 
+                        Fødslen er meget vanskelig og Fejltagelser derfor sker baade fra 
+                        Jordemoderens og Lægens Side – først senere aabenbarer de rette 
+                        Forhold sig.</p>
+                    <p>En Del af disse Mennesker kommer i Konflikt med de civile 
+                        eller strafferetlige Love, det er dog lykkeligvis de færreste. Langt 
+                        flere lever en ensom Tilværelse i Skyhed for deres Medmennesker 
+                        af Angst for, at Sandheden skal afsløres, og i en stadig Kamp for at 
+                        dække den. Alt i alt hører de kønsligt Abnorme <hi rend="italics">til de ulykkeligste 
+                        blandt Mennesker</hi>, og der ligger en stor Opgave for 
+                        Lægevidenskaben i at hjælpe dem.</p>
+                    <p>I disse tragiske Forhold for denne Menneskegruppe er der dog 
+                        i de sidste Decennier indtraadt en betydelig Ændring til det bedre. 
+                        Ikke alene er – som allerede nævnt – den almene Forstaaelse af, at 
+                        det drejer sig om medfødte Abnormiteter, voksende, hvilket ogsaa 
+                        giver sig Udslag i Lovgivning og Bestemmelser over for disse 
+                        Menneskers sociale Stilling og derigennem i en Lettelse af deres 
+                        Kaar, men ogsaa Biologien og Lægevidenskaben har i den sidste 
+                        Menneskealder klarlagt mange af de herhen hørende Problemer.</p>
+                    <p>Baade fra Udlandet og herhjemme fra kender man da ogsaa 
+                        Tilfælde, hvor man gennem operative og andre Behandlinger har 
+                        kunnet hjælpe de seksuelt abnorme, og gennem vor fortsatte 
+                        Forskning – bl. a. over Seksualhormonernes nærmere Forhold – er 
+                        der berettiget Haab om at naa yderligere frem, selv om man ikke tør 
+                        fæste for megen Lid til de sensationelle Meddelelser, der fra Tid til 
+                        anden fremkommer om Vidunderkure paa dette som paa andre 
+                        Omraader.</p>
+                    <p>Hvad jeg imidlertid særlig føler Trang til at pointere, er, at det,
+                        som disse ulykkeligt stillede Mennesker frem for alt trænger til, er 
+                        Forstaaelse og Fred for al nyfigen og sensationel Omtale, det være 
+                        sig Mand og Mand imellem eller offentligt.</p>
+                    <p>Andre medfødte Abnormiteter som Hareskaar, Klumpfødder 
+                        eller lignende, giver dog ingen Anledning dertil. Var der da ikke 
+                        endnu mere Grund til at skaane disse af Skæbnen saa haardt ramte 
+                        Individer, de seksuelt Abnorme?</p>
+                    <p>Ikke alene det omtalte Tilfælde bør nu have Fred. Men alle
+                        Spørgsmaal inden for Seksuallæren burde offentlig behandles med 
+                        en endog særlig Forstaaelse, Værdighed og Objektivitet … Det 
+                        vilde, slutter <persName>Prof. Sand</persName> sine Udtalelser, baade lette Tilværelsen for 
+                        den omtalte ulykkelige Menneskegruppe og det videnskabelige 
+                        Arbejde med disse Problemer.</p>
+                    <signed><persName key="louLou"><hi rend="italics">Fru Loulou</hi></persName></signed>
+                    <postscript><p><persName>Billedtekst:
+                        Prof. Dr. med. Knud Sand.</persName></p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="periodical">
+                    <p>
+                        <title>Politiken</title>
+                        <date when="1931-03-01">1 March 1931</date>
+                    </p>
+                </div>
+                <div rend="headlines">
+                    <!-- Prof. Knud Sand not included in the prosopography -CO 12/01/19 -->
+                    <list>
+                        <item rend="primary"><hi rend="bold">Sexual Character and its Variations</hi></item>
+                        <item><hi rend="italics">– Prof. Knud Sand Speaks About Abnormal Sexual States in Humans.</hi></item>
+                    </list>
+                </div>
+                <div rend="body">
+                    <p>On the occasion of our announcement yesterday, about the changed 
+                        existence of a well-known artist we have approached our domestic
+                        sexual biologist, <persName>Professor <hi rend="italics">Knud Sand</hi></persName>, whose researches into 
+                        gender transformations and sexual hormones in general is familiar 
+                        to the public, and asked him if such conditions are common and 
+                        how the prospects are of helping those people who sexually differ 
+                        from the normal.</p>
+                    <p>During our conversation <persName>the Professor</persName> made the following 
+                        statement among others:</p>
+                    <p>– Till now, I have primarily followed the principle of neither
+                        writing nor speaking in the press about these conditions and 
+                        researches that are hardly quite so far advanced yet that they ought 
+                        to be presented in greater detail to the public; in recent years, I do
+                        however have the impression that people have become more open 
+                        to a real understanding of these problems than was the case only 
+                        sixteen or seventeen years ago when I started my works in this 
+                        field. It is to be hoped that also the case in question will meet with 
+                        understanding, and as the patient herself – presumably to lay the 
+                        matter to rest – has wanted this made public and thus hopefully
+                        dropped, I will, in particular to reassure her fellow sufferers, give 
+                        your paper, which has brought the announcement, some 
+                        information, although for various reasons I do not want to address
+                        the actual case at issue.</p>
+                    <p>Abnormal gender states in humans <hi rend="italics">are in fact much more 
+                        frequent</hi> than people think. Not only do the deviations in the sex
+                        drive itself, the so-called psychosexual abnormalities such as
+                        homosexuality, bisexuality et al. constitute a not small 
+                        percentage, but even such cases where it is also a question of
+                        distinct physical abnormalities with regard to the development of 
+                        the whole sexual system are not rare. I myself know of a number of
+                        them in this country.</p>
+                    <p>On the whole, the reality is that <hi rend="italics">perhaps only very few of us
+                        can be characterized as absolute men or women</hi>; the expert will
+                        most often be able to point out a more or less pronounced element 
+                        of the opposite sex, physically or mentally, weakly or strongly 
+                        marked intermediate stages between the two extremes.</p>
+                    <p>For most people this is fortunately not at all visibly manifest
+                        nor of importance to the life or social approach of the individual … 
+                        Only when the abnormality is stronger, do calamities of one kind 
+                        or another occur.</p>
+                    <p>In the most abnormal cases, the so-called <hi rend="italics">hermaphrodite</hi>, the 
+                        problem stems from the fact that the determination of the sex of the
+                        individual at birth is very difficult and for that reason mistakes 
+                        occur, both on the part of the midwife and the doctor – only later 
+                        do the true circumstances reveal themselves.</p>
+                    <p>Some of these people come into conflict with the civil or 
+                        criminal laws, but happily this is a minority. A far greater number
+                        live a lonely existence in shyness of their fellow human beings
+                        from fear that the truth will be revealed and in a constant struggle
+                        to cover it. All in all, the sexually abnormal belong to <hi rend="italics">the 
+                        unhappiest of people</hi>, and for medical science a great challenge lies
+                        in helping them.</p>
+                    <p>In these tragic conditions for this group of people a 
+                        considerable change for the better has occurred in the last decades.
+                        Not only – as already mentioned – is the general understanding of 
+                        the fact that it is a question of congenital abnormalities growing,
+                        which is also reflected in legislation and regulations with regard to 
+                        the social position of these people and in this way in a relief of 
+                        their conditions, but also biology and medical science have 
+                        clarified many of the problems pertaining to this in the last 
+                        generation.</p>
+                    <p>Both from abroad and in this country, cases are known where 
+                        it has been possible through surgical and other treatments to help 
+                        the sexually abnormal, and through our continued research – 
+                        among other things into the more specific details of the sexual 
+                        hormones– there is legitimate hope of making further progress, 
+                        even if too much confidence should not be placed in the
+                        sensational announcements that from time to time appear about
+                        miracle cures in this as well as in other areas.</p>
+                    <p>What I particularly want to emphasize, however, is that what 
+                        these unfortunate people need above all is understanding and to
+                        have some peace from all prying and sensational discussion, be it 
+                        among the general population or publicly.</p>
+                    <p>Other congenital abnormalities such as a harelip, clubfeet, or
+                        the like give no cause for this. Is there then not even more reason
+                        to spare these, by fate, so severely affected individuals, the 
+                        sexually abnormal?</p>
+                    <p>Not only the said case should be left in peace now. But all 
+                        questions within sexology should be treated publicly with 
+                        particular understanding, dignity and objectivity … That would, 
+                        <persName>Prof. Sand</persName> ends his remarks, make life for the said unhappy group
+                        of people and the scientific work on these problems easier.</p>
+                    <signed><persName key="louLou"><hi rend="italics">Mrs. Loulou</hi></persName></signed>
+                    <postscript>
+                        <p>Caption:
+                        <persName>Prof. and Doctor of medical science Knud Sand.</persName></p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
