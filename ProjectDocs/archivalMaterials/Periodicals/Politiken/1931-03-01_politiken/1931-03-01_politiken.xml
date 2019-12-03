@@ -58,12 +58,12 @@
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date when="2019-07-06">July 6th, 2019</date>
                 <availability>
-                    <p select="source">Private Collection.</p>
+                    <p select="source">Private Collection.</p> <-- OR --> <p select="source">Royal Danish Library</p>
                     <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                         4.0 International license.</licence>
                 </availability>
             </publicationStmt>
-            <sourceDesc source="Manuscript" xml:lang="dan">
+            <sourceDesc source="Periodical" xml:lang="dan">
                 <p></p>
             </sourceDesc>
         </fileDesc>
@@ -72,17 +72,16 @@
             <classDecl>
                 <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
                     <category source="collex" xml:id="discipline">
-                        <catDesc><!-- discipline metadata --></catDesc>
+                        <catDesc>History/Gender Studies</catDesc>
                     </category>
                     <category source="collex" xml:id="genre">
-                        <catDesc><!-- genre metadata --></catDesc>
+                        <catDesc>Essay/Nonfiction</catDesc>
                     </category>
-                    <!-- Use the following category only when encoding a book section or periodical -->
-                    <category source="dcterms" xml:id="isPartOf" xml:lang="dan"><!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
-                        <catDesc>Kønskarakteren og dens Svingninger</catDesc>
+                    <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
+                        <catDesc>Politiken</catDesc>
                     </category>
                     <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
-                        <catDesc>Sexual Character and its Variations</catDesc>
+                        <catDesc>Politiken</catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
