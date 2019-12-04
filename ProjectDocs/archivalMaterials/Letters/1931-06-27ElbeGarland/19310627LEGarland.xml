@@ -120,12 +120,14 @@
                   Operation war furchtbar. Jedesmal Verbinden verursacht mir furchtbare Schmerzen.
                   Ich bekomme fast nichts zu essen und zu trinken. So bleibt es sicherlich noch eine
                   Woche. Ich sehe mit Schrecken dem Moment entgegen, wenn die Klammern aus beiden
-                  Wunden entfernt werden. Sie sind glücklich in der Sommerfrische da in <placeName
+                  Wunden entfernt werden. </p>
+               <p>Sie sind glücklich in der Sommerfrische da in <placeName
                      key="hven">Hven</placeName>. Montag will ich nach <placeName key="paris"
                      >Paris</placeName> schreiben, dass ihr Gatte so schnell wie möglich
                   Photographien von unserer Arbeit bekommen wird.</p>
                <p>Ich finde es auch besser, wenn die dänische Arbeit später herauskommen wird als
-                  die deutsche. Nächste Woche bekommen auch Sie einen besseren Brief.</p>
+                  die deutsche.</p>
+               <p>Nächste Woche bekommen auch Sie einen besseren Brief.</p>
                <p>Viel Liebe und Grüße</p>
                <p>Von Ihrer armen kleinen Freundin.</p>
                <p>Viele Grüße an Ihren lieben Mann, <persName key="ruth">Lilimoe</persName> und
@@ -150,15 +152,17 @@
                   operation. I can’t write by myself yet. This last operation was awful. Every
                   change of bandages causes me terrible pain. I barely get anything to eat or to
                   drink. This is probably how it will be for another week. I am dreading the moment
-                  when they will remove the staples from both wounds. You are happy in the breezy
+                  when they will remove the staples from both wounds.</p>
+               <p>You are happy in the breezy
                   summer weather in <placeName key="hven">Hven</placeName>. On Monday I am going to
                   write to <placeName key="paris">Paris</placeName>, so that your husband can
                   receive photographs of our work as soon as possible.</p>
-               <p>I would prefer, if the Danish work would be published later than the German work.
-                  Next week you’ll receive a better letter.</p>
+               <p>I would prefer, if the Danish work would be published later than the German work.</p>
+               <p>Next week you’ll receive a better letter.</p>
                <p>Much love and greetings,</p>
                <p>from your poor little friend.</p>
-               <p>Greetings to your dear husband, <persName key="ruth">Lilimoe</persName> and his
+               <p>Greetings to your dear husband, <anchor type="commentRangeStart" n="1"/><persName key="ruth">Lilimore</persName><anchor type="commentRangeEnd" n="1"/><note type="editor" source="plc"  
+corresp="1">“Lilimore” is misspelled; it should be “Lilimor,” Ruth Harthern’s nickname. “His” is also an error in the original; it should be “her.”</note> and her
                   brother.</p>
                <signed>
                   <persName key="lili">Lili Elbe</persName>
