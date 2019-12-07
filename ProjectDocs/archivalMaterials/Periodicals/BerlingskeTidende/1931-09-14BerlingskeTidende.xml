@@ -201,7 +201,7 @@
                         vedvarer til det sidste – og havde <persName key="lili">LiliElvenæs</persName>rejst sig 
                         fra Sygelejet, skulde hun være rejst til <placeName key="morocco">Marokko</placeName> for at besøge 
                         <persName key="wegenerG">GerdaWegener</persName>, der lever dèr i lykkeligt Ægteskab med en 
-                        <persName>italiensk officer.</persName></p>
+                        <persName key="portaF">italiensk officer.</persName></p>
                     <p>Naar man har kendt <persName key="wegenerE">EjnarWegener</persName> i de yngre Aar, staar man 
                         underligt forvirret ved hans Død. Skal man sørge over, at der er sat 
                         Punktum for en umulig Livsskæbne? Skal man mindes <persName key="wegenerE">EjnarWegener</persName> 
@@ -260,7 +260,7 @@
                         complex almost drove him to the verge of madness and suicide.</p>
                     <p>Over the years, he sought advice and help in many places, 
                         but no one could help him until the famous German surgeon 
-                        <persName key="warnekros">Professor Warnekros</persName> in <placeName key="dresden">Dresden</placeName> gave him a hope. He took on the 
+                        <persName key="warnekros">Professor Warnekros</persName> in <placeName key="dresden">Dresden</placeName> gave him hope. He took on the 
                         difficult operation – to help an unhappy person but probably also to 
                         do a scientific experiment that had never been attempted before. 
                         This was a kind of vivisection where the victim volunteered.</p>
@@ -300,7 +300,7 @@
                     <p>The faithful friendship between <persName key="lili">LiliElvens</persName> and <persName key="wegenerG">GerdaWegener</persName> 
                         lasted to the end- and had <persName key="lili">LiliElvenes</persName> risen from her 
                         sickbed, she would have travelled to <placeName key="morocco">Morocco</placeName> to visit <persName key="wegenerG">GerdaWegener</persName>, 
-                        who lives there in a happy marriage to an <persName>Italian officer.</persName></p>
+                        who lives there in a happy marriage to an <persName key="portaF">Italian officer.</persName></p>
                     <p>Having known <persName key="wegenerE">EinareWegener</persName> in his younger years, one is 
                         strangely confused at his death. Is one to mourn that an impossible 
                         fate is terminated? Is one to remember <persName key="wegenerE">EinarWegener</persName> with the 
