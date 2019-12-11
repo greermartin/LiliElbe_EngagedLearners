@@ -191,7 +191,7 @@
                 <div rend="headlines">
                     <list>               
                         <item rend="primary"><hi rend="bold">A Tragic Life Story Was Ended Yesterday</hi></item>
-                        <item><hi rend="italics"><persName key="lili">Lili Elvenes</persname>– formerly the painter Einar Wegener(TAG) – has died at Frauenklinik(TAG) in Dresden(TAG).</hi></item>
+                        <item><hi rend="italics"><persName key="lili">Lili Elvenes</persName>– formerly the painter Einar Wegener(TAG) – has died at Frauenklinik(TAG) in Dresden(TAG).</hi></item>
                     </list>
                 </div>
                 <div rend="body">       
@@ -254,6 +254,7 @@
             </div>
         </body>
 </text>
+</TEI>
 
 
                        
