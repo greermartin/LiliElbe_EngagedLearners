@@ -45,7 +45,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
-                    <persName ref="LBP"><!-- Insert Proofers name and initials in @ref--></persName>
+                    <persName ref="DRR">Danielle Richards></persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared by</resp>
@@ -60,19 +60,21 @@
                 <date when="2019-07-06">July 6th, 2019</date>
                 <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
                 <availability>
-                    <!-- Start Example 1 & 2 -->
+                    
                     <p select="source">Private Collection.</p> <!--OR--> <p select="source">Harvard University Library</p>
-                    <!-- End Example 1 -->
-                    <!-- Start Example 3-->
+                   
                     <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
                         Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
                         Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
-                    <!-- End Example 3 -->
+                    
                     <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                         4.0 International license.</licence>
                 </availability>
             </publicationStmt>
-            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+            <!--include source descrip here?DRR 12/13-->
+                <sourceDesc source="Manuscript" xml:lang="dan">
+                <p>One-page, two-sided typed letter in lavender ink; hand-written notes have been added in black ink throughout letter. Appears to have been folded in half.</p>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
@@ -117,12 +119,12 @@
     <body>
         <div type="original">
             <div rend="head" style="letter">
-                <p><persName key="reissnerCarl">Carl / Reissner</persName> Verlag / <placeName key="dresden">Dresden</placeName></p>
+                <p><persName key="reissnerCarl">Carl Reissner</persName>/ Verlag / <placeName key="dresden">Dresden</placeName></p>
                 <p><placeName key="dresden">Dresden</placeName>-N.6, den 8. <date>Nov.1932</date></p>
                 <p>Königstraße 13 / Fernsprecher 54 0 08</p>
             </div>
             <div rend="body">
-                <p>Sehr verehrter lieber Herr <persName key="hoyerNiels">Herr Hoyer</persName>!</p>
+                <p>Sehr verehrter lieber <persName key="hoyerNiels">Herr Hoyer</persName>!</p>
                 <p>Meine interimistischen Zeilen vom <date>1.11</date>. mit der notwendigen Aufklärung werden Sie inzwischen erhalten haben, und anbei vermag ich Ihnen nun endlich den Zusatz zum Vertrag zu senden, der, wie ich hoffe, alle Ihre Wünsche erfüllen wird. Denn wenn Ihnen so sehr viel an den geäusserten Wünschen gelegen ist, dann will ich mich diesen natürlich nicht verschliessen. Aber nach genauer<add place="inline" type="insertion" rend="blackInk">,</add> soeben vorgenommener Prüfung hat es sich doch als notwendig herausgestellt, dass der Preis der Einbandspanne unbedingt M1.80 bei diesem Werk betragen <subst><del type="overtype">j</del><add place="inline" type="overtype" rend="purpleInk">m</add></subst>üsste, und da ich den Ladenpreis der gebundenen Ausgabe nicht erhöhen kann, so bleibt nichts anderes übrig, als dass ich den Preis der broschierten Ausgabe um ein Geringes ermässige<subst><del type="overwrite">.</del><add place="inline" type="overwrite" rend="blackInk">,</add></subst><add place="inline" type="insertion" rend="blackInk"> was für den Absatz auch nur förderlich sein kann.</add></p>
                 <p>Im übrigen bedarf der beifolgende Zusatzvertrag gewiss keines Kommentars, eben da er im wesentlichen ja nur Ihren Wünschen Rechnung trägt, sowie den Notwendigen, die durch die neue Situation entstehen. Auch habe ich Ihr Angebot angenommen, dass der Honorarsatz von 20% erst nach Verkauf von 6000 Exemplaren beginnen soll.</p>
                 <p>Dieser sachlichen Regelung möchte ich noch die Versicherung hinzufügen, wie hoch ich es zu schätzen weiss, dass Ihr Brief von einem solch freundschaftlichen Geist getragen wird.</p>
@@ -132,7 +134,7 @@
                 <signed><add place="rightMargin" type="insertion" rend="blackInk"><persName key="schumannH">Harry Schumann</persName></add></signed>
                 <p><add place="leftMargin" type="insertion" rend="blackInk"><hi rend="underline">wenden</hi></add></p> <!-- 10/29/2019 DLR I don't know if this is right but I think it is -->
                 <pb style="page"></pb> <!-- 10/17/2019 DLR - Correct this if need be. Not sure if this is totally the correct format -->
-                <p>Soeben wollte ich den obigen Brief absenden, als ich noch Ihr vorgestriges Schreiben erhalte. Wie sehr habe ich es bedauert, dass sie nun doch nicht nach Dresden gekommen sind!</p>
+                <p>Soeben wollte ich den obigen Brief absenden, als ich noch Ihr vorgestriges Schreiben erhalte. Wie sehr habe ich es bedauert, dass sie nun doch nicht nach <placeName key="dresden">Dresden</placeName> gekommen sind!</p>
                 <p><add place="inline" type="insertion" rend="blackInk">Herzlichen Glückwunsch zum englischen Abschluss! Wie schön wäre es freilich, wenn</add><add place="above" type="insertion" rend="pencil">es</add><add place="inline" type="insertion" rend="blackInk">die <hi rend="underline">idealen</hi> Zustände in England, wo der der Vorleger mir 25% Rabatt zu geben braucht</add><add place="above" type="insertion" rend="pencil">, auch in Deutschland gäbe!</add></p>
             </div>    
    </div>
@@ -143,22 +145,22 @@
             <div>
             <div type="translation">
                 <div rend="head" style="letter">
-                    <p><persName key="reissnerCarl">Carl / Reissner</persName> Verlag / <placeName key="dresden">Dresden</placeName></p>
+                    <p><persName key="reissnerCarl">Carl Reissner</persName>/ Verlag / <placeName key="dresden">Dresden</placeName></p>
                     <p><placeName key="dresden">Dresden</placeName>-N.6, <date>Nov.1932</date></p>
                     <p>Königstraße 13 / Telephone 54 0 08</p>
                 </div>
                 <div rend="body">
                     <p>Dear <persName key="hoyerNiels">Mr. Hoyer</persName>!</p>
-                    <p>You will have received my letter from <date>11/1</date> with the important clarification, and I have also included the rest of the contract, which will hopefully fulfill all of your wishes. If your requests are that important to you, I don’t want to ignore them. However, after an exact assessment, it turns out that the cost of the “Einbandspanne” <!-- 10/24/2019 the letter said there was no direct translation for this word so I'm not sure if we need to make a comment in the XML as like a disclaimer --> must be M1.80, and since I cannot increase the in-store price for the hardcover, we have no choice but to slightly decrease the price of the paperback, which would surely help with sales.</p>
+                    <p>You will have received my letter from <date>11/1</date> with the important clarification, and I have also included the rest of the contract, which will hopefully fulfill all of your wishes. If your requests are that important to you, I don’t want to ignore them. However, after an exact assessment, it turns out that the cost of the “Einbandspanne” <!-- 10/24/2019 the letter said there was no direct translation for this word so I'm not sure if we need to make a comment in the XML as like a disclaimer --> must be M1.80, and since I cannot increase the in-store price for the hardcover, we have no choice but to slightly decrease the price of the paperback, <add place="inline" type="insertion" rend="blackInk">which would surely help with sales.</add></p>
                     <p>Lastly, I don’t think the included additional portion of the contract requires an explanation, since the majority of it is what you requested, along with some other necessary changes. I also accepted your offer that my share should only increase to 20% after 6000 copies have been sold.</p>
                     <p>Despite these matter-of-fact arrangements, I would like to add that I highly appreciate that your letter had such a friendly tone.</p>
                     <p>All the best wishes for the success of your work and greetings</p>
                     <p>Yours sincerely</p>
-                    <p><signed><persName key="schumannH">Harry Schumann</persName></signed></p>
-                    <p>Turn</p>
+                    <signed><persName key="schumannH">Harry Schumann</persName></signed>
+                    <p><add place="leftMargin" type="insertion" rend="blackInk"><hi rend="underline">Turn</hi></add></p>
                     <pb style="page"></pb> <!-- 10/17/2019 DLR - Correct this if need be. Not sure if this is totally the correct format -->
-                    <p>I was just about to send this letter, when I received your letter from two days ago. How unfortunate, that you didn’t come to Dresden after all!</p>
-                    <p>Congratulations on closing the English deal! How nice would it be, if the ideal circumstances in England, where the publisher is required to give me 25%, also existed in Germany!</p>
+                    <p>I was just about to send this letter, when I received your letter from two days ago. How unfortunate, that you didn’t come to <placeName key="dresden">Dresden</placeName> after all!</p>
+                    <p><add place="inline" type="insertion" rend="blackInk">Congratulations on closing the English deal! How nice would it be, if the <hi rend="underline">ideal</hi> circumstances in <placeName key="england">England</placeName>, where the publisher is required to give me 25%, also existed in <placeName key="germany">Germany</placeName>!</add></p>
                 </div>
             </div>
             </div>
