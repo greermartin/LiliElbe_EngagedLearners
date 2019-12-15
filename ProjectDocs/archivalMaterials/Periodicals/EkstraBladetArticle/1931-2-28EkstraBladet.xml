@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
@@ -35,7 +34,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
-                    <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -146,7 +145,7 @@
                 illustration]
                 <p><persName key="wegenerE">Maleren Einar Wegener</persName></p>.
                 
-                <p></p>ikke for Fagmanden være mindste Tvivl om, at Naturen her havde ville skabe en Kvinde, men at der ved et eller andet ulykkeligt Tilfælde var kommet Kludder i Værket. Da jeg var kommet saa vidt, forstod jeg, at det ved et operativt Indgreb maatte være muligt at befri denne stakkels Kvinde for hendes aarelange Lidelser og give hende tilbage til livet som et nyt Menneske. Jeg forstod ogssa, hvilken Risiko der var forbundet med et saadant Eksperiment – thi et Eksperiment var det i Virkeligheden for mig, da jeg stod ganske uden Fortilfælde af denne Art – men jeg mente, at Chancen var større end Risikoen, og jeg tog Ansvaret paa mig.</p>
+                <p>ikke for Fagmanden være mindste Tvivl om, at Naturen her havde ville skabe en Kvinde, men at der ved et eller andet ulykkeligt Tilfælde var kommet Kludder i Værket. Da jeg var kommet saa vidt, forstod jeg, at det ved et operativt Indgreb maatte være muligt at befri denne stakkels Kvinde for hendes aarelange Lidelser og give hende tilbage til livet som et nyt Menneske. Jeg forstod ogssa, hvilken Risiko der var forbundet med et saadant Eksperiment – thi et Eksperiment var det i Virkeligheden for mig, da jeg stod ganske uden Fortilfælde af denne Art – men jeg mente, at Chancen var større end Risikoen, og jeg tog Ansvaret paa mig.</p>
                 <p>Nu bagefter er jeg stolt og glad over at kunne sige, at Eksperimentet lykkedes over al Forventning.…</p>
                 
                 <p>Da Kvindeligheden vaagnede –</p>
@@ -259,7 +258,6 @@
                     indgaa nyt Ægteskab – det tidligere er jo erklæret for Nul og nix.</p>
                 
                 
-                <?xml version="1.0" encoding="UTF-8"?>
                 Ekstra Bladet Saturday 28 February 1931
                 
                 <hi rend="bold">THE MAN WHO BECAME A WOMAN</hi>
@@ -278,7 +276,6 @@
                 
                 <p>Excellent French doctors that she had approached had not been able to help her – they took the view that nothing could be done – she had to resign herself to her fate … Her family and friends entreated me to at least perform an examination, and as I had the greatest compassion for the unhappy person, I deferred to their wish.</p>
                 <p>To my surprise I then found that although externally she had definite male traits, these traits were only of secondary nature – in reality her anatomy was that of a woman. There could</p>
-                </figDesc>
                 <figure>
                     <list>
                         <hi rend="bold">The painter <persName key="wegenerE">Einer Wegener</persName></hi>
@@ -389,7 +386,7 @@
                 <p>In cases where the gender cannot be established with certainty, 
                     today the thinking is entertained that the person concerned avoids
                     possible social disadvantages, for example is exempted from 
-                    military service. <anchor type="commentRangeStart" n="9"/>This<anchor type="commentRangeEnd" n="9"/><note type="editor" source="plc" corresp="comment_9"><anchor type="commentRangeStart" n="10"/>Is it "this"? "This professor" sounds odd here. Would "Viggo Bentzon, a professor of family law, says the person concerend "cannot be a soldier but [could probably be] a midwife"?</note><anchor type="commentRangeEnd" n="10"/><note type="translator" source="mo" corresp="comment_10".>"This" is the situation described in the previous sentence. I don't know if that can be included. Perhaps: Professor Viggo Bentzon expresses this in his family law by saying that the person concerned "cannot be a soldier but could probably be a midwife"</note><persName>professor Viggo Bentzon</persName> expresses in his 
+                    military service. <anchor type="commentRangeStart" n="9"/>This<anchor type="commentRangeEnd" n="9"/><note type="editor" source="plc" corresp="comment_9"><anchor type="commentRangeStart" n="10"/>Is it "this"? "This professor" sounds odd here. Would "Viggo Bentzon, a professor of family law, says the person concerend "cannot be a soldier but [could probably be] a midwife"?</note><anchor type="commentRangeEnd" n="10"/><note type="translator" source="mo" corresp="comment_10">"This" is the situation described in the previous sentence. I don't know if that can be included. Perhaps: Professor Viggo Bentzon expresses this in his family law by saying that the person concerned "cannot be a soldier but could probably be a midwife"</note><persName>professor Viggo Bentzon</persName> expresses in his 
                     family law in the way that the person concerned “cannot be a 
                     soldier but probably midwife”.</p>
                 <p>There is no reason why the person who has changed his or her
@@ -399,6 +396,11 @@
         </div>
     </body>
 </text>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
 
 
 

@@ -35,6 +35,7 @@
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="co">Colin O'Connell</persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -58,7 +59,7 @@
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date when="2019-07-06">July 6th, 2019</date>
                 <availability>
-                    <p select="source">Private Collection.</p> <-- OR --> <p select="source">Royal Danish Library</p>
+                    <p select="source">Private Collection.</p> <!-- OR --> <p select="source">Royal Danish Library</p>
                     <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                         4.0 International license.</licence>
                 </availability>
