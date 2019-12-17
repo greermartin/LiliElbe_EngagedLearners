@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
             <title>
-                  <date>(1932-03-17)</date> Letter to <persName>Sirs</persName>
-               </title>
-               <author>
-                  <persName key="hoyerNiels" role="AUT">Niels Hoyer</persName>
-               </author>
-               <respStmt>
-                  <resp>Translation completed by</resp>
-                  <persName ref="twj">Tatjana Willms-Jones</persName>
-               </respStmt>
-               <respStmt>
-                  <resp>Translation reviewed by</resp>
-                  <persName ref="sm">Sabine Meyer</persName>
-               </respStmt> 
+               <date>(1932-03-17)</date> Letter to <persName>Sirs</persName>
+            </title>
+            <author>
+               <persName key="hoyerNiels" role="AUT">Niels Hoyer</persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="twj">Tatjana Willms-Jones</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation reviewed by</resp>
+               <persName ref="sm">Sabine Meyer</persName>
+            </respStmt>
             <respStmt>
                <resp>Transcription completed by </resp>
                <persName ref="twj">Tatjana Willms-Jones</persName>
@@ -34,7 +34,7 @@
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
-                  <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                     <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
                   by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
@@ -49,56 +49,121 @@
             <authority>Lili Elbe Digital Archive</authority>
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date when="2019-07-06">July 6th, 2019</date>
-            
             <availability>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>
-         </publicationStmt> 
-   <sourceDesc source="Manuscript" xml:lang="ger">
-      <p>A one half-page, two-sided typed letter on Niels Hoyer stationery with "Lili Elbe" written across the top in red crayon and two holes punched in the top margin.</p>
-   </sourceDesc>
-</fileDesc>
-   <encodingDesc>
-      <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
+         </publicationStmt>
+         <sourceDesc source="Manuscript" xml:lang="ger">
+            <p>A one half-page, two-sided typed letter on Niels Hoyer stationery with "Lili Elbe"
+               written across the top in red crayon and two holes punched in the top margin.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
          <classDecl>
             <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
                <category source="collex" xml:id="discipline">
-                  <catDesc><!-- discipline metadata --></catDesc>
+                  <catDesc>History/Book History</catDesc>
                </category>
                <category source="collex" xml:id="genre">
-                  <catDesc><!-- genre metadata --></catDesc>
+                  <catDesc>Correspondence</catDesc>
                </category>
             </taxonomy>
          </classDecl>
-      <editorialDecl> <p></p></editorialDecl>
-   </encodingDesc> 
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="original"><div rend="head" style="letter">
-         <p><placeName key="copenhagen">Kopenhagen</placeName> /Havnegade 47</p>
-                                       <p><date when="1932-03-17">17.3.32</date></p></div>
+         <!-- DR: Should letterhead <p>Niels Hoyer</p><p>/Ernst Harthern/</p> (as opposed to the typed header) be included in this file? -->
+         <div type="original">
+            <pb facs="http://lilielbe.org/media/letters/1932-03-17HoyerSirs01.jpg" style="page" n="1"/>
+            <div rend="head" style="letter">
+               <p><placeName key="copenhagen">Kopenhagen</placeName> /Havnegade 47</p>
+               <p>
+                  <date when="1932-03-17">17.3.32</date>
+               </p>
+            <p>Franck’sche Verlagsbuchhandlung</p>
+            <p>
+               <placeName key="stuttgart">Stuttgart</placeName>
+            </p>
+            </div>
+            <div rend="body">
+            <p>Sehr geehrte Herren!</p>
+            <p> Für Ihre sehr liebenswürdigen Zeilen vom 15.3. danke ich Ihnen verbindlichst. Die
+               Möglichkeit, Ihnen später einmal ein anderes Buch von mir anzubieten, liegt in
+               absehbarer Zeit vor. Bei dem <persName key="lili">Lili Elbe</persName> Buch handelt
+               es sich um ein Werk, das nicht im eigentlichen Sinne als literarisch angesprochen
+               werden kann. Denn es ist ein „menschliches Dokument“ und keine Dichtung, wie
+               romanhaft sich das Leben <persName key="lili">Lili Elbe</persName>s auch gestaltet
+               hat. Aber gerade dieser Umstand hat das Buch hat das Buch in meiner dänischen Ausgabe
+               bereits zu einem beträchtlichen Erfolg geführt, der sich erst voll in meiner
+               deutschen Ausgabe sowie in der englischen, französischen etc.Übertragung auswirken
+               wird. Der Inhalt ist fern von jeder Sensationshascherei. Wer dies erwartet, wird
+               bitter enttäuscht werden. Schade, dass ich keine Gelegenheit fand, auch Ihnen mein
+               Manuskript zur Beurteilung vorzulegen. –</p>
+            <p> Sie richten dann an mich eine Frage. An sich vermittle ich Übersetzungen nicht,
+               übersetze wohl dann und wann, falls der betr.deutsche Verlag das Original fest
+               angenommen hat. Deshalb muss ich an Sie die Gegenfrage richten: können Sie
+               skandinavische Werke aus dem Original für Ihre Verlagszwecke lesen, beurteilen
+               lassen? -In diesem Falle könnte ich Ihnen skandinavische Bücher, die wert sind,
+               übersetzt zu werden, vorlegen. Ich denke besonders <persName id="rasmussenKnud">Knud
+                  Rasmussen</persName>s Eskimo-Mythen und Legenden, die ganz herrlich sind, und an
+               die Hinterlassenschaft <pb facs="http://lilielbe.org/media/letters/1932-03-17HoyerSirs02.jpg" style="page" n="2"/> von <choice><orig>I.P. Jacobsen</orig><reg><persName key="jacobsenJP"
+                        >J.P.Jacobsen</persName></reg></choice>, darunter eine „Evolutionslehre“ –
+               wohl ein Torso, aber dennoch von sehr, sehr grosser dichterischer Qualität. Können
+               Sie aus dem Original skandinavische Literatur beurteilen lassen, so will ich Ihnen
+               gern die noch nicht im Deutschen veröffentlichten Arbeiten von <choice><orig>I.P. Jacobsen</orig><reg><persName key="jacobsenJP"
+                  >J.P.Jacobsen</persName></reg></choice> zusenden. Auch <persName
+                  id="rasmussenKnud">Rasmussen</persName> Bücher, die mir vorliegen.–</p>
+            <p>Schliesslich noch eine Bitte: könnten Sie mir ein paar der Haupteditionen und die
+               Richtung Ihres Verlages zusenden, damit ich die Art Ihrer Editionen, den Charakter
+               und die Richtung Ihres Verlages klar erkennen kann?</p>
+            <p>Ich hoffe, dass es einmal zu einer Zusammenarbeit kommt und erwarte in diesem Sinne
+               gern bald Ihre Rückäusserung.</p>
+            <signed>Hochachtungsvoll</signed>
+         </div>
+      </div>
+      <div type="translation">
+         <div rend="head" style="letter">
+         <p><placeName key="copenhagen">Copenhagen</placeName>/Havnegade 47</p>
+            <p><date when="1932-03-17">3/17/32</date></p>
          <p>Franck’sche Verlagsbuchhandlung</p>
          <p><placeName key="stuttgart">Stuttgart</placeName></p>
-            <p>Sehr geehrte Herren!</p>
-            <p> Für Ihre sehr liebenswürdigen Zeilen vom 15.3. danke ich Ihnen verbindlichst. Die Möglichkeit, Ihnen später einmal ein anderes Buch von mir anzubieten, liegt in absehbarer Zeit vor. Bei dem <persName key="lili">Lili Elbe</persName> Buch handelt es sich um ein Werk, das nicht im eigentlichen Sinne als literarisch angesprochen werden kann. Denn es ist ein „menschliches Dokument“ und keine Dichtung, wie romanhaft sich das Leben <persName key="lili">Lili Elbe</persName>s auch gestaltet hat. Aber gerade dieser Umstand hat das Buch hat das Buch in meiner dänischen Ausgabe bereits zu einem beträchtlichen Erfolg geführt, der sich erst voll in meiner deutschen Ausgabe sowie in der englischen, französischen etc.Übertragung auswirken wird. Der Inhalt ist fern von jeder Sensationshascherei. Wer dies erwartet, wird bitter enttäuscht werden. Schade, dass ich keine Gelegenheit fand, auch Ihnen mein Manuskript zur Beurteilung vorzulegen. –</p>
-         <p> Sie richten dann an mich eine Frage. An sich vermittle ich Übersetzungen nicht, übersetze wohl dann und wann, falls der betr.deutsche Verlag das Original fest angenommen hat. Deshalb muss ich an Sie die Gegenfrage richten: können Sie skandinavische Werke aus dem Original für Ihre Verlagszwecke lesen, beurteilen lassen? -In diesem Falle könnte ich Ihnen skandinavische Bücher, die wert sind, übersetzt zu werden, vorlegen. Ich denke besonders <persName id="rasmussenKund">Knud Rasmussen</persName>s Eskimo-Mythen und Legenden, die ganz herrlich sind, und an die Hinterlassenschaft</p>
-         <p> von <persName key="jacobsenJP">J.P.Jacobsen</persName>, darunter eine „Evolutionslehre“ – wohl ein Torso, aber dennoch von sehr, sehr grosser dichterischer Qualität. Können Sie aus dem Original skandinavische Literatur beurteilen lassen, so will ich Ihnen gern die noch nicht im Deutschen veröffentlichten Arbeiten von <persName key="jacobsenJP">J.P.Jacobsen</persName> zusenden. Auch <persName id="rasmussenKund">Rasmussen</persName> Bücher, die mir vorliegen.–</p> <p>Schliesslich noch eine Bitte: könnten Sie mir ein paar der Haupteditionen und die Richtung Ihres Verlages zusenden, damit ich die Art Ihrer Editionen, den Charakter und die Richtung Ihres Verlages klar erkennen kann?</p>
-             <p>Ich hoffe, dass es einmal zu einer Zusammenarbeit kommt und erwarte in diesem Sinne gern bald Ihre Rückäusserung.</p>
-        <signed>Hochachtungsvoll</signed> 
-            </div>
-      </body>
-         <div type="translation">
-      <placeName key="copenhagen">Copenhagen</placeName>/Havnegade 47<p>3/17/32</p>
-      <p>Franck’sche Verlagsbuchhandlung</p>
-                                 <p><placeName key="stuttgart">Stuttgart</placeName></p>
-      <p> Dear Sirs!</p>
-      <p> I would like to thank you for your kind words from the 3/15. The possibility of me offering you another one of my books lies in the near future. The <persName key="lili">Lili Elbe</persName> book is a work that cannot really be considered a literary work. It is a “human document” and not a novel, as story-like as <persName key="lili">Lili Elbe</persName>’s life may have unfolded itself. But exactly because of this of situation, the Danish version has been such a huge success, which will only be amplified by the German, English and French versions. The content is far from sensationalism. Whoever expects this, will be bitterly disappointed. It’s unfortunate, that I wasn’t able to send you my manuscript for feedback.-</p>
-      <p>You asked me a question. I usually don’t pass on translated works, I will however, if the German publishing company in question has already accepted the original work. That is why I have to ask you a counter question: can you read and analyze some original Scandinavian works for your publishing company? In this case, I could refer some Scandinavian works, that are worth translating, to you. I think especially <persName id="rasmussenKund">Knud Rasmussen</persName>’s “Eskimo-Mythen und Legenden”, which are wonderful, and the legacy </p><p>of <persName key="jacobsenJP">J.P.Jacobsen</persName>, which includes the “Evolutionslehre”- it may be unfinished, but it is still of very, very large literary quality. If you can assess the original Scandinavian works, then I would like to send you the works of <persName key="jacobsenJP">J.P.Jacobsen</persName>, that still have not been published in German. The same goes for the book I have of <persName id="rasmussenKund">Rasmussen</persName>.</p>
-      <p>Lastly, another request: could you send me some of your publishing company’s main publications, so that I can clearly gage the tone and character of your company.</p>
-      <p>I hope that we will be able to work together soon, and am looking forward to your reply.</p>
-      <signed> Yours sincerly</signed>
          </div>
+         <div rend="body">
+         <p> Dear Sirs!</p>
+         <p> I would like to thank you for your kind words from the 3/15. The possibility of me
+            offering you another one of my books lies in the near future. The <persName key="lili"
+               >Lili Elbe</persName> book is a work that cannot really be considered a literary
+            work. It is a “human document” and not a novel, as story-like as <persName key="lili"
+               >Lili Elbe</persName>’s life may have unfolded itself. But exactly because of this of
+            situation, the Danish version has been such a huge success, which will only be amplified
+            by the German, English and French versions. The content is far from sensationalism.
+            Whoever expects this, will be bitterly disappointed. It’s unfortunate, that I wasn’t
+            able to send you my manuscript for feedback.-</p>
+         <p>You asked me a question. I usually don’t pass on translated works, I will however, if
+            the German publishing company in question has already accepted the original work. That
+            is why I have to ask you a counter question: can you read and analyze some original
+            Scandinavian works for your publishing company? In this case, I could refer some
+            Scandinavian works, that are worth translating, to you. I think especially <persName
+               id="rasmussenKnud">Knud Rasmussen</persName>’s “Eskimo-Mythen und Legenden”, which
+            are wonderful, and the legacy of <choice><orig>I.P. Jacobsen</orig><reg><persName key="jacobsenJP"
+               >J.P.Jacobsen</persName></reg></choice>, which includes the “Evolutionslehre”- it may be unfinished,
+            but it is still of very, very large literary quality. If you can assess the original
+            Scandinavian works, then I would like to send you the works of <choice><orig>I.P. Jacobsen</orig><reg><persName key="jacobsenJP"
+               >J.P.Jacobsen</persName></reg></choice>, that still have not been published in
+            German. The same goes for the book I have of <persName id="rasmussenKnud"
+               >Rasmussen</persName>.</p>
+         <p>Lastly, another request: could you send me some of your publishing company’s main
+            publications, so that I can clearly gage the tone and character of your company.</p>
+         <p>I hope that we will be able to work together soon, and am looking forward to your
+            reply.</p>
+         <signed> Yours sincerly</signed>
+      </div>
+      </div>
+      </body>
    </text>
 </TEI>
