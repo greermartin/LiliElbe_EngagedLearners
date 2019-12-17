@@ -72,6 +72,7 @@
     <text>
         <body>
             <div type="original">
+                <pb facs="http://lilielbe.org/media/letters/1931-12-28SchumannHoyer01.jpg" style="page" n="1"/>
                 <div rend="head">
                     <p><persName key="reissnerCarl">CARL REISSNER</persName> / VERLAG / <placeName
                             key="dresden">DRESDEN</placeName></p>
@@ -115,7 +116,7 @@
                             Aussichten des Werkes von <persName key="dielL">Frau Diel</persName> für
                             Skandinavien so überaus pessimistisch beurteilen, so kann ich natürlich
                             hieran nichts ändern, sondern nur hoffen, dass der Erfolg Ihren Verleger
-                            eines Besseren überzeugen wird.</seg>
+                            eines <pb facs="http://lilielbe.org/media/letters/1931-12-28SchumannHoyer02.jpg" style="page" n="2"/>Besseren überzeugen wird.</seg>
                     </p>
                     <p>
                         <seg n="g05">Bei Ihrer <placeName key="dresden">Dresdener</placeName>
