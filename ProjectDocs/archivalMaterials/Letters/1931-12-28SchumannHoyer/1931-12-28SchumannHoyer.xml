@@ -150,7 +150,7 @@
                         <signed>Ihr ganz ergebenster</signed>
                         <signed>
                             <add place="below" type="insertion" rend="blackInk">
-                                <persName key="">Harry Schumann</persName>
+                                <persName key="schumannH">Harry Schumann</persName>
                             </add>
                         </signed>
                         <signed>Inhaber des Verlages</signed>
@@ -241,7 +241,7 @@
                         <signed>Best wishes,</signed>
                         <signed>Yours sincerely</signed>
                         <signed>
-                            <add place="below" type="insertion" rend="blackInk"><persName key=""
+                            <add place="below" type="insertion" rend="blackInk"><persName key="schumannH"
                                     >Harry Schumann</persName></add></signed>
                         <signed>Owner of the publishing company</signed>
                         <signed><persName key="reissnerCarl">Carl Reissner</persName></add></signed>
