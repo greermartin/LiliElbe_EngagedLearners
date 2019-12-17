@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <body>
+        <div type="original">
+            <div rend="head" style="periodical">
+                <!--text that appears before headlines; could include title and date-->
+            </div>
+            <div rend="headlines">
+                <list>
+                    <item rend="primary"><hi rend="bold">Fra Mand til Kvinde</hi></item>
+                    <item><hi rend="italics">Bogen om <persName key="lili">Lili Elbe</persName>.</hi></item>
+                </list>
+            </div>
+            <div rend="body">
+                <p>Om et Par Dage udkommer paa <hi rend="italics">Hage Clausens</hi> Forlag en Bog, som bærer forfatternavnet <hi rend="italics"><persName key="lili">Lili Elbe</persName></hi>. Under Titlen “Fra Mand til Kvinde” skildrer Bogen den tidligere danske Maler <hi rend="italics"><persName key="wegenerE">Einar Wegener</persName>s</hi> Fortid og fortsatte Liv som Kvinden <hi rend="italics"><persName key="lili">Lili Elbe</persName></hi>, der for to Maaneder siden døde paa <hi rend="italics"><placeName key="womensClinic">Frauenklinik</placeName></hi> i <placeName key="dresden">Dresden</placeName>, det samme sted, hvor den tyske Gynækolog <persName key="warnekros">Prof. <hi rend="italics">Warnekros</hi></persName> gennem en Række dristige Operationer havde udløst hendes egentlige Køn.</p>
+                <p>Bogen, der bestaar af <persName key="lili">Lili Elbe</persName>s egne Optegnelser, er udgivet af <hi rend="italics">Lokalanzeigers</hi> herværende mangeaarige Korrespondent, Redaktør <hi rend="italics"><persName key="harthernE">Ernst Harthern</persName></hi>, der tillige under Psevdonymet <hi rend="italics"><persName key="hoyer">Niels Hoyer</persName></hi> har et meget fint Navn som Forfatter og Lyriker.</p> 
+                <p>– Hvorledes kommer De til at udgive Bogen? spørger vi Redaktør <persName key="harthern">Harthern</persName>.</p>
+                <p>– Jeg lærte <persName key="lili">Lili Elbe</persName> at kende under hendes Ophold her i <placeName key="copenhagen">København</placeName>, svarer han, hun fik Tillid til mig og bad mig hjælpe sig med at samle de Optegnelser, hvori hun skildrer sig Liv.  Hun led saa meget under den Maade, hvorpaa man bedømte hende selv og hendes Skæbne, og alle de mange Misforstaaelser, hun var udsat for.  Det laa hende meget stærkt paa Hjerte at faa Bogen ud, endnu paa Dødslejet var det hendes stadige Tanke.</p>
+                <p>– Tror De ikke, at Bogen vil vække Forargelse?</p>
+                <p>– Forargelse? svarer redaktør <persName key="harthernE">Harthern</persName>, nej, det vil der absolut ikke blive Tale om, dertil er det en alt for dybt alvorlig Bog. Det er, som jeg skriver i mit Forord, et menneskelig Dokument om en rystende menneskelig Tragedie, der ligger uden for alle tilvante Forestillinger … Jeg har efter <persName key="lili">Lili Elbe</persName>s udtrykkelige Ønske forelagt Bogen for <persName key="warnekros">Prof. <hi rend="italics">Warnekros</hi></persName>, der har læst den i min tyske Gengivelse … Han betegnede den over for mig som en Bog, der inden for læge- videnskaben, særlig inden for Biologernes og Psykiaternes Kres vil blive betragtet som et videnskabeligt Fund, fordi det er første Gang, at et intellektuelt udviklet Menneske – tilmed en skabende Kunstner – der er i Stand til at analysere sit eget Sjæleliv, beskriver et saadant ulykkeligt Dobbeltvæsens Tanker og Følelser.</p>
+                <p>– Mener De, at <persName key="lili">Lili Elbe</persName> var et ulykkeligt Menneske?</p>
+                <p>– Man behøvede blot at se paa hendes Øjne, de var altid saa uendelig bedrøvede, og samtidig var der i hendes Blik noget saa rørende ydmygt og kvindeligt.</p>
+                <p>– Kendte De Maleren <persName key="wegenerE">Einar Wegener</persName>?</p>
+                <p>– Kun ganske flygtigt … jeg havde truffet ham et Par Gange, og han gjorde paa mig et helt andet Indtryk … Jeg vil indrømme, at første Gang jeg traf <persName key="lili">Lili Elbe</persName>, gav det et Chok i mig, men det varede kun et Øjeblik … siden tænkte jeg aldrig paa hendes Fortid, og naar vi kom til at nævne <hi rend="italics"><persName key="wegenerE">Einar Wegener</persName></hi>, var det, som om det var en tredje Person … en Afdød, vi talte om …</p>
+                <p>– De betragtede det altsaa som en Pligt at udgive Bogen?</p>
+                <p>– Er det ikke en Pligt at opfylde en Døds sidste Vilje og rense et Minde, der er blevet plettet af alt for mange forkerte Forudsætninger? slutter Redaktør <persName key="harthern">Harthern</persName> … Læs hendes Bog, det er ingen Roman, det er heller intet Mesterværk, det er simpelthen Sandheden … Sandheden om <persName key="lili">Lili Elbe</persName>.</p>
+                <p><persName key="hn">Hn</persName>.</p>
+                <figure >
+                    <figDesc>Redaktør <persName key="harthernE">Ernst Harthern</persName>.</figDesc>
+                </figure> 
+            </div>
+        </div>  
+        <div type="translation">
+            <div rend="head" style="periodical">
+            </div>           
+            <div rend="headlines">
+                <list>                
+                    <item rend="primary"><hi rend="bold">From Man into Woman</hi></item>
+                    <item><hi rend="italics">The book about Lili Elbe</hi></item>
+                </list>
+            </div>
+            <div rend="body">  
+                <p>In a few days, a book will be published at <hi rend="italics">Hage Clausen</hi> publishers bearing the author name <hi rend="italics"><persName key="lili">Lili Elbe</persName></hi>. Under the title “From Man into Woman” the book describes the former Danish painter <hi rend="italics"><persName key="wegenerE">Einar Wegener</persName>’s</hi> past and continuing life as the woman <hi rend="italics"><persName key="lili">Lili Elbe</persName></hi> who died at <hi rend="italics"><placeName key="womensClinic">Frauenklinik</placeName></hi> in <placeName key="dresden">Dresden</placeName> two months ago, the same place where the German gynaecologist <persName key="warnekros">Prof. <hi rend="italics">Warnekros</hi></persName> through a series of bold operations had released her actual gender.</p>
+                <p>The book, which consists of <persName key="lili">Lili Elbe</persName>’s own notes, is published by <hi rend="italics">Lokalanzeiger</hi>’s local correspondent through many years <hi rend="italics"><persName key="harthernE">Ernst Harthern</persName></hi>, who in addition has a very fine reputation as a writer and poet under the pseudonym <hi rend="italics"><persName key="hoyer">Niels Hoyer</persName></hi>.</p>
+                <p>– How did you come to publish the book? we ask editor <persName key="harthern">Harthern</persName>.</p>
+                <p>– I got to know <persName key="lili">Lili Elbe</persName> during her stay here in <placeName key="copenhagen">Copenhagen</placeName>, he answers, she began to trust me and asked me to help her collect the notes wherein she describes her life. She suffered so much because of the way people judged her and her fate and all the many misunderstandings she met with. She had it very much at heart to get the book out, even on her deathbed it was her constant thought.</p>
+                <p>– Don’t you think that the book will cause a scandal?</p> 	
+                <p>– Scandal? editor <persName key="harthern">Harthern</persName> answers, no, that is absolutely out of the question, for that it is a much too deeply serious book. It is, as I write in my foreword, a human document of a terrible human tragedy beyond all customary ideas … I have at <persName key="lili">Lili Elbe</persName>’s specific request presented the book to <persName key="warnekros">Prof. <hi rend="italics">Warnekros</hi></persName>who has read it in my German reproduction … He described it to me as a book that within medical science, especially within the circle of biologists and psychiatrists, will be considered a scientific find because it is the first time that an intellectually developed person – moreover a creative artist – who is able to analyse her own mental life, describes the thoughts and feelings of such an unhappy double creature.</p>
+                <p>– Do you think that <persName key="lili">Lili Elbe</persName> was an unhappy person?</p>
+                <p>– You only have to look at her eyes, they were always so infinitely sad, and at the same time there was something so touchingly humble and feminine in her look.</p>
+                <p>– Did you know the painter <persName key="wegenerE">Einar Wegener</persName>?</p>
+                <p>– Only quite superficially … I had met him a couple of times and he made a completely different impression on me … I must admit that the first time I met <persName key="lili">Lili Elbe</persName>, I was shocked, but it only lasted a moment … since then I never thought about her past and when we happened to mention <hi rend="italics"><persName key="wegenerE">Einar Wegener</persName></hi>, it was as if it was a third person … as if we talked about the deceased …</p>
+                <p>– So you considered it your duty to publish the book?</p>
+                <p>– Isn’t it one’s duty to fulfil the last will of a dead person and clear a memory that has been stained by far too many incorrect assumptions? editor <persName key="harther">Harthern</persName> finishes … Read her book, it is no novel, nor is it a masterpiece, it is simply the truth … the truth about <persName key="lili">Lili Elbe</persName>.</p>
+                <p><persName key="hn">Hn</persName>.</p> 
+                <figure >
+                    <figDesc>Editor <persName key="harthernE">Ernst Harthern</persName>.</figDesc>
+                </figure> 
+            </div>
+        </div>
+    </body>
+</text>
+
+                
