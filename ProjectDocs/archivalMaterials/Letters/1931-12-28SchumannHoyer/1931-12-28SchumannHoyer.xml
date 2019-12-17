@@ -245,6 +245,7 @@
                                     >Harry Schumann</persName></add></signed>
                         <signed>Owner of the publishing company</signed>
                         <signed><persName key="reissnerCarl">Carl Reissner</persName></add></signed>
+                        <!-- CCM 12-17-19: Postscript needs to be translated and added to XML. -->
                     </closer>
                 </div>
             </div>
