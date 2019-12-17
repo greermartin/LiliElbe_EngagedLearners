@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD%20(1).rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Letters/0000-00-00ThomsenTHoyer.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/0000-00-00ThomsenTHoyer.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    rendition="lilielbe.org/context/Letters/0000-00-00ThomsenTHoyer.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/0000-00-00ThomsenTHoyer.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>
-                    <date>09.03.32</date> Letter to <persName key="harthernE">Ernst Ludwig Harthern Jacobsen</persName>
+                    <date>09.03.32</date> Letter to <persName key="harthernE">Ernst Ludwig Harthern
+                        Jacobsen</persName>
                 </title>
                 <author>
                     <persName key="thomsenTC" role="AUT">TC Thomsen</persName>
@@ -39,17 +42,17 @@
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="ccm">Caroline McCraw</persName>
-                    
+
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
-                        <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
-                    <persName ref="aa">Adeline Azungue</persName>
-                </respStmt>            
+                    <persName ref="ccm">Caroline McCraw</persName>
+                </respStmt>
                 <sponsor>Loyola University Chicago Libraries</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
             </titleStmt>
@@ -58,14 +61,18 @@
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date>July 6th, 2019</date>
                 <availability>
-                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
+                            Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
+                            Movement's Archives and Library)</orgName> in <placeName>Huddinge,
+                            Sweden</placeName>.</p>
                     <licence>Distributed under a Creative Commons
                         Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc source="Manuscript" xml:lang="dan">
-                <p><!-- PLC provided description goes here. --></p>
-            </sourceDesc>         
+                <p>A one-page, one-sided handwritten letter on Ewald Heller stationery with "Lili
+                    Elbe" written in another hand acros the page in red crayon.</p>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <classDecl>
@@ -75,7 +82,7 @@
                     </category>
                     <category source="collex" xml:id="genre">
                         <catDesc>Correspondence</catDesc>
-                    </category>               
+                    </category>
                     <category source="collex" xml:id="text">
                         <catDesc><!-- URL to Plain Text will go here.--></catDesc>
                     </category>
@@ -89,40 +96,69 @@
             <editorialDecl>
                 <hyphenation>
                     <p>We have removed the hyphenation that appears in the printed text during
-                        digitization and encoding. Original hyphenation can be consulted in the facsimile
-                        images.</p>
+                        digitization and encoding. Original hyphenation can be consulted in the
+                        facsimile images.</p>
                 </hyphenation>
             </editorialDecl>
-        </encodingDesc>      
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-            <pb facs="http://lilielbe.org/media/letters/0000-00-00ThomsenHoyer.jpg"/>
             <div type="original">
-                <pb facs="http://lilielbe.org/media/letters/0000-00-00ThomsenHoyer.jpg"/>
+                <pb facs="http://lilielbe.org/media/letters/1932-03-09HellerHarthern.jpg"/>
                 <div rend="head" style="letter">
-                    <p><anchor type="commentRangeStart" n="1"/><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1">Written in the top left corner in another hand.</note></p>
+                    <p>
+                        <anchor type="commentRangeStart" n="1"/>
+                        <add place="leftMargin" type="insertion" rend="pencil">
+                            <persName key="thomsenTC">Thomsen</persName>
+                        </add>
+                        <anchor type="commentRangeEnd" n="1"/>
+                        <note type="translator" source="kej" corresp="comment_1">Written in the top
+                            left corner in another hand.</note>
+                    </p>
                 </div>
                 <div rend="body">
-           
-                    <p> <placeName>Aussig</placeName>den <date>09.03.32</date> </p>
-                    
-                    <p>Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es gerne ins Deutsche übersetzen. </p>
-                    <p>Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das Übersetzungsrecht überlassen wollen. </p>
+                    <p>
+                       Aussig, den <date when="1932-09-03">09.03.32</date>
+                    </p>
 
-                    <p>Hochachtungsvoll, </p>
-                <p><persName key="hellerH">Herta Heller</persName></p>
+                    <p>Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es
+                        gerne ins Deutsche übersetzen. Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das
+                        Übersetzungsrecht überlassen wollen.</p>
 
-                    <p> <placeName>Aussig</placeName>den <date>09.03.32</date> </p>
+                    <p>Hochachtungsvoll,</p>
+                    <signed>
+                        <persName key="hellerH">Herta Heller</persName>
+                    </signed>
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="letter">
+                    <p>
+                        <anchor type="commentRangeStart" n="1"/>
+                        <add place="leftMargin" type="insertion" rend="pencil">
+                            <persName key="thomsenTC">Thomsen</persName>
+                        </add>
+                        <anchor type="commentRangeEnd" n="1"/>
+                        <note type="translator" source="kej" corresp="comment_1">Written in the top
+                            left corner in another hand.</note>
+                    </p>
+                </div>
+                <div rend="body">
+                    <p>
+                        Aussig, den <date when="1932-09-03">09.03.32</date>
+                    </p>
+                    <p>I read a review of your book „Fra Mann til Kvinde“ and I would like to
+                        translate it into German. Please let me know, if and under what conditions you would authorize this
+                        translation.</p>
 
-                    <p>I read a review of your book „Fra Mann til Kvinde“ and I would like to translate it into German. </p>
-                    <p>Please let me know, if and under what conditions you would authorize this translation. </p>
+                    <p>Yours sincerely,</p>
+                    <signed>
+                        <persName key="hellerH">Herta Heller</persName>
+                    </signed>
 
-                        <p>Yours sincerely, </p>
-                    <p><persName key="hellerH">Herta Heller</persName></p>
-                    
                     <!--note for transcriber: Harthern wrote 'Lili Elbe' in red across the bottom of letter-->
-                        
+
                 </div>
             </div>
         </body>
