@@ -109,6 +109,7 @@
     <text>
         <body>
             <div type="original">
+                <pb facs="http://lilielbe.org/media/letters/1932-02-24HarthernSchumann_01.jpg" style="page" n="1"/>
                 <div rend="head" style="letter">
                     <p><placeName key="copenhagen">Kopenhagen</placeName> 24.2.32 <anchor
                             type="commentRangeStart" n="1"/>An Carl Reissner Verlag <placeName
@@ -133,17 +134,17 @@
                         erweitern. Denn die dänische Originalausgabe liegt ja vor. Zudichten darf
                         ich keinesfalls etwas. Sonst könnte man mir daraus einen Strick drehen. Ich
                         glaube, Sie werden mit der jetzt Ihnen zugehenden deutschen Fassung
-                        einverstanden sein. <hi rend="emphasis">Meine</hi> Einleitung, die auch die dänische Ausgabe
-                        erhielt, lege ich im Durchschlag diesen heutigen Zeilen bei. Ich werde sie
-                        nur noch mit einem kurzen Hinweis, dass <persName key="lili">Lili
-                            Elbe</persName> das Buch in wenigen Monaten, nämlich von Januar bis Juni
-                        1931, kaum von den ersten schweren Operationen genesen, niedergeschrieben
-                        hat, eine Leistung, die Bewunderung verdient! – Ihr eigenes Vorwort werde
-                        ich Ihnen übersetzt in wenigen Tagen zusenden. Ob wir es aber als Vorwort
-                        nach meiner kurzen Einführung (die wegen der Namen etc. notwendig ist) nehmen
-                        werden, oder es in dem Nachtrag bringen, darüber können wir uns ja noch
-                        verständigen.-</p>
-                    <p>Heute lege ich ihnen ebenfalls im Durchschlag die neue, einzuschaltende <hi
+                        einverstanden sein. <hi rend="emphasis">Meine</hi> Einleitung, die auch die
+                        dänische Ausgabe erhielt, lege ich im Durchschlag diesen heutigen Zeilen
+                        bei. Ich werde sie nur noch mit einem kurzen Hinweis, dass <persName
+                            key="lili">Lili Elbe</persName> das Buch in wenigen Monaten, nämlich von
+                        Januar bis Juni 1931, kaum von den ersten schweren Operationen genesen,
+                        niedergeschrieben hat, eine Leistung, die Bewunderung verdient! – Ihr
+                        eigenes Vorwort werde ich Ihnen übersetzt in wenigen Tagen zusenden. Ob wir
+                        es aber als Vorwort nach meiner kurzen Einführung (die wegen der Namen etc.
+                        notwendig ist) nehmen werden, oder es in dem Nachtrag bringen, darüber
+                        können wir uns ja noch verständigen.-</p>
+                    <p>Heute lege ich ihnen ebenfalls im Durchschlag die neue, einzuschaltende <pb facs="http://lilielbe.org/media/letters/1932-02-24HarthernSchumann_02.jpg" style="page" n="2"/><hi
                             rend="underline">Seite 21 a</hi> bei, sie hat zwischen Seite 21 und
                         Seite 22 zu stehen, schliesst sich unmittelbar an Seite 21 an. Von Seite 22
                         werden dann die ersten <hi rend="underline">zehn</hi> Zeilen gestrichen.-
@@ -168,7 +169,6 @@
                             <placeName key="vienna">Wien</placeName> eine Anfrage. Es wäre ja
                         vielleicht möglich, hierfür eine reichsdeutsche und eine österreichische
                         Zeitung zu bekommen. Darüber können wir uns aber noch unterhalten.-</p>
-                    <!-- Hamburg does not have a keyID within the prosopography 11/26/19 -CO -->
                     <p>Eins würde ich sehr gern noch geordnet sehen, nämlich, dass die Verrechnung
                         der 15 bzw.später der 20% unter Zugrundelegung des brochierten Preises
                         geschieht, wobei der Einband bei den gebundenen Exemplaren mit 1.50 in
@@ -240,8 +240,9 @@
                             key="lili">Lili Elbe’s</persName> heir, <persName key="wegenerG">Gerda
                             Wegener</persName>, 50%. She lives in <placeName key="morocco"
                             >Morocco</placeName>, and <persName key="lili">Lili Elbe’s</persName>
-                        brother-in-law is … 
-He asked me to get this from you since this also happens in contracts with other countries. But we will certainly reach mutual agreement on this as well."</p> 
+                        brother-in-law is … He asked me to get this from you since this also happens
+                        in contracts with other countries. But we will certainly reach mutual
+                        agreement on this as well."</p>
                     <p>I’m certain we can come to a mutual agreement about this too.- I would like
                         to thank you and confirm that your wire-transfer has been received in
                             <placeName key="hamburg">Hamburg</placeName> Altona and further thank
