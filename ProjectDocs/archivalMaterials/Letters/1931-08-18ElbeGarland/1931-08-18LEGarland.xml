@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
 	rendition="lilielbe.org/context/Letters/1931-08-18LEGarland.html"
 	xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/19310818LEGarland.xml">
@@ -142,8 +142,7 @@
 						fremad – og mit skønneste Haab er Døden. Kun ved jeg, at det faar jeg ikke
 						Lov til, fordi Professoren ikke vil – og han er saa stærk.</p>
 					<p>Mit Ønske med Bogen er en lille Revision af
-						<persName key="warnekros"><hi rend="underline">Herr Oberartz</hi></persName>
-						</hi>. Sidste Aar kendte jeg ikke al hans Mildhed og Barmhjærtighed. Han har
+						<hi rend="underline"><persName key="warnekros">Herr Oberartz</persName></hi>. Sidste Aar kendte jeg ikke al hans Mildhed og Barmhjærtighed. Han har
 							<pb n="2" style="page"
 							facs="http://lilielbe.org/media/letters/1931-08-18ElbeGarland02.jpg"
 						/>reddet mig fra alle de værste Rædsler – <hi rend="underline">og jeg vil
