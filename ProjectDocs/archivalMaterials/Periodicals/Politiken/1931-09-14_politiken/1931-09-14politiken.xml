@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/Sandheden.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/Sanheden.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    rendition="lilielbe.org/context/Periodicals/1931-09-14politiken.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1931-09-14politiken.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>"En tragisk Livsskæbne afsluttedes I Gaar"</title>
                 <title type="alternative">"A Tragic Life Story Was Ended Yesterday"</title>
-                <author><persName role="AUT" key="louLou"></persName>Loulou Lassen</author>
+                <author><persName role="AUT" key="louLou"/>Loulou Lassen</author>
                 <respStmt>
                     <resp>Photographed by</resp>
                     <persName ref="plc">Pamela L. Caughie</persName>
@@ -30,16 +32,16 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
-                    <persName ref="tbd"></persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
-                        <date><!-- exact transformation date yyyy-mm-dd --></date> by </resp>
-                    <persName ref="tbd"></persName>
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by </resp>
+                    <persName ref="tbd"/>
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed by </resp>
-                    <persName ref="tbd"></persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared by</resp>
@@ -53,15 +55,17 @@
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date when="2019-07-06">July 6th, 2019</date>
                 <availability>
-                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
-                        Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
-                        Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
-                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
-                        4.0 International license.</licence>
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
+                            Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
+                            Movement's Archives and Library)</orgName> in <placeName>Huddinge,
+                            Sweden</placeName>.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc source="Periodical" xml:lang="dan">
-                <p>A two-page, two-columned printed article, unattributed, with the title running across the two pages and a cartoon in the middle of the second page</p>
+                <p>A two-page, two-columned printed article, unattributed, with the title running
+                    across the two pages and a cartoon in the middle of the second page</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -74,191 +78,257 @@
                         <catDesc>Essay/Nonfiction</catDesc>
                     </category>
                     <category source="collex" xml:id="image">
-                        <catDesc></catDesc>
+                        <catDesc/>
                     </category>
                     <category source="collex" xml:id="text">
-                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/Sandheden.txt</catDesc>
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-09-14politiken.txt</catDesc>
                     </category>
                     <category source="dc" xml:id="date">
                         <catDesc>1931</catDesc>
                     </category>
                     <category source="dcterms" xml:id="isPartOf">
-                        <catDesc>Originally published in <hi rend="italics">Sandheden</hi>.</catDesc>
+                        <catDesc>Originally published in <hi rend="italics"
+                            >Politiken</hi>.</catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
             <editorialDecl>
                 <hyphenation>
                     <p>We have removed the hyphenation that appears in the printed text during
-                        digitization and encoding. Original hyphenation can be consulted in the facsimile
-                        images.</p>
+                        digitization and encoding. Original hyphenation can be consulted in the
+                        facsimile images.</p>
                 </hyphenation>
             </editorialDecl>
-        </encodingDesc>  
+        </encodingDesc>
     </teiHeader>
-<text>
+    <text>
         <body>
-               <div type="original">
-                   <div rend="head" style="periodical">
-                       <!--text that appears before headlines; could include title and date-->
-                   </div>
-                   <div rend="headlines">
-                       <list>
-                          <item rend="primary"><hi rend="bold">En Tragisk Livsskaebne afsluttedes I Gaar</hi></item>
-                           <item><hi rend="italics"><placeName key="lili">Lili Elvenes</placeName> – tidligere Maleren <persName key="wegenerE">Einar Wegener</persName> – er død paa <placeName key="womensClinic">Frauenklinik</placeName> i <placeName key="dresden">Dresden</placeName>.</hi></item>
-                       </list>
-                   </div>
-                   <div rend="body">
-                       <p>En tragisk Livsskæbne afsluttedes I Gaar</p>
-                       <p><hi rend="italics"><persName key="lili">Lili Elvenes</persName></hi> – tidligere Maleren <hi rend="italics"><persName key="wegenerE">Einar Wegener</persName></hi> – er død paa <placeName key="womensClinic">Frauenklinik</placeName> i <placeName key="dresden">Dresden</placeName>.</p>
-                       <p>En ejendommelig Livsskæbne, der udviklede sig uden for alle tilvante Forestillinger, har i Gaar fundet sin Afslutning. <persName key="lili">Lili Elvenes</persName> – tidligere <persName key="wegenerE">Einar Wegener</persName> – er i Gaar Formiddags efter flere Maaneders haarde Lidelser afgaaet ved Døden paa <placeName key="womensClinic">Fraunklinik</placeName> i ,<placeName key="dresden">Dresden</placeName>.</p>
-                       <figure >
-                           <figDesc><persName key="lili">Lili Elvenes</persName>, fotograferet i Sommer.</figDesc>
-                       </figure>
-                       <p>I et Interview med hende selv, fortalte vi i Sommer vore Læsere hendes Livs Historie, der
-                          falder i to skarpt adskilte Afsnit. Det første omfattede Maleren <hi rend="italics"><persName
-                          key="wegenerE">Einar Wegener</persName></hi>, en ung, talentfuld og lovende Maler, der
-                          drog til <placeName key="france">Frankrig</placeName>, hvor han bosatte og akklimatiserede
-                          sig og sammen med sin Kunstnerkamerat, Malerinden <hi rend="italics"><persName
-                          key="wegenerG">Gerda Wegener</persName></hi> brød sig en Bane. Malerparret udstillede
-                          paa de franske Udstillinger, høstede megen Anerkendelse og skabte sig en smuk kunstnerisk
-                          Position. Med Aars Mellemrum udstillede <persName key="wegenerE">Einar 
-                          Wegener</persName> her i Byen og rundt om i mange <placeName 
-                          key="copenhagen">københavnske</placeName> Hjem hænger hans Landskaber, de fleste 
-                          med Motiver fra <placeName key="france">Frankrig</placeName> og <placeName
-                          key="italy">Italien</placeName>.</p>
-                       <p>Men Medgangen gjorde ikke <persName key="wegenerE">Einar Wegener</persName>
-                          lykkelig, efterhaanden som Aarene gik, følte han sig mere og mere forpint, baade aandeligt og
-                          legemligt, og det gik op for ham, at han var blevet forkert placeret her i Livet. Forgæves søgte
-                          han Hjælp hos en Række Læger, med først da han kom i Forbindelse med den berømte tyske
-                          Kvindelæge <persName key="warnekros">Professor <hi
-                          rend="italics">Warnekros</hi></persName>, Lederen af den ansete “<placeName
-                          key="womensClinic">Frauenklinik</placeName>” i <placeName
-                          key="dresden">Dresden</placeName>, fandt han den rette Forstaaelse. <persName
-                          key="warnekros">Prof. Warnekros</persName> konstaterede, at det drejede sig om et af de
-                          Tilfælde, hvor et Individ fødes med dobbelte Kønsanlæg. <persName key="wegenerE">Einar
-                          Wegener</persName> var i Kirkebogen indskrevet som en Mand, men var i langt højere Grad
-                          en Kvinde, og i Aarenes Løb havde hans egentlig Natur udløst sig mere og mere. Gennem en
-                          Række dristige og teknisk set beundringsværdige Operationer skabte <persName
-                          key="warnekros">Prof. Warnekros</persName> sin Patient Betingelserne for at fortsætte Livet
-                          som Kvinde.</p>
-                       <p>Det var en ung Dame, udpræget kvindeligt tænkende og følende, der i Fjor Efteraar kom
-                          hertil som Rekonvalescent, for at skaffe sig Borgerret i Samfundet. Hun var endnu stærkt
-                          nervøs og oprevet efter de alvorlige Indgreb og det lange Sygeleje, skræmt, usikker og
-                          famlende over for Tilværelsen, men efterhaanden som de praktiske Vanskeligheder ordnede
-                          sig, fik hun mere Mod til at tage Livet op, ud fra de nye Forudsætninger. Hun fik en ny Identitet,
-                          hendes Navn blev i Kirkebogen rettet til <hi rend="italics"><persName key="lili">Lili
-                          Elvenes</persName></hi> (over for Offentligheden kaldte hun sig for Lili Elbe) og Ægteskabet
-                          med <hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName></hi> blev
-                          ikke opløst, men erklæret for ugyldigt.</p>
-                       <p>Der var i dette nye Afsnit af hendes Liv vistnok nogle Maaneder, hvor det tragiske i hendes
-                          Liv blev trængt tilbage af en lykkelig Tilfredshed, hun sagde selv, at hun havde Følelsen af at
-                          være sluppet ud af et Fængsel, og hun nød endelig at være sig selv, at faa Lov til at udfolde sin
-                          naturlige Personlighed.</p>
-                       <p>Tillidsfuld og frejdig forlod hun i Begyndelsen af Juni <placeName
-                          key="copenhagen">København</placeName> for efter et Besøg i <placeName
-                          key="dresden">Dresden</placeName> at rejse til <placeName key="paris">Paris</placeName>
-                          og derfra videre til <placeName key="morocco">Marokko</placeName>, hvor hun skulle
-                          besøge <hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName></hi> og
-                          hendes italienske Mand, Kapt. <hi rend="italics"><persName
-                          key="portaF">Porta</persName></hi>. Det inderlige Venskabsforhold, der gennem de mange
-                          Arbejdsaar havde knyttet <persName key="wegenerE">Einar</persName> og <persName
-                          key="wegenerG">Gerda</persName> sammen, gav sig under de ændrede Forhold det
-                          smukkeste Udslag, og <persName key="wegenerG">Gerda Wegener</persName> var
-                          <persName key="lili">Lili Elvenes</persName> en taalmodig, opofrende og kærlig Støtte.</p>
-                       <p>Da <persName key="lili">Lili Elvenes</persName> ankom til <placeName
-                          key="dresden">Dresden</placeName>, foretrak imidlertid <persName key="warnekros">Prof.
-                          Warnekros</persName> at beholde hende paa sin <placeName
-                          key="womensClinic">Klinik</placeName> for at foretage en sidste og afsluttende Operation.
-                          Den gik godt, og en Tid saa det ud til, at hun skulde komme over det, men saa viste det sig, at
-                          hun var angrebet af en alvorlig Sygdom, vistnok en Kræftlidelse, som udviklede sig meget
-                          hurtigt. Hun led store Smerter, men var ved sin Bevidsthed lige til det sidste.</p>
-                       <p>Medens Lili Elvenes stillede de største Forventninger til sin nye Tilværelse, Krav, som Livet
-                          aldrig vilde have kunnet indfri og derfor kun vilde have beredt hende store Skuffelser, fremgik
-                          det af de smukke og afklarede Afskedsbreve, hun har sendt sin Slægt og sine Venner, at hun
-                          havde fundet sig helt til Rette med Døden. Paa sit Dødsleje fuldførte hun en Selvbiografi, som
-                          hun ønskede skulde udkomme i Bogform.</p>
-                       <p><persName key="lili">Lili Elvenes</persName>’ Broder, der bor i Nærheden af
-                          Barndomshjemmet i <placeName key="vejle">Vejle</placeName>, var for et Par Dage siden
-                          rejst ned til hende. Hendes Begravelse vil efter hendes eget Ønske finde Sted i <placeName
-                          key="dresden">Dresden</placeName>.</p>
-                       <p><hi rend="italics"><persName key="louLou">Fru Loulou</persName>.</hi></p>
-                   </div>
-               </div> 
-            <div type="translation">
-                <div rend="head" style="periodical">
-                </div>          
+            <div type="original">
+                <pb facs="http://lilielbe.org/media/periodicals/1931-09-14_politiken.jpg"/>
+                <div rend="head" style="periodical"> </div>
                 <div rend="headlines">
-                    <list>               
-                        <item rend="primary"><hi rend="bold">A Tragic Life Story Was Ended Yesterday</hi></item>
-                        <item><hi rend="italics"><persName key="lili">Lili Elvenes</persName>– formerly the painter Einar Wegener(TAG) – has died at Frauenklinik(TAG) in Dresden(TAG).</hi></item>
+                    <list>
+                        <item rend="primary">
+                            <hi rend="bold">En Tragisk Livsskaebne afsluttedes I Gaar</hi>
+                        </item>
+                        <item>
+                            <hi rend="italics"><placeName key="lili">Lili Elvenes</placeName> –
+                                tidligere Maleren <persName key="wegenerE">Einar Wegener</persName>
+                                – er død paa <placeName key="womensClinic">Frauenklinik</placeName>
+                                i <placeName key="dresden">Dresden</placeName>.</hi>
+                        </item>
                     </list>
                 </div>
-                <div rend="body">       
-                    A singular life story that developed beyond all customary conceptions reached its
-                    conclusion yesterday. <hi rend="italics"><persName key="lili">Lili Elvenes</persName></hi> – formerly <hi rend="italics"><persName key="wegenerE">Einar Wegener</persName></hi> – passed away yesterday morning
-                    at <placeName key="womensClinic">Frauenklinik</placeName> in <placeName key="dresden">Dresden</placeName>Dresden after several months of severe suffering.
-                    <figure >
-                        <figDesc><persName key="lili">Lili Elvenes</persName>, photographed this summer.</figDesc>
-                    </figure>             
-                    <p>In an interview with her this summer, we told our readers her life’s story, which
-                       falls into two sharply separated parts. The first comprised the painter <hi rend="italics"><persName key="wegenerE">Einar Wegener</persName></hi>, a young
-                       talented and promising painter who went to <placeName key="france">France</placeName> where he settled and became acclimatised
-                       and with his fellow artist, the painter <persName key="wegenerG">Gerda Wegener</persName>, blazed a trail for himself. The painter
-                       couple exhibited at the French exhibitions, gained much recognition and established a fine
-                       artistic position for themselves. Every few years <persName key="wegenerE">Einar Wegener</persName> exhibited in this city and his
-                       landscapes hang in many homes around <placeName key="copenhagen">Copenhagen</placeName>, most of them with subjects from <placeName key="france">France</placeName>
-                       and <placeName key="italy">Italy</placeName>.</p>
-                    <p>But the success did not make <persName key="wegenerE">Einar Wegener</persName> happy, as the years passed by, he
-                       felt more and more tormented, both spiritually and physically, and he realised that he had been
-                       misplaced in this life. To no avail he sought help from a number of doctors but not until he came
-                       into contact with the famous German gynaecologist <hi rend="italics"><persName key="warnekros">professor Warnekros</persName></hi>, head of the
-                        distinguished <placeName key="womensClinic">“Frauenklinik”</placeName> in <placeName key="dresden">Dresden</placeName>, did he find the proper understanding. <persName key="warnekros">professor Warnekros</persName>
-                       found that it was one of those cases where an individual is born with double gender
-                       predisposition. <persName key="wegenerE">Einar Wegener</persName> had been listed as a man in the parish register but was to a
-                       much greater extent a woman, and over the years his true nature had released itself more and
-                       more. Through a number of bold and technically admirable operations <persName key="warnekros">professor Warnekros</persName>
-                       created the conditions for his patient to continue life as a woman.</p>
-                    <p>It was a young lady, distinctly feminine in thought and feeling, who came here as a
-                       convalescent last autumn to obtain citizenship. She was still highly nervous and upset after the
-                       serious surgery and the long illness, frightened, insecure and hesitant in the face of life, but as 
-                       the practical difficulties were settled, she gradually got more courage to take up life under new
-                       conditions. She had a new identity, her name was changed to <hi rend="italics"><persName key="lili">Lili Elvenes</persName></hi> in the parish register
-                       (to the public she called herself <persName key="lili">Lili ELbe</persName>), and the marriage to <persName key="wegenerG">Gerda Wegener</persName> was not
-                       dissolved but declared invalid.</p>
-                    <p>There were in this new chapter of her life probably some months where all that
-                       was tragic in her life was forced back by a happy contentment, she said herself that she had the
-                       feeling of having been let out of a prison and she enjoyed finally being herself, to be allowed to
-                       realise her natural personality.</p>
-                    <p>Full of confidence and cheerful she left <placeName key="copenhagen">Copenhagen</placeName> in the beginning of June to
-                       travel to <placeName key="paris">Paris</placeName> after a visit to <placeName key="dresden">Dresden</placeName> and from there on to <placeName key="morocco">Morocco</placeName> where she was to visit
-                       <hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName></hi> and her Italian husband, <persName key="portaF">captain <hi rend="italics">Porta</hi>Porta</persName>. The deep friendship that had linked 
-                       <persName key="wegenerE">Einar</persName> and <persName key="wegenerG">Gerda</persName> together through the many working years was most beautifully reflected under
-                       the changed circumstances, and <persName key="wegenerG">Gerda Wegener</persName> was a patient, devoted and loving support to 
-                       <persName key="lili">Lili Elvenes</persName>.</p>
-                    <p>When <persName key="lili">Lili Elvenes</persName> arrived in <placeName key="dresden">Dresden</placeName>, <persName key="warnekros">professor Warnekros</persName> however preferred to
-                       keep her at his <placeName key="womensClinic">clinic</placeName> in order to perform one last and concluding operation. It went well and for a 
-                       time it looked as if she would recover from it, but then it appeared that she was suffering from a
-                       serious illness, probably a cancer that developed very quickly. She suffered great pains but was
-                       conscious until the end.</p>
-                    <p>While <persName key="lili">Lili Elvenes</persName> expected the greatest things of her new life, demands that life
-                       would never have fulfilled and therefore would only have caused her great disappointments, it
-                       appeared from the beautiful and serene farewell letters she has sent to her family and friends
-                       that she had completely come to terms with death. On her deathbed, she completed an
-                       autobiography that she wished to be published in book form.</p>
-                    <p><persName key="lili">Lili Elvenes’s</persName> brother who lives near the childhood home in <placeName key="vejle">Vejle</placeName> had travelled
-                       down to her a couple of days ago. At her own request her funeral will take place in
-                       <placeName key="dresden">Dresden</placeName>.</p>               
-                    <p><hi rend="italics"><persName key="loulou">Mrs. Loulou</persName></hi></p>
+                <div rend="body">
+                    <p>En ejendommelig Livsskæbne, der udviklede sig uden for alle tilvante
+                        Forestillinger, har i Gaar fundet sin Afslutning. <persName key="lili">Lili
+                            Elvenes</persName> – tidligere <persName key="wegenerE">Einar
+                            Wegener</persName> – er i Gaar Formiddags efter flere Maaneders haarde
+                        Lidelser afgaaet ved Døden paa <placeName key="womensClinic"
+                            >Fraunklinik</placeName> i ,<placeName key="dresden"
+                        >Dresden</placeName>.</p>
+                    <figure>
+                        <!-- 2019-12-18 CCM: Need to confirm details for images in periodicals. -->
+                        <figDesc><persName key="lili">Lili Elvenes</persName>, fotograferet i
+                            Sommer.</figDesc>
+                    </figure>
+                    <p>I et Interview med hende selv, fortalte vi i Sommer vore Læsere hendes Livs
+                        Historie, der falder i to skarpt adskilte Afsnit. Det første omfattede
+                        Maleren <hi rend="italics"><persName key="wegenerE">Einar
+                            Wegener</persName></hi>, en ung, talentfuld og lovende Maler, der drog
+                        til <placeName key="france">Frankrig</placeName>, hvor han bosatte og
+                        akklimatiserede sig og sammen med sin Kunstnerkamerat, Malerinden <hi
+                            rend="italics"><persName key="wegenerG">Gerda Wegener</persName></hi>
+                        brød sig en Bane. Malerparret udstillede paa de franske Udstillinger,
+                        høstede megen Anerkendelse og skabte sig en smuk kunstnerisk Position. Med
+                        Aars Mellemrum udstillede <persName key="wegenerE">Einar Wegener</persName>
+                        her i Byen og rundt om i mange <placeName key="copenhagen"
+                            >københavnske</placeName> Hjem hænger hans Landskaber, de fleste med
+                        Motiver fra <placeName key="france">Frankrig</placeName> og <placeName
+                            key="italy">Italien</placeName>.</p>
+                    <p>Men Medgangen gjorde ikke <persName key="wegenerE">Einar Wegener</persName>
+                        lykkelig, efterhaanden som Aarene gik, følte han sig mere og mere forpint,
+                        baade aandeligt og legemligt, og det gik op for ham, at han var blevet
+                        forkert placeret her i Livet. Forgæves søgte han Hjælp hos en Række Læger,
+                        med først da han kom i Forbindelse med den berømte tyske Kvindelæge <hi
+                            rend="italics"><persName key="warnekros">Professor
+                            Warnekros</persName></hi>, Lederen af den ansete “<placeName
+                            key="womensClinic">Frauenklinik</placeName>” i <placeName key="dresden"
+                            >Dresden</placeName>, fandt han den rette Forstaaelse. <persName
+                            key="warnekros">Prof. Warnekros</persName> konstaterede, at det drejede
+                        sig om et af de Tilfælde, hvor et Individ fødes med dobbelte Kønsanlæg.
+                            <persName key="wegenerE">Einar Wegener</persName> var i Kirkebogen
+                        indskrevet som en Mand, men var i langt højere Grad en Kvinde, og i Aarenes
+                        Løb havde hans egentlig Natur udløst sig mere og mere. Gennem en Række
+                        dristige og teknisk set beundringsværdige Operationer skabte <persName
+                            key="warnekros">Prof. Warnekros</persName> sin Patient Betingelserne for
+                        at fortsætte Livet som Kvinde.</p>
+                    <p>Det var en ung Dame, udpræget kvindeligt tænkende og følende, der i Fjor
+                        Efteraar kom hertil som Rekonvalescent, for at skaffe sig Borgerret i
+                        Samfundet. Hun var endnu stærkt nervøs og oprevet efter de alvorlige Indgreb
+                        og det lange Sygeleje, skræmt, usikker og famlende over for Tilværelsen, men
+                        efterhaanden som de praktiske Vanskeligheder ordnede sig, fik hun mere Mod
+                        til at tage Livet op, ud fra de nye Forudsætninger. Hun fik en ny Identitet,
+                        hendes Navn blev i Kirkebogen rettet til <hi rend="italics"><persName
+                                key="lili">Lili Elvenes</persName></hi> (over for Offentligheden
+                        kaldte hun sig for <persName key="lili">Lili Elbe</persName>) og Ægteskabet
+                        med <hi rend="italics"><persName key="wegenerG">Gerda
+                            Wegener</persName></hi> blev ikke opløst, men erklæret for ugyldigt.</p>
+                    <p>Der var i dette nye Afsnit af hendes Liv vistnok nogle Maaneder, hvor det
+                        tragiske i hendes Liv blev trængt tilbage af en lykkelig Tilfredshed, hun
+                        sagde selv, at hun havde Følelsen af at være sluppet ud af et Fængsel, og
+                        hun nød endelig at være sig selv, at faa Lov til at udfolde sin naturlige
+                        Personlighed.</p>
+                    <p>Tillidsfuld og frejdig forlod hun i Begyndelsen af Juni <placeName
+                            key="copenhagen">København</placeName> for efter et Besøg i <placeName
+                            key="dresden">Dresden</placeName> at rejse til <placeName key="paris"
+                            >Paris</placeName> og derfra videre til <placeName key="morocco"
+                            >Marokko</placeName>, hvor hun skulle besøge <hi rend="italics"
+                                ><persName key="wegenerG">Gerda Wegener</persName></hi> og hendes
+                        italienske Mand, Kapt. <hi rend="italics"><persName key="portaF"
+                                >Porta</persName></hi>. Det inderlige Venskabsforhold, der gennem de
+                        mange Arbejdsaar havde knyttet <persName key="wegenerE">Einar</persName> og
+                            <persName key="wegenerG">Gerda</persName> sammen, gav sig under de
+                        ændrede Forhold det smukkeste Udslag, og <persName key="wegenerG">Gerda
+                            Wegener</persName> var <persName key="lili">Lili Elvenes</persName> en
+                        taalmodig, opofrende og kærlig Støtte.</p>
+                    <p>Da <persName key="lili">Lili Elvenes</persName> ankom til <placeName
+                            key="dresden">Dresden</placeName>, foretrak imidlertid <persName
+                            key="warnekros">Prof. Warnekros</persName> at beholde hende paa sin
+                            <placeName key="womensClinic">Klinik</placeName> for at foretage en
+                        sidste og afsluttende Operation. Den gik godt, og en Tid saa det ud til, at
+                        hun skulde komme over det, men saa viste det sig, at hun var angrebet af en
+                        alvorlig Sygdom, vistnok en Kræftlidelse, som udviklede sig meget hurtigt.
+                        Hun led store Smerter, men var ved sin Bevidsthed lige til det sidste.</p>
+                    <p>Medens <persName key="lili">Lili Elvenes</persName> stillede de største
+                        Forventninger til sin nye Tilværelse, Krav, som Livet aldrig vilde have
+                        kunnet indfri og derfor kun vilde have beredt hende store Skuffelser,
+                        fremgik det af de smukke og afklarede Afskedsbreve, hun har sendt sin Slægt
+                        og sine Venner, at hun havde fundet sig helt til Rette med Døden. Paa sit
+                        Dødsleje fuldførte hun en Selvbiografi, som hun ønskede skulde udkomme i
+                        Bogform.</p>
+                    <p><persName key="lili">Lili Elvenes</persName>’ Broder, der bor i Nærheden af
+                        Barndomshjemmet i <placeName key="vejle">Vejle</placeName>, var for et Par
+                        Dage siden rejst ned til hende. Hendes Begravelse vil efter hendes eget
+                        Ønske finde Sted i <placeName key="dresden">Dresden</placeName>.</p>
+                    <p>
+                        <hi rend="italics"><persName key="louLou">Fru Loulou</persName>.</hi>
+                    </p>
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="periodical"> </div>
+                <div rend="headlines">
+                    <list>
+                        <item rend="primary">
+                            <hi rend="bold">A Tragic Life Story Was Ended Yesterday</hi>
+                        </item>
+                        <item>
+                            <hi rend="italics"><persName key="lili">Lili Elvenes</persName>–
+                                formerly the painter <persName key="wegenerE">Einar
+                                    Wegener</persName> – has died at <placeName key="womensClinic"
+                                    >Frauenklinik</placeName> in <placeName key="dresden"
+                                    >Dresden</placeName>.</hi>
+                        </item>
+                    </list>
+                </div>
+                <div rend="body">
+                    <p>A singular life story that developed beyond all customary conceptions reached
+                        its conclusion yesterday. <hi rend="italics"><persName key="lili">Lili
+                                Elvenes</persName></hi> – formerly <hi rend="italics"><persName
+                                key="wegenerE">Einar Wegener</persName></hi> – passed away yesterday
+                        morning at <placeName key="womensClinic">Frauenklinik</placeName> in
+                            <placeName key="dresden">Dresden</placeName> after several months of
+                        severe suffering.</p>
+                    <figure>
+                        <figDesc><persName key="lili">Lili Elvenes</persName>, photographed this
+                            summer.</figDesc>
+                    </figure>
+                    <p>In an interview with her this summer, we told our readers her life’s story,
+                        which falls into two sharply separated parts. The first comprised the
+                        painter <hi rend="italics"><persName key="wegenerE">Einar
+                            Wegener</persName></hi>, a young talented and promising painter who went
+                        to <placeName key="france">France</placeName> where he settled and became
+                        acclimatised and with his fellow artist, the painter <persName
+                            key="wegenerG">Gerda Wegener</persName>, blazed a trail for himself. The
+                        painter couple exhibited at the French exhibitions, gained much recognition
+                        and established a fine artistic position for themselves. Every few years
+                            <persName key="wegenerE">Einar Wegener</persName> exhibited in this city
+                        and his landscapes hang in many homes around <placeName key="copenhagen"
+                            >Copenhagen</placeName>, most of them with subjects from <placeName
+                            key="france">France</placeName> and <placeName key="italy"
+                            >Italy</placeName>.</p>
+                    <p>But the success did not make <persName key="wegenerE">Einar
+                            Wegener</persName> happy, as the years passed by, he felt more and more
+                        tormented, both spiritually and physically, and he realised that he had been
+                        misplaced in this life. To no avail he sought help from a number of doctors
+                        but not until he came into contact with the famous German gynaecologist <hi
+                            rend="italics"><persName key="warnekros">Professor
+                            Warnekros</persName></hi>, head of the distinguished <placeName
+                            key="womensClinic">“Frauenklinik”</placeName> in <placeName
+                            key="dresden">Dresden</placeName>, did he find the proper understanding.
+                            <persName key="warnekros">Professor Warnekros</persName> found that it
+                        was one of those cases where an individual is born with double gender
+                        predisposition. <persName key="wegenerE">Einar Wegener</persName> had been
+                        listed as a man in the parish register but was to a much greater extent a
+                        woman, and over the years his true nature had released itself more and more.
+                        Through a number of bold and technically admirable operations <persName
+                            key="warnekros">Professor Warnekros</persName> created the conditions
+                        for his patient to continue life as a woman.</p>
+                    <p>It was a young lady, distinctly feminine in thought and feeling, who came
+                        here as a convalescent last autumn to obtain citizenship. She was still
+                        highly nervous and upset after the serious surgery and the long illness,
+                        frightened, insecure and hesitant in the face of life, but as the practical
+                        difficulties were settled, she gradually got more courage to take up life
+                        under new conditions. She had a new identity, her name was changed to <hi
+                            rend="italics"><persName key="lili">Lili Elvenes</persName></hi> in the
+                        parish register (to the public she called herself <persName key="lili">Lili
+                            ELbe</persName>), and the marriage to <hi rend="italics"><persName key="wegenerG">Gerda
+                                Wegener</persName></hi> was not dissolved but declared invalid.</p>
+                    <p>There were in this new chapter of her life probably some months where all
+                        that was tragic in her life was forced back by a happy contentment, she said
+                        herself that she had the feeling of having been let out of a prison and she
+                        enjoyed finally being herself, to be allowed to realise her natural
+                        personality.</p>
+                    <p>Full of confidence and cheerful she left <placeName key="copenhagen"
+                            >Copenhagen</placeName> in the beginning of June to travel to <placeName
+                            key="paris">Paris</placeName> after a visit to <placeName key="dresden"
+                            >Dresden</placeName> and from there on to <placeName key="morocco"
+                            >Morocco</placeName> where she was to visit <hi rend="italics"><persName
+                                key="wegenerG">Gerda Wegener</persName></hi> and her Italian
+                        husband, captain <hi rend="italics"
+                            ><persName key="portaF">Porta</persName></hi>. The deep friendship that had linked
+                            <persName key="wegenerE">Einar</persName> and <persName key="wegenerG"
+                            >Gerda</persName> together through the many working years was most
+                        beautifully reflected under the changed circumstances, and <persName
+                            key="wegenerG">Gerda Wegener</persName> was a patient, devoted and
+                        loving support to <persName key="lili">Lili Elvenes</persName>.</p>
+                    <p>When <persName key="lili">Lili Elvenes</persName> arrived in <placeName
+                            key="dresden">Dresden</placeName>, <persName key="warnekros">Professor
+                            Warnekros</persName> however preferred to keep her at his <placeName
+                            key="womensClinic">clinic</placeName> in order to perform one last and
+                        concluding operation. It went well and for a time it looked as if she would
+                        recover from it, but then it appeared that she was suffering from a serious
+                        illness, probably a cancer that developed very quickly. She suffered great
+                        pains but was conscious until the end.</p>
+                    <p>While <persName key="lili">Lili Elvenes</persName> expected the greatest
+                        things of her new life, demands that life would never have fulfilled and
+                        therefore would only have caused her great disappointments, it appeared from
+                        the beautiful and serene farewell letters she has sent to her family and
+                        friends that she had completely come to terms with death. On her deathbed,
+                        she completed an autobiography that she wished to be published in book
+                        form.</p>
+                    <p><persName key="lili">Lili Elvenes’s</persName> brother who lives near the
+                        childhood home in <placeName key="vejle">Vejle</placeName> had travelled
+                        down to her a couple of days ago. At her own request her funeral will take
+                        place in <placeName key="dresden">Dresden</placeName>.</p>
+                    <p>
+                        <hi rend="italics">
+                            <persName key="louLou">Mrs. Loulou</persName>
+                        </hi>
+                    </p>
                 </div>
             </div>
         </body>
-</text>
+    </text>
 </TEI>
-
-
-                       
-               
-            
-        
-
