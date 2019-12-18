@@ -246,7 +246,11 @@
                                     >Harry Schumann</persName></add></signed>
                         <signed>Owner of the publishing company</signed>
                         <signed><persName key="reissnerCarl">Carl Reissner</persName></add></signed>
-                        <!-- CCM 12-17-19: Postscript needs to be translated and added to XML. -->
+                        <postscript>
+                        <p>
+                            That’s what Reissner did then wrote letter in which he entered into a contract with me under the best conditions that a German publisher can offer!
+                        </p>
+                    </postscript>
                     </closer>
                 </div>
             </div>
