@@ -31,12 +31,12 @@
                 </respStmt>
                 <respStmt>
                         <resp>XML transformed into HTML
-                            <date>2019-11-06</date> by</resp>
-                        <persName ref="ds">Daniela Shulman</persName>
+                            <date></date> by</resp>
+                        <persName ref="rjp">Rebecca J. Parker</persName>
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
-                    <persName ref="ds">Daniela Shulman</persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
                 </respStmt>
                     <sponsor>Loyola University Chicago Libraries</sponsor>
                     <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -79,6 +79,7 @@
 <text>
     <body>
         <div type="original">
+            <pb facs="http://lilielbe.org/media/letters/1932-04-14MacanBang.jpg"/>
             <div rend="head" style="letter">
                 <p>14th April, 1932</p>
                     
