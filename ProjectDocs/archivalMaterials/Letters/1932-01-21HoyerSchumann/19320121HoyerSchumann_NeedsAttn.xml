@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    rendition="lilielbe.org/context/Letters/1932-01-21HoyerSchumann.html"    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/19320121HoyerSchumann.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +13,7 @@
                     <persName key="reissnerCarl">Carl Reissner</persName>
                 </author>
                 <respStmt>
-                    <resp>Photographed <date when="2017-08-16">August 16-17, 2017</date> by</resp>
+                    <resp>Photographed August 16-17, 2017 by</resp>
                     <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <respStmt>
@@ -162,10 +163,9 @@
                     <p> Hier finden sich an die 20 Gemälde, die für Ihre Zwecke in Fra=ge kommen.
                         Sind Sie also damit einverstanden, dass ich diese Ge=mälde auf Verlagskosten
                         photographieren lasse? Ich erwarte hier-zu Ihren Bescheid.-</p>
-                    <closer>
-                        <signed> Mit den besten Grüssen </signed>
-                        <signed> Jhr ergebenster </signed>
-                    </closer>
+                        <p> Mit den besten Grüssen </p>
+                        <p> Jhr ergebenster </p>
+                    
                 </div>
             </div>
             <div type="translation">
@@ -247,10 +247,8 @@
                     <p> There are about 20 paintings here that could be useful to you. Do you give
                         me permission to have the paintings photographed? I am awaiting your reply
                         to this </p>
-                    <closer>
-                        <signed>Kind regards<signed>
-                        <signed>Yours sincerely.</signed>
-                    </closer>
+                        <p>Kind regards</p>
+                        <p>Yours sincerely.</p>                    
                 </div>
             </div>
         </body>
