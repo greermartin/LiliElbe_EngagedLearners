@@ -12,44 +12,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- Start For Editions; Remove the following if not encoding an Edition; Correct the following to match specific edition's info. -->
-                <title><hi rend="italics">Man Into Woman</hi> (American Edition)</title>
-                <!-- Only include if has Translation or is a Translation: <title type="alternative"></title>-->
-                <respStmt>
-                    <resp>Print edition edited by</resp>
-                    <persName key="" role="EDT"
-                        ><!-- Insert Editor's name and initials in @key--></persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Print edition originally translated by</resp>
-                    <persName key="" role="TRL"
-                        ><!-- Insert translator's name and initials in @key--></persName>
-                </respStmt>
-                <!-- End For Editions; -->
-                <!-- Start For Letters; Remove the following if not encoding a Letter; Correct the following to match specific letter's info. -->
-                <title>
-                    <date>(undated)</date> Letter to <persName key="hoyerNiels">Niels
-                        Hoyer</persName>
-                </title>
-                <author>
-                    <persName key="thomsenTC" role="AUT">TC Thomsen</persName>
-                </author>
-                <respStmt>
-                    <resp>Translation completed by</resp>
-                    <persName ref="" role="TRL"
-                        ><!-- Insert translator's name and initials in @ref--></persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Translation reviewed by</resp>
-                    <persName ref=""
-                        ><!-- Insert translation reviewer's name and initials in @ref--></persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Transcription completed by </resp>
-                    <persName ref=""
-                        ><!-- Insert transcriber's name and initials in @ref --></persName>
-                </respStmt>
-                <!-- End For Letters; -->
+               
+                
                 <!-- Start For Periodicals; Remove the following if not encoding a periodical; Correct the following to match specific periodical's info.  -->
                 <title>En Bog om, hvordan <persName key="wegenerE">Hr. Wegener</persName> blev til
                         <persName key="lili">Frøken Wegener</persName>. <hi rend="italics"
@@ -63,50 +27,28 @@
                 </author>
                 <respStmt>
                     <resp>Translation completed by</resp>
-                    <persName ref="" role="TRL"
-                        ><!-- Insert translator's name and initials in @ref--></persName>
+                    <persName ref="mo" role="TRL"
+                        >Marianne Ølholm<!-- Insert translator's name and initials in @ref--></persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation reviewed by</resp>
-                    <persName ref=""
-                        ><!-- Insert translation reviewer's name and initials in @ref--></persName>
+                    <persName ref="plc"
+                        >Pamela Caughie<!-- Insert translation reviewer's name and initials in @ref--></persName>
                 </respStmt>
                 <respStmt>
                     <resp>Transcription completed by </resp>
-                    <persName ref=""
-                        ><!-- Insert transcriber's name and initials in @ref --></persName>
+                    <persName ref="mo"
+                        >Marianne Ølholm<!-- Insert transcriber's name and initials in @ref --></persName>
                 </respStmt>
                 <!-- End for Periodicals; -->
-                <!-- Start For Book Sections; Remove the following if not encoding a Book Section; Correct the following to match specific book section's info.  -->
-                <title>"Il et Elle" from <hi rend="italics">MOSAÏQUES</hi></title>
-                <title type="alternative">"He and She" from <hi rend="italics"
-                    >MOSAÏQUES</hi></title>
-                <author>
-                    <persName key="allatiniH" role="AUT">Hélène Allatini</persName>
-                </author>
-                <respStmt>
-                    <resp>Translation completed by</resp>
-                    <persName ref="" role="TRL"
-                        ><!-- Insert translator's name and initials in @ref--></persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Translation reviewed by</resp>
-                    <persName ref=""
-                        ><!-- Insert translation reviewer's name and initials in @ref--></persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Transcription completed by </resp>
-                    <persName ref=""
-                        ><!-- Insert transcriber's name and initials in @ref --></persName>
-                </respStmt>
-                <!-- End For Book Sections; -->
+               
                 <respStmt>
                     <resp>Encoding completed by</resp>
-                    <persName ref=""><!-- Insert Encoders name and initials in @ref--></persName>
+                    <persName ref="">Fall 2019 Engaged Learning Class<!-- Insert Encoders name and initials in @ref--></persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
-                    <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+                    <persName ref="ccm">Caroline McCraw<!-- Insert Proofers name and initials in @ref--></persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -116,18 +58,13 @@
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
-                    <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+                    <persName ref="drr">Danielle Richards<!-- Insert Proofers name and initials in @ref--></persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared by</resp>
-                    <persName ref=""><!-- Insert name and initials in @ref--></persName>
+                    <persName ref="mg">Matthew Gallagher<!-- Insert name and initials in @ref--></persName>
                 </respStmt>
-                <!-- Start Illustrations; Include the following only if illustrations present in text being encoded. -->
-                <respStmt>
-                    <resp>Illustrations prepared by</resp>
-                    <persName ref=""><!-- Insert name and initials in @ref--></persName>
-                </respStmt>
-                <!-- End Illustrations; -->
+               
                 <sponsor>Loyola University Chicago Libraries</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
             </titleStmt>
@@ -154,18 +91,12 @@
             </publicationStmt>
             <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
             <!-- Start Edition Example -->
-            <sourceDesc source="Codex" xml:lang="eng">
+            <sourceDesc source="Codex" xml:lang="dan">
                 <!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
-                <p>Hardbound book, 323 total pages, 288 pages with text and 18 illustrations.</p>
+                <p>News clipping. Approximately 9 inches of text plus illustration of Ernst Harthern.</p>
             </sourceDesc>
             <!-- End Edition Example -->
-            <!-- Start Contextual Example -->
-            <sourceDesc source="Manuscript" xml:lang="dan">
-                <!-- be sure to correct the attribute values on the sourceDesc element to match your document's metadata -->
-                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
-               encoder's description must be in complete, logical sentences; Dr. Caughie must approve all source descriptions before transformation --></p>
-            </sourceDesc>
-            <!-- End Contextual Example -->
+         
         </fileDesc>
         <encodingDesc>
             <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
@@ -194,10 +125,10 @@
                     <!-- Use the following category only when encoding a book section or periodical -->
                     <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
                         <!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
-                        <catDesc><!-- book or periodical title --></catDesc>
+                        <catDesc>Politiken</catDesc>
                     </category>
                     <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
-                        <catDesc><!-- book or periodical title translated--></catDesc>
+                        <catDesc>Politiken</catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
@@ -344,7 +275,7 @@
                         terrible human tragedy beyond all customary ideas … I have at <persName
                             key="lili">Lili Elbe</persName>’s specific request presented the book to
                             <persName key="warnekros">Prof. <hi rend="italics"
-                            >Warnekros</hi></persName>who has read it in my German reproduction … He
+                            >Warnekros</hi></persName> who has read it in my German reproduction … He
                         described it to me as a book that within medical science, especially within
                         the circle of biologists and psychiatrists, will be considered a scientific
                         find because it is the first time that an intellectually developed person –
