@@ -53,6 +53,7 @@
                <resp>HTML proofing completed by</resp>
                <persName ref="aa">Adeline Azungue</persName>
                <persName ref="lpb">Laura Patricio-Bellizzi</persName>
+               <persName ref="oe">Orion Elrod</persName>
             </respStmt>
             <sponsor>Loyola University Chicago</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -130,7 +131,7 @@
                      1932 -</seg></p>
                <p><seg n="d05">c/o Købmand Holger Kelstrup R.a.Db.</seg> ”Borggården”</p>
                <p><seg n="d06">Kolding</seg></p>
-               <p><seg n="d07">Jeg ønsker dem og deres familie en glædelig jul og et godt nytår, - -
+               <p><seg n="d07">Jeg ønsker dem og deres familie en glædelig jul og et godt nytår, --
                      og håber de kan have lidt fornøjelse af det tilsendte - - der er jo ikke noget
                      særligt. –</seg></p>
 
@@ -142,7 +143,7 @@
                <pb facs="http://lilielbe.org/media/letters/1921-1922ThomsenDiaryEntries.jpg"/>
                <p>
                   <anchor type="commentRangeStart" n="3"/><date when="1921-12-25"
-                     >25/12</date><anchor type="commentRangeEnd" n="3"/>
+                     >25/12 1921</date><anchor type="commentRangeEnd" n="3"/>
                   <note type="editor" source="rjp" corresp="comment_2">Inserted loose diary
                      entries.</note>
                </p>
@@ -239,7 +240,7 @@
                      further informed about, I would be happy to help you with it. – My address will
                      be from 22 December – 1931 to 2 January – 3 January 1932 –</seg></p>
                <p><seg corresp="#d05">c/o Tradesman Holger Kelstrup R.a.Db. ”Borggården”</seg></p>
-               <p><seg corresp="#d06">Kolding</seg></p>
+               <p><seg corresp="#d06">Cold</seg></p>
                <p><seg corresp="#d07">I wish you and your family a Merry Christmas and a Happy New
                      Year, - - and hope you may have some pleasure of the item I sent - - it is
                      nothing special. –</seg></p>
@@ -251,13 +252,13 @@
             <div rend="body">
                <p>
                   <anchor type="commentRangeStart" n="3"/><date when="1921-12-25"
-                     >25/12</date><anchor type="commentRangeEnd" n="3"/>
+                     >25/12 1921</date><anchor type="commentRangeEnd" n="3"/>
                   <note type="editor" source="rjp" corresp="comment_2">Inserted loose diary
                      entries.</note>
                </p>
                <p><persName key="thomsenTC">Father</persName> put up the big picture from <placeName
                      key="versailles">Versailles</placeName> today, it was hard to get the nail in.
-                     <persName key="wegenerE">Uncle Einar</persName> guilds frames and <persName
+                     <persName key="wegenerE">Uncle Einar</persName> gilds frames and <persName
                      key="wegenerG">Aunt Gerda</persName> reads a novel, <anchor
                      type="commentRangeStart" n="2"/>”The Paradise Bird” by Rung<anchor
                      type="commentRangeEnd" n="2"/><note type="translator" source="kej"
