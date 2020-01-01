@@ -146,9 +146,10 @@
                         </figDesc>
                     </figure>
                     <p>En af de sidse Aars mest opsigtsvækkende lægevidenskabelige Begivenheder har
-                        været <placeName key="dresden">Dresden</placeName>er-Professoren Dr. <persName key="warnekros"><hi rend="italics"
-                                >Kurt Warnekros</hi></persName>' Operation, der forvandlede den
-                        danske Maler <persName key="wegenerE"><hi rend="italics">Ejnar
+                        været <placeName key="dresden">Dresden</placeName>er-Professoren Dr.
+                            <persName key="warnekros"><hi rend="italics">Kurt
+                            Warnekros</hi></persName>' Operation, der forvandlede den danske Maler
+                            <persName key="wegenerE"><hi rend="italics">Ejnar
                             Wegener</hi></persName> til Kvinden <persName key="lili"><hi
                                 rend="italics">Lili Elbe</hi></persName>. For knapt et Par Maaneder
                         siden afgik <persName key="lili">Lili Elbe</persName> ved Døden, men
@@ -188,8 +189,7 @@
                             key="wegenerE">Ejnar Wegener</persName> hedder saaledes <persName
                             key="sparreAn"><hi rend="italics">Andreas Sparre</hi></persName>. I
                         øvrigt kaldte <persName key="lili">Lili Elbe</persName> sig tilsidst i
-                        Privatlivet for <persName key="lili">Lili Ilse
-                                Elvenes</persName>.</p>
+                        Privatlivet for <persName key="lili">Lili Ilse Elvenes</persName>.</p>
                     <list>
                         <item>
                             <hi rend="bold"><persName key="wegenerE">Ejnar Wegener</persName>s
@@ -408,15 +408,13 @@
                                 Hirschfeld</hi></persName> established 80 percent female qualities
                         in the man <persName key="wegenerE">Einar Wegener</persName>’s blood.</p>
                     <p>-How did you become the publisher of the book?</p>
-                    <p>-After the surgery, the art dealer
-                            <!-- OE:2019-10-21 add persName later, not currently in prosopography.--><hi
-                            rend="italics"><persName key="haslundOleGeorg">Ole
-                            Haslund</persName></hi> put me in touch with <persName key="wegenerG"
-                            >Mrs. Wegener</persName>, who asked me to undertake the publication. The
-                        book, which will now appear in French, German and English, has been reviewed
-                        by <persName key="warnekros">Prof. Warnekros</persName> who in 200 pages has
-                        made about fifty corrections at the most. He describes the work as a gold
-                        mine for any psychiatrist.</p>
+                    <p>-After the surgery, the art dealer <hi rend="italics"><persName
+                                key="haslundOleGeorg">Ole Haslund</persName></hi> put me in touch
+                        with <persName key="wegenerG">Mrs. Wegener</persName>, who asked me to
+                        undertake the publication. The book, which will now appear in French, German
+                        and English, has been reviewed by <persName key="warnekros">Prof.
+                            Warnekros</persName> who in 200 pages has made about fifty corrections
+                        at the most. He describes the work as a gold mine for any psychiatrist.</p>
                     <p>
                         <hi rend="italics">Rex.</hi>
                     </p>

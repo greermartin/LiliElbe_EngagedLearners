@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    rendition="lilielbe.org/context/Periodicals/1931-09-14_BT.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/periodicals/1931-09-14_BT.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Lili Elvenæs, alias Ejnar Wegener, er afgaaet ved Døden. <hi rend="italics"
+                        >En tragisk Afslutning paa en fantastisk Livsskæbne.</hi> (<date>September
+                        1931</date>)</title>
+                <title type="alternative">Lili Elvenes, alias Einar Wegener, has passed away. <hi
+                        rend="italics">A Tragic End to a Fantastic Life.</hi> (<date>September
+                        1931</date>)</title>
+                <author>
+                    <persName key="bastJørgen" role="AUT">Jørgen Bast</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="mo" role="TRL">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by </resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="co">Colin O'Connell</persName>
+                    <persName ref="swv">Susan VanDerveer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="co">Colin O'Connell</persName>
+                    <persName ref="ccm">Caroline McCraw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                        by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref="ccm">Caroline McCraw</persName>
+                </respStmt>--> <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
+                            Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
+                            Movement's Archives and Library)</orgName> in <placeName>Huddinge,
+                            Sweden</placeName>.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc source="Periodical" xml:lang="dan">
+                <p>A clipping affixed to a thin piece of paper in the EHSA shows four columns, no
+                    photographs, with two holes punched at the bottom of the middle columns; the
+                    publication information is handwritten in black ink across the top, and some
+                    stains (possibly water damage) obscure some parts of the article.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc>History/Gender Studies</catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc>Essay/Nonfiction</catDesc>
+                    </category>
+                    <category source="collex" xml:id="text">
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-09-14_BT.txt</catDesc>
+                        <!-- insert correct URL -->
+                    </category>
+                    <category source="dc" xml:id="date">
+                        <catDesc>1931</catDesc>
+                    </category>
+                    <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
+                        <catDesc>Lili Elvenæs, alias Ejnar Wegener, er afgaaet ved Døden. <hi
+                                rend="italics">En tragisk Afslutning paa en fantastisk
+                                Livsskæbne.</hi></catDesc>
+                    </category>
+                    <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                        <catDesc>Lili Elvenes, alias Einar Wegener, has passed away. <hi
+                                rend="italics">A Tragic End to a Fantastic Life.</hi></catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+                <hyphenation>
+                    <p>We have removed the hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the
+                        facsimile images.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <div rend="head" style="periodical">
+                    <p>
+                        <title>Berlingske Titende</title>
+                        <date when="1932-09-14"/>
+                    </p>
+                </div>
+                <div rend="headlines">
+                    <list>
+                        <item rend="primary">
+                            <persName>Lili Elvenæs</persName>, alias <persName>Ejnar
+                                Wegener</persName>, er afgaaet ved Døden. </item>
+                        <item>
+                            <hi rend="italics">En tragisk Afslutning paa en fantastisk
+                                Livsskæbne.</hi>
+                        </item>
+                    </list>
+                </div>
+                <div rend="body">
+                    <p>Det vakte for et lille Aars tid siden Opsigt Verden over, baade i
+                        videnskabelige Kredse og der, hvor man søger Sensation, at Maleren <persName
+                            key="wegenerE">Ejnar Wegener</persName> paa en <placeName
+                            key="womensClinic">Klinik</placeName> i <placeName key="dresden"
+                            >Dresden</placeName> var blevet underkastet en Operation, der havde
+                        forvandlet ham fra Mand til Kvinde.</p>
+                    <p>Oprindelig troede man i alt Fald herhjemme, at det var et af disse
+                        fantastiske Rygter, der opstaar, uden at nogen véd hvordan – men en skønne
+                        Dag kom den mærkelige Bekræftelse paa Rygtet: <persName key="lili">Lili
+                            Elvenæs</persName>, en meget smuk og livlig Dame, dukkede op i
+                            <placeName key="copenhagen">København</placeName> og udstillede sit
+                        tidligere Jegs, <persName key="wegenerE">Ejnar Wegeners</persName>, Billeder
+                        i <placeName key="oleHaslandHus">“Ole Haslunds Hus”</placeName>.</p>
+                    <p>Operationen, der havde fundet Sted i <placeName key="dresden"
+                            >Dresden</placeName>, var Udgangen paa mange Aars Lidelser og Kampe.</p>
+                    <p>Alle Københavnere af den ældre Aargang husker jo den unge <persName
+                            key="wegenerE"><hi rend="italics">Ejnar Wegener</hi></persName>, en lys,
+                        veg køn Fyr, der snarere lignede et kønt Pigebarn i Herreklæder end et
+                        Mandfolk.</p>
+                    <p>Som hans Ydre var ogsaa hans Talent, vegt og kvindeligt, men Talent var der,
+                        hvad navnlig hans mange Bybilleder fra hans elskede <placeName key="paris"
+                            >Paris</placeName> bærer Vidne om.</p>
+                    <p><persName key="wegenerE">Ejnar Wegeners</persName> Lykke var, at han traf sin
+                        Hustru, den berømte Malerinde <persName key="wegenerG"><hi rend="italics"
+                                >Gerda Wegener</hi></persName>. Han fik her en ven for Livet, et
+                        Menneske, der forstod ham og hans ulykkelige Natur. De rejste til <placeName
+                            key="paris">Paris</placeName> sammen, de kom til at høre til <placeName
+                            key="montparnasse">Montparnasse’s</placeName> kendte Kunstnere, de
+                        tjente Penge, og navnlig <persName key="wegenerG">Gerda Wegener</persName>
+                        fik efterhaanden meget store Indtægter baade gennem sine Malerier og sine
+                        glimrende Reklametegninger.</p>
+                    <p>Trods Medgangen var <persName key="wegenerE">Ejnar Wegener</persName> et dybt
+                        ulykkeligt Menneske. Han var Mand af Skikkelse og Navn, men han følte sig
+                        helt som Kvinde, og efterhaanden som Aarene gik, drev hans særlige Kompleks
+                        ham næsten til Vanvidets og Selvmordets Rand.</p>
+                    <p>I Aarenes Løb søgte han Raad og Hjælp mange Steder, men ingen kunde hjælpe
+                        ham, indtil den berømte tyske Kirurg, <persName key="warnekros">Professor
+                            Warnekros</persName> i <placeName key="dresden">Dresden</placeName> gav
+                        ham et Haab. Han paatog sig den vanskelige Operation – for at hjælpe et
+                        ulykkeligt Menneske men vel ogsaa for at gøre et videnskabeligt Eksperiment
+                        der aldrig før var forsøgt. Her var Tale om en slags Vivisektion, hvor Ofret
+                        meldte sig frivilligt.</p>
+                    <p>Det hele kunne dog ikke ordnes med een Operation. Efter sit korte Ophold i
+                            <placeName key="copenhagen">København</placeName> maatte <persName
+                            key="lili">Lili Elvenæs</persName> vende tilbage til <anchor
+                            type="commentRangeStart" n="2"/><placeName key="womensClinic"
+                            >Klinikken</placeName><anchor type="commentRangeEnd" n="1"/><note
+                            type="translator" source="mo" corresp="comment_2">Here a punch hole in
+                            the clipping obscures some letters. Likely the word is Klinikken (the
+                            clinic)</note>for at underkaste sig endnu et Par Operationer. Disse
+                        syntes at være forløbet heldigt, men saa viste det sig, at den Opererede led
+                        af en indvendig Lidelse, vistnok Kræft, der udviklede sig med forfærdende
+                        Hast – og nu er <persName key="lili">Lili Elvenæs</persName> altsaa død.
+                        Naturen lod sig alligevel ikke trodse.</p>
+                    <p>Tilfældet <persName key="wegenerE">Ejnar Wegener</persName>-<persName
+                            key="lili">Lili Elvenæs</persName> vil sikkert i Fremtiden staa som en
+                        psykologisk Gaade-og vil ulvivlsom mange, mange Gange blive gjort til
+                        genstrand for for videnskabelig Drøftelse. Heri vil utvivlsom en
+                        Selvbiografi, som <persName key="lili">Lili Elvenæs</persName> havde
+                        afsluttet umiddelbart før sin Død, komme til at spille en stor Polle. Det
+                        mærkeligste Afsnit af den er bygget over Dagbogsoptegnelser fra Opholdet paa
+                            <placeName key="womensClinic">Klinikken</placeName>, saaledes at
+                        Dagbogen først er ført af <persName key="wegenerE">Ejnar Wegener</persName>,
+                        derefter af det neutrale Væsen, der eksisterede, men Operation blev
+                        foretaget og endelig af en ny Kvinde <persName key="lili"
+                            >Lili Elvenæs</persName>.</p>
+                    <p>Det psykologisk mest ejendommelige er det, at <persName key="lili"
+                            >Lili Elvenæs</persName> slet ikke har nogen fornemmelse af <persName
+                            key="wegenerE">Ejnar Wegeners</persName>Eksistens, men regner ham for et
+                        afdølt Væsen.</p>
+                    <p>Under sit Ophold i <placeName key="copenhagen">Københaven</placeName>sagde
+                            <persName key="lili">Lili Elvenæs</persName>:</p>
+                    <p><persName key="wegenerE">Ejnar Wegener</persName>kunne male. Jeg har desværre
+                        ingen Talenter. Jeg vil helst sy.</p>
+                    <p>Hun var slet ikke klar over det tragikomiske i en replik som denne:</p>
+                    <p><persName key="wegenerE">Ejnar Wegener</persName>var en underlig Fryr. Han gik
+                        baade i Teatret og paa Caféer lige før jeg blev opereret.</p>
+                    <p>Det var i fuld Overensstemmelse med sin Hustru, Fru <persName key="wegenerG"
+                            >Gerda Wegener</persName>, at han lod sig underkaste Operation-men der
+                        opstod efter den et ganske mærkeligt juridisk Problem: Hvordan skulle
+                        ægteskabet opløses? Sagen blev <anchor type="commentRangeStart" n="3"
+                            />indbragt<anchor type="commentRangeEnd" n="3"/><note type="translator"
+                            source="mo" corresp="comment_3">Here a punch hole in the clipping
+                            obscures some letters. Likely the complete word is <hi rend="italics"
+                                >indbragt</hi> (brought).</note>for det <persName>danske
+                            Jutitsministerium</persName>, men man gennemsøgte forgæves samtlige
+                        mærkelige ægteskabeligt-juridiske Porlemer i Verden uden at finde noget
+                        Tilfælde, der mindede om dette. Det endte da med, at man ganske simpelt
+                        erklærede Ægteskabet for ugyldigt.</p>
+                    <p>Det trofaste Venskab mellem <persName key="lili">Lili Elvenæs</persName> og
+                            <persName key="wegenerG">Gerda Wegener</persName> vedvarer til det sidste
+                        – og havde <persName key="lili">Lili Elvenæs</persName>rejst sig fra
+                        Sygelejet, skulde hun være rejst til <placeName key="morocco"
+                            >Marokko</placeName> for at besøge <persName key="wegenerG"
+                            >Gerda Wegener</persName>, der lever dèr i lykkeligt Ægteskab med en
+                            <persName key="portaF">italiensk officer.</persName></p>
+                    <p>Naar man har kendt <persName key="wegenerE">Ejnar Wegener</persName> i de
+                        yngre Aar, staar man underligt forvirret ved hans Død. Skal man sørge over,
+                        at der er sat Punktum for en umulig Livsskæbne? Skal man mindes <persName
+                            key="wegenerE">Ejnar Wegener</persName> med det blide, vemodige Væsen,
+                        eller den temperamentsfulde <persName key="lili">Lili Elvenæs</persName>?
+                        Det er slet ikke til at sige. Dette underlige væsens Gaade rækker ud over
+                        Døden.</p>
+                    <signed>
+                        <persName key="bastJørgen">Jørgen Bast</persName>
+                    </signed>
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="periodical">
+                    <p>
+                        <title>Berlingske Tidende</title>
+                        <date when="1931-09-14"/>
+                    </p>
+                </div>
+                <div rend="headlines">
+                    <list>
+                        <item rend="primary"> Lili Elvenes, alias Einar Wegener, has passed away. </item>
+                        <item>
+                            <hi rend="italics">A Tragic End to a Fantastic Life.</hi>
+                        </item>
+                    </list>
+                </div>
+                <div rend="body">
+                    <p>Just under a year ago, it created a sensation across the world, both in
+                        scientific circles and in places where sensation is sought, that the painter
+                            <persName key="wegenerE">Einar Wegener</persName> had undergone an
+                        operation at a <placeName key="womensClinic">clinic</placeName> in
+                            <placeName key="dresden">Dresden</placeName> that had transformed him
+                        from a man into a woman.</p>
+                    <p>Originally it was believed, at least in this country, that it was one of
+                        these wild rumours that spring up without anybody knowing how – but one day
+                        the extraordinary confirmation of the rumour came: <persName key="lili">Lili
+                            Elvenes</persName>, a very beautiful and lively lady, appeared in
+                            <placeName key="copenhagen">Copenhagen</placeName> and exhibited the
+                        paintings by her former self, <persName key="wegenerE">Einar
+                            Wegener</persName>, in <placeName key="oleHaslandHus">“Ole Haslund’s
+                            House”</placeName>.</p>
+                    <p>The operation that had taken place in <placeName>Dresden</placeName> was the
+                        outcome of many years of suffering and struggling.</p>
+                    <p>All Copenhageners of the older years remember the young <persName
+                            key="wegenerE">Einar Wegener</persName>, a blond, soft pretty fellow who
+                        looked like a pretty girl in men’s clothes rather than a man.</p>
+                    <p>As his appearance was also his talent, passive and feminine, but talent there
+                        was, as particularly his many city scenes from his beloved <placeName
+                            key="paris">Paris</placeName> bear witness to.</p>
+                    <p>It was <persName key="wegenerE">Einar Wegener’s</persName> good fortune that he met his
+                        wife, the famous painter <persName key="wegenerG">Gerda Wegener</persName>.
+                        Here he acquired a friend for life, a person who understood him and his
+                            <anchor type="commentRangeStart" n="1"/>unfortunate<anchor
+                            type="commentRangeEnd" n="1"/><note type="translator" source="mo"
+                            corresp="comment_1">Ulykkelig also means "unhappy".</note> nature. They
+                        travelled to <placeName key="paris">Paris</placeName> together, they got to
+                        be among the famous artists of <placeName key="montparnasse"
+                            >Montparnasse</placeName>, they made money, and particularly <persName
+                            key="wegenerG">Gerda Wegener</persName> eventually had very large
+                        earnings, both from her paintings and her excellent commercial art.</p>
+                    <p>In spite of his success <persName key="wegenerE">Einar Wegener</persName> was
+                        a deeply unhappy person. He was a man by physical stature and name but he
+                        felt entirely like a woman and as the years passed, his particular complex
+                        almost drove him to the verge of madness and suicide.</p>
+                    <p>Over the years, he sought advice and help in many places, but no one could
+                        help him until the famous German surgeon <persName key="warnekros">Professor
+                            Warnekros</persName> in <placeName key="dresden">Dresden</placeName>
+                        gave him hope. He took on the difficult operation – to help an unhappy
+                        person but probably also to do a scientific experiment that had never been
+                        attempted before. This was a kind of vivisection where the victim
+                        volunteered.</p>
+                    <p>Everything could not be taken care of in one operation however. After her
+                        short stay in <placeName key="copenhagen">Copenhagen</placeName>, <persName
+                            key="lili">Lili Elvenes</persName> had to return to the <placeName
+                            key="womensClinic">clinic</placeName> in order to undergo several
+                        further operations. These seem to have been successful but then it turned
+                        out that the patient suffered from an internal disorder, probably cancer,
+                        that developed at a terrifying speed – and now <persName key="lili">Lili
+                            Elvenes</persName> is dead. Nature was not to be defied after all.</p>
+                    <p>The case of <persName key="wegenerE">Einar Wegener</persName>- <persName
+                            key="lili">Lili Elvenes</persName>will probably stand as a
+                        psychological-physiological mystery in the future - and no doubt it will be
+                        made the subject of scientific discussion in many, many times. In these, an
+                        autobigraphy that <persName key="lili">Lili Elvenes</persName>had finished
+                        immediately before her death will no doubt play an important role. The most
+                        extraordinary part of it is based on diary entries from the stay at
+                            <placeName key="womensClinic">the clinic</placeName> so so that at
+                        first, the diary is kept by <persName key="wegenerE"
+                        >Einar Wegener</persName>, then by the neutral being, and finally by a new
+                        woman <persName key="lili">LiliElvenes</persName>.</p>
+                    <p>Most psychologically remarkable is that <persName key="lili"
+                            >Lili Elvenes</persName> has no sense at all of <persName key="wegenerE"
+                            >Einer Wegener's</persName> existence but regards him as a deceased
+                        being.</p>
+                    <p>During her stay in <placeName key="copenhagen">Copenhagen</placeName>,
+                            <persName key="lili">Lili Elvenes</persName> said:</p>
+                    <p>- <persName key="wegenerE">Einar Wegener</persName> could paint.
+                        Unfortunately, I have no talents. I would rather sew.</p>
+                    <p>She was completely unaware of the tragicomical in a remark like this:</p>
+                    <p>- <persName key="wegenerE">Einar Wegener</persName>was a strange guy. He both
+                        went to the theatre and to cafés just before I had surgery.</p>
+                    <p>It was a complete agreement with his wife, <persName key="wegenerG">Mrs.
+                            Gerda Wegener</persName>, that he underwent the operation- but
+                        afterwords a quite extraordinary legal problem arose: how was the marriage
+                        to be dissolved? The case was brought before the <persName>Danish Ministry
+                            of Justice</persName> but all the extraordinary problems of marriage law
+                        in the world were searched through without finding any case resembling this.
+                        Eventually the marriage was quite simply declared invalid.</p>
+                    <p>The faithful friendship between <persName key="lili">Lili Elvenes</persName>
+                        and <persName key="wegenerG">Gerda Wegener</persName> lasted to the end- and
+                        had <persName key="lili">Lili Elvenes</persName> risen from her sickbed, she
+                        would have travelled to <placeName key="morocco">Morocco</placeName> to
+                        visit <persName key="wegenerG">Gerda Wegener</persName>, who lives there in a
+                        happy marriage to an <persName key="portaF">Italian officer.</persName></p>
+                    <p>Having known <persName key="wegenerE">Einar Wegener</persName> in his younger
+                        years, one is strangely confused at his death. Is one to mourn that an
+                        impossible fate is terminated? Is one to remember <persName key="wegenerE"
+                            >Einar Wegener</persName> with the gentle melancholy nature or
+                        tempermental <persName key="lili">Lili Elvenes</persName>? No one can say.
+                        The mystery of this extraordinary being extends beyond death,</p>
+                    <signed>
+                        <persName key="bastJørgen">Jørgen Bast</persName>
+                    </signed>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
