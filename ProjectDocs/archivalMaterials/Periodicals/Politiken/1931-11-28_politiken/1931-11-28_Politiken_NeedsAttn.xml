@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- Be sure to remove the schema line above and re-associate your file to your locally downloaded schema.  -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
-    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1931-11-28_Politiken.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/periodicals/11931-11-28_Politiken.xml">
     <!-- insert correct URLs, above, for your text -->
     <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
       For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
