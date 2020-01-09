@@ -11,7 +11,7 @@
 **Digital Editor:** Rebecca J. Parker // she/her/hers // rparker3@luc.edu // [@rjp43](https://github.com/RJP43)
   
 ## Quick Links:
-_Project Website:_ [lilielbe.org](www.lilielbe.org)
+_Project Website:_ [lilielbe.org](http://lilielbe.org/)
 
 - :house: [Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
 - :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet](https://docs.google.com/spreadsheets/d/1pnN_HHr5SKX0AgF3wYu3F1XlqMcjZK-rfms4DCGTQug/edit?usp=sharing) 
