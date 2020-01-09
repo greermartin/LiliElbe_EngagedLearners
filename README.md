@@ -15,7 +15,7 @@ _Project Website:_ [lilielbe.org](http://lilielbe.org/)
 
 - :house: [Our Sakai Homepage](https://sakai.luc.edu/portal/site/ENGL_283_08E_6154_1196)        
 - :chart_with_upwards_trend: [Engaged Learners' Hours Tracking Spreadsheet](https://docs.google.com/spreadsheets/d/1pnN_HHr5SKX0AgF3wYu3F1XlqMcjZK-rfms4DCGTQug/edit?usp=sharing) 
-- :family: [Meet our Fall 2019 Engaged Learners](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners) **(+ Student Blog Posts)**
+- :family: [Meet our Fall 2019 Engaged Learners **(+ Student Blog Posts)**](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Meet-Our-Engaged-Learners)
 - :calendar: [Technical Syllabus](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/README.md#technical-syllabus)
 - :handshake: [Engaged Learners GitHub Workflow & Digital Etiquette Expectations](https://github.com/cmccraw/LiliElbe_EngagedLearners/wiki/Our-GitHub-Workflow-&-Digital-Etiquette-Expectations) 
 - 🎶 [Encoding Playlist Link (on Spotify)](https://open.spotify.com/playlist/3dGsX7pfx5rPaeDpdU2t7R?si=NIfrg5kMRuqfvuiDuqMxFA)
