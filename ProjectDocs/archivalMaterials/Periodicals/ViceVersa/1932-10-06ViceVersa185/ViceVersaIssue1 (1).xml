@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="liliElbeProject/gitRepos/LiliElbe_EngagedLearners/ProjectDocs/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+   <!-- AC: Where do I find correct links for above? -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VICE - - VERSA</title>
+            <title type="alternative"><hi rend="bold">un Homme change de sexe</hi>
+               <hi rend="bold">D'après les documents authentiques et scientifiques réunis par <persName key="hoyerNiels">Niels Hoyer</persName></hi>
+               </title>
+            <author>
+               <persName key="hoyerNiels" role="AUT"
+                  >Niels Hoyer</persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="cb" role="TRL"
+                  >Cristiana Bertola</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation reviewed by</resp>
+               <persName ref="plc"
+                  >Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription completed by </resp>
+               <persName ref="ac">Aliana Capati</persName>
+               <persName ref="cb">Cristiana Bertola</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ac">Aliana Capati</persName>
+               <persName ref="am">Anna McCue</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance and/or XML proofing completed by</resp>
+               <persName ref="am">Anna McCue</persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML transformed into HTML
+                  <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                  by</resp>
+               <persName ref="rjp">Rebecca J. Parker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>HTML proofing completed by</resp>
+               <persName ref="ac">Aliana Capati</persName>
+               <persName ref="cb">Cristiana Bertola</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Images prepared by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Illustrations prepared by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <sponsor>Loyola University Chicago Libraries</sponsor>
+            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="2019-07-06">July 6th, 2019</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                  Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                  Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc source="Periodical" xml:lang="fre-B">
+            <p>A two-page, three-columned printed article with the title runnig across the two pages, each page containing three photographs in the middle; page 10 has three photographs of <persName key="sparreAn">Andreas Sparre</persName><persName key="wegenerE">(Einar Wegener)</persName>, page 11 has two photographs of <persName key="lili">Lili Elbe</persName> and one of her grave; <persName key="hoyerNiels">Niels Hoyer</persName>'s apears at the end</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+               <category source="collex" xml:id="discipline">
+                  <catDesc>History/Gender Studies</catDesc>
+               </category>
+               <category source="collex" xml:id="genre">
+                  <catDesc>Essay/Nonfiction</catDesc>
+               </category>
+               <category source="collex" xml:id="image">
+              <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg</catDesc>
+              <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg</catDesc>
+               </category>
+               <category source="collex" xml:id="text">            
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc>
+                  <!-- AC: Where do I find correct link? -->
+               </category>
+               <category source="dc" xml:id="date">
+                  <catDesc>1934</catDesc>
+               </category>
+               <category source="dcterms" xml:id="isPartOf" xml:lang="fre-B">
+                  <catDesc>Voilà</catDesc>
+               </category>
+               <!-- AC: I deleted <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng"> because we don't have a translation of the title-->
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <hyphenation>
+               <p>We have removed the hyphenation that appears in the printed text during
+                  digitization and encoding. Original hyphenation can be consulted in the facsimile
+                  images.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <div rend="head" style="periodical">
+               <head><anchor type="commentRangeStart" n="1"/>VICE - - VERSA<anchor type="commentRangeEnd" n="1"/><note type="translator" source="ac" corresp="comment_1">Title spreads across both pages of the Issue 1.</note></head> 
+                  <head>un Homme change de sexe</head>
+                  <head>D'après les documents authentiques et scientifiques réunis par <persName key="hoyerNiels">Niels Hoyer</persName></head>
+            </div>
+            <div rend="headlines">
+               <list>
+                  <item rend="primary">D'après les documents authentiques et scientifiques réunis par <persName key="hoyerNiels">Niels Hoyer</persName></item>
+                  <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+               </list>
+            </div>
+            <div rend="body">
+               <pb style="page" n="10" facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg"/>
+               <figure xml:id="i01" facs="http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg">
+                  <figDesc><hi rend="italics"><persName key="sparreAn">Andreas Sparre</persName> lors de son premier séjour à <placeName key="montparnasse">Montparnasse</placeName> en 1914.</hi></figDesc>
+                  <note source="ac"><persName key="sparreAn">Andreas Sparre</persName> is dressed in a suit and holding painting materials.</note>
+               </figure>
+               <figure xml:id="i02" facs="http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg">
+                  <figDesc><hi rend="italics"><persName key="sparreAn">Andreas Sparre</persName> à <placeName key="paris">Paris</placeName> en 1918 prépare son envoi au <placeName key="salonAutomne">Salon</placeName>.</hi></figDesc>
+                  <note source="ac"><persName key="sparreAn">Andreas Sparre</persName> is outside holding a paintbrush and a palette.</note>
+               </figure>
+               <figure xml:id="i03" facs="http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg">
+                  <figDesc><hi rend="italics">Portrait d'<persName key="sparreAn">Andreas</persName> par sa sœur, la dessinatrice <persName key="wegenerG">Gerda Wegener</persName></hi></figDesc>
+                  <note source="ac">This is a picture of <persName key="sparreAn">Andreas</persName>' portrait. It was created by Gerda Wegener.</note>
+               </figure>
+               <p><hi rend="italics">Si l'on vient à analyser l'étange cas de <persName key="lili">Lili ELbe</persName>, que <persName key="hoyerNiels">Niels Hoyer</persName> à bien voulu à conter aux lecteurs de</hi> Voilà,<hi rend="italics">si l'on cherche à trouver à cette histoire extraordinaire une définition scientifique, on dira qu'il s'agit d'un de ces</hi>intersexuels<hi rend="italics">dont le D<hi rend="super">r</hi><persName key="hirschfeld">Magnus Hirshfeld</persName> nous a parlé l'an passé. Certes, le grand public n'a encore qu'une idée extrêmement vague de ces êtres intermédiaires, à la structure physique et à la sensibilité complexes, qu'un <persName key="steinach">Steinach</persName> ou un <persName key="hirschfeld">Hirschfeld</persName> ont depuis longtemps classés, après avoir étudié minutieusement leur morphologie et leurs dispositions psychiques.</hi></p>
+               <p><hi rend="italics">L'histoire du peintre danos <persName key="sparreAn">Andreas Sparre</persName> est d'autant plus remarquable, qu'il s'agissait dans son cas d'un appareil génital double, ainsi que</hi>d'une double personnalité.<hi rend="italics"><persName key="sparreAn">Andreas Sparre</persName> jeune homme qui semblait absolument normal, qui était marié et fort heureux dans sa vie conjugale, était LITTÉRALEMENT POSSÉDÉ PAR SON MOI FÉMININ, AUQUEL IL PRETAIT UNE PERSONNALITEÉ DISTINCTE. ET AUQUEL IL AVAIT DONNÉ LE NOM DE <persName key="lili">LILI</persName>. On verra comment cet être semi-imaginaire, semi-réel était né dans les studeios d'artistes et les bals travestis. On verra aussi comment la femme d'<persName key="sparreAn">Andreas</persName>, confidente dévouée et intellignete, témoin impuissant des souffrances et des angoisses de son mari, encouragea la métamorphose finale, qu'elle accepta comme l'unique moyen de salut. C'est à l'aide d'opérations successives que le Professeur <!-- AC: Who is the Professor? -->allemand, auquel <persName key="hoyerNiels">Hoyer</persName> donne dans son récit le nom de <persName key="kreutz">Werner Kreutz</persName>, « LIVERA <persName key="lili">LILI</persName> » de son enveloppe masculine. La métamorphose sembla réussir pleinement, et <persName key="lili">Lili Elbe</persName>. une</hi>fraiche et radieuse jeune femme,<hi rend="italics">regagna le <placeName key="denmark">Danemark</placeName>, où elle obtint un nouvel état civil. A la suite d'un commun accord le divorce fut prononcé, et, <persName key="sparreGre">Grete Sparre</persName> épousait un ami italien. Cependant, l'étre nouveau, né à la clinique féminine de <placeName key="dresden">Dresde</placeName>, ne put se contenter des résultats atteints. L'instinct libéré poussait impérieusement <persName key="lili">Lili</persName> à parachever son destin en devenant mère. Un ami fidèle lui offre le mariage. Avant d'accepter, des suites desquelles elle succombe, en septembre 1931. Avant de mourir, elle confie l'histoire de sa vie à <persName key="hoyerNiels">Niels Hoyer</persName>, qui s'engage à la publier et à prêter des noms fictifs aux personnages qu'il déerira. Mais, nous sommes autorisés à dire, qu'<persName key="sparreAn">Andreas Sparre</persName> s'appelait en réalité <persName key="wegenerE">Einar Wegener</persName>, et qu'il était bien connu dans les milieux de peintres et d'artistes de <placeName key="paris">Paris</placeName>.</hi></p>
+               <p><hi rend="italics">Ajoutons que la version allemande de</hi>« Un homme change de sexe »<hi rend="italics">fut brûlée en place publique, lors de l'autodafé hitlérien de <placeName key="berlin">Berline</placeName>. Quant à <persName key="hoyerNiels">Niels Hoyer</persName>, dont le véritable nom est <persName key="harthernE">Ernst Harthern</persName>, il prépare actuellement un document non moins sensationnel intitulé</hi>« Un Juif s'en va en <placeName key="">Palestine</placeName> ».</p> <!-- AC: No tag for Palestine -->
+               <p>F. F.</p> 
+               <p><hi rend="bold">I. <persName key="sparreAn">ANDREAS SPARRE</persName> RENCONTRE SON DESTIN</hi></p>
+               <p>LA scène a lieu à <placeName key="paris">Paris</placeName>, dans le faubourg <placeName key="stGermain">Saint-Germain</placeName>, par une soirée de février 1930. Dans une rue tranquille qui abrite un majestueux palais, se trouve un petit restaurant fréquenté par des étrangers, et surtout par des artistes.</p> <!-- coding for capital letters? -->
+               <p>Ce soir-là, un couple de peintres danois, <persName key="sparreAn">Andreas</persName> et <persName key="sparreGre">Grete Sparre</persName>, y avaient retrouvé leur ami italien, <persName key="rossiniEr">Ernesto Rossini</persName>, et son élégante jeune femme française, <persName key="rossiniEl">Elena</persName>. Les amis ne s'étaient pas revus depuis plusieurs années. Un couple avait voyagé dans le Nord, l'autre dans le Midi de l'<placeName key="europe">Europe</placeName>.</p>
+               <p>« Skaal ! » s'éeria <persName key="sparreAn">Andréeas</persName>, selon la bonne vieille coutume nordique et levant son verre :</p>
+               <p>—Ce vin, mes enfants, est pour l'âme ce que le soleil alpin est pour le corps...</p> 
+               <cb n="1"/>
+               <p><persName key="sparreGre">Grete</persName> et <persName key="rossiniEr">Ernesto</persName> échangèrent leurs impressions de voyage : promenades à travers les musées, randonnées dans les allées crapuleuses de Cadix et les ruelles d'Anvers, explorations des bazars balkaniques et des échoppes de marins de <placeName key="">Hambourg</placeName> ou d'<placeName key="amsterdam">Amsterdam</placeName>... Chacun voulait en raconter plus long que l'autre, et tous deux étaient absolument absorbés par leur sujet, tandis qu'un enthousiasme d'artiste brillait dans leurs yeux. Cependant, <persName key="sparreAn">Andreas</persName> se penchait attentif et <persName key="rossiniEl">Elena</persName> lui murmurait à l'oreille le dernier potin amusant, ou scandaleux de <placeName key="rome">Rome</placeName> et de <placeName key="madrid">Madrid</placeName>,</p>
+               <p>— Ne buvez-vous pas un peu trop, <persName key="sparreAn">Andreas</persName> ? demanda</p> 
+               <!-- AC: Pictures interrupt text -->
+               <p>brusquement <persName key="rossiniEl">Elena</persName>... Elle s'était aperçue de l'excitation nerveuse de son compagnon :</p>
+               <p>« Vous voulez done jouer à l'homme bien portant ce sour ? »</p>
+               <p><persName key="rossiniEr">Ernesto</persName> et <persName key="sparreGre">Grete</persName> surprirent les paroles d'<persName key="rossiniEl">Elena</persName>. <persName key="sparreGre">Grete</persName> lança un regard à <persName key="sparreAn">Andreas</persName>. <persName key="rossiniEr">Ernesto</persName> prit la main de soa ami.</p>
+               <p>— <persName key="lili">Lili</persName> vous tourmente-t-elle de nouveau ? demanda-t-il, plein de sollicitude.</p>
+               <p>— Vous l'avez dit, <persName key="rossiniEr">Ernesto</persName>. répondit <persName key="sparreAn">Andreas</persName> très sérieusement : eet état devient intolérable. <persName key="lili">Lili</persName> n'est plus satisfaite de partager mon existence. Elle veut avoir une existence à part. Je ne sais si vous me comprenez... <hi rend="italics">Moi,</hi>je ne suis plus bon à rien, je ne puis plus rien faire. <persName key="lili">Lili</persName> le sait depuis longtemps. Voilà où nous en sommes. Par conséquent, elle se révolte plus énergiquement de jour en jour. Je suis un homme fini... Mais plus un mot. Buvons ! buvons ce doux Asti pour faire plaisir à <persName key="rossiniEl">Elena</persName>.</p>
+               <p>— Bravo ! s'écria <persName key="rossiniEl">Elena</persName>, sans d'étacher son regard d'<persName key="sparreAn">Andreas</persName> qui se leva d'un mouvement las et sa dirigea vers le bar.</p>
+               <p>Dites-moi vite, murmura <persName key="rossiniEl">Elena</persName>, en se tournant vers <persName key="sparreGre">Grete</persName>, comment va votre mari ? Je le trouve de plus en plus fantastique, hors du monde étrange...</p>
+               <p>Le sourire disparut du visage de <persName key="sparreGre">Grete</persName>:</p>
+               <p>— Il n'a jamais été plus mal !</p>
+               <p><persName key="rossiniEr">Ernesto</persName>et <persName key="rossiniEl">Elena</persName> regardaient leur amie en silence :</p>
+               <p>— J'ai presque perdu tout espoir de le sauver, reprit doucement la jeune femme, à moins d'un miracle....</p>
+               <p><persName key="rossiniEl">Elena</persName> l'interrompit</p>
+               <p>Ecoutez, vous avez parlé de miracle... (<persName key="sparreGre">Grete</persName> lança à</p>
+               <cb n="2"/>
+               <p>son amie un regard interrogateur) Eh bien ! oui, écoutez-moi bien. Un de nos très grands amis se trouve à <placeName key="paris">Paris</placeName>. Il vient de <placeName key="dresden">Dresde</placeName>. C'est un gynécologues. Il m'ai téléphoné ce matin quelques minutes après <persName key="sparreAn">Andreas</persName>. Et, tout de suite, j'ai pensé : si quelque'un peut aider <persName key="sparreAn">Andreas</persName>, c'est bien docteur de <placeName key="dresden">Dresde</placeName>... Mais, l'affaire est urgente, car il retourne en <placeName key="germany">Allemagne</placeName>demain dans l'après-midi. Je prendrai un rendez-vous dès ce soir.</p>
+               <p><persName key="sparreGre">Grete</persName> alluma une cigarette, lança un nuage de fumée bleue, qu'elle fixa d'un regard vide. Puis elle dit lentement, d'un ton lent et distinct :</p>
+               <p>— C'est bien, <persName key="rossiniEl">Elena</persName>. Va trouver ton médecin allemand, et je persuaderai <persName key="sparreAn">Andreas</persName> de passer te voir dans la matinée.</p>
+               <p>A ce moment-là, <persName key="sparreAn">Andreas</persName> reparut, tenant, comme un butin, deux bouteilles d'Asti.</p>
+               <p>Lorsque, quelques heures plus tard <persName key="sparreGre">Grete</persName> et <persName key="sparreAn">Andreas</persName> longèrent l'avenue qui se trouvait non loin de leur studio</p> 
+               <!-- AC: Pictures interrupt text -->
+               <p>la jeune femme rendit compte, d'avord timidement, puis avec énergie, de sa conversation avec <persName key="rossiniEl">Elena</persName>. <persName key="sparreAn">Andreas</persName> était hors de lui. Il s'arrêta au milieu de la rue, il déclara qu'il refusait de se faire examiner par un carabin, fût-il allemand, français ou peau-rouge. C'en était fait à jamais de ces sangsues.</p>
+               <p><persName key="sparreAn">Andreas</persName> était malade depuis de longues années. D'innombrables médecins et spécialistes l'avaient examiné, sans résultat. A présent il était épuisé. Sa vie n'était qu'un tourment infernal.</p>
+               <p>Personne ne comprenait son mal. En effet, ses souffrances étaient bien étranges. Un spécialiste de <placeName key="versailles">Versailles</placeName> avait, sans autres détours, déclaré, qu'il était un sujet hystérique ; pour le reste, il était normalement constitué, et n'avait qu'à se comporter raisonnablement pour retrouver la santé. Selon lui, tout ce qui manquait à ce patient, c'était la conviction <hi rend="italics">qu'il était</hi> sain et normal.</p>
+               <p>Un jeune docteur, également de <placeName key="versailles">Versailles</placeName>, avait bien déclaré, « que tout ne semblait pas parfaitement à sa place »..., mais il avait mis <persName key="sparreAn">Andreas</persName> à la porte... Un radiologue entreprit un traitement énergique et avait failli le tuer. Puis, un jour, le diagnostic d'une personnalité de <placeName key="vienna">Vienne</placeName>, homme au tempérament quelque peu mystique, et ami de <persName key="steinach">Steinach</persName>, avait indiqué la bonne direction : « Seul, un médecin hardi et courageux pourrait vous aider, s'était-il écrie : mais où le trouver de nos jours ! »</p>
+               <p>Alors, <persName key="sparreAn">Andreas</persName> reprit courage, et alla voir des chirurgiens. Mais l'un répondit qu'il n'avait jamais pratiqué « la chirurgie esthéthique », l'autre traita <persName key="sparreAn">Andreas</persName> de fou. Et, sans doute, la majorité des hommes aurait partagé l'avis de ce praticien. Car <persName key="sparreAn">Andreas</persName> était persuadé qu'il n'était pas seulement <hi rend="italics">un homme</hi>, mais aussi <hi rend="italics">une femme</hi>.</p>
+               <p>A la suite de ces déconvenues, le jeune peintre jura qu'il n'irait plus jamais voir de médecin. Il avait d'ailleurs résolu d'en finir pour tout de bon. Il avait fixé la date suprême au premier mai. Le printemps est une époque dangereuse pour ceux qui sont las et souffrants.</p>
+               <p>Il avait réfléchi à tout, même au mode de sa disparition. Celà devait être comme un acte d'obéissance polie envers la nature. A présent, on était en février. Mars, avril, seraient mois d'expectative... Il se sentait calme.</p>
+               <cb n="3"/>
+               <!-- AC: end of page 10 -->
+<!-- AC: Page 11 begins -->
+               <pb style="page" n="11" facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg"/>
+               <figure xml:id="i04" facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg">
+                  <figDesc><persName key="lili">Lili Elbe</persName> en 1930 après sa première operation.</figDesc>
+                  <note source="ac"><persName key="lili">Lili Elbe</persName> is wearing a dress, jewelry, and heels and is standing among art-covered walls. She is leaning against a dresser.</note>
+               </figure>
+               <figure xml:id="i05" facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg">
+                  <note source="ac">Famous portrait of <persName key="lili">Lili Elbe</persName> sitting with a silk fan. Her hair is curled and she is wearing a dress.</note>
+               </figure>
+               <figure xml:id="i06" facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg">
+                  <figDesc>La tombe de <persName key="lili">Lili Elbe</persName> (<persName key="sparreAn">Andreas Sparre</persName>) au cimetière de <placeName key="dresden">Dresde</placeName>.</figDesc>
+                  <note source="ac">A photograph of <persName key="lili">Lili Elbe</persName>'s gravesite. Her name is engraved in big capital letters.</note>
+               </figure>
+               <p><persName key="sparreGre">Grete</persName> connaissait ses pensées mélancoliques. Et, pourtant, elle se disait que tout ce qu'elle pourrait suggérer en guise de nouvel espoir, paraitrait bien futile. Tant de choses les liaient l'un à l'autre, tant de luttes, tant de souvenirs joyeux ou tristes, et — surtout, peut-être <persName key="lili">Lili</persName>. Car ce jeune homme, peintre de grand talent, dont les tableaux causaient aux amateurs d'art une impression vive et troublante — était, en réalité, deux individus séparés : un homme — <persName key="sparreAn">Andreas</persName>, et une jeune fille — <persName key="lili">Lili</persName>. On pourrait les appeler deux jumeaux ayant pris, en même temps, possession de même corps.</p>
+               <p>Leurs caractères étaient totalement différents.</p>
+               <p>... Peu à peu, <persName key="lili">Lili</persName> avait pris un tel ascendant sur <persName key="sparreAn">Andreas</persName>, que l'on pouvait la retrouver en lui, aux heures mêmes où elle semblait s'être retirée. Mais, le contraire 'arrivait jamais. <persName key="lili">Lili</persName> était joyeuse et respirait toute la fraîcheur de la jeunesse.</p>
+               <p>Elle était devenue le modèle préféré de <persName key="sparreGre">Grete</persName>. <persName key="lili">Lili</persName> transparaissait dans ses meilleures toiles. Oui, <persName key="sparreGre">Grete</persName> se sentait la protectrice de cette insouciante et faible <persName key="lili">Lili</persName>. Et <persName key="sparreAn">Andreas</persName> se sentait, lui, le protecteur de l'une et de l'autre. Son ultime espoir était de mourir, afin que <persName key="lili">Lili</persName> puisse s'éveiller à une nouvelle vie.</p>
+               <!-- AC: Text is divided by two cubes -->
+               <p>Le lendemain matin, <persName key="sparreGre">Grete</persName> parla doucement à son mari. Elle lui démontra, sans insister, qu'il devait rendre visite à <persName key="rossiniEl">Elena</persName>, n'était-ce que par simple devoir de courtoisie. Une fois chez elle, il lui serait facile de trouver une excuse pour se dérober à l'expédition chez le médecin allemand. Une heure plus tard, <persName key="sparreAn">Andreas</persName> était en route pour <placeName key="passy">Passy</placeName>, où habitait <persName key="rossiniEl">Elena</persName>. A midi très précise, leur voiture, stoppait devant la maison où le professeur était descendu.</p> <!-- AC: Who is the professor here? -->
+               <p>La porte s'ouvrit, et un domestique les accueillit, mais, avant qu'il n'ait eu le temps de les annoncer, un monsieur maigre et élancé s'avança à leur rencontre. Une redingote bleu-foncé soulignait l'austére élégance de son extérieur et lui prêtait un air quasi-militaire.</p>               <p>Lorsque <persName key="sparreAn">Andreas</persName> essaya plus tard d'évoquer les traits de cet homme, son esprit demeurait comme vide. Mais les yeux bleus, profondément enfoncés dans les orbites, — ces yeux qui étaient à la fois sombres et lumineux, irradiaient un charme étrange, captivant.</p>
+               <p>C'était <persName key="kreutz">Werner Kreutz</persName>.</p>
+               <p>Le cœur d'<persName key="sparreAn">Andreas</persName> se mit à battre très vite.</p>
+               <p>Il écoutait comme danse un songe..., la jeune femme expliquait au professeur le cas d'<persName key="sparreAn">Andreas</persName> et sa douloureuse histoire, en jetant, de temps en temps, comme par hasard, un regard rapide et affectueux à son camarade.</p> <!-- AC: who is the professor here? -->
+               <p><persName key="sparreAn">Andreas</persName> ne pensait à rien, n'était conscient de rien, sauf de la voix de docteur. <!-- AC: Is doctor encoded here? --> On eût dit qu'il était sous l'empire d'un charme, — le charme de cette voix. Elle ressemblair aux yeux du docteur ; elle aussi, était à la fois sombre et claire. Les yeux et la voix... ils paraissaient pénétrer jusqu'aux tréfonds de l'âme.</p>
+               <p>Et que lui dirait-elle, cette voix ? quel message ces yeux</p>
+              <cb n="1"/>
+               <p>lui réservaient-ils ? Une sentence de mort ?... pouvait-il vraiment s'attendre à autre chose, espérer quoi que ce soit ? Etait-il venu ici dans un but bien défini ?</p>               
+               <p>Le professeur se tenait devant lui, sans presque le regarder, et ne lui adressa que quelques brèves paroles. <persName key="sparreAn">Andreas</persName>, le suivit dans une chambre où on lui dit de se déshabiller. Il voulut parler, chercha ses mots...</p>
+               <p>Inutile de me donner des explications, Monsieur, l'interrompit le Professeur sur un ton courtois.</p> <!-- AC: Who is the Professor? -->
+               <p>— Vous avez mal ici et là également, n'est-ce pas ?...</p>
+               <p>Une surprise, qui ressemblait à de la terreur, s'était emparée de lui. Comment cet homme étrange pouvait-il savoir à quels endroits ses souffrances étaient localisées ?</p>
+               <p>Et cet étonnement se transforma en stupeur, lorsque le professeur, auquel <persName key="rossiniEl">Elena</persName> avait remis un paquet de photographies de « <persName key="lili">Lili</persName> » <anchor type="refStart" n="2"/><hi rend="italics">(1)</hi><anchor type="refEnd" n="1"/><note corresp="fn_001" type="foot">(1) C'est-à-dire d'<persName key="sparreAn">Andreas</persName> en travesti.</note>, tira les protraits de l'enquées au verso, qu'il n'avait pas eu le temps d'examiner.</p>
+               <p>— Nous voyons ici, le développement clairement indiqué, dit-il simplement. <persName key="sparreAn">Andreas</persName> ne fit aucun signe. J'apprends, reprit le docteur, qu'un radiologue vous a traité antérieurement un examen chimique et microscopique, il est impossible de dire s'il a exercé une influence nocive sur les glandes génitales, et peut-être sur les <hi rend="italics">ovaires</hi>, si ils existent... Un examen ultérieur l'etablira.</p>
+               <p><persName key="sparreAn">Andreas</persName> dans un cri révéla son angoisse :</p>
+               <p>— Alors... Je suis done une femme ?</p>
+               <p>Il n'en put dire plus. Son émotion lui coupait le souffle. Tout tournait autour de lui.</p>
+               <p>— C'est extrêmement probable, répondit le professeur, imperturbable et positif. Et pourtant le son de sa voix semblait légèrement voilé, très doux et discret :</p>
+               <p>« Oui, je crois que vous possédez à la fois des organes masculins et féminins, et que ni les uns, ni les autres n'ont eu de place suffisante pour se développer... Il est fort heureux que vous ayez une conscience féminine ainsi caractérisée. C'est pour cette raison précisément que je crois pouvoir vous aider.</p>
+               <p><persName key="sparreAn">Andreas</persName> porta sa main à son cœur. Il se pencha en avant, afin de ne pas perdre une seule parole qui tombait de la bouche de cet homme extraordinaire. Il le regardait fixement, afin de trouver dans ses yeux la confirmation de ses mots.</p>
+               <p>— Eh bien, professeur, que suis-je ?... Quoi ?...</p>
+               <p>Le professeur se leva, fit les cent pas dans chambre comme pour médier la question, puis il se tourna vers <persName key="sparreAn">Andreas</persName>. Et de ————</p>
+               <cb n="2"/>
+<!-- one scan contains material from another scan, do i need to indicate that in the code -->
+               <p>nouveau, le jeune homme but ses paroles.</p>
+               <p>— Venez me voir en <placeName key="germany">Allemagne</placeName>. J'espère pouvoir vous donner une nouvelle vie et une nouvelle jeunesse.</p>
+               <p><persName key="sparreAn">Andreas</persName> se leva, fit un effort pour parler.</p>
+               <p>— Alors, ce sera <persName key="lili">Lili</persName> qui survivra ?</p>
+               <p>—Oui, fit <persName key="kreutz">Werner Kreutz</persName>, je vais vous opérer... Cette opération supprimera les obstacles qui naquirent au moment de votre puberté. Mais tout d'abord vous devez subir plusieurs traitements préliminaires à <placeName key="berlin">Berlin</placeName>. Plus tard, vous viendrez chez moi, à <placeName key="dresden">Dresde</placeName>.</p>
+               <p>Ces mots marquèrent la fin de cette conversation si grave, on peut dire, fatale, entre l'étranger et <persName key="sparreAn">Andreas</persName>, tandis que le Professeur ramenait <persName key="rossiniEl">Elena</persName> dans la chambre de consultation.</p>
+               <p>Le docteur s'écarta d'un air pensif, puis brusquement il fixa tour à tour le jeune homme et la jeune femme : — Puis-je parler ouvertement? demanda-t-il.</p>
+               <p>— Je vous en prie, répondit <persName key="sparreAn">Andreas</persName>, je n'ai pas de secrets pour <persName key="rossiniEl">Elena</persName>.</p>
+               <p>— Eh bien, commença le Professeur, j'apprends que vous êtes marié. Votre mariage... peut-être pourrez-vous m'en dire quelque chose, parce que en qualité de médecin... en tout cas...</p>
+               <p>Chacun d'eux eut l'impression que la conversation prenait un tour fantastique, bien que la question fût la plus naturelle du monde.</p>
+               <p>— Je ferais peut-être mieux de vous laisser, suggéra <persName key="rossiniEl">Elena</persName>.</p>
+               <p><persName key="sparreAn">Andreas</persName> la saisit le bras : Non, non, <persName key="rossiniEl">Elena</persName>, restez.</p>
+               <p>Le Professeur vint à leur secours, et son sourire fut comme une délivrance : — Quelle est l'attitude par exemple de... je crois que je vous ai entendu prononcer le nom de <persName key="lili">Lili</persName>... Eh bien,</p>
+               <cb n="2"/>
+                  <p>oui, de <persName key="lili">Lili</persName> à l'égard desautres hommes ?</p>
+               <p><persName key="rossiniEl">Elena</persName> se mit à rire : — C'est extraordinaire à quel point <persName key="lili">Lili</persName> attire le sexe fort !</p>
+               <p><persName key="sparreAn">Andreas</persName> voulut l'interrompre, mais le Professeur s'était mis, mui aussi, à rire de bon cœur :</p>
+               <p>— Laissez parler Madame, je vous en prie.</p> <!-- AC: who is Madam? is that encoded? -->
+               <p>Et <persName key="sparreAn">Andreas</persName> fut bien obligé d'écouter, tandis qu'elle reprenait :</p>
+               <p>— J'ai pu le constater de mes propres yeux, au cours de bal travestis.</p>
+               <p>Le Professeur redevin sérieux : — Ce que vous venez de me dire, Madame, s'accorde acev l'image qui s'est formée dans mon esprit... Pour le reste, l'operation qui s'impose, créera — d'auntant plus qu'il s'agit de la première intervention chirurgicale de ce genre — toute une série de situations singulières, dont l'aspect juridique n'est pas le moindre. Mais... Et à ces mots le Professeur s'approcha d'<persName key="sparreAn">Andreas</persName> et lui prit la main : — Je vous promets de ne pas abandonner <persName key="lili">Lili</persName> et de lui prêter mon soutien dans ses premiers pas dans la vie.</p>
+               <p><persName key="sparreAn">Andreas</persName> abaissa son regard sur la main de l'étranger. Il ne savait ce qu'il devait faire. Il jeta autour de lui un regard éperdu, puis lâchant la main du docteur, tendit ses bras vers <persName key="rossiniEl">Elena</persName>, comme pour implorer son aide...</p>
+               <p><persName key="kreutz">Werner Kreutz</persName> se tenait près de la fenêtre, fixant silencieusement la rue. <persName key="sparreAn">Andreas</persName> s'approcha de lui en pleurant. Le Professeur dit doucement : — Je vous comprends. Je sais combien vous avez souffert.</p>
+               <p><hi rend="italics">(à suivre)</hi><hi rend="bold">Niels HOYER.</hi></p>
+               <p><hi rend="italics">Reproduction même partielle interdite.</hi></p>
+              <p>(Copyright by Niels HOYER 1934.)</p>
+               <!-- AC : Page 11 ends -->
+            </div>
+         </div>
+         <div type="translation">
+            <div rend="head" style="periodical">
+               <p><hi rend="bold">VICE — — VERSA</hi></p>
+               <p>
+                  <title><hi rend="bold">A man changes sex</hi></title>
+               </p>
+            </div>
+            <div rend="headlines">
+               <list>
+                  <item rend="primary">Based on authentic and scientific documents, assembled by <persName key="hoyerNiels">Niels Hoyer</persName></item>
+                  <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+               </list>
+            </div>
+            <div rend="body">
+               <!-- AC: Picture translations: Andreas during his first stay at Montparnasse, in 1914 -->
+               <p><hi rend="italics">If we analyze the strange case of <persName key="lili">Lili Elbe</persName>, that <persName key="hoyerNiels">Niels Hoyer</persName> kindly shared with the readers of</hi>Voilà<hi rend="italics">,if we try to find a scientific definition for this extraordinary story, we could say that it is about one of the intersexuals of whom Dr <persName key="hirschfeld">Magnus Hirschfeld</persName> talked to us last year. Admittedly, the public has only an extremely vague idea about these intermediary beings with a complex physical structure and sensitivity, whom a <persName key="steinach">Steinbach</persName> or a <persName key="hirschfeld">Hirschfeld</persName> have classified long ago, after having meticulously studied their morphology and their psychological dispositions.</hi></p>
+               <p><hi rend="italics">The story of the Danish painter <persName key="sparreAn">Andreas Sparre</persName> is all the more remarkable, since in his case it’s about double reproductive organs and a double personality. <persName key="sparreAn">Andreas Sparre</persName>, a young man who seemed absolutely normal, who was married and very happy with his conjugal life, was LITERALLY POSSESSED BY HIS FEMININE SELF, TO WHOM HE ATTRIBUTED A DISTINCT PERSONALITY AND WHOM HE NAMED <persName key="lili">LILI</persName>. We will see how this semi-imaginary, semi-real being was born in the artist studios and the costume parties. We will find out also how <persName key="sparreAn">Andreas</persName>’s wife, his intelligent and devoted confidant, powerless witness to her husband’s suffering and anguish, encouraged the final metamorphosis, which she accepted as the only way to save him. With the help of successive surgeries, the German Professor whom <persName key="hoyerNiels">Niels Hoyer</persName> names in his story <persName key="kreutz">Werner Kreutz</persName> “FREED <persName key="lili">LILI</persName>” of her masculine envelope. The metamorphosis seemed to have fully succeeded, and <persName key="lili">Lili Elbe</persName>, a fresh and radiant young woman, returned to <placeName key="denmark">Denmark</placeName>, where she obtained a new civil status. With their mutual agreement, the divorce was pronounced, and, <persName key="sparreGre">Grete Sparre</persName> married an Italian friend. However, the new being, born at the <placeName key="womensClinic">women’s clinic of Dresden</placeName>, couldn’t be content with the results. The unfettered instinct urged <persName key="lili">Lili</persName> imperiously to complete her destiny in becoming a mother. A loyal friend offers to marry her. Before agreeing, <persName key="lili">Lili</persName> returns to <placeName key="dresden">Dresden</placeName> where she undergoes another surgery, after which she dies, in September 1931. Before her death, she confides her life story to <persName key="hoyerNiels">Niels Hoyer</persName>, who undertakes to publish it and to give fictional names to the persons whom he will describe. But we are authorized to say that <persName key="sparreAn">Andreas Sparre</persName>’s real name was <persName key="wegenerE">Einar Wegener</persName>, and that he was well known among the Parisian circles of painters and artists.</hi></p>
+               <p><hi rend="italics">Let’s add that the German version of “A man who changes sex” was burnt in a public plaza, during the auto-da-fé ordered by <persName key="hitler">Hitler</persName> in <placeName key="berlin">Berlin</placeName>. As to <persName key="hoyerNiels">Niels Hoyer</persName>, whose real name is <persName key="harthernE">Ernst Harthern</persName>, he is preparing a no less sensational document, titled</hi>“A Jew goes to <placeName key="">Palestine</placeName>”.</p> <!-- AC: no tag for Palestine -->
+               <p>I. <persName key="sparreAn">ANDREAS SPARRE</persName> MEETS HIS DESTINY</p>
+               <p>The scene takes place in <placeName key="paris">Paris</placeName>, in the suburb of <placeName key="stGermain">Saint-Germain</placeName>, on a 1930 February evening. On a quiet street that shelters a majestic palace, there is a small restaurant where foreigners and especially artists spend time.</p>
+               <p>That evening, a couple of Danish painters, <persName key="sparreAn">Andreas</persName> and <persName key="sparreGre">Grete Sparre</persName>, had met there their Italian friend, <persName key="rossiniEr">Ernesto Rossini</persName>, and his elegant French wife, <persName key="rossiniEl">Elena</persName>. The friends hadn’t seen each other for a few years. A couple had travelled to the North, the other, to the South of <placeName key="europe">Europe</placeName>.</p>
+               <p>“Skaal!" exclaimed <persName key="sparreAn">Andreas</persName>, as is the old Nordic custom, and raised his glass:</p>
+               <p>his wine, children, is to the soul what the sun is to the body…</p>
+               <p><persName key="sparreGre">Grete</persName> and <persName key="rossiniEr">Ernesto</persName> exchanged their travel impressions: walks through museums, rambles in the foul alleys of <placeName key="cadiz">Cadiz</placeName> and the thoroughfares of Anvers, Balkanic bazaars and sea boutiques of <placeName key="hamburg">Hamburg</placeName> or <placeName key="amsterdam">Amsterdam</placeName> carefully searched… Each wanted to say more than the other and both were so absorbed by the subject, that their eyes were shining with the enthusiasm of an artist. However, <persName key="sparreAn">Andreas</persName> leaned toward <persName key="rossiniEl">Elena</persName>, interested in the last amusing gossip from <placeName key="rome">Rome</placeName> or <placeName key="madrid">Madrid</placeName>, that she whispered in his ear.</p>
+               <p>- Don’t you drink a little too much, <persName key="sparreAn">Andreas</persName>? <persName key="rossiniEl">Elena</persName> asked suddenly… She had realized the nervous agitation of her companion:</p>
+               <p>“You want to pretend this evening that you are in good health?”</p>
+               <p><persName key="rossiniEr">Ernesto</persName> and <persName key="sparreGre">Grete</persName> heard <persName key="rossiniEl">Elena</persName>’s words. <persName key="sparreGre">Grete</persName> glanced at <persName key="sparreAn">Andreas</persName>. <persName key="rossiniEr">Ernesto</persName> seized his friend’s hand.</p>
+               <p>- Does <persName key="lili">Lili</persName> trouble you again? he asked full of concern.</p>
+               <p>- You said it, <persName key="rossiniEr">Ernesto</persName>, answered <persName key="sparreAn">Andreas</persName> in earnest: this situation becomes unbearable. <persName key="lili">Lili</persName> is no longer content to share my existence. She wants to have a separate life. I don’t know if you understand me… I am no good for anything any longer, I can’t do anything anymore. <persName key="lili">Lili</persName> has known it for quite a while. This is where we are. Consequently, she becomes more rebellious with each passing day. It’s over for me… I don’t want to hear a word. Let’s drink! Let’s drink this sweet Asti, to please <persName key="rossiniEl">Elena</persName>.</p>
+               <p>- Bravo! exclaimed <persName key="rossiniEl">Elena</persName> without taking her eyes off <persName key="sparreAn">Andreas</persName> who got up wearily and headed toward the bar.</p>
+               <p>- Tell me quickly, whispered <persName key="rossiniEl">Elena</persName> turning to <persName key="sparreGre">Grete</persName>, how is your husband doing? I find him increasingly peculiar, out of this world, strange…</p>
+               <p>The smile left <persName key="sparreGre">Grete</persName>’s face:</p>
+               <p>He’s never been sicker!</p>
+               <p><persName key="rossiniEr">Ernesto</persName> and <persName key="rossiniEl">Elena</persName> looked quietly at her:</p>
+               <p>I’ve lost almost all hope for his recovery, resumed the young woman softly, except a miracle…</p>
+               <p><persName key="rossiniEl">Elena</persName> interrupted her:</p>
+               <p>- Listen, you talk about a miracle… (<persName key="sparreGre">Grete</persName> glanced at her friend with an inquiring look) Well, now listen carefully. A very good friend of ours is in <placeName key="paris">Paris</placeName>. He comes from <placeName key="dresden">Dresden</placeName>. He’s a gynecologist. He called me this morning, a few minutes after <persName key="sparreAn">Andreas</persName>. And, at once, I thought: if anyone can help <persName key="sparreAn">Andreas</persName>, it’s the <placeName key="dresden">Dresden</placeName> doctor… But this is urgent, because tomorrow afternoon, he returns to <placeName key="germany">Germany</placeName>. I will set an appointment this evening.</p>
+               <p><persName key="sparreGre">Grete</persName> made a discouraged gesture:</p>
+               <p>- Dear <persName key="rossiniEl">Elena</persName>, it’s useless. <persName key="sparreAn">Andreas</persName> doesn’t want to see doctors anymore.</p>
+               <p><persName key="rossiniEl">Elena</persName> seized the hand of her friend.</p>
+               <p>- <persName key="sparreGre">Grete</persName>, darling, do not contradict me. This time, you are going to obey. Tonight, I will go to the doctor. I know he can help me.</p>
+               <p><persName key="sparreGre">Grete</persName> lit a cigarette, and sent up a cloud of blue smoke that she stared at with a vacant look. Then she said slowly, with a clear voice:</p>
+               <p>- Fine, <persName key="rossiniEl">Elena</persName>. Go find your German doctor and I will persuade <persName key="sparreAn">Andreas</persName> to come see you in the morning.</p>
+               <p>At that moment, <persName key="sparreAn">Andreas</persName> reappeared holding the booty: two bottles of Asti.</p>
+               <p>When, a few hours later, <persName key="sparreGre">Grete</persName> and <persName key="sparreAn">Andreas</persName> were walking along the avenue not far from their studio, the young woman related to him, timidly at the beginning, then enthusiastically, her conversation with <persName key="rossiniEl">Elena</persName>. <persName key="sparreAn">Andreas</persName> turned frantic. He stopped in the middle of the road, stated that he refused to let an undertaker examine him, be it German, French or Red Skin. He was done with these leeches.</p>
+               <p><persName key="sparreAn">Andreas</persName> had been sick for many years. Countless doctors and specialists had examined him with no result. Presently, he was exhausted. His life was a hellish torment.</p>
+               <p>Nobody understood his illness. In fact, his suffering was very strange. A specialist from <placeName key="versailles">Versailles</placeName> straightforwardly declared him a hysterical subject; other than that, he had a normal constitution, all he had to do was to behave reasonably in order to regain his health. According to him, all that this patient lacked was the conviction that he was sane and normal.</p>
+               <p>A young doctor, also from <placeName key="versailles">Versailles</placeName>, had even declared “that not everything seemed to be perfectly alright, but he showed <persName key="sparreAn">Andreas</persName> the door… A radiologist energetically began a treatment and nearly killed him. Then, one day, the diagnosis of a personality from <placeName key="vienna">Vienna</placeName>, a man with a temperament almost mystic, a friend of <persName key="steinach">Steinach</persName>, had pointed in the right direction: “Only a daring and courageous doctor could help you,” he exclaimed, “but where to find him nowadays!”</p>
+               <p>Afterwards, <persName key="sparreAn">Andreas</persName> found the strength to go see some surgeons. But one told him that he never performed “esthetic surgery”, another called <persName key="sparreAn">Andreas</persName> crazy. And, doubtlessly, most men would have shared the opinion of this practitioner. Because <persName key="sparreAn">Andreas</persName> was convinced that he wasn’t only a man, but also a woman.</p>
+               <p>After these disappointments, the young painter swore that he would never go to see a doctor again. Besides, he had decided to finish with all this for good. He had set the fateful date on May first. Spring is a dangerous time for those who are weary and suffering.</p>
+               <p>He had thought it all out, even of how he would disappear. It had to be like an act of polite reverence to nature. Now it was February. March, April will be months of expectation… He was feeling calm.</p>
+               <!-- AC: End of Page 10 -->
+               <!-- AC: Start of Page 11 -->
+               <!-- AC: Picture caption translations: The grave of <persName key="lili">Lili Elbe</persName><persName key="sparreAn">(Andreas Sparre)</persName>, in <placeName key="dresden">Dresden</placeName> cemetery 
+<persName key="lili">Lili Elbe</persName> in 1930, after her first surgery.
+<persName key="sparreAn">Andreas Sparre</persName> identified as <persName="lili">Lili Elbe</persName>, before his first surgery. -->
+               <p><persName key="sparreGre">Grete</persName> knew his melancholic thoughts. However, she told herself that anything she could suggest in order to renew his hope would appear futile. So many things bound them together, so many battles, so many memories, sad and joyful—and perhaps especially <persName key="lili">Lili</persName>. Because this young man, a painter of great talent, whose paintings stirred within the art lovers a deep and poignant impression—was, in fact, two separate individuals: a man--<persName key="sparreAn">Andreas</persName>, and a young woman—<persName key="lili">Lili</persName>. We could call them two twins possessing at the same time the same body.</p>
+               <p>Their characters were completely different.</p>
+               <p>Little by little, <persName key="lili">Lili</persName> had taken such control over <persName key="sparreAn">Andreas</persName>, that she could be found in him even during the moments when it seemed that she had withdrawn. But the opposite never happened. <persName key="lili">Lili</persName> was joyful and she exuded all the freshness of youth.</p>
+               <p>She had become <persName key="sparreGre">Grete</persName>’s favorite model. <persName key="lili">Lili</persName> shone through in her best paintings. Yes, <persName key="sparreGre">Grete</persName> felt she was the protector of this carefree and fragile <persName key="lili">Lili</persName>. And <persName key="sparreAn">Andreas</persName> felt himself the protector of them both. His last hope was to die, so that <persName key="lili">Lili</persName> could awake to a new life.</p>
+               <!-- Two boxes separate text -->
+               <p>The next morning, <persName key="sparreGre">Grete</persName> talked gently to her husband. She explained to him, without insisting, that he should visit <persName key="rossiniEl">Elena</persName>, even if only out of courtesy. Once there, he should find it easy to come up with an excuse to avoid the trip to the German doctor.</p>
+               <p>An hour later, <persName key="sparreAn">Andreas</persName> was on his way to <placeName key="passy">Passy</placeName>, where <persName key="rossiniEl">Elena</persName> lived. Precisely at noon, their car, stopped in front of the house where the professor was staying.</p>
+               <p>The door opened, and a servant welcomed them, but before he had time to announce them, a tall and slender gentleman came out to greet them. A dark blue frock coat emphasized the austere elegance of his appearance and gave him an almost military air.</p>
+               <p>When <persName key="sparreAn">Andreas</persName> later tried to evoke the features of this man, his mind remained as though empty. But the very deep set, blue eyes—these eyes at once dark and bright shone with a strange, captivating charm.</p>
+               <p>It was <persName key="kreutz">Warner Kreutz</persName>.</p>
+               <p><persName key="sparreAn">Andreas</persName>’s heart started to beat very fast.</p>
+               <p>He listened as if in a dream…, the young woman explained to the doctor <persName key="sparreAn">Andreas</persName>’s case and his painful history, casting at times, as if by chance, a brief and affectionate glance at her friend.</p>
+               <p><persName key="sparreAn">Andreas</persName> wasn’t thinking of anything, wasn’t aware of anything except the voice of the doctor, as if he was under a spell,—the spell of this voice. It resembled the doctor’s eyes; it too was at once dark and bright. The eyes and the voice… they seemed to pierce deeply into the soul.</p>
+               <p>And what would this voice tell him? what did these eyes have in store for him? A death sentence?... could he really expect anything else, hope for anything? Did he come here with a well-defined aim?</p>
+               <p>The<anchor type="commentRangeStart" n="1"/>professor<anchor type="commentRangeEnd" n="1"/><note type="editor" source="plc" corresp="comment_1">The word &quot;professor&quot; is sometimes capitalized, sometimes not.</note>stood in front of him, almost without looking at him, and addressed him only in a few short instances. <persName key="sparreAn">Andreas</persName> followed him into a room where he was told to undress. He wanted to talk, he searched for words…</p>
+               <p>Sir, it is useless to give me explanations, the Professor interrupted him with a courteous tone.</p> <!-- AC: WHo is the Professor? -->
+               <p>- It hurts you here, and there and also there, doesn’t it?...</p>
+               <p>A surprise similar to terror seized him. How could this strange man know the places where he hurt? </p>
+               <p>And this awe turned into stupor, when the professor, to whom <persName key="rossiniEl">Elena</persName> gave a bunch of <persName key="lili">Lili</persName>’s photos,<!-- AC: Footnote --><anchor type="refStart" n="3"/><hi rend="italics">1</hi><anchor type="refEnd" n="2"/><note corresp="fn_002" type="foot"><p><hi rend="super">1</hi>That is to say, of <persName>Andreas</persName> cross-dressed</p></note> took the portraits out of the envelop and arranged them on the table, according to the dates mentioned on the verso, that he didn’t have time to examine.</p>
+               <p>- We see here, the development clearly marked out, he said simply. <persName key="sparreAn">Andreas</persName> stood still. I understand, the doctor continued, that a radiologist has X-rayed you; but, without a previous chemical and microscopic examination, it is impossible to say if he has exerted a harmful influence on the genital glands, and perhaps on the ovaries, if they exist… A subsequent examination will establish this.</p>
+               <p>With a cry, <persName key="sparreAn">Andreas</persName> revealed his anguish.</p>
+               <p>- But… Am I then a woman?</p>
+               <p>He couldn’t continue. The emotion took his breath away. Everything spun around him.</p>
+               <p>- It’s highly probable, the professor answered with calm and confidence. Yet his voice sounded veiled, very sweet and discreet:</p>
+               <p>“Yes, I believe that you have both the masculine and feminine organs and that neither one, nor the other had enough room to develop… It is fortunate that you have such a characteristically feminine consciousness. It is precisely for this reason that I think I am able to help you.</p>
+               <p><persName key="sparreAn">Andreas</persName> put his hand on his heart. He leaned forward, so as not to lose one word coming out of the mouth of this extraordinary man. He looked at him intently, in order to find in his eyes the confirmation of his words.</p>
+               <p>- Then, professor, what am I?... What?</p>
+               <p>The professor stood up, paced the room up and down as if meditating on the question, then he turned to Andreas. And</p>
+               <!-- AC: Line break for footnote -->
+               <p>again, the young man drank in his words.</p>
+               <p>- Come see me in <placeName key="germany">Germany</placeName>. I hope I shall be able to give you a new life and a new youth.</p>
+               <p><persName key="sparreAn">Andreas</persName> stood up, made an effort to speak.</p>
+               <p>- Then, will it be <persName key="lili">Lili</persName> who will survive?</p>
+               <p>- Yes, said <persName key="kreutz">Werner Kreutz</persName>, I will operate on you… This surgery will suppress the obstacles born at the time of your puberty. But first you must undertake several preliminary treatments in <placeName key="berlin">Berlin</placeName>. Afterwards, you will return to me, in <placeName key="dresden">Dresden</placeName>.</p>
+               <p>These words marked the end of this conversation so serious, fatal we could say, between the stranger and <persName key="sparreAn">Andreas</persName>, while the Professor brought <persName key="rossiniEl">Elena</persName> back into the consulting room.</p>
+               <p>The doctor stepped away thoughtfully, then he suddenly fixed his eyes on the young man and then the young woman: - Can I speak openly? he asked.</p>
+               <p>- Please do, answered <persName key="sparreAn">Andreas</persName>, I do not keep secrets from <persName key="rossiniEl">Elena</persName>.</p>
+               <p>- Well, the Professor began, I understand that you are married. Your marriage… maybe you could tell me a bit about it, because as a doctor… in any case…</p>
+               <p>Each of them had the feeling that the conversation took a strange turn, though it was the most natural question.</p>
+               <p>- Perhaps I should leave you alone, suggested <persName key="rossiniEl">Elena</persName>.</p>
+               <p><persName key="sparreAn">Andreas</persName> grabbed her arm: No, no, <persName key="rossiniEl">Elena</persName>, stay.</p>
+               <p>The Professor came to their rescue, and his smile brought relief. – What is the attitude for instance of… I think I heard you uttering the name <persName key="lili">Lili</persName>… well, yes, of <persName key="lili">Lili</persName> towards other men?</p>
+               <p><persName key="rossiniEl">Elena</persName> began to laugh. – It is extraordinary the degree to which <persName key="lili">Lili</persName> attracts<anchor type="commentRangeStart" n="5"/>the stronger sex<anchor type="commentRangeEnd" n="5"/><note type="editor" source="plc" corresp="comment_5">It was advised to say &quot;the stronger sex.&quot;</note>!</p>
+               <p><persName key="sparreAn">Andreas</persName> wanted to interrupt her, but the Professor too started to laugh heartily:</p>
+               <p>- Please, allow the lady to talk.</p>
+               <p>And <persName key="sparreAn">Andreas</persName> had to listen, while she continued:</p>
+               <p>- I have seen it myself, during the costume parties.</p>
+               <p>The Professor became serious again. – What you have just told me, Madam, agrees with the image formed in my mind… For the rest, the surgery that is imperative will create—all the more since it is the first surgical intervention of this kind—an entire series of uncommon situations, among which the legal aspect is not the least. But… and at these words, the Professor came close to <persName key="sparreAn">Andreas</persName> and took his hand: - I promise you to not abandon <persName key="lili">Lili</persName> and to lend her my support during her first steps in life.</p>
+               <p><persName key="sparreAn">Andreas</persName> lowered his gaze to the stranger’s hand. He didn’t know what to do. He cast a distraught glance around him, then letting go of the doctor’s hand, he stretched his arms toward <persName key="rossiniEl">Elena</persName>, as if imploring her help…</p>
+               <p><persName key="kreutz">Werner Kreutz</persName> stood near the window, staring quietly at the street. <persName>Andreas</persName> came up to him crying. The Professor said softly: -- I understand you. I know how much you have suffered.</p>
+               <p>(to be continued)</p>
+               <p><hi rend="bold">Niels HOYER.</hi></p>
+               <p><hi rend="italics">Reproduction, even partial, prohibited.</hi></p>
+               <p>(Copyright by Niels HOYER 1934.)</p>
+<!-- AC: End of page 11 -->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
