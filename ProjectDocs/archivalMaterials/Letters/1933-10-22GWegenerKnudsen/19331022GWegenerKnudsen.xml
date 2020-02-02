@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    rendition="lilielbe.org/context/letters/1933-10-22GWegenerKnudsen.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/19331022GWegenerKnudsen.xml">
+   
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+               
+                
+                <title>
+                    <date when="1933-10-22">October 22, 1933</date> Letter to <persName key="knudsenP">Paul Knudsen</persName>
+                </title>
+                <author>
+                    <persName key="wegenerG" role="AUT">Gerda Wegener</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="mo" role="TRL"
+                        >Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="plc">Pamela L. Caughie</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by </resp>
+                    <persName ref="mo" role="TRL"
+                        >Marianne Ølholm</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="drr">Danielle Richards</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName><!-- Has not yet been proofed--></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date>
+                       <!-- exact transformation date generated during transformation; leave this one alone --></date>
+                        by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName><!-- Has not yet been proofed--></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                        Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                        Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p><licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc source="Manuscript" xml:lang="dan">
+                <p>Double-sided, two page letter written in cursive, using dark ink.</p>
+            </sourceDesc>
+            
+        </fileDesc>
+        <encodingDesc>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc>History/Book History</catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc>Correspondence</catDesc>
+                    </category>
+                    <category source="collex" xml:id="text">
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1933-10-22GWegenerKnudsen.txt</catDesc>
+                    </category>
+                    <category source="dc" xml:id="date">
+                        <catDesc>1933</catDesc>
+                    </category>
+                   
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+                <hyphenation>
+                    <p>We have removed the hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the facsimile
+                        images.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <div rend="head" style="letter"><pb facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL101.JPG"/>
+                    <p>Marrakech <date>22/10 1933</date></p>
+                    <p>P.S Læs nu <persName key="briffaut">Briffaut</persName>s Brev, og om du vil skriv selv til 
+                        ham. Du ser, hvad han siger om <persName key="decameron">Decameron</persName>! 
+                        men måske var den noget for <placeName key="england">England</placeName>?? 
+                        Hold mig altid a jour med 
+                        Din Adresse.</p>
+                </div>
+                <div rend="body">
+                    <p>Kære Paul,</p>
+                    <p>Tak for Brev, som jeg har faaet igaar aftes. 
+                    Jeg gaar nu ganske forretningsmæssigt til Værks og 
+                    søger at besvare dine Spørgsmaal i Rækkefølge, 
+                    for derefter at fortælle Dig andre Ting. Med Hensyn 
+                    til mine Priser forstaar Du, det er lidt vanskeligt i 
+                    Øjeblikket med den svingende Kurs. Men man maa 
+                    jo tage Krisen i Betragtning og se at slaa Penge paa 
+                    een eller anden Maade. Da jeg skrev til dig om <persName>Piazza</persName>s 
+                    Pris for “<persName key="andersen">Andersen</persName>”, saa har jeg vist taget Fejl. <persName>Piazza</persName> 
+                    betalte mig c. 1500 francs per Tegning, hvilket var 
+                    Maximum af, hvad man paa det Tidspunkt betalte. Deri 
+                    var iberegnet, at han beholdt Originalerne. Dette gælder 
+                    for “hans Texter”. Han betalte mig apart for alle Smaa-
+                    Tegninger: Têtes de chapitre, culs de lampe etc. Jeg husker
+                    ikke hvad han betalte mig for de Smaating. Det var 
+                    en “Prix global”. – Paa det Tidspunkt representerede
+                    1500 francs c. 200 Kr. Lidt derover. Nu har
+                    jo imidlertid alt forandret sig, Kursen er en
+                    ganske anden og der er – Krisen.</p>
+                   <p>Altsaa: 1) Minimumspris burde være for en
+                    Tegning nu c. 100 Kr. Størrelse c. 16 × 23 cm. (Mine
+                    Øjne taaler ikke at lave dem mindre). Med Hensyn til Farvernes
+                    Antal, saa spiller det igen Rolle i Prisen.</p>
+                    <p>2) Du forstaar herudfra, at min Maximumspris 
+                    burde være fra 200 til 250 Kr. pr. Tegning. Men
+                    <pb n="2" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL102.JPG"/>
+                    den tror jeg ikke det kan nytte, at Du insisterer paa i
+                    <placeName key="scandanavia">Skandinavien</placeName> i Øjeblikket. Maaske i <placeName key="england">England</placeName>. – I
+                    Maximumsprisen (250 Kr.) er Originalen indbefattet.
+                    Minimumsprisen (100 Kr.) gælder Reproductionsretten og
+                    Originalen tilhører mig. –––</p>
+                    <p>3) Dette drejer sig altsaa kun om Tegninger direkte udførte
+                    for Forlaget. – Du ved jo sikkert, at man altid i <placeName key="england">England</placeName>
+                    har betalt Tegninger langt højere end i <placeName key="france">Frankrig</placeName>. – Kun
+                    har jeg aldrig haft Lyst til at leve i <placeName key="england">England</placeName>. Voilà!
+                    Ellers havde jeg naturligvis tjent ganske andre Penge.
+                    Især da Konkurrencen der er uendelig langt mindre
+                    end i <placeName key="paris">Paris</placeName>, som jo er og bliver det store artistiske
+                    rendez-vous fra alle Leder og Kanter. (Det er sågar ikke Franskmændene, som gir Tonen an i kunstnerisk
+                    Henseende! Nej, det er alle de dygtigste Udlændinge, som
+                    kommer dertil, fordi Byen er behagelig og har en gammel 
+                    Tradition!) ––– Med Hensyn til Priser for Clichérne
+                    saa kan jeg intet andet sige Dig, end hvad jeg sagde
+                    Dig i sidste Brev efter <persName key="briffaut">Briffaut</persName>s Svar angaaende
+                    Reproductionerne af de Ting han allerede har lavet.
+                    Jeg vedføjer her et Brev som jeg lige har faaet fra
+                    <persName key="briffaut">Briffaut</persName>. Jeg tænker Du kan læse hans Skrift. –––
+                    Det er jo givet, at hvis man skulde kunne ordne det
+                    med Reproductionerne hos <persName key="briffaut">Briffaut</persName>, maa jeg have
+                    min Extrabetaling, - men det overlader jeg til Dig
+                    at ordne. Du er som sagt langt mere Forretningsmand
+                    end jeg. Du vil sikkert faa mere ud af det end jeg
+                    selv kunde faa. ––– (Jeg har heri og i (2) ogsaa
+                    besvaret Dit Spørgsmaal (4) angaaende Reproductionsretten 
+                    og Ejendomsretten. “Politiken” betalte mig i sin Tid
+                    fra 100 til 150 Kr. Reproductionsretten til sine Forsider
+                    i Søndagsmagasinet. Originalerne var mine. Voilà.</p>
+                    <p>Men det var altsaa da 100 Kr. var c. 700 Francs. –</p>
+                    <p>5) Med Hensyn til mine Tegninger <pb n="3" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL103.JPG"/>
+                    2) til <persName key="andersen">Andersen</persName>, saa havde jeg aldrig nogen Kontrakt
+                    med <persName>Piazza</persName>, som var en gammel Hædersmand, og
+                    hvis Ord var som en Kontrakt. (Jeg har heller aldrig
+                    haft med <persName key="briffaut">Briffaut</persName>, som er ganske lige saa honnet). Vi
+                    var simpelthen gode Venner og stolede gensidigt paa
+                    hinanden. – Desværre døde <persName>Piazza</persName>, netop som
+                    jeg havde mine Illustrationer næsten færdige. Han
+                    og hans Efterfølger betalte mig intégralement mit Arbejde.
+                    Men jeg har altsaa ikke et skriftligt Ord imellem os. 
+                    Den unge Efterfølger havde først en Del vanskeligheder
+                    med Overtagelsen af det store Firma. Saa kom Krisen.
+                    Derfor ligger Bogen stadig og sover hos ham. Jeg vil
+                    nu skrive til ham og se, om der skulle være
+                    mulighed for at trække Tegningerne fra ham. Lad
+                    os nu se!</p>
+                   <p> Det er som sagt den smukkeste Bog jeg har lavet, –
+                    og jeg raser over at se den i 4 Aar begravet i en
+                    Bagbutik, uden at komme ud. De sidste Ting blev
+                    leveret netop nu for 4 Aar siden. Jeg havde lagt meget
+                    andet tilside for at lave den. ––– Den vilde jo
+                    kunne faa sikkert en stor succes i <placeName key="scandanavia">Skandinavien</placeName>
+                    og i <placeName key="england">England</placeName>! Den er jo tilmed ganske uskyldig.
+                    Jeg vil gøre, hvad jeg kan for at faa Tegningerne.
+                    Men jeg tør naturligvis intet love. Med mindre Du 
+                    kan give mig et tilbud, saa jeg eventuelt kan
+                    betale Forlæggeren i <placeName key="paris">Paris</placeName> et minimum for at faa
+                    Tegningerne igen. Du kender jo Franskmænd og penge!!
+                    Jeg vilde frygtelig gerne have den ud!</p>
+                   <p> 6) Du taler om en eventuel Provision til en
+                    Mellemmand i <placeName key="england">England</placeName>. Det lader jeg dig ganske om,
+                    det er umuligt for mig herfra at sidde og ordne alt
+                    sligt i Detailler. Du er en af de meget faa, som jeg
+                    stoler paa, naar det gælder mine interesser. Se bare
+                    at slaa nogle Penge for mig.<pb n="4" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL104.JPG"/></p>
+                    <p>À propos <placeName key="england">England</placeName>: Saa har en gammel fin
+                    Englænderinde her ladet sig presentere hos mig for at tale
+                    med mig om <persName key="lili">Lili</persName>s Bog, som for nylig er udkommen
+                    i <placeName key="england">England</placeName>, og som skal have en stormende Succes og
+                    være Dagens store Samtaleæmne. Man ved i <placeName key="london">London</placeName>, at
+                    det er mig, <persName key="wegenerG">Gerda Wegener</persName>, som er <persName key="sparreGre">Grete</persName> i Bogen. Og
+                    min gamle engelske Veninde beklagede voldsomt, at jeg ikke
+                    kunde komme til <placeName key="london">London</placeName> i Øjeblikket, da hun paastaar,
+                    at jeg vilde blive “Dagens Heltinde”. Ser Du Mulighed for
+                    at “udnytte dette” paa en eller anden Maade for en
+                    Edition eller lignende ??? Men i saa Fald maatte det
+                    ikke vare for længe. Der skal jo altid smedes mens Jernet
+                    er varmt. Dette “à titre d’indication”. ––– <persName key="lili">Lili</persName>s Bog, (som
+                    jeg jo omtrent havde skrevet, og som kun er bleven banaliseret
+                    og omlavet af den skidne Jødetamp som hedder <persName key="hoyerNiels">Nils Høyer</persName>)
+                    giver mig saa at sige intet. Han har faaet det lavet saa
+                    snedigt, at jeg omtrent intet faar og han overholder ikke
+                    engang sin Kontrakt. Han skovler alt til sig. Min
+                    tidligere Svoger, Ingeneur <persName key="thomsenTC">T.C. Thomsen</persName>, som <persName key="lili">Lili</persName> havde
+                    overdraget Forretningsførelsen af Bogen med, synes at være
+                    i Ledtog med <persName key="hoyerNiels">Høyer</persName>. Hvad vil du have, at jeg skal
+                    gøre paa denne Afstand, kære? Jeg kan jo ikke sidde
+                    herfra og lave Høyer en Proces! Du, som er jurist,
+                    sig mig om der er noget at stille op? –––</p>
+                    <p>Hvis du ser <persName key="vibeke">Vibeke</persName>, saa hils hende kærligt fra  mig.
+                    Jeg skriver snart til hende. Foreløbigt skal jeg
+                    flytte til 1ste November. Men derefter skriver jeg. – Min
+                    Adresse er og bliver den samme. Nando er jo altid
+                    i Konsulatet et Par Gange om Dagen.</p>
+                    <p>Hjærteligste Hilsner fra os begge samt fra to 
+                    Hundedrenge og en rød Kattepige.</p>
+                    <p>Din hengivne</p>
+                    <signed><persName key="wegenerG">Gerda</persName></signed>
+                   
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="letter">
+                    <p><date>Marrakech 22 October 1933</date></p><p>PS Read <persName key="briffaut">Briffaut</persName>’s letter and if you like, write to
+                        him yourself. You see what he says about <persName key="decameron">Decameron</persName>!
+                        but perhaps it would be something for <placeName key="england">England</placeName>??
+                        Always keep me a jour [up to date] with
+                        your address.</p>
+                </div>
+                <div rend="body">
+                    <p>Dear <persName key="knudsenP">Paul</persName>,</p>
+                    
+                    <p>Thank you for your letter, which I got yesterday evening.
+                    I will now proceed in a businesslike manner and
+                    try to answer your questions one by one,
+                    and tell you other things afterwards. As 
+                    to my prices, you understand it is a little difficult at
+                    the moment with the fluctuating rate of exchange. But you have
+                    to take the crisis into account and try to make money one
+                    way or the other. When I wrote to you about <persName>Piazza</persName>’s
+                    price for “<persName key="andersen">Andersen</persName>”, I think I must have been wrong. <persName>Piazza</persName>
+                    paid me about 1500 francs per drawing, which was
+                    the maximum of what was paid then. Therein
+                    was included that he kept the originals. This applies
+                    to “his texts”. He paid me [apart] privately for all minor
+                    drawings: Têtes de chapitre, culs de lampe [headings of chapters and vignettes] etc. I do not remember
+                    what he paid me for those minor items. It was
+                    a “Prix global” [overall price]. – At that time 
+                    1500 francs represented about 200 crowns. A little more. But now
+                    everything has changed as you know, the rate is 
+                    quite different and there is – the crisis.</p>
+                    <p>So: 1) A minimum price should now be for a
+                    drawing about 100 crowns. Size about 16 × 23 cm. (My
+                    eyes cannot stand making them smaller). As to the number 
+                    of colours, it does not matter to the price.</p>
+                    <p>2) From this you understand that my maximum price
+                    should be from 200 to 250 crowns per drawing. But
+                    <pb n="2" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL102.JPG"/>
+                    I think that it will be hopeless to insist on that in
+                    <placeName key="scandanavia">Scandinavia</placeName> at the moment. Perhaps in <placeName key="england">England</placeName>. – In 
+                    the maximum price (250 crowns) the original is included. 
+                    The minimum price (100 crowns) covers the right of reproduction and 
+                    the original belongs to me. –––</p>
+                    <p>3) This only applies to drawings done directly 
+                    for the publisher. – You probably know that in <placeName key="england">England</placeName> a
+                    far higher price has always been paid for drawings than in <placeName key="france">France</placeName>. – Only
+                    I have never felt like living in <placeName key="england">England</placeName>. Voilà!
+                    Otherwise I would of course have earned quite different money.
+                    Especially as there is infinitely less competition there
+                    than in <placeName key="paris">Paris</placeName>, which is and always will be the great artistic
+                    rendez-vous in every way. (It is not even the French who set the tone in artistic 
+                    terms! No, it is all the cleverest foreigners who
+                    come here because the city is comfortable and has an old
+                    tradition!) ––– As to prices for the clichés [negatives], 
+                    I can tell you no more than what I said to
+                    you in my last letter after <persName key="briffaut">Briffaut</persName>’s answer regarding
+                    the reproductions of the things he had already done.
+                    I enclose a letter here that I have just had from
+                    <persName key="briffaut">Briffaut</persName>. I think you can read his handwriting. –––
+                    It is certain, of course, that if it should be possible to arrange it
+                    with the reproductions at <persName key="briffaut">Briffaut</persName>’s, I must have
+                    my extra payment, – but I leave it to you
+                    to arrange that. As I said, you are far more a business man
+                    than I. You will probably get more out of it than I
+                    would be able to have myself. ––– (In this and in (2) I have also
+                    answered your question (4) regarding the right of reproduction
+                    and the right of ownership. In the past, “Politiken” paid me
+                    from 100 to 150 crowns for the right of reproduction to its covers
+                    in Søndagsmagasinet [The Sunday Magazine]. The originals were mine. – Voilà.</p>
+                    <p>But that was when 100 crowns were about 700 Francs. –</p>
+                    <p>5) As to my drawings
+                    <pb n="3" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL103.JPG"/>
+                    2) for <persName key="andersen">Andersen</persName>, I never had any contract
+                    with <persName>Piazza</persName> who was an old gentleman and
+                    whose word was like a contract. (I have also never 
+                    had with <persName key="briffaut">Briffaut</persName> who is just as honourable). We
+                    were simply good friends and trusted 
+                    each other respectively. – Unfortunately <persName>Piazza</persName> died just as
+                    my drawings were almost finished. He
+                    and his successor paid me intégralement [in full] for my work. 
+                    But I really do not have a written word between us. 
+                    At first the young successor had some difficulties
+                    with the take-over of the large company. Then the crisis came.
+                    That is why my book still lies sleeping with him. I am going to
+                    write to him now and see if there should be a 
+                    possibility of pulling the drawings from him. Let
+                    us see!</p>
+                    <p>As I said, it is the most beautiful book I have made, – 
+                    and I rage at seeing it buried for 4 years in the
+                    back of a shop without being published. The last things were
+                    delivered just now 4 years ago. I had put many 
+                    other things aside to make it. ––– Probably that would 
+                    have a great success in <placeName key="scandanavia">Scandinavia</placeName>
+                    and in <placeName key="england">England</placeName>! It is even perfectly innocent after all.
+                    I will do what I can to get the drawings.
+                    But of course, I dare not promise anything. Unless you
+                    can give me an offer, so that I can perhaps 
+                    pay the publisher in <placeName key="paris">Paris</placeName> a minimum in order to get
+                    the drawings back. You know Frenchmen and money!
+                    I would terribly like to have it published!</p>
+                    <p>6) You talk about a possible provision for an
+                    intermediary in <placeName key="england">England</placeName>. I’ll leave that to you entirely,
+                    it is impossible for me to arrange all 
+                    such matters in detail from here. You are one of the very few whom I
+                    trust when it comes to my interests. Just
+                    make some money for me.<pb n="4" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL104.JPG"/></p>
+                    <p>Speaking of <placeName key="england">England</placeName>: A old
+                    English lady has let herself be introduced to me to talk
+                    to me about <persName key="lili">Lili</persName>’s book that has recently been published
+                    in <placeName key="england">England</placeName>, and is supposed to be a tremendous success and
+                    and today’s great topic of conversation. It is known in <placeName key="london">London</placeName> that it is me, <persName key="wegenerG">Gerda Wegener</persName>, who is <persName key="sparreGre">Grete</persName> in the book. And
+                    my old English friend deeply regretted that I was
+                    not able to come to <placeName key="london">London</placeName> at the moment as she claims
+                    that I would be “the heroine of the day”. Are you able 
+                    to “use this” in some way for an
+                    edition or the like??? But in that case, do 
+                    not take too long, it is always best to strike while the iron 
+                    is hot. This is just for your information.. ––– <persName key="lili">Lili</persName>’s book, (which
+                    I as you know had more or less written, and which has only been trivialised
+                    and changed by the filthy Jew called <persName key="hoyerNiels">Nils Høyer</persName>)
+                    gives me practically nothing. He has arranged things so
+                    cleverly that I get almost nothing and he does not even
+                    keep to his contract. He rakes everything in. My
+                    former brother-in-law, engineer <persName key="thomsenTC">T.C. Thomsen</persName>, whom <persName key="lili">Lili</persName> had
+                    entrusted with the business management of the book, seems to be
+                    in collusion with <persName key="hoyerNiels">Høyer</persName>. What do you want me to
+                    do at this distance, dear? After all I cannot sit
+                    and make a lawsuit against <persName key="hoyerNiels">Høyer</persName> from here! You who are a lawyer
+                    tell me if there is anything to be done? –––</p>
+                    <p>If you see <persName key="vibeke">Vibeke</persName>, then send her my love.
+                    I will write to her soon. For now I am going to
+                    move at the 1st of November. But after that I shall write. – My
+                    address will remain the same. <persName key="portaF">Nando</persName> is always 
+                    in the consulate a couple of times a day as you know.</p>
+                   <p> The kindest regards from us both plus from two
+                    dog boys and a red cat girl.</p>
+                    <p>Yours sincerely</p>
+                   <signed><persName key="wegenerG">Gerda</persName></signed>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
