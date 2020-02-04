@@ -108,7 +108,7 @@
                 <div rend="head" style="letter"><pb facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL101.JPG"/>
                     <p>Marrakech <date>22/10 1933</date></p>
                     <p>P.S Læs nu <persName key="briffautG">Briffaut</persName>s Brev, og om du vil skriv selv til 
-                        ham. Du ser, hvad han siger om <persName key="decameron">Decameron</persName>! 
+                        ham. Du ser, hvad han siger om Decameron! 
                         men måske var den noget for <placeName key="england">England</placeName>?? 
                         Hold mig altid a jour med 
                         Din Adresse.</p>
@@ -122,8 +122,8 @@
                     til mine Priser forstaar Du, det er lidt vanskeligt i 
                     Øjeblikket med den svingende Kurs. Men man maa 
                     jo tage Krisen i Betragtning og se at slaa Penge paa 
-                    een eller anden Maade. Da jeg skrev til dig om <persName>Piazza</persName>s 
-                    Pris for “<persName key="andersen">Andersen</persName>”, saa har jeg vist taget Fejl. <persName>Piazza</persName> 
+                    een eller anden Maade. Da jeg skrev til dig om <placeName key="piazzaLEdition">Piazza</persName>s 
+                    Pris for “<persName key="andersen">Andersen</persName>”, saa har jeg vist taget Fejl. <placeName key="piazzaLEdition">Piazza</placeName> 
                     betalte mig c. 1500 francs per Tegning, hvilket var 
                     Maximum af, hvad man paa det Tidspunkt betalte. Deri 
                     var iberegnet, at han beholdt Originalerne. Dette gælder 
@@ -175,11 +175,11 @@
                     <p>Men det var altsaa da 100 Kr. var c. 700 Francs. –</p>
                     <p>5) Med Hensyn til mine Tegninger <pb n="3" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL103.JPG"/>
                     2) til <persName key="andersen">Andersen</persName>, saa havde jeg aldrig nogen Kontrakt
-                    med <persName>Piazza</persName>, som var en gammel Hædersmand, og
+                    med <persName key="piazza">Piazza</persName>, som var en gammel Hædersmand, og
                     hvis Ord var som en Kontrakt. (Jeg har heller aldrig
                     haft med <persName key="briffautG">Briffaut</persName>, som er ganske lige saa honnet). Vi
                     var simpelthen gode Venner og stolede gensidigt paa
-                    hinanden. – Desværre døde <persName>Piazza</persName>, netop som
+                    hinanden. – Desværre døde <persName key="piazza">Piazza</persName>, netop som
                     jeg havde mine Illustrationer næsten færdige. Han
                     og hans Efterfølger betalte mig intégralement mit Arbejde.
                     Men jeg har altsaa ikke et skriftligt Ord imellem os. 
@@ -247,7 +247,7 @@
             <div type="translation">
                 <div rend="head" style="letter">
                     <p><date>Marrakech 22 October 1933</date></p><p>PS Read <persName key="briffautG">Briffaut</persName>’s letter and if you like, write to
-                        him yourself. You see what he says about <persName key="decameron">Decameron</persName>!
+                        him yourself. You see what he says about Decameron!
                         but perhaps it would be something for <placeName key="england">England</placeName>??
                         Always keep me a jour [up to date] with
                         your address.</p>
@@ -262,8 +262,8 @@
                     to my prices, you understand it is a little difficult at
                     the moment with the fluctuating rate of exchange. But you have
                     to take the crisis into account and try to make money one
-                    way or the other. When I wrote to you about <persName>Piazza</persName>’s
-                    price for “<persName key="andersen">Andersen</persName>”, I think I must have been wrong. <persName>Piazza</persName>
+                    way or the other. When I wrote to you about <placeName key="piazzaLEdition">Piazza</placeName>’s
+                    price for “<persName key="andersen">Andersen</persName>”, I think I must have been wrong. <placeName key="piazzaLEdition>Piazza</placeName>
                     paid me about 1500 francs per drawing, which was
                     the maximum of what was paid then. Therein
                     was included that he kept the originals. This applies
@@ -316,11 +316,11 @@
                     <p>5) As to my drawings
                     <pb n="3" facs="http://lilielbe.org/media/letters/1933-10-22GWegenerKnudsenL103.JPG"/>
                     2) for <persName key="andersen">Andersen</persName>, I never had any contract
-                    with <persName>Piazza</persName> who was an old gentleman and
+                    with <persName key="piazza>Piazza</persName> who was an old gentleman and
                     whose word was like a contract. (I have also never 
                     had with <persName key="briffautG">Briffaut</persName> who is just as honourable). We
                     were simply good friends and trusted 
-                    each other respectively. – Unfortunately <persName>Piazza</persName> died just as
+                    each other respectively. – Unfortunately <persName key="piazza">Piazza</persName> died just as
                     my drawings were almost finished. He
                     and his successor paid me intégralement [in full] for my work. 
                     But I really do not have a written word between us. 
