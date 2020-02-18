@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="liliElbeProject/gitRepos/LiliElbe_EngagedLearners/ProjectDocs/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+<?xml-model href="../../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
     <!-- AC: Where do I find correct links for above? -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>VICE - VERSA</title>
                 <title type="alternative"><hi rend="bold">UN HOMME CHANGE DE SEXE</hi>
-                <hi rend="bold">D'après les documents authentiques réunis par <persName key="hoyerNiels">NIELS HOYER</persName></hi></title>
+                    <hi rend="bold">D'après les documents authentiques réunis par <persName
+                            key="hoyerNiels">NIELS HOYER</persName></hi></title>
                 <!-- AC: Some of the title is cut off -->
                 <author>
-                    <persName key="hoyerNiels" role="AUT"
-                        >Niels Hoyer</persName>
+                    <persName key="hoyerNiels" role="AUT">Niels Hoyer</persName>
                 </author>
                 <respStmt>
                     <resp>Translation completed by</resp>
-                    <persName ref="cb" role="TRL"
-                        >Cristiana Bertola</persName>
+                    <persName ref="cb" role="TRL">Cristiana Bertola</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation reviewed by</resp>
-                    <persName ref="plc"
-                        >Pamela L. Caughie</persName>
+                    <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Transcription completed by </resp>
@@ -39,7 +38,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
-                        <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                            <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
                         by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
                 </respStmt>
@@ -64,15 +63,21 @@
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date when="2019-07-06">July 6th, 2019</date>
                 <availability>
-                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
-                        Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
-                        Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
-                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
-                        4.0 International license.</licence>
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
+                            Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
+                            Movement's Archives and Library)</orgName> in <placeName>Huddinge,
+                            Sweden</placeName>.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc source="Periodical" xml:lang="fre-B">
-                <p>A two-page printed article taking up two columns on each page (total of four columns on a page), with the title running acorss both pages; the first page (page 14) has a photograph of Andreas Sparre (Einar Wegener) at the top of the second column, the second page (page 15) has the handwriting sample used in the German edition at the top of the first column and a photograph of Lili Elbe at the top of the second. Niels Hoyer's name appears at the end.</p>
+                <p>A two-page printed article taking up two columns on each page (total of four
+                    columns on a page), with the title running acorss both pages; the first page
+                    (page 14) has a photograph of Andreas Sparre (Einar Wegener) at the top of the
+                    second column, the second page (page 15) has the handwriting sample used in the
+                    German edition at the top of the first column and a photograph of Lili Elbe at
+                    the top of the second. Niels Hoyer's name appears at the end.</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -89,7 +94,8 @@
                         <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_02.jpg</catDesc>
                     </category>
                     <category source="collex" xml:id="text">
-                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc><!-- AC: Where do I find correct link? -->
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc>
+                        <!-- AC: Where do I find correct link? -->
                     </category>
                     <category source="dc" xml:id="date">
                         <catDesc>1934</catDesc>
@@ -103,8 +109,8 @@
             <editorialDecl>
                 <hyphenation>
                     <p>We have removed the hyphenation that appears in the printed text during
-                        digitization and encoding. Original hyphenation can be consulted in the facsimile
-                        images.</p>
+                        digitization and encoding. Original hyphenation can be consulted in the
+                        facsimile images.</p>
                 </hyphenation>
             </editorialDecl>
         </encodingDesc>
@@ -112,13 +118,21 @@
     <text>
         <body>
             <div type="original">
-                <pb style="page" n="14" facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_01.jpg"/>
-                <figure xml:id="i01" facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_01.jpg">                  <note source="ac">Picture of <persName key="wegenerE">Einer Wegener</persName> in a suit. His hand is on his hip</note>
+                <pb style="page" n="14"
+                    facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_01.jpg"/>
+                <figure xml:id="i01"
+                    facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_01.jpg">
+                    <note source="ac">Picture of <persName key="wegenerE">Einer Wegener</persName>
+                        in a suit. His hand is on his hip</note>
                 </figure>
                 <div rend="head" style="periodical">
-                    <head><anchor type="commentRangeStart" n="1"/>VICE - - VERSA<anchor type="commentRangeEnd" n="1"/><note type="translator" source="ac" corresp="comment_1">Title spreads across both pages of the Issue 1.</note></head> 
+                    <head><anchor type="commentRangeStart" n="1"/>VICE - - VERSA<anchor
+                            type="commentRangeEnd" n="1"/><note type="translator" source="ac"
+                            corresp="comment_1">Title spreads across both pages of the Issue
+                            1.</note></head>
                     <head>un Homme change de sexe</head>
-                    <head>D'après les documents authentiques et scientifiques réunis par <persName key="hoyerNiels">Niels Hoyer</persName></head>
+                    <head>D'après les documents authentiques et scientifiques réunis par <persName
+                            key="hoyerNiels">Niels Hoyer</persName></head>
                     <!-- AC: Some of the title is cut off in the facsimile -->
                 </div>
                 <div rend="headlines">
@@ -128,257 +142,787 @@
                         <!-- AC: What is a headline? -->
                     </list>
                 </div>
-                <div rend="body">               
-                    <p><hi rend="italics">En examinant <persName key="sparreAn">Andreas Sparre</persName>, à <placeName key="paris">Paris</placeName>, le professeur <persName key="kreutz">Werner Kreutz</persName> avait déclaré que le jeune homme possédait</hi>en même<hi rend="italics">temps des organes masculins et féminins, mais que ces derniers étaient atrophiés. Il était, de rayon X subi par <persName key="sparreAn">Andreas</persName> avait desséché ces organes.</hi></p>
-                    <p><hi rend="italics"><persName key="kreutz">Werner Kreutz</persName> avait exigé que le patient subisse un traitement à <placeName key="berlin">Berlin</placeName> avant d'entrer dans sa clinique de <placeName key="dresden">Dresde</placeName>. <persName key="sparreAn">Andreas</persName> était done parti pour l'<placeName key="germany">Allemagne</placeName>, laissant sa femme <persName key="sparreGre">Grete</persName> à <placeName key="paris">Paris</placeName>. A peine arrivé, il fut convoqué par le professeur <persName key="arns">Arns</persName>, inventeur d'une nouvelle méthode d'analuse du sang, permettant de doser les hormones. Ainsi que l'on sait, ce produit de la sécrétion interner joue un rôle essentiel dans l'organisme et influe sur le développement du sexe ; les savants estiment aujourd'hui que ce sont les hormones qui déterminent la différence entre l'appareil génital de l'homme et de la femme ; il était done extrêmement important d'établir le fonctionnement de la sécrétion interne chez un individu douéd'organes génitaux doubles.</hi></p>
-                    <p><hi rend="italics"><persName key="sparreAn">Andreas</persName> se rendit ensuite chez un autre praticien, le professeur <persName key="hardenfeld">Hardenfeld</persName>, qui étudia sa structure psychique et ses réactions émotionnelles. Il fallait, en effect, « débrouiller » la double personnalité qui habitait ce corps, et se rendre compte de l'existence concrète de l'être féminin se cachant sous l'enveloppe masculine. Pendant de longues heures, <persName key="hardenfeld">Hardenfeld</persName> interrogea le jeune peintre, fouillant à la lumière de la psycho-analyse les tréfonds les plus obscurs de sa personnalité. Ce fut un véritable supplice moral, dont <persName key="sparreAn">Andreas</persName> sortit brisé. Afin de la distraire, deux fidèles amis, <persName key="hoyerNiels">Niels</persName> et <persName key="hvideIng">Inger</persName>, l'emmenèrent au restaurant. La soirée se termina par une petite fête fort joyeuse, car jusqu'au seuil de sa vie nouvelle, <persName key="sparreAn">Andreas Sparre</persName> conserva ses goûts et ses habitudes d'authentique rapin de <placeName key="montparnasse">Montparnasse</placeName>... Entre temps, les deux praticiens avaient une consultation par téléphone avec le professeur <persName key="kreutz">Werner Kreutz</persName>. <persName key="hardenfeld">Hardenfel</persName><!-- AC: missing d? -->lui déclarait que l'être psychique d'<persName key="sparreAn">Andreas</persName> contenait</hi>un élément féminin nettement prépondérant : 80 à 100 %.<hi rend="italics">L'examen du sang par <persName key="arns">Arns</persName> avait donnédes résultats analogues au point de vue physiologique. Il était clair, par conséquent, que la femme dominait l'homme, et que seul un caprice de la nature avait doté, cette femme d'une apparence masculine. Ayant appris ces résultats, <persName key="kreutz">Werner Kreutz</persName> décréta qu'une intervention chirurigicale s'imposait : cette première étape comportait</hi>l'ablation des « glandes séminales »<hi rend="italics">(castration), qui allait permettre à Andreas de perdre cette fausse apparence.</hi></p>
-                    <p><hi rend="italics">Plus tard, une greffe ovarienne entreprise par <persName key="kreutz">Werner Kreutz</persName> en personne devait stimuler les organes féminins du patient. Il est utile de rappeler que si ces savants allaient tenter la première expérience de ce genre sur un être humain, le professeur <persName key="steinach">Steinach</persName>, de <placeName key="vienna">Vienne</placeName>, avait déjà opéré des animaux, dont il avait</hi>réussi à changer le sexe<hi rend="italics">par des méthodes analogues. C'est ainsi qu'il dota un rat mâle de glandes mammifères et qu'il changea des poules en cogs</hi>capables de féconder<hi rend="italics">d'autres poules.</hi></p>
-                    <p><hi rend="bold">III.<anchor type="refStart" n="2"/><hi rend="italics">(1)</hi><anchor type="refEnd" n="2"/><note corresp="fn_002" type="foot">Voir Voila depuis le n<hi rend="super">0</hi> 185</note> — LA PREMIÈRE MÉTAMORPHOSE</hi></p> <!-- AC: (1) is superscripted -->
-                    <p>DANN la chambre de la clinique chirurgicale du professeur <persName key="gebhard">Gebhardt</persName> où <persName key="sparreAn">Andreas</persName> fut admis, les lampes étaient déjà allumées. Une infirmière l'y conduisit, s'empara de ses effets personnels, suspendit un thermomètre au-dessus du lit et recommanda au patient de se coucher immédiatement. Les médecins allaient bientôt venir.</p> <!-- AC: Footnote for D? It is big on the facsimile -->
-                    <p><persName key="sparreAn">Andreas</persName> se mit à se déshabiller lentement. Soudain, il lui vint à l'esprit<hi rend="italics">qu'<persName key="sparreAn">Andreas Sparre</persName> se déshabillait sans doute pour la dernière fois...</hi>Adieu, veston, gilet, pantalon, caleçon, chaussettes, souliers ! Durant de longues années, ils lui avaient serve d'enveloppe. Il les plaça dans l'armoire d'un geste machinal, acquis par l'habitude de toute une vie. Qu'allaient-ils devenir à présent, ces articles vestimentaires ? De lui, ou de ses attributs d'élégance masculine, qui allait survivre ?</p>
-                    <p>Il prit son chapeau qu'il avait posé sur un guéridon : — Tiens, je n'y pensais plus, se dit-il. Il glissa sa main dans sa poche, en tira une photo qu'il plaça sur la table : « Grete ! murmura-t-il, et d'une geste rapide il caressa l'image. On frappa à la porte, une main tourna le bouton. Le professeur Gebhardt entra, accompagné de son assistant. Il posa quelques questions à Andreas, qui répondit avec fermeté ; peu après, le jeune peintre apprit que son opération était remise au lendemain matin. — Mais pourquoi, docteur, s'écria-t-il avec impatience.</p>
+                <div rend="body">
+                    <p><hi rend="italics">En examinant <persName key="sparreAn">Andreas
+                                Sparre</persName>, à <placeName key="paris">Paris</placeName>, le
+                            professeur <persName key="kreutz">Werner Kreutz</persName> avait déclaré
+                            que le jeune homme possédait</hi>en même<hi rend="italics">temps des
+                            organes masculins et féminins, mais que ces derniers étaient atrophiés.
+                            Il était, de rayon X subi par <persName key="sparreAn"
+                                >Andreas</persName> avait desséché ces organes.</hi></p>
+                    <p><hi rend="italics"><persName key="kreutz">Werner Kreutz</persName> avait
+                            exigé que le patient subisse un traitement à <placeName key="berlin"
+                                >Berlin</placeName> avant d'entrer dans sa clinique de <placeName
+                                key="dresden">Dresde</placeName>. <persName key="sparreAn"
+                                >Andreas</persName> était done parti pour l'<placeName key="germany"
+                                >Allemagne</placeName>, laissant sa femme <persName key="sparreGre"
+                                >Grete</persName> à <placeName key="paris">Paris</placeName>. A
+                            peine arrivé, il fut convoqué par le professeur <persName key="arns"
+                                >Arns</persName>, inventeur d'une nouvelle méthode d'analuse du
+                            sang, permettant de doser les hormones. Ainsi que l'on sait, ce produit
+                            de la sécrétion interner joue un rôle essentiel dans l'organisme et
+                            influe sur le développement du sexe ; les savants estiment aujourd'hui
+                            que ce sont les hormones qui déterminent la différence entre l'appareil
+                            génital de l'homme et de la femme ; il était done extrêmement important
+                            d'établir le fonctionnement de la sécrétion interne chez un individu
+                            douéd'organes génitaux doubles.</hi></p>
+                    <p><hi rend="italics"><persName key="sparreAn">Andreas</persName> se rendit
+                            ensuite chez un autre praticien, le professeur <persName
+                                key="hardenfeld">Hardenfeld</persName>, qui étudia sa structure
+                            psychique et ses réactions émotionnelles. Il fallait, en effect, «
+                            débrouiller » la double personnalité qui habitait ce corps, et se rendre
+                            compte de l'existence concrète de l'être féminin se cachant sous
+                            l'enveloppe masculine. Pendant de longues heures, <persName
+                                key="hardenfeld">Hardenfeld</persName> interrogea le jeune peintre,
+                            fouillant à la lumière de la psycho-analyse les tréfonds les plus
+                            obscurs de sa personnalité. Ce fut un véritable supplice moral, dont
+                                <persName key="sparreAn">Andreas</persName> sortit brisé. Afin de la
+                            distraire, deux fidèles amis, <persName key="hoyerNiels"
+                                >Niels</persName> et <persName key="hvideIng">Inger</persName>,
+                            l'emmenèrent au restaurant. La soirée se termina par une petite fête
+                            fort joyeuse, car jusqu'au seuil de sa vie nouvelle, <persName
+                                key="sparreAn">Andreas Sparre</persName> conserva ses goûts et ses
+                            habitudes d'authentique rapin de <placeName key="montparnasse"
+                                >Montparnasse</placeName>... Entre temps, les deux praticiens
+                            avaient une consultation par téléphone avec le professeur <persName
+                                key="kreutz">Werner Kreutz</persName>. <persName key="hardenfeld"
+                                >Hardenfel</persName><!-- AC: missing d? -->lui déclarait que l'être
+                            psychique d'<persName key="sparreAn">Andreas</persName> contenait</hi>un
+                        élément féminin nettement prépondérant : 80 à 100 %.<hi rend="italics"
+                            >L'examen du sang par <persName key="arns">Arns</persName> avait
+                            donnédes résultats analogues au point de vue physiologique. Il était
+                            clair, par conséquent, que la femme dominait l'homme, et que seul un
+                            caprice de la nature avait doté, cette femme d'une apparence masculine.
+                            Ayant appris ces résultats, <persName key="kreutz">Werner
+                                Kreutz</persName> décréta qu'une intervention chirurigicale
+                            s'imposait : cette première étape comportait</hi>l'ablation des «
+                        glandes séminales »<hi rend="italics">(castration), qui allait permettre à
+                            Andreas de perdre cette fausse apparence.</hi></p>
+                    <p><hi rend="italics">Plus tard, une greffe ovarienne entreprise par <persName
+                                key="kreutz">Werner Kreutz</persName> en personne devait stimuler
+                            les organes féminins du patient. Il est utile de rappeler que si ces
+                            savants allaient tenter la première expérience de ce genre sur un être
+                            humain, le professeur <persName key="steinach">Steinach</persName>, de
+                                <placeName key="vienna">Vienne</placeName>, avait déjà opéré des
+                            animaux, dont il avait</hi>réussi à changer le sexe<hi rend="italics"
+                            >par des méthodes analogues. C'est ainsi qu'il dota un rat mâle de
+                            glandes mammifères et qu'il changea des poules en cogs</hi>capables de
+                            féconder<hi rend="italics">d'autres poules.</hi></p>
+                    <p><hi rend="bold">III.<anchor type="refStart" n="2"/><hi rend="italics"
+                                >(1)</hi><anchor type="refEnd" n="2"/><note corresp="fn_002"
+                                type="foot">Voir Voila depuis le n<hi rend="super">0</hi> 185</note>
+                            — LA PREMIÈRE MÉTAMORPHOSE</hi></p>
+                    <!-- AC: (1) is superscripted -->
+                    <p>DANN la chambre de la clinique chirurgicale du professeur <persName
+                            key="gebhard">Gebhardt</persName> où <persName key="sparreAn"
+                            >Andreas</persName> fut admis, les lampes étaient déjà allumées. Une
+                        infirmière l'y conduisit, s'empara de ses effets personnels, suspendit un
+                        thermomètre au-dessus du lit et recommanda au patient de se coucher
+                        immédiatement. Les médecins allaient bientôt venir.</p>
+                    <!-- AC: Footnote for D? It is big on the facsimile -->
+                    <p><persName key="sparreAn">Andreas</persName> se mit à se déshabiller
+                        lentement. Soudain, il lui vint à l'esprit<hi rend="italics">qu'<persName
+                                key="sparreAn">Andreas Sparre</persName> se déshabillait sans doute
+                            pour la dernière fois...</hi>Adieu, veston, gilet, pantalon, caleçon,
+                        chaussettes, souliers ! Durant de longues années, ils lui avaient serve
+                        d'enveloppe. Il les plaça dans l'armoire d'un geste machinal, acquis par
+                        l'habitude de toute une vie. Qu'allaient-ils devenir à présent, ces articles
+                        vestimentaires ? De lui, ou de ses attributs d'élégance masculine, qui
+                        allait survivre ?</p>
+                    <p>Il prit son chapeau qu'il avait posé sur un guéridon : — Tiens, je n'y
+                        pensais plus, se dit-il. Il glissa sa main dans sa poche, en tira une photo
+                        qu'il plaça sur la table : « Grete ! murmura-t-il, et d'une geste rapide il
+                        caressa l'image. On frappa à la porte, une main tourna le bouton. Le
+                        professeur Gebhardt entra, accompagné de son assistant. Il posa quelques
+                        questions à Andreas, qui répondit avec fermeté ; peu après, le jeune peintre
+                        apprit que son opération était remise au lendemain matin. — Mais pourquoi,
+                        docteur, s'écria-t-il avec impatience.</p>
                     <p>Le professeur se mit à rire :</p>
-                    <p>—<hi rend="italics">Gravol</hi>,c'est ainsi que vous autres, Scandinaves, vous appelez ces petits soupers d'adieu. C'est très gentil, ma foi... Votre ami <persName key="hoyerNiels">Niels</persName>, avec lequel vous avez du goût pour nos vins du Rhin... Voilà qui est fort bien, sans doute... N'empêche que ce genre d'opération réussit mieux lorsque l'on a le ventre vide. D'ici quelques, heures, nous vous donnerons un soporifique, afin que la nuit ne vous paraisse pas trop longue... Il s'agit d'ailleurs d'une intervention sans gravité. A demain, et bon courage !</p> 
-                    <p>— Attendre, il faut done toujours attendre, s'écreia-t-il, en paraissant s'adresser au portrait de sa femme : enfin, <persName key="sparreGre">Grete</persName>, prenons patience...</p>
-                    <p>Il n'eut pas la force de reprendre, le fil de ses pensées. Il s'affaissa sur les coussins, fixa le plafond d'un regard vide... Une immense lassitude l'envahit.</p>
-                    <p>Les derniers lambeaux de son orgueil masculin qu'il avait traînés dans <placeName key="berlin">Berlin</placeName>, chez ses amis et au cours du « petit souper d'adieu ». s'en allaient peu à peu.</p>
+                    <p>—<hi rend="italics">Gravol</hi>,c'est ainsi que vous autres, Scandinaves,
+                        vous appelez ces petits soupers d'adieu. C'est très gentil, ma foi... Votre
+                        ami <persName key="hvideNiels">Niels</persName>, avec lequel vous avez du
+                        goût pour nos vins du Rhin... Voilà qui est fort bien, sans doute...
+                        N'empêche que ce genre d'opération réussit mieux lorsque l'on a le ventre
+                        vide. D'ici quelques, heures, nous vous donnerons un soporifique, afin que
+                        la nuit ne vous paraisse pas trop longue... Il s'agit d'ailleurs d'une
+                        intervention sans gravité. A demain, et bon courage !</p>
+                    <p>— Attendre, il faut done toujours attendre, s'écreia-t-il, en paraissant
+                        s'adresser au portrait de sa femme : enfin, <persName key="sparreGre"
+                            >Grete</persName>, prenons patience...</p>
+                    <p>Il n'eut pas la force de reprendre, le fil de ses pensées. Il s'affaissa sur
+                        les coussins, fixa le plafond d'un regard vide... Une immense lassitude
+                        l'envahit.</p>
+                    <p>Les derniers lambeaux de son orgueil masculin qu'il avait traînés dans
+                            <placeName key="berlin">Berlin</placeName>, chez ses amis et au cours du
+                        « petit souper d'adieu ». s'en allaient peu à peu.</p>
                     <p>Il se sentait à bout.</p>
                     <!-- AC: boxes separate paragraphs -->
-                    <p>Vers les dix heures. l'assistant revint et lui administra un soporifique. Puis l'infirmière parut, rangea sa chambre. éteignit la lumière. On le —————</p><!-- AC: Footnote is at the bottom of the page, separated by a line -->
+                    <p>Vers les dix heures. l'assistant revint et lui administra un soporifique.
+                        Puis l'infirmière parut, rangea sa chambre. éteignit la lumière. On le
+                        —————</p>
+                    <!-- AC: Footnote is at the bottom of the page, separated by a line -->
                     <cb n="1"/>
-                    <p>laissa dormir jusqu'au milieu de la matinée, lorsque les médecins devaient arriver. Il n'eut que le temps de faire une rapide toilette, et dêja le professeur <persName key="arns">Arns</persName> se tenait près de son lit, et lui enjoignait de signer une déclaration qui disait en substance :</p>
-                    <p>« Moi, <persName key="sparreAn">Andreas Sparre</persName>, je désire être opéré à mes propres risques et périls ; le professeur <persName key="gebhard">Gebhardt</persName>, chargé de l'opération, est délivré de oute responsabilité dans le cas d'une issue défavorable. Si je succombe, aucune poursuite ne saurait être intentée par ma famille. »</p>
+                    <p>laissa dormir jusqu'au milieu de la matinée, lorsque les médecins devaient
+                        arriver. Il n'eut que le temps de faire une rapide toilette, et dêja le
+                        professeur <persName key="arns">Arns</persName> se tenait près de son lit,
+                        et lui enjoignait de signer une déclaration qui disait en substance :</p>
+                    <p>« Moi, <persName key="sparreAn">Andreas Sparre</persName>, je désire être
+                        opéré à mes propres risques et périls ; le professeur <persName
+                            key="gebhard">Gebhardt</persName>, chargé de l'opération, est délivré de
+                        oute responsabilité dans le cas d'une issue défavorable. Si je succombe,
+                        aucune poursuite ne saurait être intentée par ma famille. »</p>
                     <p>Lorsque le jeune homme eut signé, il demanda :</p>
-                    <p>— Me permettez-vous d'ajouter quelques mots de gratitude envers les médecins allemands qui vont tenter ma métamorphose ?</p>
+                    <p>— Me permettez-vous d'ajouter quelques mots de gratitude envers les médecins
+                        allemands qui vont tenter ma métamorphose ?</p>
                     <p>Mais le docteur refusa cette offre en riant. Puis il déclara :</p>
-                    <p>— L'opération aura lieu dans quelques minutes. C'est le professeur <persName key="gebhard">Gebhardt</persName> qui s'en chargera. Mais j'y assisterai, selon le désir di professeur <persName key="kreutz">Werner Kreutz</persName>. Au revoir, et bonne chance !</p>
+                    <p>— L'opération aura lieu dans quelques minutes. C'est le professeur <persName
+                            key="gebhard">Gebhardt</persName> qui s'en chargera. Mais j'y
+                        assisterai, selon le désir di professeur <persName key="kreutz">Werner
+                            Kreutz</persName>. Au revoir, et bonne chance !</p>
                     <!-- AC: Two boxes separate text -->
-                    <p>Il était près de mide lorsque <persName key="sparreAn">Andreas</persName> revint à lui, en proie à une violente souffrance. Il ouvrit les yeux et un cri de douleur, s'échappa de ses lévres. Il se rendit compte qu'il était couché dans son lit... Deux infirmières se penchaient sur lui, murmurant des paroles de réconfort. A mesure qu'il reprenait conscience, la souffrance devenait plus aiguë, atroce... Il fit un effort pour se maîtriser, serra les dents.</p>
+                    <p>Il était près de mide lorsque <persName key="sparreAn">Andreas</persName>
+                        revint à lui, en proie à une violente souffrance. Il ouvrit les yeux et un
+                        cri de douleur, s'échappa de ses lévres. Il se rendit compte qu'il était
+                        couché dans son lit... Deux infirmières se penchaient sur lui, murmurant des
+                        paroles de réconfort. A mesure qu'il reprenait conscience, la souffrance
+                        devenait plus aiguë, atroce... Il fit un effort pour se maîtriser, serra les
+                        dents.</p>
                     <p>— Ai'je fait beaucoup de tapage ? demanda-t-il faiblement.</p>
-                    <p>— Pas mail, répondit l'une des infirmières en souriant : mais ce qu'il y a de remarquable, c'est que votre voix est changée. Vous criez comme une femme.</p>
-                    <p>Le professeur <persName key="gebhard">Gebhardt</persName> entra, prit la main d'<persName key="sparreAn">Andreas</persName> dans la sienne :</p>
-                    <p>— Tout, s'est passé à merveille, fit-il, et je dois, de plus, vous présenter mes félicitations : vous avez un magnifique soprano.</p>
-                    <p>Quelques heures plus tard, le malade fut autorisé à recevoir son ami <persName key="hoyerNiels">Niels</persName>.</p>
+                    <p>— Pas mail, répondit l'une des infirmières en souriant : mais ce qu'il y a de
+                        remarquable, c'est que votre voix est changée. Vous criez comme une
+                        femme.</p>
+                    <p>Le professeur <persName key="gebhard">Gebhardt</persName> entra, prit la main
+                            d'<persName key="sparreAn">Andreas</persName> dans la sienne :</p>
+                    <p>— Tout, s'est passé à merveille, fit-il, et je dois, de plus, vous présenter
+                        mes félicitations : vous avez un magnifique soprano.</p>
+                    <p>Quelques heures plus tard, le malade fut autorisé à recevoir son ami
+                            <persName key="hvideNiels">Niels</persName>.</p>
                     <p>— Tu m'as l'air de te porter fort bien.</p>
-                    <p>— Ça<!-- AC: double-check facsimile on this C -->ne va pas trop mal, répondit <persName key="sparreAn">Andreas</persName>.</p>
-                    <p><persName key="hoyerNiels">Niels</persName><!-- AC: double-check s on facsimile -->réprima un cri de surprise, et inerrogea l'infirmière du regard. Celle-ci murmura :</p>
+                    <p>— Ça<!-- AC: double-check facsimile on this C -->ne va pas trop mal, répondit
+                            <persName key="sparreAn">Andreas</persName>.</p>
+                    <p><persName key="hvideNiels"
+                        >Niels</persName><!-- AC: double-check s on facsimile -->réprima un cri de
+                        surprise, et inerrogea l'infirmière du regard. Celle-ci murmura :</p>
                     <p>— Sans doute, cette voix vous étonne...</p>
                     <p>— Je ne la reconnais plus.</p>
                     <p>Puis, se tournant verse le malade :</p>
                     <p>— Ma femme t'envoie ses meilleurs souhaits, elle viendra...</p>
-                    <p>Sur un signe de l'infirmière, <persName key="hoyerNiels">Niels</persName> se retira doucement, et <persName key="sparreAn">Andreas</persName> demanda :</p>
+                    <p>Sur un signe de l'infirmière, <persName key="hvideNiels">Niels</persName> se
+                        retira doucement, et <persName key="sparreAn">Andreas</persName> demanda
+                        :</p>
                     <p>— Faites-moi une piqûre... Je souffre.</p>
-                    <p>On lui administra plusieurs piqûres dans le courant de cette nuit affreuse, chargée d'agonie, mais ce ne fut qu'à l'aube qu'il fut enfin plongé dans un sommeil fiévreux. Lorsqu'il se réveilla. vers midi, il se sentit brisé, épuisé, mais la douleur s'était atténuée.</p>
+                    <p>On lui administra plusieurs piqûres dans le courant de cette nuit affreuse,
+                        chargée d'agonie, mais ce ne fut qu'à l'aube qu'il fut enfin plongé dans un
+                        sommeil fiévreux. Lorsqu'il se réveilla. vers midi, il se sentit brisé,
+                        épuisé, mais la douleur s'était atténuée.</p>
                     <p>De temps en temps, il posait machinalement la question :</p>
-                    <p>— Qui suis-je ? Que suis-je ?... Qui étais-je ?... Que vais-je devenir ?...</p>
+                    <p>— Qui suis-je ? Que suis-je ?... Qui étais-je ?... Que vais-je devenir
+                        ?...</p>
                     <!-- AC: two small boxes separate paragraphs -->
-                    <p>Dans l'après-midi, <persName key="hvideIng">Inger</persName>, la femme de <persName key="hoyerNiels">Niels</persName>, entra dans sa chambre. Elle lui apportait des fleurs et un flacon d'eau de <placeName key="cologne">Cologne</placeName>. Des fleurs ! Leur parfum l'embaumait !</p>
-                    <p><persName key="hvideIng">Inger</persName> s'assit sur le bord du lit, et lui parla longtemps, confidentiellement. Jusqu'ici elle lui avait toujours dit « vous », mais à présent elle le tutoyait. Ce ne fut que plus tard qu'il évoqua cet entretien, se rendant compte que durant ces premiers jours qui suivirent l'opération, elle ne l'avait jamais appelé par son nom.</p>
-                    <p>Elle revint chaque jour, lui apportant des fleurs. et lui prodiguant des paroles de réconfort. Ainsi. deux, puis trois jours s'écoulèrent. Pendant les longues nuits, sous le coup de massue de sommifères puissants, il dormait profondément sans rêves. Et tous les matins, <persName key="hvideIng">Inger</persName> était à son chevet.</p> 
+                    <p>Dans l'après-midi, <persName key="hvideIng">Inger</persName>, la femme de
+                            <persName key="hvideNiels">Niels</persName>, entra dans sa chambre. Elle
+                        lui apportait des fleurs et un flacon d'eau de <placeName key="cologne"
+                            >Cologne</placeName>. Des fleurs ! Leur parfum l'embaumait !</p>
+                    <p><persName key="hvideIng">Inger</persName> s'assit sur le bord du lit, et lui
+                        parla longtemps, confidentiellement. Jusqu'ici elle lui avait toujours dit «
+                        vous », mais à présent elle le tutoyait. Ce ne fut que plus tard qu'il
+                        évoqua cet entretien, se rendant compte que durant ces premiers jours qui
+                        suivirent l'opération, elle ne l'avait jamais appelé par son nom.</p>
+                    <p>Elle revint chaque jour, lui apportant des fleurs. et lui prodiguant des
+                        paroles de réconfort. Ainsi. deux, puis trois jours s'écoulèrent. Pendant
+                        les longues nuits, sous le coup de massue de sommifères puissants, il
+                        dormait profondément sans rêves. Et tous les matins, <persName
+                            key="hvideIng">Inger</persName> était à son chevet.</p>
                     <p>Un jour, elle entra, tenant dans ses mains un bouquet printanier :</p>
-                    <p>— Aujourd'hui, ce n'est pas moi qu'il faut remercier, fit-elle en riant, je ne suis que la messagére d'un de tes bons amis de <placeName key="paris">Paris</placeName>.</p>
-                    <p>— <persName key="lejeuneClaude">Claude Lejeune</persName> ! s'écria <persName key="sparreAn">Andreas</persName>.</p>
-                    <p><persName key="hvideIng">Inger</persName> détacha le billet qui était épinglé au bouquet et le lut à jaute voix :</p>
-                    <p>« Chaque fleur de ce bouquet est un message affectueux pour « <persName key="lili">Lili</persName> ». <persName key="lejeuneClaude">Claude</persName>. »</p>
+                    <p>— Aujourd'hui, ce n'est pas moi qu'il faut remercier, fit-elle en riant, je
+                        ne suis que la messagére d'un de tes bons amis de <placeName key="paris"
+                            >Paris</placeName>.</p>
+                    <p>— <persName key="lejeuneClaude">Claude Lejeune</persName> ! s'écria <persName
+                            key="sparreAn">Andreas</persName>.</p>
+                    <p><persName key="hvideIng">Inger</persName> détacha le billet qui était épinglé
+                        au bouquet et le lut à jaute voix :</p>
+                    <p>« Chaque fleur de ce bouquet est un message affectueux pour « <persName
+                            key="lili">Lili</persName> ». <persName key="lejeuneClaude"
+                            >Claude</persName>. »</p>
                     <p>Le malade cacha dans les fleurs son visage baigné de larmes. Il murmura :</p>
-                    <p>— <persName key="lejeuneClaude">Claude</persName>, <persName key="lejeuneClaude">Claude</persName>,<hi rend="italics">la</hi>retrouvera-t-il un jour ?</p>
+                    <p>— <persName key="lejeuneClaude">Claude</persName>, <persName
+                            key="lejeuneClaude">Claude</persName>,<hi rend="italics"
+                        >la</hi>retrouvera-t-il un jour ?</p>
                     <p>— Qui cela ?</p>
                     <p>—<hi rend="italics">Sa</hi>« <persName key="lili">Lili</persName> »...</p>
                     <p>Il tendit faiblement à son interlocutrice une</p>
                     <cb n="2"/>
-<!-- AC: End of page 14 -->
-                    <pb style="page" n="15" facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_02.jpg"/>
-                    <figure xml:id="i02" facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_02.jpg">
-                        <note source="ac">Picture of <persName key="lili">Lili Elbe</persName>standing outside and reading a piece of paper. She is wearing a dress, long coat, and a hat.</note>
+                    <!-- AC: End of page 14 -->
+                    <pb style="page" n="15"
+                        facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_02.jpg"/>
+                    <figure xml:id="i02"
+                        facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_02.jpg">
+                        <note source="ac">Picture of <persName key="lili">Lili
+                            Elbe</persName>standing outside and reading a piece of paper. She is
+                            wearing a dress, long coat, and a hat.</note>
                     </figure>
-                        <figure xml:id="i03" facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_02.jpg">
-                            <figDesc><hi rend="bold">Écriture de <persName key="lili">Lili Elbe</persName>avant et après l'opération.</hi></figDesc>
-                            <note source="ac">There is a facsimile of a handwritten note written by <persName key="wegenerE">Einer Wegener</persName>and <persName key="lili">Lili Elbe</persName>. It is showing the difference between their handwriting.</note>
-                        </figure>
-<!-- AC: Start of page 15 -->
+                    <figure xml:id="i03"
+                        facs="http://www.lilielbe.org/media/periodicals/1934-10-20Voil%c3%a0_02.jpg">
+                        <figDesc><hi rend="bold">Écriture de <persName key="lili">Lili
+                                    Elbe</persName>avant et après l'opération.</hi></figDesc>
+                        <note source="ac">There is a facsimile of a handwritten note written by
+                                <persName key="wegenerE">Einer Wegener</persName>and <persName
+                                key="lili">Lili Elbe</persName>. It is showing the difference
+                            between their handwriting.</note>
+                    </figure>
+                    <!-- AC: Start of page 15 -->
                     <p>carte où il avait griffonné quelques mots :</p>
                     <p>— Faites-lui parvenir ce message, murmura-t-il.</p>
                     <p>— Est-ce bien toi qui as écrit ces lignes ?</p>
                     <p>— Mais, bien entendu, pourquoi cette question ?</p>
                     <p>— Je n'en crois pas mes yeux...</p>
-                    <p>Il examina la carte et poussa à son tour une exclamation. Il ne reconnaissait plus sa propre écriture ; on eût dit un billet tracé par une main de femme. Inger retrouva l'assistant dans le couloir, et lui fit voir la carte en disant :</p>
+                    <p>Il examina la carte et poussa à son tour une exclamation. Il ne reconnaissait
+                        plus sa propre écriture ; on eût dit un billet tracé par une main de femme.
+                        Inger retrouva l'assistant dans le couloir, et lui fit voir la carte en
+                        disant :</p>
                     <p>— Qu'en pensez-vous, docteur ? un homme aurait-il pu écrire cela ?</p>
-                    <p>— Certes non, madame, fit le docteur stupéfait : vous voyez bien : une chose est en train d'éclore après l'autre...</p>
-                    <p><persName key="sparreAn">Andreas</persName> surprit cette conversation, et les mots fatidiques résonnèrent longtemps à ses oreilles :</p>
+                    <p>— Certes non, madame, fit le docteur stupéfait : vous voyez bien : une chose
+                        est en train d'éclore après l'autre...</p>
+                    <p><persName key="sparreAn">Andreas</persName> surprit cette conversation, et
+                        les mots fatidiques résonnèrent longtemps à ses oreilles :</p>
                     <p><hi rend="italics">« Une chose après l'autre ! »</hi></p>
                     <!-- AC: two boxes separate the paragraphs -->
-                    <p>Lorsque le docteur revint le voir, le malade demanda s'il pourrait bientôt se lever.</p>
+                    <p>Lorsque le docteur revint le voir, le malade demanda s'il pourrait bientôt se
+                        lever.</p>
                     <p>— Et pourquoi cette hâte ? demanda le praticien.</p>
                     <p>— C'est que voyez-vous, ma femme arrive...</p>
-                    <p>— Votre femme, balbutia le docteur, hum, madame vous trouvera certes un peu changé, mais nous n'y pouvons rien ! Et il quitta la chambre d'un air préoccupe.</p>
-                    <p>Trois jours plus tard, de grand matin, <persName key="sparreGre">Grete</persName> débarqua à la clinique. L'infirmière de garde l'introduisit immédiatement dans la chambre de malade. <persName key="sparreGre">Grete</persName> s'arrêta, les deux bras tendus, luttant contre les sanglots qui l'étouffaient, puis elle s'affaissa au chevet de son mari.</p>
+                    <p>— Votre femme, balbutia le docteur, hum, madame vous trouvera certes un peu
+                        changé, mais nous n'y pouvons rien ! Et il quitta la chambre d'un air
+                        préoccupe.</p>
+                    <p>Trois jours plus tard, de grand matin, <persName key="sparreGre"
+                            >Grete</persName> débarqua à la clinique. L'infirmière de garde
+                        l'introduisit immédiatement dans la chambre de malade. <persName
+                            key="sparreGre">Grete</persName> s'arrêta, les deux bras tendus, luttant
+                        contre les sanglots qui l'étouffaient, puis elle s'affaissa au chevet de son
+                        mari.</p>
                     <!-- AC: dotted line separates paragraphs -->
-                    <p>Plus tard, lorsqu'elle se retrouva seule en face d'elle-même, elle écrivit à l'ami dévoué, au gai et charmant compagnon des fêtes de <placeName key="balgencie">Balgencie</placeName>, au confident de leur drame :</p>
+                    <p>Plus tard, lorsqu'elle se retrouva seule en face d'elle-même, elle écrivit à
+                        l'ami dévoué, au gai et charmant compagnon des fêtes de <placeName
+                            key="balgencie">Balgencie</placeName>, au confident de leur drame :</p>
                     <p>« Mon cher <persName key="lejeuneClaude">Claude</persName>,</p>
-                    <p>« Je ne puis que décrire en quelques mots rapides tout ce qui vient de se passer. Je pensais retrouver <persName key="sparreAn">Andreas</persName>, mais <persName key="sparreAn">Andreas</persName> est mort. J'ai trouvé à sa place un être frêle, diaphane... Etaitce « <persName key="lili">Lili</persName> ? » Oui, bien sûr, mais non pas telle que nous l'avons connue jadis a <placeName key="paris">Paris</placeName>. C'est un être tout différent, dont l'expression, les gestes, la voix sont tour nouveaux pour moi. Dès à présent, j'ai l'impression d'un être infiniment féminin, et que la vie n'a pas encore touché. Aussi, serait-il plus exaçt peut-être de dire « virginal », voire : « enfantin »... C'est une « vie nouvelle », je ne saurais mieux exprimer ma pensée. Ah ! <persName key="lejeuneClaude">Claude</persName>, quelle destinée ! lorsque j'y songe, je sens comme un frisson de terreur... Heureusement que cet être que dorénavant nous pourrons appeler <persName key="lili">Lili</persName><hi rend="italics">pour de bon</hi>, est encore trop faible pour regarder en arrière ou pour interroger l'avenir. C'est à peine se<hi rend="italics">elle</hi>est capable de se rendre compte de son état présent.</p>
-                    <p>« J'ai parlé aux docteurs. Cette opération qui n'est qu'un commencement » a réussi au delà de tout ce que l'on pouvait souhaiter. « <persName key="sparreAn">Andreas</persName> a cessé d'exister ». m'ont-ils déclaré. Ses glandes séminales ont été supprimées, et le reste sera parachevé à <placeName key="dresden">Dresde</placeName> sous le scalpel de <persName key="kreutz">Werner Kreutz</persName>... Les docteurs ont prononcé le mot de « hormones » ; je l'ai cherché dans le dictionnaire, il s'agit de certaines sécrétions internes qui influent profondément sur le processus vital.</p>
-                    <p>« Ce que j'ai pu constater de mes propres yeux, c'est l'épanouissement d'un être dont nous avons partagé pendant de longues années les souffrances et les angoisses. Sa vie nous était apparue comme un problème insoluble, une désespérante énigme. « Eclosion, épanouissement »... oui, c'est bien cela.</p>
+                    <p>« Je ne puis que décrire en quelques mots rapides tout ce qui vient de se
+                        passer. Je pensais retrouver <persName key="sparreAn">Andreas</persName>,
+                        mais <persName key="sparreAn">Andreas</persName> est mort. J'ai trouvé à sa
+                        place un être frêle, diaphane... Etaitce « <persName key="lili"
+                            >Lili</persName> ? » Oui, bien sûr, mais non pas telle que nous l'avons
+                        connue jadis a <placeName key="paris">Paris</placeName>. C'est un être tout
+                        différent, dont l'expression, les gestes, la voix sont tour nouveaux pour
+                        moi. Dès à présent, j'ai l'impression d'un être infiniment féminin, et que
+                        la vie n'a pas encore touché. Aussi, serait-il plus exaçt peut-être de dire
+                        « virginal », voire : « enfantin »... C'est une « vie nouvelle », je ne
+                        saurais mieux exprimer ma pensée. Ah ! <persName key="lejeuneClaude"
+                            >Claude</persName>, quelle destinée ! lorsque j'y songe, je sens comme
+                        un frisson de terreur... Heureusement que cet être que dorénavant nous
+                        pourrons appeler <persName key="lili">Lili</persName><hi rend="italics">pour
+                            de bon</hi>, est encore trop faible pour regarder en arrière ou pour
+                        interroger l'avenir. C'est à peine se<hi rend="italics">elle</hi>est capable
+                        de se rendre compte de son état présent.</p>
+                    <p>« J'ai parlé aux docteurs. Cette opération qui n'est qu'un commencement » a
+                        réussi au delà de tout ce que l'on pouvait souhaiter. « <persName
+                            key="sparreAn">Andreas</persName> a cessé d'exister ». m'ont-ils
+                        déclaré. Ses glandes séminales ont été supprimées, et le reste sera
+                        parachevé à <placeName key="dresden">Dresde</placeName> sous le scalpel de
+                            <persName key="kreutz">Werner Kreutz</persName>... Les docteurs ont
+                        prononcé le mot de « hormones » ; je l'ai cherché dans le dictionnaire, il
+                        s'agit de certaines sécrétions internes qui influent profondément sur le
+                        processus vital.</p>
+                    <p>« Ce que j'ai pu constater de mes propres yeux, c'est l'épanouissement d'un
+                        être dont nous avons partagé pendant de longues années les souffrances et
+                        les angoisses. Sa vie nous était apparue comme un problème insoluble, une
+                        désespérante énigme. « Eclosion, épanouissement »... oui, c'est bien
+                        cela.</p>
                     <cb n="3"/>
-                    <p>« Les docteurs, les infirmiéres, nos amis <persName key="hoyerNiels">Niels</persName> et <persName key="hvideIng">Inger</persName> m'ont tous exprimé la profonde surprise que leur cause la métamorphose extérieure de « notre patiente », comme on l'appelle, ne sachant trop quel nom lui donner. Mais qu'est-ce que leur surprise comparée à la mienne ! Ils l'ont vue tous les jours, tandis que j'ai été séparé de l'ex-<persName key="sparreAn">Andreas</persName> pendant deux semaines. Et c'est à peine si je reconnais...</p>
-                    <p>« Je ne t'en dis pas plus long pour le moment. Je ne ferai qu'ajouter que cette nouvelle « <persName key="lili">Lili</persName>». si touchante et si douce, repose dans mes bras, comme une sœur...</p>
+                    <p>« Les docteurs, les infirmiéres, nos amis <persName key="hoyerNiels"
+                            >Niels</persName> et <persName key="hvideIng">Inger</persName> m'ont
+                        tous exprimé la profonde surprise que leur cause la métamorphose extérieure
+                        de « notre patiente », comme on l'appelle, ne sachant trop quel nom lui
+                        donner. Mais qu'est-ce que leur surprise comparée à la mienne ! Ils l'ont
+                        vue tous les jours, tandis que j'ai été séparé de l'ex-<persName
+                            key="sparreAn">Andreas</persName> pendant deux semaines. Et c'est à
+                        peine si je reconnais...</p>
+                    <p>« Je ne t'en dis pas plus long pour le moment. Je ne ferai qu'ajouter que
+                        cette nouvelle « <persName key="lili">Lili</persName>». si touchante et si
+                        douce, repose dans mes bras, comme une sœur...</p>
                     <p>« Bien affectueusement, <persName key="sparreGre">Grete</persName>. »</p>
-                    <p>La femme d'<persName key="sparreAn">Andreas</persName> passa cette première nuit à l'hôtel. Mais, dés le lendemain, l'infirmière lui proposa de dresser un second lit dans la chambre de malade, afin d'y demeurer jusqu'au départ pour <placeName key="dresden">Dresde</placeName>, qui devait avoir lieu dans quelques jours.</p>
-                   <p>— Voila qui est une excellente idée, s'écria la jeune femme, et elle alla aussitôt quérir ses bagages. Elle ouvrit une malle et en tira une matinée de crêpe de chine rose.</p>
+                    <p>La femme d'<persName key="sparreAn">Andreas</persName> passa cette première
+                        nuit à l'hôtel. Mais, dés le lendemain, l'infirmière lui proposa de dresser
+                        un second lit dans la chambre de malade, afin d'y demeurer jusqu'au départ
+                        pour <placeName key="dresden">Dresde</placeName>, qui devait avoir lieu dans
+                        quelques jours.</p>
+                    <p>— Voila qui est une excellente idée, s'écria la jeune femme, et elle alla
+                        aussitôt quérir ses bagages. Elle ouvrit une malle et en tira une matinée de
+                        crêpe de chine rose.</p>
                     <p>L'infirmière eut une exçlamation pleine d'admiration :</p>
                     <p>— Que cela vous ira bien, madame !</p>
-                    <p>— Mais ce n'est pas pour moi, voyons, répondit <persName key="sparreGre">Grete</persName> en riant : c'est un cadeau qu'un ami de <placeName key="paris">Paris</placeName> envoie à... votre malade.</p>
-                    <p>Et, en effet, quelques minutes plus tard, le ou plutôt<hi rend="italics">la</hi>malade était assise dans son lit, revêtue de la matinée rose tendre, et souriait à ses visifaible, mais son expression était fort gaie.</p>
+                    <p>— Mais ce n'est pas pour moi, voyons, répondit <persName key="sparreGre"
+                            >Grete</persName> en riant : c'est un cadeau qu'un ami de <placeName
+                            key="paris">Paris</placeName> envoie à... votre malade.</p>
+                    <p>Et, en effet, quelques minutes plus tard, le ou plutôt<hi rend="italics"
+                            >la</hi>malade était assise dans son lit, revêtue de la matinée rose
+                        tendre, et souriait à ses visifaible, mais son expression était fort
+                        gaie.</p>
                     <p>Le médecin assistant n'en croyait pas ses yeux :</p>
-                    <p>— Mes félicitations, mademoiselle !... murmurait-il : et si vous êtes bien sage et bien prudente, vous pourrez vous lever pour une heure ou deux...</p>
-                    <p>Les infiermières, curieuses, se glissaient dans la chambre l'une après l'autre, puis ce fut enfin le tour du professeur <persName key="gebhard">Gebhardt</persName> en personne. Il prit la main tremblante de « <persName key="lili">Lili</persName> » et la porta à ses lèvres de l'air le plus naturel du monde :</p>
+                    <p>— Mes félicitations, mademoiselle !... murmurait-il : et si vous êtes bien
+                        sage et bien prudente, vous pourrez vous lever pour une heure ou deux...</p>
+                    <p>Les infiermières, curieuses, se glissaient dans la chambre l'une après
+                        l'autre, puis ce fut enfin le tour du professeur <persName key="gebhard"
+                            >Gebhardt</persName> en personne. Il prit la main tremblante de «
+                            <persName key="lili">Lili</persName> » et la porta à ses lèvres de l'air
+                        le plus naturel du monde :</p>
                     <p>— Bonjour, mademoiselle, et bravo ! vous êtes sur la bonne voie...</p>
-                    <p>Soudain, il s'aperçut de la présence de <persName key="sparreGre">Grete</persName> :</p>
+                    <p>Soudain, il s'aperçut de la présence de <persName key="sparreGre"
+                            >Grete</persName> :</p>
                     <p>— Ah ! balbutia-t-il, soyez la bienvenue, madame...</p>
-                    <p>Ils se regardèrent en silence, cherechant à dominer leur émotion... « <persName key="lili">Lili</persName> » essaya d'intervenir :</p> 
-                    <p>— Mais oui, professeur, c'est madame <persName key="sparreGre">Grete</persName> qui..., murmura-t-<hi rend="italics">elle</hi>, puis s'interrompit, cherchant ses mots.</p>
+                    <p>Ils se regardèrent en silence, cherechant à dominer leur émotion... «
+                            <persName key="lili">Lili</persName> » essaya d'intervenir :</p>
+                    <p>— Mais oui, professeur, c'est madame <persName key="sparreGre"
+                            >Grete</persName> qui..., murmura-t-<hi rend="italics">elle</hi>, puis
+                        s'interrompit, cherchant ses mots.</p>
                     <p>Le professeur se mit à rire doucement :</p>
-                    <p>— Oui, oui, je sais... c'est Mme <persName key="sparreGre">Grete</persName> qui a été mariée à ce monsieur <persName key="sparreAn">Andreas Sparre</persName>, qui nous a fait faux bond, d'une façon, dirai-je, assez surprenante... Hélas, chère madame, tous les hommes sont des lâcheurs.</p>
-                    <p>Et, grâce à cette formule heureuse, la tension douloureuse fut brusquement rompue.</p>
-                    <p>Le lendemain, <persName key="sparreGre">Grete</persName> écrevit dans son journal :</p>
-                    <p>« Aujourd'hui, nous sommes sorties avec <persName key="hvideIng">Inger</persName> pour faire quelques achats. Nous devons faire nos préparatifs pour le voyage de <placeName key="dresden">Dresde</placeName>. Dans l'après-midi nous avons regagné la chambre de l'ouvrîmes devant elle, et nous en tirâmes un ravissant manteau, doublé de soie : « <persName key="lili">Lili</persName> » l'examina, puis elle murmura : « Si je me présente chez le professeur <persName key="kreutz">Kreutz</persName> dans cet accoutrement, il ne me reconnaîtra pas... il me mettra à la porte. » Et ses yeux eurent une expression si triste ! Ils sont toujours tristes... <persName key="sparreAn">Andreas</persName> avait des yeux encore croire à sa métamorphose... »</p>
+                    <p>— Oui, oui, je sais... c'est Mme <persName key="sparreGre">Grete</persName>
+                        qui a été mariée à ce monsieur <persName key="sparreAn">Andreas
+                            Sparre</persName>, qui nous a fait faux bond, d'une façon, dirai-je,
+                        assez surprenante... Hélas, chère madame, tous les hommes sont des
+                        lâcheurs.</p>
+                    <p>Et, grâce à cette formule heureuse, la tension douloureuse fut brusquement
+                        rompue.</p>
+                    <p>Le lendemain, <persName key="sparreGre">Grete</persName> écrevit dans son
+                        journal :</p>
+                    <p>« Aujourd'hui, nous sommes sorties avec <persName key="hvideIng"
+                            >Inger</persName> pour faire quelques achats. Nous devons faire nos
+                        préparatifs pour le voyage de <placeName key="dresden">Dresde</placeName>.
+                        Dans l'après-midi nous avons regagné la chambre de l'ouvrîmes devant elle,
+                        et nous en tirâmes un ravissant manteau, doublé de soie : « <persName
+                            key="lili">Lili</persName> » l'examina, puis elle murmura : « Si je me
+                        présente chez le professeur <persName key="kreutz">Kreutz</persName> dans
+                        cet accoutrement, il ne me reconnaîtra pas... il me mettra à la porte. » Et
+                        ses yeux eurent une expression si triste ! Ils sont toujours tristes...
+                            <persName key="sparreAn">Andreas</persName> avait des yeux encore croire
+                        à sa métamorphose... »</p>
                     <!-- AC: two small boxes separate paragraphs -->
-                    <p>Me même jour, « la patiente » écrivit sa première lettre. Elle était adressée à son beau-frère <persName key="brotherChris">Christian</persName>, qui avait fourni les fonds nécessaires pour l'opération. Cette missive était pleine d'espérance, elle respirait une joie secrète, une certitude, qui n'osait pas encore éclater au grand jour :</p>
+                    <p>Me même jour, « la patiente » écrivit sa première lettre. Elle était adressée
+                        à son beau-frère <persName key="brotherChris">Christian</persName>, qui
+                        avait fourni les fonds nécessaires pour l'opération. Cette missive était
+                        pleine d'espérance, elle respirait une joie secrète, une certitude, qui
+                        n'osait pas encore éclater au grand jour :</p>
                     <p><placeName key="berlin">Berlin</placeName>, 14 mars 1930.</p>
                     <p>« Mon cher <persName key="brotherChris">Christian</persName>,</p>
-                    <p>« C'est à présent « <persName key="lili">Lili</persName> » qui t'écrit. Je suis installée dans mon lit, revêtue d'une chemise de nuit en crêpe de chine, ornée de dentelles. Je suis ondulée, poudrée, et je porte un collier et des bagues. Mëme l'austère professeur m'appelle <persName key="lili">Lili</persName>... L'opération que j'ai subie me permet d'entrer a la clinique de <placeName key="dresden">Dresde</placeName>, exclusivement réservée aux femmes. Qu'importent les souffrances qui m'attendent encore, je suis heureuse, et d'ici quelques mois, je serai une vigoureuse et florissante jeune fille.</p>
+                    <p>« C'est à présent « <persName key="lili">Lili</persName> » qui t'écrit. Je
+                        suis installée dans mon lit, revêtue d'une chemise de nuit en crêpe de
+                        chine, ornée de dentelles. Je suis ondulée, poudrée, et je porte un collier
+                        et des bagues. Mëme l'austère professeur m'appelle <persName key="lili"
+                            >Lili</persName>... L'opération que j'ai subie me permet d'entrer a la
+                        clinique de <placeName key="dresden">Dresde</placeName>, exclusivement
+                        réservée aux femmes. Qu'importent les souffrances qui m'attendent encore, je
+                        suis heureuse, et d'ici quelques mois, je serai une vigoureuse et
+                        florissante jeune fille.</p>
                     <p>« Affectueusement, <persName key="lili">Lili</persName>. »</p>
                     <p><hi rend="italics">(A suivre.)</hi><hi rend="bold">Niels HOYER.</hi></p>
-                   <p><hi rend="italics">(Reproduction, même partielle, interdite.
-                    Copyright by Niels Hoyer.)</hi></p>
+                    <p><hi rend="italics">(Reproduction, même partielle, interdite. Copyright by
+                            Niels Hoyer.)</hi></p>
                     <!-- AC: End of page 15 -->
-            </div>
-            <div type="translation">
-                <div rend="head" style="periodical">
-                    <p><hi rend="bold">VICE — — VERSA</hi></p> <!-- AC: Title spreads across Images 14 and 15 -->
-                    <p>
-                        <title><hi rend="bold">A man changes sex</hi></title>
-                    </p>
                 </div>
-                <div rend="headlines">
-                    <list>
-                        <item rend="primary">Based on authentic documents by <persName key="hoyerNiels">Niels Hoyer</persName></item> <!-- AC: Part of headline is cut off in facsimile -->
-                        <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
-                    </list>
+                <div type="translation">
+                    <div rend="head" style="periodical">
+                        <p><hi rend="bold">VICE — — VERSA</hi></p>
+                        <!-- AC: Title spreads across Images 14 and 15 -->
+                        <p>
+                            <title><hi rend="bold">A man changes sex</hi></title>
+                        </p>
+                    </div>
+                    <div rend="headlines">
+                        <list>
+                            <item rend="primary">Based on authentic documents by <persName
+                                    key="hoyerNiels">Niels Hoyer</persName></item>
+                            <!-- AC: Part of headline is cut off in facsimile -->
+                            <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+                        </list>
+                    </div>
+                    <div rend="body">
+                        <p><hi rend="italics">During the examination of <persName key="sparreAn"
+                                    >Andreas Sparre</persName>, in <placeName key="paris"
+                                    >Paris</placeName>, <persName key="kreutz">Professor Werner
+                                    Kreutz</persName> had announced that <persName key="sparreAn">the young man</persName> had both
+                                masculine and feminine organs, but that the latter were atrophied.
+                                Moreover, it was extremely probable that the radiation treatment
+                                that <persName key="sparreAn">Andreas</persName> had underwent dried
+                                up these organs.</hi></p>
+                        <p><hi rend="italics"><persName key="kreutz">Werner Kreutz</persName>
+                                required that the patient undergo a treatment in <placeName
+                                    key="berlin">Berlin</placeName>, before entering <placeName key="womensClinic">his clinic in
+                                    <placeName key="dresden">Dresden</placeName></placeName>. Thus, <persName
+                                    key="sparreAn">Andreas</persName> went to <placeName
+                                    key="germany">Germany</placeName>, leaving his wife <persName
+                                    key="sparreGre">Grete</persName> in <placeName key="paris"
+                                    >Paris</placeName>. Just arrived, he was summoned by 
+                                    <persName key="arns">Professor Arns</persName>, the inventor of a new
+                                method of blood analysis allowing the hormones to be measured. As we
+                                know, this product of internal secretion plays a major role in the
+                                organism and influences the sex development: the scientists consider
+                                today that hormones determine the difference between the male and
+                                female genitalia; it was therefore extremely important to determine
+                                the functioning of the internal secretion of an individual endowed
+                                with both genital organs.</hi></p>
+                        <p><hi rend="italics">Afterwards, <persName key="sparreAn"
+                                    >Andreas</persName> went to another practitioner,
+                                    <persName key="hardenfeld">Professor Hardenfeld</persName>, who studied
+                                his psychological structure and analyzed his emotional reactions. He
+                                needed, indeed, to "untangle" the double personality inhabiting this
+                                body and to identify the concrete existence of the feminine being
+                                hiding under the masculine shell. For many hours, <persName
+                                    key="hardenfeld">Hardenfeld</persName> questioned <persName key="sparreAn">the young
+                                painter</persName>, shining the light of psychoanalysis on the most obscure
+                                depths of his personality. It really was a moral torture that left
+                                    <persName key="sparreAn">Andreas</persName> broken. In order to
+                                distract him, two loyal friends, <persName key="hvideNiels"
+                                    >Niels</persName> and <persName key="hvideIng">Inger</persName>,
+                                took him to a restaurant. The evening ended with a small, but very
+                                cheerful party, because even on the threshold of his new life,
+                                    <persName key="sparreAn">Andreas Sparre</persName> kept up his
+                                preferences and the habits of an authentic denizen of <placeName
+                                    key="montparnasse">Montparnasse</placeName>... In the meantime,
+                                both practitioners had a consultation over the phone with 
+                                    <persName key="kreutz">Professor Werner Kreutz</persName>. <persName
+                                    key="hardenfeld">Hardenfeld</persName> told him that <persName
+                                    key="sparreAn">Andreas</persName>’s psychological being contained
+                                a clearly preponderant feminine element: between 80 and 100%.
+                                    <persName key="arns">Arns</persName>’s blood test had provided
+                                similar results from a physiological standpoint. Consequently, it
+                                was obvious that the woman dominated the man, and that only a whim
+                                of nature had given this woman a masculine appearance. Having
+                                learned these results, <persName key="kreutz">Werner
+                                    Kreutz</persName> decreed that a surgical intervention was
+                                necessary: this first stage involved an ablation of the "seminal
+                                    <anchor type="commentRangeStart" n="3"/>glands<anchor
+                                    type="commentRangeEnd" n="3"/><note type="editor" source="plc"
+                                    corresp="comment_3">In the original version, the &quot;s&quot;
+                                    is mistakenly printed as &quot;3&quot;</note>(castration), which
+                                would allow <persName key="sparreAn">Andreas</persName> to get rid
+                                of this false appearance.</hi></p>
+                        <p><hi rend="italics">Later on, an ovarian graft undertaken by <persName
+                                    key="kreutz">Kreutz</persName> himself was meant to stimulate
+                                the feminine organs of the patient. It is useful to remember that,
+                                while these scientists were going to attempt the first experiment of
+                                this kind on a human being, <persName key="steinach"
+                                    >Professor Steinach</persName>, from <placeName key="vienna"
+                                    >Vienna</placeName>, had already operated on animals, whose sex
+                                he successfully changed with similar methods. In this way, he
+                                endowed a male rat with mammal glands and transformed hens into
+                                roosters capable of fertilizing other hens.</hi></p>
+                        <p><hi rend="bold">III.<anchor type="commentRangeStart" n="4"/><hi
+                                    rend="super">1</hi><anchor type="commentRangeEnd" n="4"/><note
+                                    corresp="fn_004" type="foot"
+                                ><!-- AC: Insert footnote --></note>THE FIRST METAMORPHOSIS</hi></p>
+                        <p>In the room of <placeName key="gebhardSanatorium">the surgical clinic of <persName key="gebhard"
+                                >Professor Gebhardt</persName></placeName> where <persName key="sparreAn"
+                                >Andreas</persName> was admitted, the lamps were already lit. <persName>A
+                            nurse</persName> led him there, took his personal effects, hung a thermometer above
+                            the bed and urged the patient to go to sleep immediately. The doctors
+                            would come soon.</p>
+                        <p><persName key="sparreAn">Andreas</persName> began to slowly undress.
+                            Suddenly, it came to his mind that, without doubt, <persName
+                                key="sparreAn">Andreas Sparre</persName> was undressing for the last
+                            time... Goodbye, jacket, waistcoat, trousers, underwear, socks, shoes! For
+                            many years, they served as a protective armor. He placed them in the
+                            wardrobe with a mechanical gesture, acquired by the habit of a lifetime.
+                            What will become of these clothes now? What will survive of him, or of
+                            his attributes of masculine elegance?</p>
+                        <p>He took the hat that he had placed on a pedestal table: --Why, I won’t
+                            think of it anymore, he told himself. He slipped his hand in the pocket
+                            and took out a photograph which he placed on the table: "<persName
+                                key="sparreGre">Grete</persName>! he whispered and with a quick
+                            gesture caressed the image. A knock on the door, a hand turned on the
+                            light switch. Professor <persName key="gebhard">Gebhardt</persName>
+                            entered, accompanied by <persName>his assistant</persName>. He asked <persName key="sparreAn"
+                                >Andreas</persName> a few questions and he answered firmly: soon
+                            after, <persName key="sparreAn">the young painter</persName> found out that his surgery had been postponed
+                            until the following morning. –But why, doctor, he exclaimed
+                            impatiently.</p>
+                        <p><persName key="gebhard">The professor</persName> started to laugh:</p>
+                        <p>--<hi rend="italics">Gravol</hi>, this is how you, Scandinavians, call
+                            these farewell dinners. It’s very nice, honestly... Your friend <persName
+                                key="hvideNiels">Niels</persName>, with whom you spent the evening,
+                            has already told me about it. It seems that you have a taste for our
+                            Rhine wines That is very good, no doubt... Nevertheless, this kind of
+                            surgery succeeds much better when you have an empty stomach. In a few
+                            hours from now on, we will give you a soporific, so that the night will
+                            not seem too long... After all, it is not a difficult intervention. See
+                            you tomorrow and good luck!</p>
+                        <p>A quick handshake, and <persName key="gebhard">the surgeon</persName> left. <persName key="sparreAn"
+                                >Andreas</persName> found himself alone.</p>
+                        <p>-- Wait, I always have to wait, he cried out, as if talking to the
+                            portrait of his wife: well, <persName key="sparreGre">Grete</persName>,
+                            let’s be patient...</p>
+                        <p>He didn’t have the strength to resume his train of thought. He collapsed
+                            onto the pillows, stared at the ceiling with an empty look... An immense
+                            weariness came over him.</p>
+                        <p>The last scraps of his masculine pride, which he had dragged along in
+                                <placeName key="berlin">Berlin</placeName>, with his friends and
+                            during the "farewell dinner", vanished little by little.</p>
+                        <!-- AC: * * represent Boxes -->
+                        <p>Around ten o’ clock, <persName>the assistant</persName> returned to give him a soporific. Then
+                            <persName>the nurse</persName> came in, tidied up the room, turned off the light. They let
+                            him sleep until midmorning, when the doctors would arrive. He only had
+                            time to wash himself quickly, and <persName key="arns"
+                                >Professor Arns</persName> was already by his bed, asking him to sign a
+                            statement essentially saying:</p>
+                        <p>"I, <persName key="sparreAn">Andreas Sparre</persName>, wish to be
+                            operated upon at my own risk; <persName key="gebhard"
+                                >Professor Gebhardt</persName>, in charge with the operation, is released of
+                            all responsibility in case of an unfavorable result. If I die, no
+                            lawsuit will be filed by my family."</p>
+                        <p>After <persName key="sparreAn">the young man</persName> signed it, he asked:</p>
+                        <p>--Will you allow me to add a few words of gratitude to the German doctors
+                            who attempt my metamorphosis?</p>
+                        <p>But <persName key="arns">the doctor</persName> laughed and declined this offer. Then he said:</p>
+                        <p>--The surgery will take place in a few minutes. Professor <persName
+                                key="gebhard">Gebhardt</persName> will be in charge. But I will
+                            attend, at the wish of Professor <persName key="kreutz">Werner
+                                Kreutz</persName>. Goodbye and good luck!</p>
+                        <!-- AC: * * Represent small boxes separating text -->
+                        <p>It was already noon when <persName key="sparreAn">Andreas</persName>
+                            regained consciousness, in the throes of violent pains. He opened the
+                            eyes and a scream of pain escaped from his lips. He realized that he was
+                            lying in his bed... Two nurses leaned over him, whispering comforting
+                            words. As proof that he was conscious again, the pain became sharper,
+                            atrocious... He made an effort to control himself, gritted his teeth.</p>
+                        <p>--Have I made a lot of noise? he asked faintly.</p>
+                        <p>--Not bad, answered one of the nurses, smiling: but it is remarkable how
+                            your voice has changed. You scream like a woman.</p>
+                        <p><persName key="gebhard">Professor Gebhardt</persName> entered, took
+                                <persName key="sparreAn">Andreas</persName>’s hand into his:</p>
+                        <p>--Everything went perfectly, he said, and moreover I must congratulate
+                            you: you have here a magnificent <anchor type="commentRangeStart" n="5"
+                                />soprano<anchor type="commentRangeEnd" n="5"/><note
+                                type="translator" source="cb" corresp="comment_5">The noun
+                                &quot;soprano&quot; in French has the same form for both masculine
+                                and feminine genders. Here, the author chose the masculine
+                                form.</note> voice.</p>
+                        <p>A few hours later, the invalid was allowed to receive his friend
+                                <persName key="hvideNiels">Niels</persName>.</p>
+                        <p>--You seem to be doing very well.</p>
+                        <p>--It’s not too bad, <persName key="sparreAn">Andreas</persName>
+                            answered.</p>
+                        <p><persName key="hvideNiels">Niels</persName> suppressed an exclamation of
+                            surprise, and looked inquisitively at the nurse. She whispered:</p>
+                        <p>--No doubt, this voice surprises you...</p>
+                        <p>--I no longer recognize it.</p>
+                        <p>Then, turning toward the invalid:</p>
+                        <p>--<persName key="hvideIng">My wife</persName> sends you her best wishes, she will come...</p>
+                        <p>At the sign of <persName>a nurse</persName>, he withdrew quietly, and <persName key="sparreAn"
+                                >Andreas</persName> asked:</p>
+                        <p>--Give me an injection... I’m in pain.</p>
+                        <p>They administered more injections during this dreadful, agonizing night,
+                            until, at the dawn, he finally fell into a feverish sleep. When he woke
+                            up, toward noon, he felt broken, exhausted, but the pain had eased.</p>
+                        <p>At times, he would asked mechanically:</p>
+                        <p>--Who am I? What am I?... Who am I?... What will I become?...</p>
+                        <!-- AC: * * Represent boxes separating text -->
+                        <p>In the afternoon, <persName key="hvideIng">Inger</persName>, <persName
+                                key="hvideNiels">Niels</persName>’ wife, entered his room. She
+                            brought him flowers, a bottle of Cologne. Flowers! They filled him with
+                            their fragrance!</p>
+                        <p><persName key="hvideIng">Inger</persName> sat on the edge of the bed,
+                            and talked to him for a long time, intimately. Before, she always
+                            addressed him with respect, but now she spoke familiarly. Later, he
+                            remembered this conversation and realized that, during the first days
+                            that followed the surgery, she never called him by his name.</p>
+                        <p>She returned every day, bringing him flowers, showering him with words of
+                            solace. Thus, two, then three days passed. During the long nights,
+                            bludgeoned by the powerful sleeping drugs, he was sound asleep, without
+                            dreams. And every morning, <persName key="hvideIng">Inger</persName> was
+                            at his bedside.</p>
+                        <p>One day, she entered with a spring-like bouquet:</p>
+                        <p>--Today, it is not me that you should thank for this, I am just the
+                            messenger of one of your good friends from <placeName key="paris"
+                                >Paris</placeName>.</p>
+                        <p>--<persName key="lejeuneClaude">Claude Lejeune</persName>! cried
+                                <persName key="sparreAn">Andreas</persName>.</p>
+                        <p><persName key="hvideIng">Inger</persName> removed the note pinned onto
+                            the bouquet and read it aloud:</p>
+                        <p>"Each flower of this bouquet is an affectionate message for ‘<persName
+                                key="lili">Lili</persName>’. <persName key="lejeuneClaude"
+                                >Claude</persName>."</p>
+                        <p>The patient hid his face bathed in tears behind the bouquet. He
+                            whispered:</p>
+                        <p>--<persName key="lejeuneClaude">Claude</persName>, <persName
+                                key="lejeuneClaude">Claude</persName>, will he find her again one
+                            day?</p>
+                        <p>--Who is that?</p>
+                        <p>--<hi rend="italics"><anchor type="commentRangeStart" n="6"
+                                />His</hi><anchor type="commentRangeEnd" n="6"/><note
+                                type="translator" source="cb" corresp="comment_6">In the French
+                                text, &quot;sa&quot; is a possessive adjective that emphasizes the
+                                feminine gender of the possessed object.</note>"<persName key="lili"
+                                >Lili</persName>".</p>
+                        <p>He stretched towards his interlocutor a weak</p>
+                        <cb n="4"/>
+                        <!-- AC: Beginning of Page 15 -->
+                        <!-- AC: (photo) Lili Elbe’s handwriting before and after surgery. -->
+                        <p>card where he had scribbled a few words:</p>
+                        <p>- Make sure he receives this message, he whispered.</p>
+                        <p>- Is it really you who wrote these lines?</p>
+                        <p>- Yes, of course, why do you ask?</p>
+                        <p>- I can’t believe my eyes...</p>
+                        <p>He examined the card and he too exclaimed. He couldn’t recognize his own
+                            handwriting any longer; it looked like a note written by a woman.
+                                <persName key="hvideIng">Inger</persName> met <persName>the assistant</persName> in the
+                            corridor and asked him to take a look at the card, saying:</p>
+                        <p>- What you think of this, <persName>doctor</persName>? could a man have written it?</p>
+                        <p>- Certainly not, madam, said <persName>the doctor</persName> stupefied: you can see it: one
+                            thing after another is blooming ...</p>
+                        <p><persName key="sparreAn">Andreas</persName> overheard this conversation,
+                            and the fateful words echoed for a long time in his ears: "One thing
+                            after another!..."</p>
+                        <!-- * * AC: Represent small boxes between paragraphs -->
+                        <p>When <persName>the doctor</persName> returned to see him, the patient asked if he could get up
+                            soon.</p>
+                        <p>- And why this haste? <persName>the practitioner</persName> asked.</p>
+                        <p>- Because, you see, <persName key="sparreGre">my wife</persName> comes...</p>
+                        <p>- <persName key="sparreGre">Your wife</persName>, <persName>the doctor</persName> stammered, hum, certainly <persName key="sparreGre">the lady</persName> will find you
+                            a bit changed, but there’s nothing we can do! And he left the room with
+                            the air of a preoccupied man.</p>
+                        <p>Three days later, early in the morning, <persName key="sparreGre"
+                                >Grete</persName> turned up at the clinic. <persName>The nurse on call</persName> showed
+                            her immediately in the patient’s room. <persName key="sparreGre"
+                                >Grete</persName> stopped, arms stretched out, choking back the
+                            tears, then she collapsed at <persName key="sparreAn">her husband</persName>’s bedside.</p>
+                        <!-- AC: ..................................................................................................................... Line of separation between paragraphs -->
+                        <p>Later, when she found herself alone, she wrote to <persName key="lejeuneClaude">the devoted friend</persName>, to
+                            <persName key="lejeuneClaude">the cheerful and charming companion</persName> at the parties in <placeName
+                                key="balgencie">Balgencie</placeName>, to <persName key="lejeuneClaude">the confidant</persName> of their
+                            drama:</p>
+                        <p>"My dear <persName key="lejeuneClaude">Claude</persName>,</p>
+                        <p>"I can only describe in a few, hasty words what has just happened. I
+                            thought I would see <persName key="sparreAn">Andreas</persName> again,
+                            but <persName key="sparreAn">Andreas</persName> has died. Instead, I
+                            found this frail, delicate being... Was it '<persName key="lili"
+                                >Lili</persName>'? Yes, of course, but not like the one we have
+                            known before in <placeName key="paris">Paris</placeName>. It is a
+                            completely different being, whose expression, gestures, voice are very
+                            new to me. Now, I have the feeling of an infinitely feminine being,
+                            untouched yet by life. Therefore, it would be more accurate to say
+                            'virginal', even 'childish'... It’s a 'new life', I couldn’t better
+                            express my thoughts. Ah! <persName key="lejeuneClaude"
+                            >Claude</persName>, what a fate! when I think of it, I feel a thrill of
+                            awe... Fortunately, this being whom from now on we can call <persName
+                                key="lili">Lili</persName>
+                            <hi rend="italics">for good</hi>, is still too weak to look back or to
+                            question the future. She is hardly capable of realizing her present
+                            state.</p>
+                        <p>"I talked to the doctors. This surgery, which is only a 'beginning' has
+                            succeeded beyond anything we could have wished for. '<persName
+                                key="sparreAn">Andreas</persName> has ceased to exist', they told
+                            me. His seminal glands have been removed, and the rest will be finalized
+                            at <placeName key="dresden">Dresden</placeName>, under the scalpel of
+                                <persName key="kreutz">Werner Kreutz</persName>... The doctors have
+                            pronounced the word 'hormones'; I looked it up in the dictionary, it’s
+                            about certain internal secretions that have a profound influence on the
+                            vital process.</p>
+                        <p>"What I could see with my own eyes is the blooming of a being whose pain
+                            and anguish we have shared for many years. Her life had seemed to us an
+                            insoluble problem, a desperate enigma. 'Blooming, blossoming'... yes, it
+                            is just this.</p>
+                        <p>"The doctors, the nurses, our friends <persName key="hvideNiels"
+                                >Niels</persName> and <persName key="hvideIng">Inger</persName>, all
+                            have shared with me their great surprise caused by the outward
+                            metamorphosis of 'our patient', as they call him here, not knowing
+                            anymore what name to give him. But what is their surprise compared to
+                            mine! They saw him all these days, while I have been separated from the
+                            former <persName key="sparreAn">Andreas</persName> for two weeks. And I
+                            hardly recognize...</p>
+                        <p>"Enough for the time being. All I will add is that this new '<persName
+                                key="lili">Lili</persName>', so touching and so sweet, rests in my
+                            arms, like a sister...</p>
+                        <p>Very affectionately, <persName key="sparreGre">Grete</persName>"</p>
+                        <p><persName key="sparreGre"><persName key="sparreAn">Andreas</persName>’ wife</persName> spent this first night
+                            at the hotel. But, the next day, <persName>the nurse</persName> suggested to put a second bed
+                            in the patient’s room, for her to stay there until the departure for
+                                <placeName key="dresden">Dresden</placeName>, which was take place
+                            in a few days.</p>
+                        <p>- This is an excellent idea, cried out <persName key="sparreGre">the young woman</persName> and she went
+                            immediately to look for her luggage. She opened a trunk and took out a
+                            pink silk gown.</p>
+                        <p>The nurse exclaimed admiringly:</p>
+                        <p>- How good it will look on you, madam!</p>
+                        <p>- But it isn’t for me, come on, <persName key="sparreGre"
+                                >Grete</persName> answered laughingly: it is a present that <persName key="lejeuneClaude">a friend
+                            from <placeName key="paris">Paris</placeName></persName> sends to... your
+                            patient.</p>
+                        <p>And, indeed, a few minutes later, the patient, he, or rather she, was
+                            sitting in <hi rend="italics">her</hi> bed, dressed up in her soft rose
+                            gown, and smiling at her visitors. Certainly, <anchor
+                                type="commentRangeStart" n="7"/><hi rend="italics">she</hi><anchor
+                                type="commentRangeEnd" n="7"/><note type="translator" source="cb"
+                                corresp="comment_7">Thougn the possessive &quot;son&quot; is not
+                                italicized in the original, I did write it in italics as a substitute
+                                for the previous definite article &quot;la&quot;</note> was still
+                            very pale and very weak, but her expression was very cheerful.</p>
+                        <p><persName>The assistant doctor</persName> couldn’t believe his eyes:</p>
+                        <p>- Congratulations, miss!... he muttered: and if you are very good and
+                            very careful, you could get up for an hour or two...</p>
+                        <p>Curious, the nurses sneaked into the room one after another, then it was,
+                            finally, the turn of <persName key="gebhard"
+                                >Professor Gebhardt</persName> himself. He took "<persName key="lili"
+                                >Lili</persName>’s" trembling hand and kissed it as if it was the
+                            most natural thing in the world:</p>
+                        <p>- Good morning, miss, and bravo! you are on the right path...</p>
+                        <p>Suddenly, he became aware of <persName key="sparreGre">Grete</persName>’s
+                            presence:</p>
+                        <p>- Ah! he stammered, welcome, madam...</p>
+                        <p>They looked at each other silently, trying to control their emotion...
+                                "<persName key="lili">Lili</persName>" tried to intervene:</p>
+                        <p>- Yes, <persName key="gebhard">Professor</persName>, it is madam <persName key="sparreGre">Grete</persName>
+                            who... she whispered, then she stopped, searching for her words.</p>
+                        <p><persName key="gebhard">The Professor</persName> started to laugh softly:</p>
+                        <p>- Yes, yes, I know... it is <persName key="sparreGre">Mrs. Grete</persName>
+                            who has been married to <persName key="sparreAn">Mr. Andreas
+                                Sparre</persName>, who let us down, in a surprising way, I’d say...
+                            Alas, dear madam, all men are deceivers.</p>
+                        <p>And, thanks to this inspired turn of phrase, the painful tension was
+                            suddenly broken.</p>
+                        <p>The next day, <persName key="sparreGre">Grete</persName> wrote in her
+                            diary:</p>
+                        <p>"Today we went out with <persName key="hvideIng">Inger</persName> to do
+                            some shopping. We need to prepare for the trip to <placeName
+                                key="dresden">Dresden</placeName>. In the afternoon, we returned to
+                                "<persName key="lili">Lili</persName>’s" room, bringing her a big
+                            cardboard box. We opened it in front of her and took out a gorgeous
+                            coat, lined with silk. "<persName key="lili">Lili</persName>" examined
+                            it, then she whispered: "If I go to Professor <persName key="kreutz"
+                                >Kreutz</persName> in this outfit, he will not recognize me, he will
+                            throw me out." And her eyes had such a sad expression! They are always
+                            sad... <persName key="sparreAn">Andreas</persName> had very different
+                            eyes. But no doubt she can’t yet believe her metamorphosis..."</p>
+                        <!-- AC: * * Represent boxes between paragraphs -->
+                        <p>The same day, "the patient" wrote her first letter. It was addressed to
+                            her brother-in-law <persName key="brotherChris">Christian</persName>,
+                            who had provided the funds necessary for the surgery. This missive was
+                            full of hope, it exuded a secret joy, a certitude, that didn’t dare yet
+                            burst in broad daylight:</p>
+                        <p>Berlin, March 14, 1930.</p>
+                        <p>"My dear <persName key="brotherChris">Christian</persName>,</p>
+                        <p>"Now it’s '<persName key="lili">>Lili</persName>' who writes you. I am in
+                            bed, dressed in a silk negligee decorated with lace. My hair is curled,
+                            I am powdered, and I wear a necklace and rings. Even <persName key="gebhard">the severe
+                            professor</persName> calls me <persName key="lili">Lili</persName>...The surgery that
+                            I had allows me to be admitted to <placeName key="gebhardSanatorium">the clinic</placeName> in <placeName key="dresden"
+                                >Dresden</placeName>, reserved exclusively for women. The pains that
+                            still await me don’t matter, I am happy, and in a few months, I will be
+                            a flourishing girl.</p>
+                        <p>"Affectionately, <persName key="lili">Lili</persName>."</p>
+                        <p><hi rend="italics">(To be continued)</hi></p>
+                        <p><hi rend="bold"><persName key="hoyerNiels">NIELS HOYER</persName>.</hi></p>
+                        <p>(Even partial reproduction is forbidden.</p>
+                        <p>Copyright by <persName key="hoyerNiels">Niels Hoyer</persName>.)</p>
+                        <!-- AC: End of Page 15 -->
+                    </div>
                 </div>
-                <div rend="body">
-                    <p><hi rend="italics">During the examination of <persName key="sparreAn">Andreas Sparre</persName>, in <placeName key="paris">Paris</placeName>, Professor <persName key="kreutz">Werner Kreutz</persName> had announced that the young man had both masculine and feminine organs, but that the latter were atrophied. Moreover, it was extremely probable that the radiation treatment that <persName key="sparreAn">Andreas</persName> had underwent dried up these organs.</hi></p> 
-                    <p><hi rend="italics"><persName key="kreutz">Werner Kreutz</persName> required that the patient undergo a treatment in <placeName key="berlin">Berlin</placeName>, before entering his clinic in <placeName key="dresden">Dresden</placeName>. Thus, <persName key="sparreAn">Andreas</persName> went to <placeName key="germany">Germany</placeName>, leaving his wife <persName key="sparreGre">Grete</persName> in <placeName key="paris">Paris</placeName>. Just arrived, he was summoned by Professor <persName key="arns">Arns</persName>, the inventor of a new method of blood analysis allowing  the hormones to be measured. As we know, this product of internal secretion plays a major role in the organism and influences the sex development: the scientists consider today that  hormones determine the difference between the male and female genitalia; it was therefore extremely important to determine the functioning of the internal secretion of an individual endowed with both genital organs.</hi></p>
-                    <p><hi rend="italics">Afterwards, <persName key="sparreAn">Andreas</persName> went to another practitioner, Professor <persName key="hardenfeld">Hardenfeld</persName>, who studied his psychological structure and analyzed his emotional reactions. He needed, indeed, to “untangle” the double personality inhabiting this body and to identify the concrete existence of the feminine being hiding under the masculine shell. For many hours, <persName key="hardenfeld">Hardenfeld</persName> questioned the young painter, shining the light of psychoanalysis on the most obscure depths of his personality. It really was a moral torture that left <persName key="sparreAn">Andreas</persName> broken. In order to distract him, two loyal friends, <persName key="hoyerNiels">Niels</persName> and <persName key="hvideIng">Inger</persName>, took him to a restaurant. The evening ended with a small, but very cheerful party, because even on the threshold of his new life, <persName key="sparreAn">Andreas Sparre</persName> kept up his preferences and the habits of an authentic denizen of <placeName key="montparnasse">Montparnasse</placeName>… In the meantime, both practitioners had a consultation over the phone with Professor <persName key="kreutz">Werner Kreutz</persName>. <persName key="hardenfeld">Hardenfeld</persName> told him that <persName key="sparreAn">Andreas</persName>’ psychological being contained a clearly preponderant feminine element: between 80 and 100%. <persName key="arns">Arn</persName>’s blood test had provided similar results from a physiological standpoint. Consequently, it was obvious that the woman dominated the man, and that only a whim of nature had given this woman a masculine appearance. Having learned these results, <persName key="kreutz">Werner Kreutz</persName> decreed that a surgical intervention was necessary: this first stage involved an ablation of the “seminal <anchor type="commentRangeStart" n="3"/>glands<anchor type="commentRangeEnd" n="3"/><note type="editor" source="plc" corresp="comment_3">In the original version, the &quot;s&quot; is mistakenly printed as &quot;3&quot;</note>(castration), which would allow <persName key="sparreAn">Andreas</persName> to get rid of this false appearance.</hi></p>
-                    <p><hi rend="italics">Later on, an ovarian graft undertaken by <persName key="kreutz">Kreutz</persName> himself was meant to stimulate the feminine organs of the patient. It is useful to remember that, while these scientists were going to attempt the first experiment of this kind on a human being, Professor <persName key="steinach">Steinach</persName>, from <placeName key="vienna">Vienna</placeName>, had already operated on animals, whose sex he successfully changed with similar methods. In this way, he endowed a male rat with mammal glands and transformed hens into roosters capable of  fertilizing other hens.</hi></p>
-                    <p><hi rend="bold">III.<anchor type="commentRangeStart" n="4"/><hi rend="super">1</hi><anchor type="commentRangeEnd" n="4"/><note corresp="fn_004" type="foot"><!-- AC: Insert footnote --></note>THE FIRST METAMORPHOSIS</hi></p> 
-                    <p>In the room of the surgical clinic of Professor <persName key="gebhard">Gerhardt</persName> where <persName key="sparreAn">Andreas</persName> was admitted, the lamps were already lit. A nurse led him there, took his personal effects,  hung a thermometer above the bed and urged the patient to go to sleep immediately. The doctors would come soon.</p>
-                    <p><persName key="sparreAn">Andreas</persName> began to slowly undress. Suddenly, it came to his mind that, without doubt, <persName key="sparreAn">Andreas Sparre</persName> was undressing for the last time… Goodbye, jacket, waistcoat, trousers,  underwear, socks, shoes! For many years, they served as a protective armor. He placed them in the wardrobe with a mechanical gesture, acquired by the habit of a lifetime. What will become of these clothes now? What will survive of him, or of his attributes of masculine elegance?</p>
-                    <p>He took the hat that he had placed on a pedestal table: --Why, I won’t think of it anymore, he told himself. He slipped his hand in the pocket and took out a photograph which he placed on the table: “<persName key="sparreGre">Grete</persName>! he whispered and with a quick gesture caressed the image. A knock on the door, a hand turned on the light switch. Professor <persName key="gebhard">Gebhardt</persName> entered, accompanied by his assistant. He asked <persName key="sparreAn">Andreas</persName> a few questions and he answered firmly: soon after, the young painter found out that his surgery had been postponed until the following morning. –But why, doctor, he exclaimed impatiently.</p>
-                    <p>The professor started to laugh:</p>
-                    <p>--<hi rend="italics">Gravol</hi>, this is how you, Scandinavians, call these farewell dinners. It’s very nice, honestly… Your friend <persName key="hoyerNiels">Niels</persName>, with whom you spent the evening, has already told me about it. It seems that you have a taste for our Rhine wines… That is very good, no doubt… Nevertheless, this kind of surgery succeeds much better when you have an empty stomach. In a few hours from now on, we will give you a soporific, so that the night will not seem too long… After all, it is not a difficult intervention. See you tomorrow and good luck!</p>
-                    <p>A quick handshake, and the surgeon left. <persName key="sparreAn">Andreas</persName> found himself alone.</p>
-                    <p>-- Wait, I always have to wait, he cried out, as if talking to the portrait of his wife: well, <persName key="sparreGre">Grete</persName>, let’s be patient…</p> 
-                    <p>He didn’t have the strength to resume his train of thought. He collapsed onto the pillows, stared at the ceiling with an empty look… An immense weariness came over him.</p> 
-                    <p>The last scraps of his masculine pride, which he had dragged along in <placeName key="berlin">Berlin</placeName>, with his friends and during the “farewell dinner”, vanished little by little.</p>
-                    <!-- AC: * * represent Boxes -->
-                    <p>Around ten o’ clock, the assistant returned to give him a soporific. Then the nurse came in, tidied up the room, turned off the light. They let him sleep until midmorning, when the doctors would arrive. He only had time to wash himself quickly, and Professor <persName key="arns">Arns</persName> was already by his bed, asking him to sign a statement essentially saying:</p>
-                    <p>“I, <persName key="sparreAn">Andreas Sparre</persName>, wish to be operated upon at my own risk; Professor <persName key="gebhard">Gebhardt</persName>, in charge with the operation, is released of all responsibility in case of an unfavorable result. If I die, no lawsuit will be filed by my family.”</p>
-                    <p>After the young man signed it, he asked:</p>
-                    <p>--Will you allow me to add a few words of gratitude to the German doctors who attempt my metamorphosis?</p>
-                    <p>But the doctor laughed and declined this offer. Then he said:</p>
-                    <p>--The surgery will take place in a few minutes. Professor <persName key="gebhard">Gebhardt</persName> will be in charge. But I will attend, at the wish of Professor <persName key="kreutz">Werner Kreutz</persName>. Goodbye and good luck!</p>
-                    <!-- AC: * * Represent small boxes separating text -->
-                    <p>It was already noon when <persName key="sparreAn">Andreas</persName> regained consciousness, in the throes of violent pains. He opened the eyes and a scream of pain escaped from his lips. He realized that he was lying in his bed… Two nurses leaned over him, whispering comforting words. As proof that he was conscious again, the pain became sharper, atrocious… He made an effort to control himself, gritted his teeth.</p>
-                    <p>--Have I made a lot of noise? he asked faintly.</p>
-                    <p>--Not bad, answered one of the nurses, smiling: but it is remarkable how your voice has changed. You scream like a woman.</p>
-                    <p>Professor <persName key="gebhard">Gebhardt</persName> entered, took <persName key="sparreAn">Andreas</persName>’ hand into his:</p>
-                    <p>--Everything went perfectly, he said, and moreover I must congratulate you: you have here a magnificent <anchor type="commentRangeStart" n="5"/>soprano<anchor type="commentRangeEnd" n="5"/><note type="translator" source="cb" corresp="comment_5">The noun &quot;soprano&quot; in French has the same form for both masculine and feminine genders. Here, the author chose the masculine form.</note> voice.</p>
-                    <p>A few hours later, the invalid was allowed to receive his friend <persName key="hoyerNiels">Niels</persName>.</p>
-                    <p>--You seem to be doing very well.</p>
-                    <p>--It’s not too bad, <persName key="sparreAn">Andreas</persName> answered.</p>
-                    <p><persName key="hoyerNiels">Niels</persName> suppressed an exclamation of surprise, and looked inquisitively at the nurse. She whispered:</p>
-                    <p>--No doubt, this voice surprises you…</p>
-                    <p>--I no longer recognize it.</p>
-                    <p>Then, turning toward the invalid:</p>
-                    <p>--My wife sends you her best wishes, she will come…</p>
-                    <p>At the sign of a nurse, he withdrew quietly, and <persName key="sparreAn">Andreas</persName> asked:</p>
-                    <p>--Give me an injection… I’m in pain.</p>
-                    <p>They administered more injections during this dreadful, agonizing night, until, at the dawn, he finally fell into a feverish sleep. When he woke up, toward noon, he felt broken, exhausted, but the pain had eased.</p>
-                    <p>At times, he would asked mechanically:</p>
-                    <p>--Who am I? What am I?... Who am I?... What will I become?...</p>
-                   <!-- AC: * * Represent boxes separating text -->
-                    <p>In the afternoon, <persName key="hvideIng">Inger</persName>, <persName key="hoyerNiels">Niels</persName>’ wife, entered his room. She brought him flowers, a bottle of Cologne. Flowers! They filled him with their fragrance!</p>
-                    <p><persName key="hvideIng">>Inger</persName> sat on the edge of the bed, and talked to him for a longtime, intimately. Before, she always addressed him with respect, but now she spokefamiliarly. Later, he remembered this conversation and realized that, during the first days that followed the surgery, she never called him by his name.</p>
-                    <p>She returned every day, bringing him flowers, showering him with words of solace. Thus, two, then three days passed. During the long nights, bludgeoned by the powerful sleeping drugs, he was sound asleep, without dreams. And every morning, <persName key="hvideIng">Inger</persName> was at his bedside.</p>
-                    <p>One day, she entered with a spring-like bouquet:</p>
-                    <p>--Today, it is not me that you should thank for this, I am just the messenger of one of your good friends from <placeName key="paris">Paris</placeName>.</p>
-                    <p>--<persName key="lejeuneClaude">Claude Lejeune</persName>! cried <persName key="sparreAn">Andreas</persName>.</p>
-                    <p><persName key="hvideIng">Inger</persName> removed the note pinned onto the bouquet and read it aloud:</p>
-                    <p>“Each flower of this bouquet is an affectionate message for ‘<persName key="lili">Lili</persName>’. <persName key="lejeuneClaude">Claude</persName>.”</p>
-                    <p>The patient hid his face bathed in tears behind the bouquet. He whispered:</p>
-                    <p>--<persName key="lejeuneClaude">Claude</persName>, <persName key="lejeuneClaude">Claude</persName>, will he find her again one day?</p>
-                    <p>--Who is that?</p>
-                    <p>--<hi rend="italics"><anchor type="commentRangeStart" n="6"/>His</hi><anchor type="commentRangeEnd" n="6"/><note type="translator" source="cb" corresp="comment_6">In the French text, &quot;sa&quot; is a possessive adjective that emphasizes the feminine gender of the possessed object.</note>“<persName key="lili">Lili</persName>”.</p>
-                    <p>He stretched towards his interlocutor a weak</p>
-                    <cb n="4"/>
-<!-- AC: Beginning of Page 15 -->
-                    <!-- AC: (photo) Lili Elbe’s handwriting before and after surgery. -->
-                    <p>card where he had scribbled a few words:</p>
-                    <p>- Make sure he receives this message, he whispered.</p>
-                    <p>- Is it really you who wrote these lines?</p>  
-                    <p>- Yes, of course, why do you ask?</p>
-                    <p>- I can’t believe my eyes…</p>
-                    <p>He examined the card and he too exclaimed. He couldn’t recognize his own handwriting any longer; it looked like a note written by a woman. <persName key="hvideIng">Inger</persName> met the assistant in the corridor and asked him to take a look at the card, saying:</p>
-                    <p>- What you think of this, doctor? could a man have written it?</p> 
-                    <p>- Certainly not, madam, said the doctor stupefied: you can see it: one thing after another is blooming …</p>
-                    <p><persName key="sparreAn">Andreas</persName> overheard this conversation, and the fateful words echoed for a long time in his ears: “One thing after another!...”</p>
-                    <!-- * * AC: Represent small boxes between paragraphs -->
-                    <p>When the doctor returned to see him, the patient asked if he could get up soon.</p>
-                    <p>- And why this haste? the practitioner asked.</p>
-                    <p>- Because, you see, my wife comes…</p>
-                    <p>- Your wife, the doctor stammered, hum, certainly the lady will find you a bit changed, but there’s nothing we can do! And he left the room with the air of a preoccupied man.</p>
-                    <p>Three days later, early in the morning, <persName key="sparreGre">Grete</persName> turned up at the clinic. The nurse on call showed her immediately in the patient’s room. <persName key="sparreGre">Grete</persName> stopped, arms stretched out, choking back the tears, then she collapsed at her husband’s bedside.</p>
-                    <!-- AC: ……………………………………………………………………………………………………… Line of separation between paragraphs -->
-                    <p>Later, when she found herself alone, she wrote to the devoted friend, to the cheerful and charming companion at the parties in <placeName key="balgencie">Balgencie</placeName>, to the confident of their drama:</p>
-                    <p>“My dear <persName key="lejeuneClaude">Claude</persName>,</p>
-                    <p>“I can only describe in a few, hasty words what has just happened. I thought I would see <persName key="sparreAn">Andreas</persName> again, but <persName key="sparreAn">Andreas</persName> has died. Instead, I found this frail, delicate being… Was it ‘<persName key="lili">Lili</persName>’? Yes, of course, but not like the one we have known before in <placeName key="paris">Paris</placeName>. It is a completely different being, whose expression, gestures, voice are very new to me. Now, I have the feeling of an infinitely feminine being, untouched yet by life. Therefore, it would be more accurate to say ‘virginal’, even ‘childish’… It’s a ‘new life’, I couldn’t better express my thoughts. Ah! <persName key="lejeuneClaude">Claude</persName>, what a fate! when I think of it, I feel a thrill of awe… Fortunately, this being whom from now on we can  call <persName key="lili">Lili</persName> <hi rend="italics">for good</hi>, is still too weak to look back or to question the future. She is hardly capable of realizing her present state.</p>
-                    <p>“I talked to the doctors. This surgery, which is only a ‘beginning’ has succeeded beyond anything we could have wished for. ‘<persName key="sparreAn">Andreas</persName> has ceased to exist’, they told me. His seminal glands have been removed, and the rest will be finalized at <placeName key="dresden">Dresden</placeName>, under the scalpel of <persName key="kreutz">Werner Kreutz</persName>… The doctors have pronounced the word ‘hormones’; I looked it up in the dictionary, it’s about certain internal secretions that have a profound influence on the vital process.</p>
-                    <p>“What I could see with my own eyes is the blooming of a being whose pain and anguish we have shared for many years. Her life had seemed to us an insoluble problem, a desperate enigma. ‘Blooming, blossoming’… yes, it is just this.</p>
-                    <p>“The doctors, the nurses, our friends <persName key="hoyerNiels">Niels</persName> and <persName key="hvideIng">Inger</persName>, all have shared with me their great surprise caused by the outward metamorphosis of ‘our patient’, as they call him here, not knowing anymore what name to give him. But what is their surprise compared to mine! They saw him all these days, while I have been separated from the former <persName key="sparreAn">Andreas</persName> for two weeks. And I hardly recognize…</p>
-                    <p>“Enough for the time being. All I will add is that this new ‘<persName key="lili">Lili</persName>’, so touching and so sweet, rests in my arms, like a sister…</p>
-                    <p>Very affectionately, <persName key="sparreGre">Grete</persName>”</p>
-                    <p><persName key="sparreAn">Andreas</persName>’ wife spent this first night at the hotel. But, the next day, the nurse suggested to put a second bed in the patient’s room, for her to stay there until the departure for <placeName key="dresden">Dresden</placeName>, which was take place in a few days.</p>
-                    <p>- This is an excellent idea, cried out the young woman and she went immediately to look for her luggage. She opened a trunk and took out a pink silk gown.</p>  
-                    <p>The nurse exclaimed admiringly:</p>
-                    <p>- How good it will look on you, madam!</p>
-                    <p>- But it isn’t for me, come on, <persName key="sparreGre">Grete</persName> answered laughingly: it is a present that a friend from <placeName key="paris">Paris</placeName> sends to… your patient.</p>
-                    <p>And, indeed, a few minutes later, the patient, he, or rather she, was sitting in <hi rend="italics">her</hi> bed, dressed up in her soft rose gown, and smiling at her visitors. Certainly, <anchor type="commentRangeStart" n="7"/><hi rend="italics">she</hi><anchor type="commentRangeEnd" n="7"/><note type="translator" source="cb" corresp="comment_7">Thougn the possessive &quot;son&quot; is not italicized in the original, I did write it in italics as a substitue for the previous definite article &quot;la&quot;</note> was still very pale and very weak, but her expression was very cheerful.</p>
-                    <p>The assistant doctor couldn’t believe his eyes:</p>
-                    <p>- Congratulations, miss!... he muttered: and if you are very good and very careful, you could get up for an hour or two…</p>
-                    <p>Curious, the nurses sneaked into the room one after another, then it was, finally, the turn of Professor <persName key="gebhard">Gebhardt</persName> himself. He took “<persName key="lili">Lili</persName>’s” trembling hand and kissed it as if it was the most natural thing in the world:</p>
-                    <p>- Good morning, miss, and bravo! you are on the right path…</p>
-                    <p>Suddenly, he became aware of <persName key="sparreGre">Grete</persName>’s presence:</p>
-                    <p>- Ah! he stammered, welcome, madam…</p>
-                    <p>They looked at each other silently, trying to control their emotion… “<persName key="lili">Lili</persName>” tried to intervene:</p>
-                    <p>- Yes, Professor, it is madam <persName key="sparreGre">Grete</persName> who… she whispered, then she stopped, searching for her words.</p>
-                    <p>The Professor started to laugh softly:</p>
-                    <p>- Yes, yes, I know… it is Mrs. <persName key="sparreGre">Grete</persName> who has been married to Mr. <persName key="sparreAn">Andreas Sparre</persName>, who let us down, in a surprising way, I’d say… Alas, dear madam, all men are deceivers.</p>  
-                    <p>And, thanks to this inspired turn of phrase, the painful tension was suddenly broken.</p>
-                    <p>The next day, <persName key="sparreGre">Grete</persName> wrote in her diary:</p>
-                    <p>“Today we went out with <persName key="hvideIng">Inger</persName> to do some shopping. We need to prepare for the trip to <placeName key="dresden">Dresden</placeName>. In the afternoon, we returned to “<persName key="lili">Lili</persName>’s” room, bringing her a big cardboard box. We opened it in front of her and took out a gorgeous coat, lined with silk. “<persName key="lili">Lili</persName>” examined it, then she whispered: “If I go to Professor <persName key="kreutz">Kreutz</persName> in this outfit, he will not recognize me, he will throw me out.” And her eyes had such a sad expression! They are always sad… <persName key="sparreAn">Andreas</persName> had very different eyes. But no doubt she can’t yet believe her metamorphosis…”</p>
-                    <!-- AC: * * Represent boxes between paragraphs -->
-                    <p>The same day, “the patient” wrote her first letter. It was addressed to her brother-in-law <persName key="brotherChris">Christian</persName>, who had provided the funds necessary for the surgery. This missive was full of hope, it exuded a secret joy, a certitude, that didn’t dare yet burst in broad daylight:</p>
-                    <p>Berlin, March 14, 1930.</p>
-                    <p>“My dear <persName key="brotherChris">Christian</persName>,</p>
-                    <p>“Now it’s ‘<persName key="lili">>Lili</persName>’ who writes you. I am in bed, dressed in a silk negligee decorated with lace. My hair is curled, I am powdered, and I wear a necklace and rings. Even the severe professor calls me <persName key="lili">Lili</persName>…The surgery that I had allows me to be admitted to the clinic in <placeName key="dresden">Dresden</placeName>, reserved exclusively for women. The pains that still await me don’t matter, I am happy, and in a few months, I will be a flourishing girl.</p>
-                    <p>“Affectionately, <persName key="lili">Lili</persName>.”</p>
-                   <p><hi rend="italics">(To be continued)</hi></p>	
-                    <p><hi rend="bold">NIELS HOYER</hi></p>.
-                   <p>(Even partial reproduction is forbidden.</p>
-                    <p>Copyright by Niels Hoyer.)</p>
-<!-- AC: End of Page 15 -->  
-                </div>
-            </div>
             </div>
         </body>
     </text>
