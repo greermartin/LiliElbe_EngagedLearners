@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
-    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
-    <!-- AC: Where do I find correct links for above? -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    rendition="lilielbe.org/context/Periodicals/1934-10-13_ViceVersa-186.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-13_ViceVersa-186.xml">
+
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>VICE - - VERSA</title>
-                <title type="alternative"><hi rend="bold">un Homme change de sexe</hi>
+                <title type="alternative">
+                    <hi rend="bold">un Homme change de sexe</hi>
                     <hi rend="bold">D'après les documents authentiques et scientifiques réunis par
                             <persName key="hoyerNiels">Niels Hoyer</persName></hi>
                 </title>
@@ -35,6 +37,7 @@
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="am">Anna McCue</persName>
+                    <persName ref="drr">Danielle Richards</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -90,11 +93,11 @@
                         <catDesc>Essay/Nonfiction</catDesc>
                     </category>
                     <category source="collex" xml:id="image">
-                        <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg</catDesc>
-                        <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg</catDesc>
+                        <catDesc>http://lilielbe.org/media/periodicals/1934-10-13Voilà_01.jpg</catDesc>
+                        <catDesc>http://lilielbe.org/media/periodicals/1934-10-13Voilà_02.jpg</catDesc>
                     </category>
                     <category source="collex" xml:id="text">
-                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc>
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1934-10-13_ViceVersa-186.txt</catDesc>
                         <!-- AC: Where do I find correct link? -->
                     </category>
                     <category source="dc" xml:id="date">
@@ -103,7 +106,9 @@
                     <category source="dcterms" xml:id="isPartOf" xml:lang="fre-B">
                         <catDesc>Voilà</catDesc>
                     </category>
-                    <!-- AC: I deleted <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng"> because we don't have a translation of the title-->
+                    <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                        <catDesc>Voilà</catDesc>
+                    </category>
                 </taxonomy>
             </classDecl>
             <editorialDecl>
@@ -123,7 +128,7 @@
                             type="commentRangeEnd" n="1"/><note type="translator" source="ac"
                             corresp="comment_1">Title spreads across both pages of the Issue
                             1.</note></head>
-                    <head>un Homme change de sexe</head>
+                    <head><title>un Homme change de sexe</title></head>
                     <head>D'après les documents authentiques et scientifiques réunis par <persName
                             key="hoyerNiels">Niels Hoyer</persName></head>
                 </div>
@@ -139,27 +144,31 @@
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_01.jpg"/>
                     <figure xml:id="i01"
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_01.jpg">
-                        <figDesc><hi rend="bold"><persName key="sparreAn">Andreas Sparre</persName>
-                                cédait de plus en plus souvent à son « mon féminin ».</hi></figDesc>
+                        <figDesc>
+                            <hi rend="bold"><persName key="sparreAn">Andreas Sparre</persName>
+                                cédait de plus en plus souvent à son « mon féminin ».</hi>
+                        </figDesc>
                         <note source="ac">There are two pictures of <persName key="sparreAn">Andreas
                                 Sparre</persName>. In one picture, he is wearing a suit. In the next
                             picture, he is wearing a dress.</note>
                     </figure>
                     <figure xml:id="i02"
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_01.jpg">
-                        <figDesc><hi rend="bold"><persName key="sparreAn">Andreas</persName> costumé
-                                en femme éveilla l'intérêt de <persName key="lejeuneClaude">Claude
-                                    Lejeune</persName>, joyeux compagnon et ami
-                            dèvoué.</hi></figDesc>
-                        <note source="ac">This is apicture of<persName key="lili">Lili
+                        <figDesc>
+                            <hi rend="bold"><persName key="sparreAn">Andreas</persName> costumé en
+                                femme éveilla l'intérêt de <persName key="lejeuneClaude">Claude
+                                    Lejeune</persName>, joyeux compagnon et ami dèvoué.</hi>
+                        </figDesc>
+                        <note source="ac">This is a picture of<persName key="lili">Lili
                                 Elbe</persName>and<persName key="lejeuneClaude">Claude
                                 Lejeune</persName>. Lili is wearing a dress and hat, while Claude is
                             wearing a striped shirt.</note>
                     </figure>
-                    <p><hi rend="italics">Voyant en la personne du professeur <persName key="kreutz"
-                                >Werner Kreutz</persName> l'unique planche de salut — puisque le
-                            savant allemand lui promettait de parachever sa métamorphose — <persName
-                                key="sparreAn">Andreas Sparre</persName>résolut de suivre
+                    <p>
+                        <hi rend="italics">Voyant en la personne du professeur <persName
+                                key="kreutz">Werner Kreutz</persName> l'unique planche de salut —
+                            puisque le savant allemand lui promettait de parachever sa métamorphose
+                            — <persName key="sparreAn">Andreas Sparre</persName>résolut de suivre
                             aveuglément ses conseils et ses indications. Mais, afin que « <persName
                                 key="lili">Lili</persName>puisse survivre », il fallait
                                 «qu'<persName key="sparreAn">Andreas Sparre</persName>disparaisse ».
@@ -167,22 +176,28 @@
                             >Berlin</placeName>où, selon l'avis de <persName key="kreutz">Werner
                                 Kreutz</persName>, il s'agissait de subir « certain traitement
                             préliminaire », avant d'entrer à la <placeName key="womensClinic"
-                                >Clinique Féminine de Dresde</placeName>.</hi></p>
-                    <p><hi rend="italics">Nous suivrons bientôt le patient dans les cabinets de
+                                >Clinique Féminine de Dresde</placeName>.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">Nous suivrons bientôt le patient dans les cabinets de
                             consultation, où le pourcentage masculin et féminin de son être
                             organique et psychique sera soigneusement dosé par des spécialistes, et
                             nous l'accompagerons également dans la salle d'opérations. Mais
                             commençons par jeter un coup d'œil sur la vie du jeune homme, afin de
                             retracer les diverses étapes de l'évolution de <persName key="lili"
-                                >Lili</persName>, c'est-à-dire de son mai féminin.</hi></p>
-                    <p><hi rend="italics">Enfant, <persName key="sparreAn">Andreas</persName>se
+                                >Lili</persName>, c'est-à-dire de son mai féminin.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">Enfant, <persName key="sparreAn">Andreas</persName>se
                             révète un solide gamin, impétueux et batailleur, bien qu'il ait un goût
                             pour les poupées et les toilettes de petite fille. Comme adolescent, il
                             se montre déjà doué d'une sensibilité d'artiste, et d'un penchant
                             sentimental très prononcé; les nombreuses flammes juvéniles qu'il
                             nourrit envers ses jeunes amies démontrent qu'il s'agit d'un tempérament
-                            parfaitement sain et normal.</hi></p>
-                    <p><hi rend="italics">Alors qu'il était étudiant des <placeName
+                            parfaitement sain et normal.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">Alors qu'il était étudiant des <placeName
                                 key="ecoleBeauxarts">Beaux-Arts</placeName>, <persName
                                 key="sparreAn">Andreas</persName> eut le coup de foudre pour une de
                             ses camarades, <persName key="sparreGre">Grete</persName>qu'il épousa
@@ -191,14 +206,19 @@
                             aux expositions scandinaves et parisiennes. Par une tragique ironie du
                             sort, ce fut <persName key="sparreGre">Grete</persName> qui contribua a
                             la première incarnation de « <persName key="lili">Lili</persName> ». Un
-                            jour qu'elle était en train de peindre, son modèle (une jeune femme) lui
-                            fit défaut. Elle eut alors l'idée de costumer son mari en femme, et le
-                            déguisement réussit si bien que les époux résolurent ausitôt de
-                            mystifier leurs amis. Une camarade baptisa la pseudo-jeune femme, qui
-                            depuis porta le nom de <persName key="lili">Lili</persName>.</hi></p>
-                    <p><hi rend="italics">C'est ainsi qu'une banale force d'atelier allait mener à
-                            un drame poignant.</hi></p>
-                    <p><hi rend="italics"><persName key="lili">Lili</persName>parut à des bals
+                            jour qu'elle était en train de peindre, <persName key="larsen">son
+                                modèle</persName> (une jeune femme) lui fit défaut. Elle eut alors
+                            l'idée de costumer son mari en femme, et le déguisement réussit si bien
+                            que les époux résolurent ausitôt de mystifier leurs amis. <persName
+                                key="larsen">Une camarade</persName> baptisa la pseudo-jeune femme,
+                            qui depuis porta le nom de <persName key="lili">Lili</persName>.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">C'est ainsi qu'une banale force d'atelier allait mener à
+                            un drame poignant.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics"><persName key="lili">Lili</persName>parut à des bals
                             travestis, à des fêtes d'artistes, sur la plage de <placeName
                                 key="capri">Capri</placeName>, au sein de sa propre famille; elle
                             inspira de nombreuses toiles de <persName key="sparreGre"
@@ -209,24 +229,33 @@
                                 >Lili</persName> » exerçait une attraction puissante sur le sexe
                             fort... Dans un cercle artistique de <placeName key="paris"
                                 >Paris</placeName>, un vieux gentilhomme s'éprit « d'elle », la
-                            poursuivit de ses avances, et finit par demander sa main.</hi></p>
-                    <p><hi rend="italics">Mais ces plaisanteries, si disfrayantes qu'elles fussent,
-                            servaient mystérieusement les desseins de la nature. Le</hi></p>
+                            poursuivit de ses avances, et finit par demander sa main.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">Mais ces plaisanteries, si disfrayantes qu'elles fussent,
+                            servaient mystérieusement les desseins de la nature. Le</hi>
+                    </p>
                     <cb n="1"/>
-                    <p><hi rend="italics">déguisement devenait une habitude, développait le penchant
-                                d'<persName key="sparreAn">Andreas</persName>, « <persName
+                    <p>
+                        <hi rend="italics">déguisement devenait une habitude, développait le
+                            penchant d'<persName key="sparreAn">Andreas</persName>, « <persName
                                 key="lili">Lili</persName> » s'affirmait de plus en plus, ébranlant
                             la santé de jeune homme, exaspérant ses nerfs, lui enlevant peu à peu le
-                            goût de vivre.</hi></p>
-                    <p><hi rend="italics">Voici le récit de cette métamorphose, tel qu'<persName
+                            goût de vivre.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">Voici le récit de cette métamorphose, tel qu'<persName
                                 key="sparreAn">Andreas</persName>la conta à son ami <persName
                                 key="hoyerNiels">Niels Hoyer</persName>peu de temps avant d'entrer à
-                            la clinique de <placeName key="berlin">Berlin</placeName>.</hi></p>
-                    <p><hi rend="bold">Lé récit d'<persName key="sparreAn">Andreas
+                            la clinique de <placeName key="berlin">Berlin</placeName>.</hi>
+                    </p>
+                    <p>
+                        <hi rend="bold">Lé récit d'<persName key="sparreAn">Andreas
                                 Sparre</persName><anchor type="refStart" n="2"/><hi rend="super"
                                 >(1)</hi><anchor type="refEnd" n="2"/><note corresp="fn_002"
                                 type="foot">(1) Voir<hi rend="italics">Voilà</hi>, n<hi rend="super"
-                                    >0</hi>185.</note></hi></p>
+                                    >0</hi>185.</note></hi>
+                    </p>
                     <p><anchor type="commentRangeStart" n="3"/>A<anchor type="commentRangeEnd" n="3"
                             /><note type="translator" source="ac" corresp="comment_3">A is larger
                             than the other letters</note>PARIS, au <placeName key="salonAutomne"
@@ -411,7 +440,7 @@
                     <!-- AC: two boxes separate text -->
                     <p>Au cours des semaines qui suivirent, mon état nerveux empira. A des
                         intervalles réguliers j'étais victime de ces étranges crises de dépression
-                        accompagnées violentes hémorragies et de dou</p>
+                        accompagnées violentes hémorragies et de douleus<!--DRR: Moved broken word to first page as per our guidelines--></p>
                     <cb n="4"/>
                     <!-- AC: End of Page 12 -->
                     <!-- AC: Beginning of Page 13 -->
@@ -419,19 +448,21 @@
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_02.jpg"/>
                     <figure xml:id="i03"
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_02.jpg">
-                        <figDesc><hi rend="bold"><persName key="sparreAn">Andreas Sparre</persName>,
+                        <figDesc>
+                            <hi rend="bold"><persName key="sparreAn">Andreas Sparre</persName>,
                                 déguisé, mystifia ses amis plus chers. Cette banale farce d'atelter
                                 allait aboutir à la plus extraordinaire métamorphose: voice
                                 ci-dessus, la dernière photo de <persName key="lili">Lili
                                     Elbe</persName>, prise à <placeName key="copenhagen"
-                                    >Copenhague</placeName>en 1931.</hi></figDesc>
+                                    >Copenhague</placeName>en 1931.</hi>
+                        </figDesc>
                         <note source="ac">There are two pictures of <persName key="sparreAn">Andreas
                                 Sparre</persName> dresses as <persName key="lili">Lili
                                 Elbe</persName>. In the first image, he is wearing a large hat,
                             short dress, and heels. In the second picture, he is wearing jewelry and
                             a skirt and is petting a dog.</note>
                     </figure>
-                    <p>leus intense. Et puis il y avait ces accès de larmes incompréhensibles. Au
+                    <p>intense. Et puis il y avait ces accès de larmes incompréhensibles. Au
                         début, je pensais que j'avais déplace quelque organe interne au cours des
                         représentations de ballet, et <persName key="sparreGre"
                         >Grete</persName>partageait mon avis. Nous nous rendîmes chez un docteur...
@@ -481,8 +512,9 @@
                             <placeName key="versailles">Versailles</placeName>, où nous faisions de
                         longues promenades. Pendant une de ces soirées, comme nous errions bras
                         dessus, bras dessous sur la terrasee, nous entendîmes une jeune femme dire à
-                        son compagnon : « Regardez, voilà un couple d'amoureux ! »</p>
-                    <!-- AC: two boxes separate the text -->
+                        son compagnon : « Regardez, voilà un couple d'amoureux !
+                        »<!-- AC: two boxes separate the text --></p>
+
                     <p>Au cours de ce dernier été passé à <placeName key="versailles"
                             >Versailles</placeName>, je m'aperçus que, lorsque je me trouvais dans
                         la rue ou que je me promenais dans le parc, les gens se mettaient à me fixer
@@ -508,8 +540,8 @@
                         mes pensées, qui devenaient de plus en plus mélancoliques. Je voyais bien à
                         quel point elle était à présent inquiète. Elle cherchait à dominer son
                         angoisse, et me montrait un visage souriant, qui ne dissimulait qu'à moitié
-                        son angoisse.</p>
-                    <!-- AC: dotted line separates paragraphs -->
+                        son angoisse. <!-- AC: dotted line separates paragraphs --></p>
+
                     <p>De temps en temps, je ne résistais pas à mon instinct d'incarner « <persName
                             key="lili">Lili</persName> », la jeune femme frivole et insouciante. Je
                         savais bien, hélas, que cette « <persName key="lili">Lili</persName> » était
@@ -540,31 +572,31 @@
                         nouvelle existence ?</p>
                     <p>Son sort est entre les mains de <persName key="kreutz">Werner
                             Kreutz</persName>.</p>
-                    <p><hi rend="italics">(A suivre.)</hi><hi rend="bold"><persName key="hoyerNiels"
-                                >Niels HOYER</persName>.</hi></p>
+                    <p>
+                        <hi rend="italics">(A suivre.)</hi>
+                        <hi rend="bold"><persName key="hoyerNiels">Niels HOYER</persName>.</hi>
+                    </p>
                     <p>Reproduction même partielle interdite.</p>
-                    <p>(Copyright by <persName key="hoyerNiels">Niels Hoyer</persName>.)</p>
-                    <!-- AC: End of Page 13 -->
+                    <p>(Copyright by <persName key="hoyerNiels">Niels
+                        Hoyer</persName>.)<!-- AC: End of Page 13 --></p>
                 </div>
             </div>
             <div type="translation">
                 <div rend="head" style="periodical">
-                    <p><hi rend="bold">VICE — — VERSA</hi></p>
-                    <p>
-                        <title><hi rend="bold">A man changes sex</hi></title>
-                    </p>
+                    <head>
+                        <hi rend="bold">VICE — — VERSA</hi></head>
+                        <head><title>A man changes sex</title></head>
                 </div>
                 <div rend="headlines">
                     <list>
                         <item rend="primary">Based on authentic and scientific documents, assembled
                             by <persName key="hoyerNiels">Niels Hoyer</persName></item>
-                        <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+
                     </list>
                 </div>
                 <div rend="body">
-                    <!-- AC: Picture translations: <persName key="sparreAn">Andreas</persName> dressed as a woman awoke the interest of <persName key="lejeuneClaude">Claude Lejeune</persName>, joyful companion and devoted friend.
-                    <persName key="sparreAn">Andreas Sparre</persName>was giving way more and more to his feminine self. -->
-                    <p><hi rend="italics">Seeing in the person of <persName key="kreutz">professor
+                    <p>
+                        <hi rend="italics">Seeing in the person of <persName key="kreutz">professor
                                 Werner Kreutz</persName> the only lifeline—because the German
                             scientist was promising to complete his metamorphosis—<persName
                                 key="sparreAn">Andreas Sparre</persName> resolved to blindly follow
@@ -576,21 +608,27 @@
                                 Kreutz</persName> thought it necessary for him to undertake "certain
                             preliminary treatments", before entering the <placeName
                                 key="womensClinic">Women’s Clinic in <placeName key="dresden"
-                                    >Dresden</placeName></placeName>.</hi></p>
-                    <p><hi rend="italics">We will soon follow the patient into the consulting rooms
+                                    >Dresden</placeName></placeName>.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">We will soon follow the patient into the consulting rooms
                             where the specialists will carefully measured out the feminine and
                             masculine percentage of his physical and psychological being, and we
                             will also join him in the operating room. But let's start by glancing at
                                 <persName key="sparreAn">this young man</persName>'s life, in order
                             to retrace the different developmental stages of <persName key="lili"
-                                >Lili</persName>, that is, his feminine self.</hi></p>
-                    <p><hi rend="italics">As a child, <persName key="sparreAn"
+                                >Lili</persName>, that is, his feminine self.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">As a child, <persName key="sparreAn"
                             >Andreas</persName>proves to be a robust boy, impetuous and pugnacious,
                             despite his preference for dolls and little girl outfits. As a teenager,
                             he already displays an artistic sensibility and a very pronounced
                             sentimental inclination; the many juvenile passions he felt for his
-                            young friends show a perfectly sane and normal temperament.</hi></p>
-                    <p><hi rend="italics">When he was a student of Fine Arts, <persName
+                            young friends show a perfectly sane and normal temperament.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">When he was a student of Fine Arts, <persName
                                 key="sparreAn">Andreas</persName> fell in love at first sight with
                             one of his colleagues, <persName key="sparreGre">Grete</persName>, whom
                             he married shortly after and who had been the tender and devout
@@ -599,37 +637,44 @@
                             exhibitions. By an ironic twist of fate, it was <persName
                                 key="sparreGre">Grete</persName> who contributed to the first
                             incarnation of
-                                <!-- why are these not just regular quotation marks? is it because it's within a hi tag? -->&quot;<persName
-                                key="lili">Lili</persName>&quot;. One day, while she was getting
-                            ready to paint, <persName key="larsen">her model</persName> (a young
-                            woman) failed to appear. She then had the idea to dress <persName
+                                <!-- why are these not just regular quotation marks? is it because it's within a hi tag?--><!--These are errors brought in when the imported doc file uses curly quotations instead of straight quotation marks. I replaced &quot with " and @apos with ' -->"<persName
+                                key="lili">Lili</persName>". One day, while she was getting ready to
+                            paint, <persName key="larsen">her model</persName> (a young woman)
+                            failed to appear. She then had the idea to dress <persName
                                 key="sparreAn">her husband</persName> in women's clothes, and the
                             disguise was so successful, that the spouses decided instantly to
                             mystify their friends. <persName key="larsen">A friend</persName>
                             baptized the pseudo-young woman, who has since borne the name <persName
-                                key="lili">Lili</persName>.</hi></p>
-                    <p><hi rend="italics">This is how a banal studio farce was to lead to a
-                            heartbreaking drama.</hi></p>
-                    <p><hi rend="italics"><persName key="lili">Lili</persName> appeared at costume
+                                key="lili">Lili</persName>.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">This is how a banal studio farce was to lead to a
+                            heartbreaking drama.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics"><persName key="lili">Lili</persName> appeared at costume
                             balls, artist parties, on the beach of <placeName key="capri"
                                 >Capri</placeName>, in front of her own family: she inspired many of
                                 <persName key="sparreGre">Grete</persName>'s paintings; she soon
                             became indispenable to their life. The deception worked everywhere, and
                                 <persName key="sparreAn">Andreas</persName>was soon persuaded, to
                             his astonishment, that not only did no one recognize him, but that
-                                &quot;<persName key="lili">Lili</persName>&quot; was exerting a
-                            powerful attraction over the stronger sex... In one of the Parisian
-                            artistic circles, <!-- hauwitz? comte de trempe? --><persName>an old
+                                "<persName key="lili">Lili</persName>" was exerting a powerful
+                            attraction over the stronger sex... In one of the Parisian artistic
+                            circles, <!-- hauwitz? comte de trempe? --><persName>an old
                                 gentleman</persName> fell in love with her, followed her with his
-                            advances, and ended by asking for her hand.</hi></p>
-                    <p><hi rend="italics">But these jokes, entertaining as they were, were serving
+                            advances, and ended by asking for her hand.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">But these jokes, entertaining as they were, were serving
                             mysteriously the designs of nature. The disguise was becoing a habit,
                             was developing <persName key="sparreAn">Andreas</persName>' inclination
-                            . &quot;<persName key="lili">Lili</persName>&quot; was increasingly
-                            affirming herself, weakening <persName key="sparreAn">the young
-                                man</persName>'s health, taking away from him, little by little, the
-                            desire to live.</hi></p>
-                    <p><hi rend="italics">This is the story of this metamorphosis, the account of
+                            . "<persName key="lili">Lili</persName>" was increasingly affirming
+                            herself, weakening <persName key="sparreAn">the young man</persName>'s
+                            health, taking away from him, little by little, the desire to live.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italics">This is the story of this metamorphosis, the account of
                             which <persName key="sparreAn">Andreas</persName>gave to his friend
                                 <anchor type="commentRangeStart" n="4"/><persName key="hoyerNiels"
                                 >Niels Hoyer</persName><anchor type="commentRangeEnd" n="4"/><note
@@ -642,11 +687,14 @@
                                     <persName key="hvideNiels">Niels</persName> with the pseudonym
                                     <persName key="hoyerNiels">Niels Hoyer</persName>.</note>
                             shortly before entering the clinic in <placeName key="berlin"
-                                >Berlin</placeName>.</hi></p>
-                    <p><hi rend="bold">The story of <persName key="sparreAn">Andreas
+                                >Berlin</placeName>.</hi>
+                    </p>
+                    <p>
+                        <hi rend="bold">The story of <persName key="sparreAn">Andreas
                                 Sparre</persName><anchor type="refStart" n="5"/><hi rend="super"
                                 >1</hi><anchor type="refEnd" n="5"/><note corresp="fn_005"
-                                type="foot">See Voilà, n<hi rend="super">0</hi> 185.</note></hi></p>
+                                type="foot">See Voilà, n<hi rend="super">0</hi> 185.</note></hi>
+                    </p>
                     <p>In <placeName key="paris">Paris</placeName>, at the <placeName
                             key="salonAutomne">Autumn Exposition</placeName>, where both <persName
                             key="sparreGre">Grete</persName> and I were exhibiting, we met one day,
@@ -660,39 +708,38 @@
                         <!-- AC: No place name for Loiret -->. With the help of a few friends, he
                         had the intention to put on an amateur show at the municipal theater, for a
                         charitable purpose. He invited us, my wife and me, to take part in it.
-                            <placeName>The &quot;theater&quot;</placeName> where we were to appear
-                        was a kind of &quot;café bar&quot; with an adjoining room usually used a
-                        cinema. It had only one set, although unusable, and <persName
-                            key="sparreGre">Grete</persName> had been immediately appointed as
-                        painter and decorator. By six o'clock in the evening, everything was ready,
-                        and we were to raise the curtain at nin o'clock.</p>
+                            <placeName>The "theater"</placeName> where we were to appear was a kind
+                        of "café bar" with an adjoining room usually used a cinema. It had only one
+                        set, although unusable, and <persName key="sparreGre">Grete</persName> had
+                        been immediately appointed as painter and decorator. By six o'clock in the
+                        evening, everything was ready, and we were to raise the curtain at nin
+                        o'clock.</p>
                     <p>Around seven, I went to the train station with <persName key="tempeteJean"
                             >Tempête</persName>, to look for the only company member who was missing
                         the roll call. It was <persName>a young woman</persName> who had to play a
                         small role, that of a very chic Parisian. The train entered the station: it
-                        was the last, and <persName>our Parisian</persName> wasn&apos;t there.
-                            <persName key="tempeteJean">Tempête</persName> was furious. Though it
-                        was a small role, without it, the whole play would collapse.</p>
+                        was the last, and <persName>our Parisian</persName> wasn't there. <persName
+                            key="tempeteJean">Tempête</persName> was furious. Though it was a small
+                        role, without it, the whole play would collapse.</p>
                     <p>— Well, we will ask <persName key="sparreGre">Grete</persName> to replace
                         her, I declared.</p>
                     <p>— Excellent idea, cried <persName key="tempeteJean">Tempête</persName> and,
-                        upon just entering the so-called &quot;hotel&quot; where we were staying, he
-                        rushed towards <persName key="sparreGre">my wife</persName>. Exhausted by
-                        the work she had just finished for the theater, she was lying on a shaky day
-                        bed.</p>
-                    <p>— But it&apos;s out of question, she exclaimed, I would be incapable of doing
-                        it, even with the best intuiton in the world!...</p>
+                        upon just entering the so-called "hotel" where we were staying, he rushed
+                        towards <persName key="sparreGre">my wife</persName>. Exhausted by the work
+                        she had just finished for the theater, she was lying on a shaky day bed.</p>
+                    <p>— But it's out of question, she exclaimed, I would be incapable of doing it,
+                        even with the best intuiton in the world!...</p>
                     <p>Then she cast me a furtive look:</p>
-                    <p>— But perhaps &quot;<persName key="lili">Lili</persName>&quot; could take
-                        care of this...</p>
-                    <p>Who is &quot;<persName key="lili">Lili</persName>&quot;? asked <persName
+                    <p>— But perhaps "<persName key="lili">Lili</persName>" could take care of
+                        this...</p>
+                    <p>Who is "<persName key="lili">Lili</persName>"? asked <persName
                             key="tempeteJean">Tempête</persName>.</p>
-                    <p>— Don&apos;t worry. The important thing is that she accepts the role. She
-                        will perform it without the smallest difficulty.</p>
+                    <p>— Don't worry. The important thing is that she accepts the role. She will
+                        perform it without the smallest difficulty.</p>
                     <!-- AC: two boxes separate the text -->
                     <p>When the evening arrived and we raised the curtain in front of a room packed
-                        full, not even one spectator guessed that &quot;<persName key="lili"
-                            >Lili</persName>&quot; was not a woman. Moreover, the pharmacist of
+                        full, not even one spectator guessed that "<persName key="lili"
+                            >Lili</persName>" was not a woman. Moreover, the pharmacist of
                             <placeName key="balgencie">Balgencie</placeName>, gifted with a poetic
                         turn of mind, and who was a member of the Charity Committee, fell for her to
                         the point where he sent to <persName key="lili">the mysterious
@@ -709,9 +756,9 @@
                     <p>I must say that, as long as I embodied <persName key="sparreAn"
                             >Andreas</persName>, <persName key="lejeuneClaude">Claude</persName> had
                         given me the cold shoulder, but it all changed when he saw me costumed as
-                            &quot;<persName key="lili">Lili</persName>&quot;. Naturally, like my
-                        other friends, he was soon in on the secret about my metamorphosis. As for
-                        the spectators, we exercised the strictest discretion.</p>
+                            "<persName key="lili">Lili</persName>". Naturally, like my other
+                        friends, he was soon in on the secret about my metamorphosis. As for the
+                        spectators, we exercised the strictest discretion.</p>
                     <p>Also, the residents of <placeName key="balgencie">Balgencie</placeName>, who
                         had the idea of organizing a ball following the theatrical performance,
                         could not see the light. At the request of all my friends, I kept on my
@@ -727,17 +774,16 @@
                         partner.</p>
                     <p>I looked at him surprised and accepted with a nod. That evening, we danced
                         often, but we only exchanged only a few words here and there.</p>
-                    <p>The &quot;good society&quot; of <placeName key="balgencie"
-                            >Balgencie</placeName> held a dignified distance from our parties, with
-                        the exception of a deputy mayor, &quot;<persName key="rene">Mr.
-                            René</persName>&quot;, as everybody called him, and who was bachelor. A
-                        charming man, he took part in all of our nocturnal trips, and it was he who
-                        proposed to the aldermen, solemnly assembled, to organize another charitable
-                        festivity with the help of the &quot;<placeName key="paris"
-                            >Paris</placeName> gang&quot;, as he was referring to us.</p>
+                    <p>The "good society" of <placeName key="balgencie">Balgencie</placeName> held a
+                        dignified distance from our parties, with the exception of a deputy mayor,
+                            "<persName key="rene">Mr. René</persName>", as everybody called him, and
+                        who was bachelor. A charming man, he took part in all of our nocturnal
+                        trips, and it was he who proposed to the aldermen, solemnly assembled, to
+                        organize another charitable festivity with the help of the "<placeName
+                            key="paris">Paris</placeName> gang", as he was referring to us.</p>
                     <p>The proposal was accepted unanimously, and an official invitation was sent to
                         us. We decided to stage a nautical carnival upon <placeName key="loire">the
-                            Loire</placeName>. &quot;Cupid's ship&quot; had to sail at the head of a
+                            Loire</placeName>. "Cupid's ship" had to sail at the head of a
                         procession of ships adorned with flowers.</p>
                     <p><persName key="sparreGre">Grete</persName> was responsible for the
                         decorations. <persName key="rene">Mr. René</persName> put at our disposal an
@@ -753,9 +799,9 @@
                         discretely if I was willing to do it, provided that <persName
                             key="lejeuneClaude">Claude Lejeune</persName> would accompany me. My
                         friends knew that I was a skillful and vigorous swimmer. I accepted on
-                        behalf of &quot;<persName key="lili">Lili</persName>&quot; and on behalf of
-                            <persName key="lejeuneClaude">Claude</persName>, who in the meantime had
-                        become our great friend.</p>
+                        behalf of "<persName key="lili">Lili</persName>" and on behalf of <persName
+                            key="lejeuneClaude">Claude</persName>, who in the meantime had become
+                        our great friend.</p>
                     <p>So it thus happened that I appeared that night under the guise of a teenage
                             <persName key="cupid">Cupid</persName>... All the population had
                         assembled on the shore to acclaim the god of Love; and, as he was sailing
@@ -789,34 +835,35 @@
                         hard. At any rate, I was suffering for the first time from odd hemorrhages.
                         My nose was bleeding, but in such an abundant way, that <persName
                             key="sparreGre">Grete</persName> became worried and entreated me to give
-                        up my role: but I refused, not wanting to put <persName key="persenIv">my old friend</persName> in a difficult
-                        position. I managed, though these hemorrhages returned during the following
-                        rehearsals. And, what is even more strange, is that each time I was seized
-                        by a bout of convulsive crying. After the crisis, I was feeling released, as
-                        if I were coming out of a sort of torpor. It was as if something new, unknown
-                        was stirring inside me; my whole being seemed transformed, as if a dam had
-                        been suddenly broken.</p>
+                        up my role: but I refused, not wanting to put <persName key="persenIv">my
+                            old friend</persName> in a difficult position. I managed, though these
+                        hemorrhages returned during the following rehearsals. And, what is even more
+                        strange, is that each time I was seized by a bout of convulsive crying.
+                        After the crisis, I was feeling released, as if I were coming out of a sort
+                        of torpor. It was as if something new, unknown was stirring inside me; my
+                        whole being seemed transformed, as if a dam had been suddenly broken.</p>
                     <p>Never had music had such a disturbing impact on me, so unsettling, as during
                         this show. It was during that time that my character suffered a profound
                         transformation. Until now my attitude toward the others was rather imperious
                         and condescending. Since the first rehearsal, I had been tormented by a
                         feeling of defeat. I was seized be a sudden desire to give myself up, to
                         obey, to submit entirely to another will than mine... During the
-                        performances, my old friend <persName key="persenIv">Iven</persName> and <persName key="persenEb">his
-                        wife</persName> played the leading roles. One year ago, all three of us spent many
-                        happy hours in <placeName key="copenhagen">Copenhagen</placeName>. It never
-                        crossed my mind to be <persName key="persenIv">Iven</persName>'s
-                        subordinate, to recognize him as &quot;my master&quot;. But that evening, I
-                        had become his slave, blushing like a child when he would recommend I do
-                        something... And, if he approached me, I would feel confused... Nonetheless,
-                        there wasn&apos;t any erotic impulse mixed into the psychological disorders
-                        that I was experiencing. From that point of view, we were, <persName
-                            key="persenIv">Iven</persName> and me, perfectly balanced men. Thus, I
-                        couldn&apos;t understand what was happening. It <hi rend="italics">was</hi>
-                        simply this. And it was not me, but <persName key="sparreGre"
-                            >Grete</persName> who first perceived this new &quot;humbleness&quot;,
-                        as she would say jokingly. <persName key="sparreGre">Grete</persName> was
-                        laughing and teasing me, but her smile was hiding a profound surprise.</p>
+                        performances, my old friend <persName key="persenIv">Iven</persName> and
+                            <persName key="persenEb">his wife</persName> played the leading roles.
+                        One year ago, all three of us spent many happy hours in <placeName
+                            key="copenhagen">Copenhagen</placeName>. It never crossed my mind to be
+                            <persName key="persenIv">Iven</persName>'s subordinate, to recognize him
+                        as "my master". But that evening, I had become his slave, blushing like a
+                        child when he would recommend I do something... And, if he approached me, I
+                        would feel confused... Nonetheless, there wasn't any erotic impulse mixed
+                        into the psychological disorders that I was experiencing. From that point of
+                        view, we were, <persName key="persenIv">Iven</persName> and me, perfectly
+                        balanced men. Thus, I couldn't understand what was happening. It <hi
+                            rend="italics">was</hi> simply this. And it was not me, but <persName
+                            key="sparreGre">Grete</persName> who first perceived this new
+                        "humbleness", as she would say jokingly. <persName key="sparreGre"
+                            >Grete</persName> was laughing and teasing me, but her smile was hiding
+                        a profound surprise.</p>
                     <!-- AC: two boxes separate the text -->
                     <p>During the following weeks, the state of my nerves worsened. At regular
                         intervals, I was the victim of these strange crises of depression
@@ -827,23 +874,24 @@
                     <p>intense pains. And then there were these uncontrollable outbursts of
                         incomprehensible tears. First, I thought that I had displaced some internal
                         organs during the ballet performances, and <persName key="sparreGre"
-                            >Grete</persName> shared my opinion. We went to <persName>a doctor</persName>... In turn,
-                        this one took me to <persName>a specialist</persName> from <placeName key="versailles"
-                            >Versailles</placeName>. He examined carefully my heart and didn&apos;t
-                        hide his surprise... At last, he announced that he had found strange
+                            >Grete</persName> shared my opinion. We went to <persName>a
+                            doctor</persName>... In turn, this one took me to <persName>a
+                            specialist</persName> from <placeName key="versailles"
+                            >Versailles</placeName>. He examined carefully my heart and didn't hide
+                        his surprise... At last, he announced that he had found strange
                         irregularities in my internal organs... For the rest, he thought that the
                         only thing to do was to wait, all the more since I was in excellent
                         health.</p>
-                    <p>Indeed, <persName>the doctor</persName> didn&apos;t tell me anything precisely, but this
-                        discussion gave me confidence and even a sort of mystical hope. In that
-                        moment I was entirely convinced that something absolutely extraordinary was
-                        going to happen in me. <persName>The doctor</persName>'s expression told me more than his words.
-                        Then, just as many sick people who don&apos;t know anything about their
-                        illness, I started to buy scientific books about sexual problems. Soon, I
-                        had acquired some serious knowledge in this matter, and I knew a lot of
-                        things that the uninitiated do not know. And yet, I understood that the
-                        facts attached to normal men and women could not shed light on my own case
-                        which remained mysterious.</p>
+                    <p>Indeed, <persName>the doctor</persName> didn't tell me anything precisely,
+                        but this discussion gave me confidence and even a sort of mystical hope. In
+                        that moment I was entirely convinced that something absolutely extraordinary
+                        was going to happen in me. <persName>The doctor</persName>'s expression told
+                        me more than his words. Then, just as many sick people who don't know
+                        anything about their illness, I started to buy scientific books about sexual
+                        problems. Soon, I had acquired some serious knowledge in this matter, and I
+                        knew a lot of things that the uninitiated do not know. And yet, I understood
+                        that the facts attached to normal men and women could not shed light on my
+                        own case which remained mysterious.</p>
                     <p>And in this way, I formed in my mind an independent opinion, that is, that I
                         was at the same time a man and a woman in <hi rend="italics">one</hi> body,
                         and that the woman in me was in the process of affirming her superiority
@@ -859,75 +907,83 @@
                             key="lejeuneClaude">Claude</persName>. At that time, he was our source
                         of comfort. Without us having to tell him, he was able to guess what was
                         hidden behind the apparent calm that we assumed before him, <persName
-                            key="sparreGre">Grete</persName>, me... and &quot;<persName key="lili"
-                            >Lili</persName>&quot;. And when he came to see us on Sunday, the former
+                            key="sparreGre">Grete</persName>, me... and "<persName key="lili"
+                            >Lili</persName>". And when he came to see us on Sunday, the former
                         cheerfulness would revive.</p>
-                    <p>As with <persName key="sparreGre">Grete</persName> <persName key="lejeuneClaude">this friend</persName> understood
-                        that the only spirit still living in me was &quot;<persName key="lili"
-                            >Lili</persName>&quot;. Both of them firmly believed this. Also, they
-                        both were encouraging &quot;<persName key="lili">Lili</persName>&quot; to
-                        come as often as possible.</p>
-                    <p>I was more and more yielding the place to my &quot;feminine self&quot;, and
-                        this appeared to make <persName key="lejeuneClaude">CLaude</persName> happy.
-                        When welcoming him costumed as &quot;<persName key="lili"
-                        >Lili</persName>&quot;, he gave me a lot of attention. Often, he brought me
-                        to <placeName key="versaillesPark">the park of Versailles</placeName>, where we
-                        took long walks. During one of these evenings, as we were wandering arm in
-                        arm, we heard <persName>a young woman</persName> say to <persName>her companion</persName>: &quot;Look, a couple of
-                        lovers!&quot;</p>
+                    <p>As with <persName key="sparreGre">Grete</persName>
+                        <persName key="lejeuneClaude">this friend</persName> understood that the
+                        only spirit still living in me was "<persName key="lili">Lili</persName>".
+                        Both of them firmly believed this. Also, they both were encouraging
+                            "<persName key="lili">Lili</persName>" to come as often as possible.</p>
+                    <p>I was more and more yielding the place to my "feminine self", and this
+                        appeared to make <persName key="lejeuneClaude">CLaude</persName> happy. When
+                        welcoming him costumed as "<persName key="lili">Lili</persName>", he gave me
+                        a lot of attention. Often, he brought me to <placeName key="versaillesPark"
+                            >the park of Versailles</placeName>, where we took long walks. During
+                        one of these evenings, as we were wandering arm in arm, we heard <persName>a
+                            young woman</persName> say to <persName>her companion</persName>: "Look,
+                        a couple of lovers!"</p>
                     <!-- AC: there are two boxes separating the text -->
                     <p>During this last summer spent at <placeName key="versailles"
                             >Versailles</placeName>, I realized that, when I was on the street or
-                        walking through <placeName key="versaillesPark">the park</placeName>, the men began to stare at me with surprise.
-                        Moreover, I was arousing curiosity even in the shops where I was a regular
-                        customer. It is true that this had begun long ago, during my visits in
-                            <placeName key="paris">Paris</placeName>, but it never happened so
-                        often. It must be said: the Parisians are the most polite, the most
-                        indifferent and the most blasé people in the world, while in <placeName
-                            key="versailles">Versailles</placeName>, they are semi-provincial.</p>
-                    <p>As I was harrying one day to <placeName key="versaillesPark">the park</placeName> where I went to paint each and every
-                        day, I took a shortcut, and crossed the pathway of the <placeName
-                            key="hotelReservoirs">Hôtel des Réservoirs</placeName>, where a few
-                        bellboys had gathered. I didn&apos;t pay any attention to them, but after
-                        barely a few steps, I heard an exclamation behind me:</p>
+                        walking through <placeName key="versaillesPark">the park</placeName>, the
+                        men began to stare at me with surprise. Moreover, I was arousing curiosity
+                        even in the shops where I was a regular customer. It is true that this had
+                        begun long ago, during my visits in <placeName key="paris"
+                        >Paris</placeName>, but it never happened so often. It must be said: the
+                        Parisians are the most polite, the most indifferent and the most blasé
+                        people in the world, while in <placeName key="versailles"
+                            >Versailles</placeName>, they are semi-provincial.</p>
+                    <p>As I was harrying one day to <placeName key="versaillesPark">the
+                            park</placeName> where I went to paint each and every day, I took a
+                        shortcut, and crossed the pathway of the <placeName key="hotelReservoirs"
+                            >Hôtel des Réservoirs</placeName>, where a few bellboys had gathered. I
+                        didn't pay any attention to them, but after barely a few steps, I heard an
+                        exclamation behind me:</p>
                     <p>— Look at the pretty chick dressed like a man.</p>
                     <p>On the outside, our life had not changed at all. I was acting even more
                         joyful when having friends over, but I was trying hard to maintain this
-                        attitude especially with <persName key="sparreGre">my wife</persName>, because I was afriad that she would read
-                        my thoughts that were increasingly turning melancholic. I could see very
-                        well how worried she was now. She was trying to control her anxiety and was
-                        showing me a smiling face that only partially concealed her concern.</p>
+                        attitude especially with <persName key="sparreGre">my wife</persName>,
+                        because I was afriad that she would read my thoughts that were increasingly
+                        turning melancholic. I could see very well how worried she was now. She was
+                        trying to control her anxiety and was showing me a smiling face that only
+                        partially concealed her concern.</p>
                     <!-- AC: dotted line separates the text -->
-                    <p>At times, I couldn&apos;t resist the urge to embody &quot;<persName
-                            key="lili">Lili</persName>&quot;, who was more cheerful than me; yes, both of
-                        us were realizing it. &quot;<persName key="lili">Lili</persName>&quot; was
-                        the only one capable of consoling <persName key="sparreGre">Grete</persName>
-                        and, at the request of the latter, my feminine self would settle in and
-                        remain for a few days with us. In the company of &quot;<persName key="lili"
-                            >Lili</persName>, <persName key="sparreGre">Grete</persName> found the
-                        nights less long and less harrowing, because &quot;<persName key="lili"
-                            >Lili</persName>&quot; was falling asleep faster than <persName
-                            key="sparreAn">Andreas</persName>, and then <persName key="sparreGre"
-                            >Grete</persName> too was able to sleep... But, without <persName
-                            key="sparreGre">Grete</persName> knowing it, I was often crying. This
-                        new being that I was feeling growing within me had always had her own dream
-                        world. For now, these dreams returned only very rarely, but they presented
-                        the same images: it was winter, a glacial and desolate winter, and <persName
-                            key="lili">Lili</persName> was waiting for the sunny spring.</p>
+                    <p>At times, I couldn't resist the urge to embody "<persName key="lili"
+                            >Lili</persName>", who was more cheerful than me; yes, both of us were
+                        realizing it. "<persName key="lili">Lili</persName>" was the only one
+                        capable of consoling <persName key="sparreGre">Grete</persName> and, at the
+                        request of the latter, my feminine self would settle in and remain for a few
+                        days with us. In the company of "<persName key="lili">Lili</persName>,
+                            <persName key="sparreGre">Grete</persName> found the nights less long
+                        and less harrowing, because "<persName key="lili">Lili</persName>" was
+                        falling asleep faster than <persName key="sparreAn">Andreas</persName>, and
+                        then <persName key="sparreGre">Grete</persName> too was able to sleep...
+                        But, without <persName key="sparreGre">Grete</persName> knowing it, I was
+                        often crying. This new being that I was feeling growing within me had always
+                        had her own dream world. For now, these dreams returned only very rarely,
+                        but they presented the same images: it was winter, a glacial and desolate
+                        winter, and <persName key="lili">Lili</persName> was waiting for the sunny
+                        spring.</p>
                     <p>In this tormented and painful state, we reached the month of February. Our
                         friends <persName key="rossiniEl">Elena</persName> and <persName
                             key="rossiniEr">Ernesto</persName> were in <placeName key="paris"
                             >Paris</placeName>. The day came when <persName key="rossiniEl"
-                            >Elena</persName> led me to <persName key="kreutz">this strange man</persName> who came from <placeName
-                            key="germany">Germany</placeName>.</p>
+                            >Elena</persName> led me to <persName key="kreutz">this strange
+                            man</persName> who came from <placeName key="germany"
+                            >Germany</placeName>.</p>
                     <p>Today is March 3. In less than two months, it will be the 1<hi rend="super"
-                            >st</hi> of May. It&apos;s the maximum limit that I had allowed myself.
-                        Will <persName key="lili">Lili</persName> survive, will she be born to a new
+                            >st</hi> of May. It's the maximum limit that I had allowed myself. Will
+                            <persName key="lili">Lili</persName> survive, will she be born to a new
                         existence?</p>
                     <p>Her fate is in the hands of <persName key="kreutz">Werner
                         Kreutz</persName>.</p>
-                    <p><hi rend="italics">(To be continued.)</hi>
-                        <hi rend="bold"><persName key="hoyerNiels">NIELS HOYER</persName></hi></p>
+                    <p>
+                        <hi rend="italics">(To be continued.)</hi>
+                        <hi rend="bold">
+                            <persName key="hoyerNiels">NIELS HOYER</persName>
+                        </hi>
+                    </p>
                     <p>Even partial reproduction is forbidden.</p>
                     <p>(Copyright by <persName key="hoyerNiels">Niels Hoyer)</persName></p>
                     <!-- AC: End of page 13 -->
@@ -936,3 +992,4 @@
         </body>
     </text>
 </TEI>
+
