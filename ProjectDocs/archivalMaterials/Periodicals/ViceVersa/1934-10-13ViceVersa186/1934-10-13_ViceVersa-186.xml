@@ -142,28 +142,7 @@
                 <div rend="body">
                     <pb style="page" n="12"
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_01.jpg"/>
-                    <figure xml:id="i01"
-                        facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_01.jpg">
-                        <figDesc>
-                            <hi rend="bold"><persName key="sparreAn">Andreas Sparre</persName>
-                                cédait de plus en plus souvent à son « mon féminin ».</hi>
-                        </figDesc>
-                        <note source="ac">There are two pictures of <persName key="sparreAn">Andreas
-                                Sparre</persName>. In one picture, he is wearing a suit. In the next
-                            picture, he is wearing a dress.</note>
-                    </figure>
-                    <figure xml:id="i02"
-                        facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_01.jpg">
-                        <figDesc>
-                            <hi rend="bold"><persName key="sparreAn">Andreas</persName> costumé en
-                                femme éveilla l'intérêt de <persName key="lejeuneClaude">Claude
-                                    Lejeune</persName>, joyeux compagnon et ami dèvoué.</hi>
-                        </figDesc>
-                        <note source="ac">This is a picture of<persName key="lili">Lili
-                                Elbe</persName>and<persName key="lejeuneClaude">Claude
-                                Lejeune</persName>. Lili is wearing a dress and hat, while Claude is
-                            wearing a striped shirt.</note>
-                    </figure>
+                    
                     <p>
                         <hi rend="italics">Voyant en la personne du professeur <persName
                                 key="kreutz">Werner Kreutz</persName> l'unique planche de salut —
@@ -446,22 +425,6 @@
                     <!-- AC: Beginning of Page 13 -->
                     <pb style="page" n="13"
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_02.jpg"/>
-                    <figure xml:id="i03"
-                        facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_02.jpg">
-                        <figDesc>
-                            <hi rend="bold"><persName key="sparreAn">Andreas Sparre</persName>,
-                                déguisé, mystifia ses amis plus chers. Cette banale farce d'atelter
-                                allait aboutir à la plus extraordinaire métamorphose: voice
-                                ci-dessus, la dernière photo de <persName key="lili">Lili
-                                    Elbe</persName>, prise à <placeName key="copenhagen"
-                                    >Copenhague</placeName>en 1931.</hi>
-                        </figDesc>
-                        <note source="ac">There are two pictures of <persName key="sparreAn">Andreas
-                                Sparre</persName> dresses as <persName key="lili">Lili
-                                Elbe</persName>. In the first image, he is wearing a large hat,
-                            short dress, and heels. In the second picture, he is wearing jewelry and
-                            a skirt and is petting a dog.</note>
-                    </figure>
                     <p>intense. Et puis il y avait ces accès de larmes incompréhensibles. Au
                         début, je pensais que j'avais déplace quelque organe interne au cours des
                         représentations de ballet, et <persName key="sparreGre"
@@ -992,4 +955,3 @@
         </body>
     </text>
 </TEI>
-
