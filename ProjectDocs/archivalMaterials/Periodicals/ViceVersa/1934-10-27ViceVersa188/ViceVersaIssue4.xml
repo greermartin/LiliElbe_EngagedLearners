@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
-    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-27_ViceVersa-188.html" 
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-27_ViceVersa-188.xml">
     <!-- AC: Where do I find correct links for above? -->
     <teiHeader>
         <fileDesc>
@@ -35,6 +35,7 @@
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="am">Anna McCue</persName>
+                    <persName ref="drr">Danielle Richards</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -105,7 +106,10 @@
                     <category source="dcterms" xml:id="isPartOf" xml:lang="fre-B">
                         <catDesc>Voilà</catDesc>
                     </category>
-                    <!-- AC: I deleted <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng"> because we don't have a translation of the title-->
+                    <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                        <catDesc>Voilà</catDesc>
+                    </category>
+                    <!-- AC: I deleted <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng"> because we don't have a translation of the title. DRR: See note on previous issues-->
                 </taxonomy>
             </classDecl>
             <editorialDecl>
@@ -123,26 +127,20 @@
                 <div rend="head" style="periodical">
                     <pb style="page" n="14"
                         facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_01.jpg"/>
-                    <figure xml:id="i01"
-                        facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_01.jpg">
-                        <figDesc><hi rend="bold"><persName key="lili">Lili Elbe</persName>en 1930, à
-                                    <placeName key="dresden">Dresde</placeName>...</hi></figDesc>
-                        <note source="ac"><persName key="lili">Lili Elbe</persName>is sitting
-                            outside on a chair. She is wearing a hat, blouse, jacket, skirt, and
-                            heels.</note>
-                    </figure>
-                    <head>VICE - - VERSA</head>
-                    <!-- AC: title spreads across Page 14 and 15 -->
-                    <head><hi rend="bold">UN HOMME CHANGE DE SEXE</hi></head>
-                    <head>D'après les documents authentiques réunis par <persName key="hoyerNiels"
-                            >Niels Hoyer</persName></head>
-                </div>
-                <div rend="headlines">
-                    <list>
-                        <item rend="primary"><!--text of main headline--></item>
-                        <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
-                    </list>
-                </div>
+                            <head><anchor type="commentRangeStart" n="1"/>VICE - - VERSA<anchor
+                                type="commentRangeEnd" n="1"/><note type="translator" source="ac"
+                                    corresp="comment_1">Title spreads across both pages.</note></head>
+                            <head><title>un Homme change de sexe</title></head>
+                            <head>D'après les documents authentiques et scientifiques réunis par <persName
+                                key="hoyerNiels">Niels Hoyer</persName></head>
+                        </div>
+                        <div rend="headlines">
+                            <list>
+                                <item rend="primary">D'après les documents authentiques et scientifiques
+                                    réunis par <persName key="hoyerNiels">Niels Hoyer</persName></item>
+                                <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+                            </list>
+                        </div>
                 <div rend="body">
                     <!--AC: Page 14 begins -->
                     <p><hi rend="italics">Lorsque, après sa première opération. <persName
@@ -192,12 +190,12 @@
                             est le caractère scientifique et chirurgical de cette nouvelle
                             métamorphose. On en trouvera le côté psychologique et humain dans le
                             récit qui va suivre.</hi></p>
-                    <p><hi rend="bold">IV.<anchor type="refStart" n="1"/><hi rend="super"
-                                >(1)</hi><anchor type="refEnd" n="1"/><note corresp="fn_001"
-                                type="foot">(1) VOIR VOILA, depuiis le n<hi rend="super">0</hi>
+                    <p><hi rend="bold">IV.<anchor type="refStart" n="1"/><hi rend="italics"
+                                >(1)</hi><anchor type="refEnd" n="1"/><note xml:id="fn_001"
+                                type="foot" rend="asterisk">(1) VOIR VOILA, depuiis le n<hi rend="super">0</hi>
                                 185.</note> — A LA <placeName key="womensClinic">CLINIQUE FÉMININE
-                                DE DRESDE</placeName></hi></p>
-                    <!-- AC: Beginning letter &quot;L&quot; is big -->
+                                DE DRESDE</placeName></hi></p><!--I think this needs to be translated, then you should be able to use this same markup (with a new ref# for the footnote in the translated version.-->
+                    <!-- AC: Beginning letter L is big -->
                     <p>L'ARRIVÉE à <placeName key="dresden">Dresde</placeName>, et les premières
                         impressions de cette ville, qui devait jouer un rôle si important dans sa
                         vie, demeurèrent fort vagues dans le souvenir de <persName key="lili"
@@ -330,14 +328,6 @@
                     <!-- AC: Page 15 begins -->
                     <pb style="page" n="15"
                         facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_02.jpg"/>
-                    <figure xml:id="i02"
-                        facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_02.jpg">
-                        <figDesc><hi rend="bold">...et, après sa deuxiéme opération, complètement
-                                transformée en femme.</hi></figDesc>
-                        <note source="ac"><persName key="lili">Lili Elbe</persName>is standing
-                            outsidenext to a nurse. She is wearing a hat, blazer, matching skirt,
-                            and heels.</note>
-                    </figure>
                     <p>et aperçut <persName key="sparreGre">Grete</persName> qui, debout près de son
                         lit, lui tendair un bouquet de tulipes rouges. Une infirmiére entra, lui
                         administra de la morphine. Puis le professeur parut, lui prit la main en
@@ -472,16 +462,14 @@
             </div>
             <div type="translation">
                 <div rend="head" style="periodical">
-                    <p><hi rend="bold">VICE — — VERSA</hi></p>
-                    <p>
-                        <title><hi rend="bold">A man changes sex</hi></title>
-                    </p>
-                    <p>Based on the authentic document collected</p>
+                    <head>
+                        <hi rend="bold">VICE — — VERSA</hi></head>
+                    <head><title>A man changes sex</title></head>
                 </div>
                 <div rend="headlines">
                     <list>
-                        <item rend="primary"><!--text of main headline--></item>
-                        <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+                        <item rend="primary">Based on authentic documents by <persName
+                            key="hoyerNiels">Niels Hoyer</persName></item>
                     </list>
                 </div>
                 <div rend="body">
@@ -509,8 +497,8 @@
                                 >Grete</persName>, whom the law still considered as <anchor
                                 type="commentRangeStart" n="2"/>her<anchor type="commentRangeEnd"
                                 n="2"/><note type="translator" source="cb" corresp="comment_2">In
-                                the original text, &quot;sa&quot; implies only that
-                                &quot;femme&quot; is feminine, not the gender of the possessor, that
+                                the original text, "sa" implies only that
+                                "femme" is feminine, not the gender of the possessor, that
                                 is, <persName key="lili">Lili</persName></note>wife. The loyal
                                 <persName key="hoyerNiels">Niels</persName> insisted on going along
                             with his friends. <persName key="kreutz">Werner Kreutz</persName>
@@ -519,8 +507,8 @@
                             letter to some friends:</hi></p>
                     <p><hi rend="italics">"When her <anchor type="commentRangeStart" n="3"
                                 />body<anchor type="commentRangeEnd" n="3"/><note type="translator"
-                                source="cb" corresp="comment_3">&quot;Son&quot; (&quot;his&quot;)
-                                indicates the gender of the noun &quot;corps&quot;, not of the
+                                source="cb" corresp="comment_3">"Son" ("his")
+                                indicates the gender of the noun "corps", not of the
                                 person</note> was opened, they saw an entanglement of organs that
                             the most unbridled imagination couldn’t have conceived: atrophied
                             feminine organs with seminal glands with which a capricious fate had
@@ -532,8 +520,8 @@
                     <p><hi rend="italics">And now, this unfortunate creature, so cruelly
                             ‘handicapped’ since <anchor type="commentRangeStart" n="4"/>her<anchor
                                 type="commentRangeEnd" n="4"/><note type="translator" source="cb"
-                                corresp="comment_4">&quot;Sa&quot;(&quot;her&quot;) indicates the
-                                gender of the noun &quot;naissance&quot; (&quot;birth&quot;), not of
+                                corresp="comment_4">"Sa"("her") indicates the
+                                gender of the noun "naissance" ("birth"), not of
                                 the person.</note> birth, has undergone the treatment that must save
                             her. After he removed the obstacle preventing the development of the
                             feminine organs, the professor transplanted two ovaries borrowed from a
@@ -663,7 +651,7 @@
                         three..." An ether mask was gently placed over her face, she continued to
                             <anchor type="commentRangeStart" n="6"/>count<anchor
                             type="commentRangeEnd" n="6"/><note type="editor" source="plc"
-                            corresp="comment_6">Literally, &quot;to spell the numbers.&quot;</note>:
+                            corresp="comment_6">Literally, "to spell the numbers."</note>:
                         "Four, five, six..." It was increasingly difficult for her to move her tongue.
                         When she reached 18, she felt suffocated, and <persName key="kreutz">the Professor</persName> resumed the
                         counting... His voice was growing stronger, now it was reverberating like an
@@ -741,8 +729,8 @@
                     <p>Alas!, it was only too late that <anchor type="commentRangeStart" n="7"
                             /><persName key="sparreGre">Grete</persName><anchor
                             type="commentRangeEnd" n="7"/><note type="editor" source="plc"
-                            corresp="comment_7">The original uses &quot;Grete&quot;here but the
-                            context make &quot;Lili&quot;the more logical choice</note> realized to
+                            corresp="comment_7">The original uses "Grete" here but the
+                            context make "Lili" the more logical choice</note> realized to
                         what extent the sojourn in <placeName key="berlin">Berlin</placeName> marked
                         a brutal and painful transition between the peace of <placeName key="womensClinic">the clinic</placeName> and the
                         commotion of the outside world. She found herself in <placeName key="dresden">a vast, noisy city</placeName>, in
@@ -761,7 +749,7 @@
                     <p>These days when vain questions assaulted her were followed by even more
                         torturing nights... Then, slowly, two names emerged from her agonizing brain,
                         two faces appeared in her dreams: that of <persName key="lejeuneClaude"
-                            >Claude Lejeune</persName> and that of a young Italian, Lieutenant
+                            >Claude Lejeune</persName> and that of a young Italian, <!--DRR: we have been grabbing titles alongside names, so you should include Lieutenant in your <persname> tag-->Lieutenant
                             <persName key="feruzziRi">Feruzzi</persName>, whom they had previously
                         met in <placeName key="rome">Rome</placeName>. A bond of profound affection
                         linked <persName key="feruzziRi">this young man</persName> to <persName key="sparreGre">Grete</persName>; at the
@@ -773,7 +761,7 @@
                             >Grete</persName> could rebuild her life...</p>
                     <p>During those long months of illness, neither <persName key="sparreGre"
                             >Grete</persName> nor <persName key="lili">Lili</persName> had dared
-                        utter the name of t<persName key="feruzziRi">his friend</persName>. Wasn’t it the time to call him?</p>
+                        utter the name of <!--DRR: Is this a typo or should you grab "This" instead of "his"-->t<persName key="feruzziRi">his friend</persName>. Wasn’t it the time to call him?</p>
                     <p>One night, <persName key="lili">Lili</persName> woke up suddenly, left her
                         bed and sat by <persName key="sparreGre">Grete</persName>’s bedside. <persName key="sparreGre">The
                         young woman</persName> opened the eyes and smiled:</p>
@@ -786,8 +774,8 @@
                             <persName key="lili">Lili</persName> added cheerfully. They remained in
                         a tight <anchor type="commentRangeStart" n="8"/>sisterly<anchor
                             type="commentRangeEnd" n="8"/><note type="editor" source="plc"
-                            corresp="comment_8">Literally &quot;fraternellement&quot;or
-                            &quot;brotherly&quot;</note> embrace, their hearts full of a sweet
+                            corresp="comment_8">Literally "fraternellement" or
+                            "brotherly"</note> embrace, their hearts full of a sweet
                         emotion.</p>
                     <p>The next day, <persName key="lili">Lili</persName> wrote to <persName key="feruzziRi">the Italian</persName>:</p>
                     <p>"Dear friend,</p>
