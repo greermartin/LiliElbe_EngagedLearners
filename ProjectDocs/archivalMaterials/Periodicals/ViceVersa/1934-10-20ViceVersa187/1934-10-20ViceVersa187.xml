@@ -133,15 +133,6 @@
                     <head>D'après les documents authentiques et scientifiques réunis par <persName
                         key="hoyerNiels">Niels Hoyer</persName></head>
                 </div>
-                <div rend="headlines">
-                    <list>
-                        <item rend="primary">D'après les documents authentiques et scientifiques
-                            réunis par <persName key="hoyerNiels">Niels Hoyer</persName></item>
-                        <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
-                    </list>
-                        <!-- AC: What is a headline? DRR: Follow the lead on issue one. The headline there is the "d'apres les documents..." part of the title. Should be the same as earlier issues to maintain the same appearance -->
-                    
-                </div>
                 <div rend="body">
                     <p><hi rend="italics">En examinant <persName key="sparreAn">Andreas
                                 Sparre</persName>, à <placeName key="paris">Paris</placeName>, le
@@ -517,12 +508,8 @@
                         <head>
                             <hi rend="bold">VICE — — VERSA</hi></head>
                         <head><title>A man changes sex</title></head>
-                    </div>
-                    <div rend="headlines">
-                        <list>
-                            <item rend="primary">Based on authentic documents by <persName
-                                key="hoyerNiels">Niels Hoyer</persName></item>
-                        </list>
+                        <head>Based on authentic documents by <persName
+                                                                        key="hoyerNiels">Niels Hoyer</persName></head>
                     </div>
                     <div rend="body">
                         <p><hi rend="italics">During the examination of <persName key="sparreAn"
