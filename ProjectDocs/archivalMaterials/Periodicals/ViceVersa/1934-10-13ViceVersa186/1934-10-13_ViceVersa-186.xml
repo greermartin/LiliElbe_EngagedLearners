@@ -132,13 +132,6 @@
                     <head>D'après les documents authentiques et scientifiques réunis par <persName
                             key="hoyerNiels">Niels Hoyer</persName></head>
                 </div>
-                <div rend="headlines">
-                    <list>
-                        <item rend="primary">D'après les documents authentiques et scientifiques
-                            réunis par <persName key="hoyerNiels">Niels Hoyer</persName></item>
-                        <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
-                    </list>
-                </div>
                 <div rend="body">
                     <pb style="page" n="12"
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_01.jpg"/>
@@ -549,14 +542,10 @@
                     <head>
                         <hi rend="bold">VICE — — VERSA</hi></head>
                         <head><title>A man changes sex</title></head>
+                    <head>Based on authentic and scientific documents, assembled
+                            by <persName key="hoyerNiels">Niels Hoyer</persName></head>
                 </div>
-                <div rend="headlines">
-                    <list>
-                        <item rend="primary">Based on authentic and scientific documents, assembled
-                            by <persName key="hoyerNiels">Niels Hoyer</persName></item>
-
-                    </list>
-                </div>
+                
                 <div rend="body">
                     <p>
                         <hi rend="italics">Seeing in the person of <persName key="kreutz">professor
