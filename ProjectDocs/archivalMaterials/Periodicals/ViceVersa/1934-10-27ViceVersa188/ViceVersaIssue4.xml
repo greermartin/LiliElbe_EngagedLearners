@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-27_ViceVersa-188.html" 
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-27_ViceVersa-188.xml">
     <!-- AC: Where do I find correct links for above? -->
@@ -129,17 +129,10 @@
                         facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_01.jpg"/>
                             <head><anchor type="commentRangeStart" n="1"/>VICE - - VERSA<anchor
                                 type="commentRangeEnd" n="1"/><note type="translator" source="ac"
-                                    corresp="comment_1">Title spreads across both pages.</note></head>
+                                    xml:id="comment_1">Title spreads across both pages.</note></head>
                             <head><title>un Homme change de sexe</title></head>
                             <head>D'après les documents authentiques et scientifiques réunis par <persName
                                 key="hoyerNiels">Niels Hoyer</persName></head>
-                        </div>
-                        <div rend="headlines">
-                            <list>
-                                <item rend="primary">D'après les documents authentiques et scientifiques
-                                    réunis par <persName key="hoyerNiels">Niels Hoyer</persName></item>
-                                <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
-                            </list>
                         </div>
                 <div rend="body">
                     <!--AC: Page 14 begins -->
