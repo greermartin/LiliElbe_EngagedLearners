@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Man%20Into%20Woman%20Project/lili-elbe-code/schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-20_ViceVersa-189.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-11-03_ViceVersa-189.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Vice-Versa</title>
-            <title> UN HOMME CHANGE DE SEXE</title>
+            <title>UN HOMME CHANGE DE SEXE</title>
             <author>
                <persName key="hoyerNiels" role="AUT">Niels Hoyer</persName>
             </author>
@@ -29,7 +30,7 @@
             </respStmt>
             <respStmt>
                <resp>Encoding assistance and/or XML proofing completed by</resp>
-               <persName><!-- Insert Proofers name and initials in @ref--></persName>
+               <persName ref="drr">Danielle Richards</persName>
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
@@ -102,6 +103,9 @@
                <category source="dcterms" xml:id="isPartOf" xml:lang="freB">
                   <catDesc>Voilá</catDesc>
                </category>
+               <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                  <catDesc>Voilà</catDesc></category>
+               <!-- DRR- I added this back in because I wanted to make sure the translation didn't disappear in the html proof. What i added was probably not necessary though? -->
             </taxonomy>
          </classDecl>
          <editorialDecl>
@@ -117,20 +121,11 @@
       <body>
          <div type="original">
             <pb facs="http://lilielbe.org/media/periodicals/1934-11-3Voil%C3%A0_01.jpg"/>
-            <div rend="head" style="periodical">
-               <dateline/>
-            </div>
-            <div rend="headlines">
-               <list>
-                  <item rend="primary">
-                     <hi rend="bold">VICE-VERSA<!-- title goes across both pages --></hi>
-                  </item>
-                  <item>
-                     <hi rend="bold">UN HOMME CHANGE DE SEXE</hi>
-                  </item>
-                  <item><hi rend="bold">D'après les documents authentiques réunis par NIELS
-                        HOYER<!-- this header appears on the second page --></hi></item>
-               </list>
+            <div rend="head" style="periodical"><head>VICE - - VERSA</head>
+              <head><title>UN HOMME CHANGE DE SEXE</title></head>
+                  <head>D'après les documents authentiques réunis par NIELS
+                        HOYER<!-- this header appears on the second page DRR: the other issues, we've tagged Niels here, but i'm not sure if its been showing up correctly.--></head>
+              
             </div>
             <div rend="body">
                <p>Avant d'être <persName key="lili">Lili Elbe</persName>, <persName key="sparreAn"
@@ -371,7 +366,7 @@
                   nouvelle opération. Je désire pouvoir être mère.</p>
                <p>Voici quelques fragments des dernières lettres de <persName key="lili"
                      >Lili</persName>, écrites à <placeName key="dresden">Dresde</placeName> entre
-                  le 14 juin et le 22 août 1931.</p>
+                  le 14 juin et le 22 août 1931.<!-- you should ask Emily if these should be formatted as lettters. See b1.xml for examples of letters, but those all have xml ids. You might still need to do simple letter formatting, just with paragraphs marked as letters. --></p>
                <p> 14<hi rend="italics">juin</hi></p>
                <p><hi rend="italics">Après m'avoir examinée, <persName key="kreutz">le
                         professeur</persName> a résolu de m'opérer. L'intervention aura probablement
@@ -460,6 +455,12 @@
             </div>
          </div>
          <div type="translation">
+            <div rend="head" style="periodical">
+               <head> VICE — — VERSA</head>
+               <head><title>A man changes sex</title></head>
+               <head>Based on authentic documents by <persName
+                  key="hoyerNiels">Niels Hoyer</persName></head>
+            </div>
             <div rend="body">
                <p><hi rend="italics">Just like those close to her and she herself had anticipated,
                         <persName key="lili">Lili</persName> would go through one of the most
@@ -508,7 +509,7 @@
                         >Grete</persName> had to be settled too. Should <persName key="sparreAn"
                         >Andreas</persName> be considered dead or disappeared?</hi></p>
                <p>V. – DUSK</p>
-               <!-- subheading? -->
+               <!-- subheading? DRR: you might div these as chapters? I'm not sure what they want from these editions, but see B1 if you want to see how we do chapters.-->
                <p>When <persName key="lili">Lili</persName> settled in <placeName key="copenhagen"
                      >Copenhagen</placeName>, <persName>an art dealer</persName>, who was one of the
                   few persons to know her secret, suggested that she organize an exhibition with the
