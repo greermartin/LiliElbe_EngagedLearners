@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Man%20Into%20Woman%20Project/lili-elbe-code/schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-20_ViceVersa-189.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-11-03_ViceVersa-189.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vice-Versa</title>
+            <title>UN HOMME CHANGE DE SEXE</title>
+            <author>
+               <persName key="hoyerNiels" role="AUT">Niels Hoyer</persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="bc" role="TRL">Cristiana Bertola</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation reviewed by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription completed by </resp>
+               <persName ref="bc">Cristiana Bertola</persName>
+               <persName ref="ac">Aliana Capati</persName>
+            </respStmt>
+
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="am">Anna McCue</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance and/or XML proofing completed by</resp>
+               <persName ref="drr">Danielle Richards</persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML transformed into HTML
+                     <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                  by</resp>
+               <persName ref="rjp">Rebecca J. Parker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>HTML proofing completed by</resp>
+               <persName><!-- Insert Proofers name and initials in @ref--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Images prepared by</resp>
+               <persName><!-- Insert name and initials in @ref--></persName>
+            </respStmt>
+            <!-- Start Illustrations; Include the following only if illustrations present in text being encoded. -->
+            <respStmt>
+               <resp>Illustrations prepared by</resp>
+               <persName><!-- Insert name and initials in @ref--></persName>
+            </respStmt>
+            <!-- End Illustrations; -->
+            <sponsor>Loyola University Chicago Libraries</sponsor>
+            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="2019-07-06">July 6th, 2019</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                     Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                     Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+
+         </publicationStmt>
+         <sourceDesc source="Manuscript" xml:lang="freB">
+            <p>A two-page printed article taking up two columns on each page, with the title running
+               across both pages; the first page (page 14) has a photograph of Andreas Sparre's
+               (Einar Wegener's) paintings at the top spanning both columns, the second page (page
+               15) has a photograph of Lili Elbe at the bottom of the second column where the series
+               ends. Copyright attributed to Niels Hoyer.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+               <category source="collex" xml:id="discipline">
+                  <catDesc>History/Gender Studies</catDesc>
+               </category>
+               <category source="collex" xml:id="genre">
+                  <catDesc>Essay/Nonfiction</catDesc>
+               </category>
+               <category source="collex" xml:id="image">
+                  <catDesc><!-- media library illustration URL --></catDesc>
+                  <catDesc><!-- media library illustration URL --></catDesc>
+               </category>
+               <category source="collex" xml:id="text">
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc>
+                  <!-- insert correct URL -->
+               </category>
+               <category source="dc" xml:id="date">
+                  <catDesc>
+                     <![CDATA[<dc:date>date metadata</dc:date>]]><!-- Do not forget to change the text between the dc:date tags AND include the <![CDATA[ before the dc:date tage and ]]> after it. -->
+                  </catDesc>
+               </category>
+               <!-- Use the following category only when encoding a book section or periodical -->
+               <category source="dcterms" xml:id="isPartOf" xml:lang="freB">
+                  <catDesc>Voilá</catDesc>
+               </category>
+               <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                  <catDesc>Voilà</catDesc></category>
+               <!-- DRR- I added this back in because I wanted to make sure the translation didn't disappear in the html proof. What i added was probably not necessary though? -->
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <hyphenation>
+               <p>We have removed the hyphenation that appears in the printed text during
+                  digitization and encoding. Original hyphenation can be consulted in the facsimile
+                  images.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb facs="http://lilielbe.org/media/periodicals/1934-11-3Voil%C3%A0_01.jpg"/>
+            <div rend="head" style="periodical"><head>VICE - - VERSA</head>
+              <head><title>UN HOMME CHANGE DE SEXE</title></head>
+                  <head>D'après les documents authentiques réunis par NIELS
+                        HOYER<!-- this header appears on the second page DRR: the other issues, we've tagged Niels here, but i'm not sure if its been showing up correctly.--></head>
+              
+            </div>
+            <div rend="body">
+               <p><hi rend="italics">Ainsi que ses proches et elle-même l'avaient prévu, <persName
+                        key="lili">Lili</persName> allait traverser au <placeName key="denmark"
+                        >Danemark</placeName> une crise des plus douloureuses. Ce fut d'abord la
+                     crainte maladive d'être un objet de curiosité et de scandale dans son pays
+                     natal, où son aventure ne pouvait longtemps demeurer secrète. <persName
+                        key="lili">Lili</persName> éprouvait une véritable panique à l'idée de «
+                     faire sensation », et il faut croire que l'ébranlement nerveux causé par
+                     plusieurs chocs opératoires et les souffrances cruelles qu'elle avait subies
+                     étaient une des causes principales de sa neurasthénie. A <placeName
+                        key="copenhagen">Copenhague</placeName>, <persName key="lili"
+                        >Lili</persName> mena une vie beaucoup plus retirée qu'à <placeName
+                        key="berlin">Berlin</placeName>, fuyant amis et connaissances, et ne
+                     s'aventurant dans la rue que le visage recouvert d'un voile épais.</hi></p>
+               <p><hi rend="italics">Pourtant, le public danois ne prêta, au début, aucune attention
+                     à sa présence dans cette ville, et son incognito ne fut pas dévoilé. Par
+                     contre, <persName key="lili">Lili</persName> vécut des heures extrêmement
+                     pénibles en revoyant <persName key="sister">sa sœur</persName> qui, malgré
+                     toute son affection, ne pouvait s'accoutumer à la métamorphose de « frère
+                        <persName key="sparreAn">Andreas</persName> ». Ce qui la surprenait, c'était
+                     moins, peut-être, le changement physique que la transformation psychologique
+                     qui lui paraissait inexplicable, choquante! En effet, <persName key="lili"
+                        >Lili</persName> s'obstinait, avec une sorte d'acharnement, à démontrer que
+                        <persName key="sparreAn">son sosie masculin</persName> était mort, mort pour
+                     toujours, et que rien de son passé ne subsistait. Elle se refusait d'évoquer
+                     les souvenirs de ce passé et déclarait qu'elle serait absolument incapable de
+                     peindre ou de sculpter « à la manière » d'<persName key="sparreAn">Andreas
+                        Sparre</persName>. Elle adopta une attitude encore plus obstinée chez
+                        <persName key="brotherChris">son
+                        frère</persName> qu'elle visita en <placeName key="jutland"
+                        >Jutland</placeName>, mais qui fit preuve d'un grand tact et d'une grande
+                     compréhension à son égard.</hi></p>
+               <p><hi rend="italics">Cependant, par une tragique ironie, plus <persName key="lili"
+                        >Lili</persName> cherchait à prouver qu'elle était une femme et rien qu'une
+                     femme, plus elle ressentait de doutes à ce sujet. L'assurance qu'elle avait
+                     connue à <placeName key="berlin">Berlin</placeName> et à <placeName
+                        key="dresden">Dresde</placeName> l'avait brusquement quittée. Elle
+                     s'examinait longuement dans la glace, interrogeait les regards de ses proches,
+                     se posant sans cesse la question torturante: « Mon visage, mon corps, mes
+                     allures sont-ils vraiment ceux d'une femme? Mon but est-il atteint, ou ai-je
+                     souffert en vain? » Pourtant, ce fut à cette époque que les résultats de
+                     l'opération se firent définitivement sentir. Le corps de <persName key="lili"
+                        >Lili</persName> prenait un aspect de plus en plus féminin, ses seins se
+                     développaient, son visage s'affinait. Mais elle ne cessait d'en douter. Entre
+                     temps, d'autres difficultés surgissaient. Comment transformer son état civil,
+                     enregistrer la naissance officielle de <persName key="lili">Lili</persName>? Sa
+                     situations vis-à-vis de sa femme <persName key="sparreGre">Grete</persName>
+                     devait également être réglée. Fallait-il considérer <persName key="sparreAn"
+                        >Andreas</persName> mort ou disparu?</hi></p>
+               <p><hi rend="bold">V. — LE CRÉPUSCULE</hi></p>
+               <p>LORSQUE <persName key="lili">Lili</persName> s'établit à <placeName
+                     key="copenhagen">Copenhague</placeName>, <persName>un marchand de
+                     tableaux</persName>, qui était une des rares personnes à connaître son secret,
+                  lui proposa d'organiser une exposition des toiles de l'ex-<persName key="sparreAn"
+                     >Andreas</persName>, afin de réunir les fonds indispensables à sa nouvelle
+                  existence. Pour éviter les indiscrétions, il fut décidé de passer une note dans
+                  les journaux annonçant que l'exposition devait couvrir les frais du traitement
+                     d'<persName key="sparreAn">Andreas Sparre</persName>, gravement malade dans une
+                  clinique de <placeName key="berlin">Berlin</placeName>.</p>
+               <p>Malgré ces précautions, une atmosphère d'intense curiosité régnait dans la salle
+                  d'exposition le jour de vernissage. Quelques intimes étaient au courant de la
+                  métamorphose d'<persName key="sparreAn">Andreas</persName>, mais le grand public
+                  ne connaissait que les vagues rumeurs, les allusions, les bruits fantastiques qui
+                  couraient dans la ville au sujet du jeune peintre. Personne n'osa acheter les
+                  tableaux d'<persName key="sparreAn">Andreas</persName>.</p>
+               <p>C'est alors qu'<!-- Loulou? --><persName key="louLou">une journaliste</persName>, à laquelle
+                     <persName key="lili">Lili</persName> avait fait des confidences, vint à son
+                  secours. Depuis longtemps, <persName key="louLou">cette personne</persName>, collaboratrice
+                  d'un grand quotidien danois, avait voulu conter l'extraordinaire aventure. Mais
+                     <persName key="lili">Lili</persName> s'y était toujours opposée. A présent,
+                     <persName>la journaliste</persName> lui expliqua qu'il était indespensable de
+                  mettre le public au courant des faits. Un peintre aussi connu qu'<persName
+                     key="sparreAn">Andreas Sparre</persName> ne pouvait certes pas disparaître sans
+                  laisser aucune trace; ce mystère suscitait toutes sortes de rumeurs qu'il était
+                  impossible d'étouffer. Mieux valait dire la vérité et conter la merveilleuse
+                  expérience de <persName key="kreutz">Werner Kreutz</persName>.</p>
+               <p><persName key="lili">Lili</persName> finit par céder, bien à contre-cœur, et ce
+                  fut au début de mars 1931 que la nouvelle sensationnelle, lancée d'abored à
+                     <placeName key="copenhagen">Copenhague</placeName>, se
+                  répandit<!-- AC: Column break, horizontal line separarates paragraph and footnote -->
+                à travers le monde entier: <hi rend="italics"
+                     >un homme avait été changé en femme...</hi> En <placeName key="europe"
+                     >Europe</placeName>, en <placeName key="america">Amérique</placeName>, le monde
+                  des laboratoires se mit à commenter, à discuter ce cas étrange. Et ce fut le <hi
+                     rend="italics">fait divers scientifique le plus sensationnel de tous les
+                     temps</hi>. La photo de <persName key="lili">Lili</persName> parut dans tous
+                  les journaux du monde, souvent accompagnée de commentaires plus ou moins
+                  fantaisistes, voire ironiques.</p>
+               <p>Et pourtant, c'était un effroyable drame.</p>
+               <p>Et pourtant, <persName key="lili">Lili</persName>, en chair et en os, vêtue à la
+                  dernière mode, et accompagnée de <persName key="sparreGre">Grete</persName>,
+                  circulait tranquillement dans les rues de <placeName key="copenhagen"
+                     >Copenhague</placeName>.</p>
+               <p>Car, à l'exception de ceux qui la connaissaient personnellement et avaient entendu
+                  son histoire de ses propres lèvres, nul ne se doutait que <persName key="lili"
+                     >l'élégante jeune femme</persName> que l'on voyait chaque jour déambuler dans
+                  les rue de <placeName key="copenhagen">Copenhague</placeName> n'était autre que la
+                  célèbre <persName key="lili">Lili</persName>, — l'homme qui avait changé de
+                  sexe...</p>
+               <p>Son incognito étant respecté, la crainte d'être prise pour une « bête curieuse »,
+                  un phénomène, disparut peu à peu... Sa santé s'améliora, ses nerfs se
+                  fortifièrent. Elle n'éprouvait plus le besoin de fuir, de se cacher...</p>
+               <p>De plus, son état civil avait été rectifié: par un décret royal, elle était
+                  autorisée à s'appeler <persName key="lili">Lili Elbe</persName> et fut enregistrée
+                  sous ce nom.</p>
+               <p>Enfin, ses liens conjugaux tombèrent à leur tour; un jour, elle prit congé de la
+                  fidèle <persName key="sparreGre">Grete</persName>, qui s'embarquait pour
+                     <placeName>le Midi</placeName> où son mariage avec <persName key="feruzziRi"
+                     >Feruzzi</persName> allait être célébré.</p>
+               <p>Durant les quelques semaines qui avaient précédé ce départ, <persName key="lili"
+                     >Lili</persName> apprit pour la première fois ce que c'est que de vivre en
+                  compagnie d'une femme amoureuse — d'un autre, respirant le bonheur et
+                  l'espoir...</p>
+               <p>A présent que <persName key="sparreGre">Grete</persName>, était partie et que
+                     <persName key="lili">Lili</persName> se trouvait seule, elle ressentit une
+                  secrète mélancolie, presque de l'envie... Mais non, c'était impossible, personne
+                  ne désirait plus qu'elle le bonheur de <persName key="sparreGre">son « ex-femme
+                     »</persName>...</p>
+               <p>Enfin, elle se rendit compte qu'elle souffrait de sentiment d'un vide, de quelque
+                  chose en elle qui demeurait inachevé.</p>
+               <p>Le printemps approchait... le jardin qui entourait <placeName>la
+                     maison</placeName> où elle occupait un modeste logement se revêtait d'une
+                  tendre verdure. Le corps de <persName key="lili">Lili</persName> était plein d'une
+                  nouvelle vigueur, respirait la force et la jeunesse... Et pourtant, sa nostalgie,
+                  son trouble, auquel elle n'osait pas prêter un nom, devenait de plus en plus
+                  intense, plus impérieux.</p>
+               <p>Un jour, <persName key="lili">Lili</persName> reçut une lettre de <persName
+                     key="lejeuneClaude">Claude Lejeune</persName> lui annonçant son arrivée
+                  prochaine. Et en effet, il débarqua un beau matin à <placeName key="copenhagen"
+                     >Copenhague</placeName>. Pendant ces huit jours qu'il passa en <placeName
+                     key="denmark">Danemark</placeName>, <persName key="lejeuneClaude"
+                     >Claude</persName> et <persName key="lili">Lili</persName> ne se quittèrent
+                  pas; ils visitèrent ensemble la ville, fréquentèrent théâtres et restaurants,
+                  firent des excursions dans les environs, que le printemps enveloppait d'une
+                  atmosphère à la fois douce et fervente.</p>
+               <p><persName key="lejeuneClaude">Claude</persName> reconta à <persName key="lili">son
+                     amie</persName> les dernières nouvelles de <placeName key="paris"
+                     >Paris</placeName>, évoqua mille souvenirs communs. <persName key="lili"
+                     >Lili</persName> écoutait en souriant, mais par moment, elle éprouvait un
+                  sentiment étrange, mystérieux, comme si quelque chose de tout nouveau,
+                  d'impondérable, remuait en elle.</p>
+               <p>Un soir, comme ils soupaient dans <placeName>un restaurant</placeName>, <persName
+                     key="lejeuneClaude">Claude</persName>, dit brusquement:</p>
+               <p>— Ma petite <persName key="lili">Lili</persName>, je dois vous ramener chez
+                  vous... Il se fait fort tard, et je risque de vous compromettre.</p>
+               <p><persName key="lili">Lili</persName> ne put s'empêcher de rire, car elle n'avait
+                  jamais entendu <persName key="lejeuneClaude">son joyeux compagnon</persName>
+                  prononcer de telles paroles. Mais lorsqu'elle leva les yeux vers lui, elle vit que
+                  son visage était grave, concentré...</p>
+               <p>En montant dans le taxi qui les emporta, <persName key="lili">Lili</persName> prit
+                  le bras de <persName key="lejeuneClaude">son ami</persName>, en lui disant:</p>
+               <p>— Voyons, <persName key="lejeuneClaude">Claude</persName>, qu'avez-vous? Pourquoi
+                  ce visage sérieux ... J'avoue que je ne retrouve plus votre gaîté d'autrefois!</p>
+               <p><persName key="lejeuneClaude">Le jeune homme</persName> saisit la main de
+                     <persName key="lili">Lili</persName> et s'écria:</p>
+               <p>— Oui, oui, vous avez raison... Je vous trouve tellement changée, il y a en vous
+                  quelque chose que je ne vous connaissais pas avant votre nouvelle naissance. Oui,
+                  vous êtes, sans doute, jeune et vigoureuse... et pourtant, vous n'êtes qu'une
+                  jeune fille.</p>
+               <p><persName key="lili">Lili</persName> l'écoutait de plus en plus surprise.</p>
+               <p>— Hélas! reprit <persName key="lejeuneClaude">Claude</persName>, dans quelques
+                  jours, je serai obligé de vous quitter; il m'est très douloureux de vous laisser
+                  seule, exposée à tant de dangers! Ah! vous ne le croyez peut-être pas, mais tous
+                  ceux qui ont connu <persName key="sparreAn">Andreas Sparre</persName></p> <!-- AC This paragraph goes with the beginning of the next image.
+                  Do we combine them? -->
+               <pb style="page" n="17" facs="http://lilielbe.org/media/periodicals/1934-11-3Voil%C3%A0_02.jpg"/> <!-- AC: this appears in HTML; hopefully i fixed it -->
+               <p>vous considèrent comme un phénomène, et rien qu'un phénomène.</p>
+               <p>— Mais que dois-je faire? soupira <persName key="lili">Lili</persName>.</p>
+               <p>— Quitter <placeName key="copenhagen">cette ville</placeName>!</p>
+               <p>— C'est là mon intention; <persName key="sparreGre">Grete</persName> m'attend en
+                     <placeName key="italy">Italie</placeName>.</p>
+               <p>— Vous ne songez qu'à des voyages, de longs voyages toute seule!... Et puis,
+                     <persName key="sparreGre">Grete</persName> est sans doute très gentille de vous
+                  offrir l'hospitalité, mais n'oubliez pas qu'il s'agit de deux jeunes mariés. Ils
+                  ont attendu si longtemps le bonheur! Auront-ils place pour une troisième
+                  personne?</p>
+               <p><persName key="lejeuneClaude">Claude</persName> se tut un instant, puis:</p>
+               <p>— Je vais partir pour la <placeName key="turkey">Turquie</placeName>, où je suis
+                  nommé à un poste consulaire...</p>
+               <p>Il fixa son amie d'un regard plein de généreuse bonté:</p>
+               <p>— Voulez-vous m'accompagner, <persName key="lili">Lili</persName>?</p>
+               <p>La question était si inattendue qu'elle ne put réprimer un geste d'étonnement.
+                  Elle murmura:</p>
+               <p>— Parlez-vous sérieusement, <persName key="lejeuneClaude">mon ami</persName>?</p>
+               <p>— Pouvez-vous en doutez, ma petite <persName key="lili">Lili</persName>?...
+                  Voulez-vous être ma femme?</p>
+               <p>Elle n'eut qu'un cri:</p>
+               <p>— Oui! oh! oui, <persName key="lejeuneClaude">Claude</persName>!</p>
+               <p>Alors <persName key="lejeuneClaude">le jeune homme</persName> lui prit les deux
+                  mains et les porta à ses lèvres. Il semblait en proie à une vive agitation, mais
+                  ce ne fut que lorsqu'il approcha sa bouche de la sienne que <persName key="lili"
+                     >Lili</persName> se rendit compte brusquement du sense des paroles qu'ils
+                  venaient d'échanger. Une sensation à la fois de bonheur et de crainte l'envahit,
+                  et soudain elle crut entendre résonner à ses oreilles la voix de <persName
+                     key="kreutz">Werner Kreutz</persName>...</p>
+               <p>Terrifiée, elle s'arracha à l'étreinte. <persName key="lejeuneClaude"
+                     >Claude</persName> la regarda avec angoisse:</p>
+               <p>— Qu'y a-t-il, <persName key="lili">ma chérie</persName>? Tu ne m'aimes donc
+                  plus?</p>
+               <p>— Tu sais bien que je t'aime, soupira <persName key="lili">Lili</persName>, mais je
+                  ne puis songer au mariage avant de consulter <persName key="kreutz">le professeur
+                     Kreutz</persName>. Je n'ose rien entreprendre sans sa permission... Lui seul a
+                  le droit de disposer de moi!</p>
+               <p>Le train ralentit en traversant le pont de l'<placeName key="elbeRiver"
+                     >Elbe</placeName>, et <persName key="lili">Lili</persName> s'empressa de mettre
+                  son manteau et son chapeau. Brusquement, le panorama de <placeName key="dresden"
+                     >Dresde</placeName> surgit, reflétant ses tours et ses maison dans <placeName
+                     key="elbeRiver">le fleuve</placeName>, dont <persName key="lili"
+                     >Lili</persName> portait à présent le nom.</p>
+               <p>Elle tremblait, pressant son front moite à la vitre, serrant les dents pour ne pas
+                  pleurer.</p>
+               <p>Quelques minutes plus tard, elle descendit du train, et un taxi l'emporta vers
+                     <placeName key="womensClinic">la clinique féminine</placeName>. Encore émue,
+                  mais déjà souriante, elle pénétra sons le porche tranquille, le foyer de son
+                  cœur.</p> <!-- AC: "sons" should be "sous," which means "under." It's a typographical error. -->
+               <p>Rien n'avait changé, et <persName key="lili">Lili</persName> se jeta avec joie
+                  dans les bras de <persName key="matron">l'infirmière-major</persName>. Elle aspira
+                  longuement l'odeur d'éther et de formol qui flottait dans couloirs et se laissa
+                  envahir par les rumeurs familières de la vaste ruche médicale.</p>
+               <p>Puis, elle attendit, et un sentiment de paix infinie l'enveloppa. La porte
+                  s'ouvrit, une silhouette svelte et élancée vêtue de blanc, s'empressa vers elle.
+                  Elle vit le regard clair-obscur, les cheveux sombres encandrant un front de
+                  penseur. Comme une somnambule, elle se laissa emmener dans <placeName>le
+                     cabinet</placeName> du <persName key="kreutz">professeur Kreutz</persName>.
+                  Fascinée, elle écoutait la voix veloutée, ne sachant plus dans quel but elle
+                  était venue. Ce fut lui qui la rappela à la réalité:</p>
+               <p>— Qu'aviez-vous l'intention de me dire? Allons, je vous écoute.</p>
+               <p>Et <persName key="lili">Lili</persName> répondit:</p>
+               <p>— Je suis venue pour vous demander si vous me jugez assez forte pour subir une
+                  nouvelle opération. Je désire pouvoir être mère.</p>
+               <p>Voici quelques fragments des dernières lettres de <persName key="lili"
+                     >Lili</persName>, écrites à <placeName key="dresden">Dresde</placeName> entre
+                  le 14 juin et le 22 août 1931.<!-- you should ask Emily if these should be formatted as lettters. See b1.xml for examples of letters, but those all have xml ids. You might still need to do simple letter formatting, just with paragraphs marked as letters. --></p>
+               <p> 14 <hi rend="italics">juin</hi></p>
+               <p><hi rend="italics">Après m'avoir examinée, <persName key="kreutz">le
+                        professeur</persName> a résolu de m'opérer. L'intervention aura probablement
+                     lieu mardi, mais il faut me promettre de n'en rien dire à <persName
+                        key="sparreGre">Grete</persName>. Ne troublons pas son bonheur... J'admire
+                     profondément <persName key="kreutz">le professeur</persName>: non satisfait des
+                     résultats déja obtenus, il est prêt à risquer une nouvelle opération, afin que
+                     je puisse me marier, et qui sait? peut-être avoir des enfants. Si le pire
+                     arrivait (mais <choice>
+                        <orig>p</orig>
+                        <reg>j</reg>
+                     </choice>e ne puis le croire), je mourrais heureuse à la pensée que je suis
+                     demeurée, jusqu'à mon dernier soupir, auprès de celui auquel je dois la
+                     vie.</hi></p> <!-- AC: "pje" should be "je," typographical error.-->
+
+               <p>15 <hi rend="italics">juin</hi></p>
+               <p><hi rend="italics">Il faut comprendre mon désir d'être mère, car je tiens à prouver qu'<persName
+                     key="sparreAn">Andreas</persName> est entièrement disparu en moi, et qu'il est
+                  mort pour de bon. Ce n'est que grâce à l'enfant que je parviendrai à me convaincre
+                  moi-même que, dès le début de mon existence, je fus en réalité une femme... Ceux
+                  qui ne comprennent que les choses qui relèvent du domaine du « bon sens » et du «
+                  normal » m'ont souvent demandé si j'avais gardé quelque souvenir, si vague qu'il
+                  fût, des émotions amoureuses, de la sensibilité érotique du mâle. Question qui me
+                  blesse au point le plus sensible de mon être! Puisque la nature, aidée de l'art
+                  consommé de <persName key="kreutz">Kreutz</persName>, a opéré le miracle de ma
+                  métamorphose, je me sentirais humiliée dans mon orgueil de femme si les sensations
+                  inhérentes à l'autre sexe pouvaient encore m'effleurer! Je lutte contre les
+                  ignorants qui ne veulent voir en moi qu'un phénomène, un être anormal. Je suis une
+                  femme, une femme comme tant d'autres. Ceux qui s'obstinent à m'envisager comme une
+                  « attraction » me causent tant de chagrin que je suis souvent hantée par l'idée du
+                  suicide. Et pourtant, la volonté de vivre est plus forte, je le dois bien au
+                     <persName key="kreutz">savant</persName> qui a fait de moi une femme
+                  normale.</hi></p>
+               <p>16 <hi rend="italics">juin</hi></p>
+               <p><hi rend="italics">Je serai probablement opérée demain. Je ne crains pas la
+                     souffrance. Je voudrais demeurer ici pour toujours. Mais de temps en temps une
+                     vague angoisse m'étreint. Pourquoi m'inquiéter? Je sais que tout se passera à
+                     merveille. Mourir?... Mais ce serait une trahison!</hi></p>
+               <p><!-- AC: Start of new column -->18 <hi rend="italics">juillet</hi></p>
+               <p><hi rend="italics">Aujourd'hui, il y a un mois que j'ai été opérée. Le mieux se
+                     maintient et je ne suis plus hantée par la pensée de la mort. Hier, j'ai rêvé
+                        qu'<persName>un ami</persName> m'avait prise dans ses bras, qu'il m'avait
+                     emportée, et j'étais heureuse. J'ai inifiniment souffert, mais bien des choses
+                     seront encore exigées de moi. A présent, je sais que je suis comme les autres
+                     femmes.</hi></p>
+               <p>13 <hi rend="italics">août</hi></p>
+               <p><hi rend="italics"><persName key="kreutz">Le professeur</persName> est parti en
+                     vacances. Mon état me jette dans le désespoir. Je ne vois aucun progrès, et il
+                     y a des jours où je suis tellement lasse que je voudrais mourir. Mais je n'en
+                     pas le droit. <persName key="kreutz">Werner Kreutz</persName> ne le permettrait
+                     pas.</hi></p>
+               <p>16 <hi rend="italics">août</hi></p>
+               <p><hi rend="italics">Je ne saurais décrire ma dernière opération. Ce fut un abîme de
+                     souffrance. Heureusement, <persName key="sparreGre">Grete</persName> ne se
+                     doute de rien. Je suis encore bien faible, mais en septembre je compte rentrer
+                     à <placeName key="copenhagen">Copenhague</placeName>. Il faut que je mette mes
+                     papiers en ordre, pour <persName key="lejeuneClaude"
+                  >Claude</persName>...</hi></p>
+               <p>22 <hi rend="italics">août</hi></p>
+               <p><hi rend="italics">Je suis lasse, presque toujours lasse. Je n'ai pas quitté mon
+                     lit. Je reçois presque chaque jour des fleurs de <persName key="sparreGre"
+                        >Grete</persName>. Si j'avais la force, je lui écrirais et elle viendrait.
+                     Mais il ne le faut pas. Je me sens si solitaire, si faible. Mais au moment où
+                     je suis au comble de la tristesse, <persName key="lejeuneClaude"
+                        >Claude</persName> m'écrit qu'il m'attend.</hi></p>
+               <p>Les ombres de la mort descendaient sur <persName key="lili">Lili Elbe</persName>.
+                  Au début de septembre, elle écrivait la dernière lettre, adressée à <persName
+                     key="sister">sa sœur</persName>:</p>
+               <p><hi rend="italics">Je sens que la mort approche. Cette nuit, j'ai rêvé à <persName
+                        key="mother">notre mére</persName>. Elle m'a prise dans ses bras en
+                     m'appelant <persName key="lili">Lili</persName>... <persName key="father"
+                        >Père</persName> était là aussi...</hi></p>
+               <p>Le 12 septembre, <persName key="brotherChris">son frère</persName> fut appelé par
+                  télégramme, <persName key="lili">Lili</persName> ne parlait plus, mais ses yeux étaient encore pleins de vie. Elle
+                  inscrivit quelques mots d'adieu sur une carte qu'elle tendit à
+                     <!-- "her faithful nurse" -could be any of the nurses? --><persName>sa fidèle
+                     infirmière</persName>. Puis elle s'endormit, et ne se réveilla plus. La
+                  souffrance l'avait vaincue.</p>
+               <p>Ainsi se termina sa vie — cette vie d'homme et de jeune fille, dont
+                  l'épanouissement fut bref — existence pleine d'angoisses, de douleurs, mais aussi
+                  d'étranges, d'extraordinaires péripéties, que l'imagination la plus audacieuse
+                  n'aurait su inventer.</p>
+               <p>FIN</p>
+               <p><hi rend="italics">Reproduction, même partielle interdite.</hi></p>
+               <p><hi rend="italics">(Copyright Niels Hoyer 1934)</hi>.</p>
+            </div>
+         </div>
+         <div type="translation">
+            <div rend="head" style="periodical">
+               <head> VICE — — VERSA</head>
+               <head><title>A man changes sex</title></head>
+               <head>Based on authentic documents by <persName
+                  key="hoyerNiels">Niels Hoyer</persName></head>
+            </div>
+            <div rend="body">
+               <p><hi rend="italics">Just like those close to her and she herself had anticipated,
+                        <persName key="lili">Lili</persName> would go through one of the most
+                     painful crises in <placeName key="denmark">Denmark</placeName>. Initially,
+                     there was the pathological fear of being an object of curiosity and scandal in
+                     her native country, where her adventure couldn’t remain secret for long.
+                        <persName key="lili">Lili</persName> was seized with a real panic at the
+                     idea of "causing sensation," and we must believe that the nervous upheaval
+                     triggered by the many post-operative shocks and the cruel suffering that she
+                     had endured were one of the main causes of her neurasthenia. In <placeName
+                        key="copenhagen">Copenhagen</placeName>, <persName key="lili"
+                        >Lili</persName> led a more reclusive life than in <placeName key="berlin"
+                        >Berlin</placeName>, avoiding friends and acquaintances, and did not venture
+                     onto the street without a thick veil covering her face.</hi></p>
+               <p><hi rend="italics">However, the Danish public didn’t pay, initially, any attention
+                     to her presence in this city, and her incognito had not been revealed. On the
+                     other hand, <persName key="lili">Lili</persName> went through extremely painful
+                     hours when she saw again <persName key="sister">her sister</persName> who,
+                     despite her affection, couldn’t become accustomed to the metamorphosis of her
+                     "brother <persName key="sparreAn">Andreas</persName>." What surprised her was,
+                     perhaps, less the physical change than the psychological transformation that
+                     she found inexplicable, shocking! Indeed, <persName key="lili">Lili</persName>
+                     insisted, with a sort of stubbornness, on proving that <persName key="sparreAn"
+                        >her masculine double</persName> was dead, forever dead, and that nothing
+                     from his past survived. She refused to evoke the memories of this past and
+                     announced that she would be absolutely incapable of painting or sculpting "in
+                     the manner" of <persName key="sparreAn">Andreas Sparre</persName>. She adopted
+                     an even more stubborn attitude with <persName key="brotherChris">her
+                        brother</persName> whom she visited in <placeName key="jutland"
+                        >Jutland</placeName>, but who showed great tact and great understanding in
+                     regard to her.</hi></p>
+               <p><hi rend="italics">However, by a tragic irony, the more <persName key="lili"
+                        >Lili</persName> tried to prove that she was a woman and nothing but a
+                     woman, the more she felt doubtful about this. The assurance she experienced in
+                        <placeName key="berlin">Berlin</placeName> and <placeName key="dresden"
+                        >Dresden</placeName> had suddenly left her. She examined herself at length
+                     in the mirror, questioning the glances of her relatives, incessantly asking
+                     herself the torturing question: "My face, my body, my looks, are they really
+                     those of a woman? Is my aim reached or have I suffered vainly?" Nonetheless, it
+                     was at this time that the results of the surgery made themselves felt.
+                        <persName key="lili">Lili</persName>’s body took a more and more feminine
+                     aspect, her breasts developed, her face became more refined. But she didn’t
+                     cease doubting. In the meantime, other difficulties arose. How to transform her
+                     civil status, to record the official birth of <persName key="lili"
+                        >Lili</persName>? Her situation with respect to <persName key="sparreGre"
+                        >Grete</persName> had to be settled too. Should <persName key="sparreAn"
+                        >Andreas</persName> be considered dead or disappeared?</hi></p>
+               <p>V. – DUSK</p>
+               <!-- subheading? DRR: you might div these as chapters? I'm not sure what they want from these editions, but see B1 if you want to see how we do chapters.-->
+               <p>When <persName key="lili">Lili</persName> settled in <placeName key="copenhagen"
+                     >Copenhagen</placeName>, <persName>an art dealer</persName>, who was one of the
+                  few persons to know her secret, suggested that she organize an exhibition with the
+                  paintings of the former <persName key="sparreAn">Andreas</persName>, in order to
+                  gather the indispensable funds for her new existence. To avoid any indiscretions,
+                  it was decided to send a note to the newspapers announcing that the exhibition had
+                  to cover the costs for the treatment of <persName key="sparreAn">Andreas
+                     Sparre</persName>, seriously ill in a clinic in <placeName key="berlin"
+                     >Berlin</placeName>. </p>
+               <p>Despite these precautions, an atmosphere of intense curiosity reigned in the
+                  showroom, on the preview day. A few intimates knew of <persName key="sparreAn"
+                     >Andreas</persName>’s metamorphosis, but the general public knew only the vague
+                  rumors, the allusions, the fantastic stories circulating in the city about the
+                  young painter. No one dared to buy <persName key="sparreAn">Andreas</persName>’s
+                  paintings.</p>
+               <p>It was then that <!-- is this loulou? --><persName key="louLou">a
+                     journalist</persName>, in whom <persName key="lili">Lili</persName> had
+                  confided, came to her rescue. For a long time, <persName key="louLou">this
+                     person</persName>, contributor to a great Danish daily, had wanted to tell the
+                  extraordinary adventure. But <persName key="lili">Lili</persName> had always
+                  refused. Now, <persName key="louLou">the journalist</persName> explained to her
+                  that it was essential to inform the public about the facts. A painter as
+                  well-known as <persName key="sparreAn">Andreas</persName> certainly couldn’t
+                  disappear without a trace; this mystery created all sorts of rumors impossible to
+                  hush up. It was better to tell the truth and recount the wonderful experience of
+                     <persName key="kreutz">Werner Kreutz</persName>.</p>
+               <p><persName key="lili">Lili</persName> gave up in the end, though reluctantly, and
+                  at the beginning of March 1931, the sensational news, launched first in <placeName
+                     key="copenhagen">Copenhagen</placeName>, spread throughout the world: <hi
+                     rend="italics">a man had been transformed into a woman</hi>... In <placeName
+                     key="europe">Europe</placeName>, in <placeName key="america"
+                     >America</placeName>, <anchor type="commentRangeStart" n="3"/>the scientific
+                     world<anchor type="commentRangeEnd" n="3"/><note type="editor" source="plc"
+                     corresp="comment_3">Literally, the world of laboratories (le monde des
+                     laboratoires).</note> started to comment, to discuss this strange case. And it
+                  was <hi rend="italics">the most sensational scientific fact of all time</hi>.
+                     <persName key="lili">Lili</persName>’s photo appeared in all the newspapers of
+                  the world, often accompanied by commentaries more or less fanciful, even ironic. </p>
+               <p>And, nonetheless, it was a horrifying drama.</p>
+               <p>And, nonetheless, <persName key="lili">Lili</persName>, in flesh, dressed in the
+                  latest fashion, and accompanied by <persName key="sparreGre">Grete</persName>,
+                  walked quietly the streets of <placeName key="copenhagen"
+                  >Copenhagen</placeName>.</p>
+               <p>Because, with the exception of those who knew her personally and had heard her
+                  story from her own mouth, no one knew that the elegant, young woman who they saw
+                  daily walking on the streets of <placeName key="copenhagen">Copenhagen</placeName>
+                  was none other than the famous <persName key="lili">Lili</persName>, the man who
+                  had changed sex...</p>
+               <p>Her <anchor type="commentRangeStart" n="4"/>assumed identity<anchor
+                     type="commentRangeEnd" n="4"/><note type="editor" source="plc"
+                     corresp="comment_4">Literally, “incognito”.</note> being respected, the fear of
+                  being taken for a "curious creature", a phenomenon, gradually disappeared... Her
+                  health improved, her nerves grew stronger. She felt no more the need to run, to
+                  hide...</p>
+               <p>Moreover, her civil status had been rectified: by a royal decree she was
+                  authorized to bear the name <persName key="lili">Lili Elbe</persName> and had been
+                  registered under this name.</p>
+               <p>Finally, her conjugal ties fell apart too; one day, she took her leave from
+                     <persName key="sparreGre">Grete</persName>, who embarked for <placeName>the
+                     South</placeName>, where her marriage to <persName key="feruzziRi"
+                     >Feruzzi</persName> would be celebrated.</p>
+               <p>During the several weeks that had preceded this departure, <persName key="lili"
+                     >Lili</persName> learned for the first time what it was like to live in the
+                  company of a woman in love—with another, exuding happiness and hope...</p>
+               <p>Now that <persName key="sparreGre">Grete</persName> was gone and <persName
+                     key="lili">Lili</persName> found herself alone, she felt a secret melancholia,
+                  almost envy... But no, it was impossible, no one wished more than she did the
+                  happiness of <persName key="sparreGre">her "ex-wife"</persName>...</p>
+               <p>Finally, she realized that she was experiencing the feeling of an emptiness, of
+                  something in her that remained unfulfilled.</p>
+               <p>The spring was nearing... <placeName>the garden</placeName> surrounding
+                     <placeName>the house</placeName> where she occupied a modest apartment became
+                  covered with tender, green foliage. <persName key="lili">Lili</persName>’s body
+                  was filled with a new vigor, emanated strength and youthfulness... However, her
+                  nostalgia, her confusion, to which she didn’t dare give a name, grew more intense,
+                  more imperious.</p>
+               <p>One day, <persName key="lili">Lili</persName> received a letter from <persName
+                     key="lejeuneClaude">Claude Lejeune</persName>, announcing his imminent arrival.
+                  And indeed, one morning he disembarked in <placeName key="copenhagen"
+                     >Copenhagen</placeName>. During the eight days he spent in <placeName
+                     key="denmark">Denmark</placeName>, they did not leave each other; they visited
+                     <placeName>the city</placeName> together, went to theaters and restaurants,
+                  took trips to the surrounding areas that the spring covered with an atmosphere at
+                  once sweet and intense.</p>
+               <p><persName key="lejeuneClaude">Claude</persName> recounted to <persName key="lili"
+                     >his friend</persName> the latest news from <placeName key="paris"
+                     >Paris</placeName>, evoked thousands of common memories. <persName key="lili"
+                     >Lili</persName> listened with a smile, but for the moment, she experienced a
+                  strange, mysterious feeling, as if something completely new, imponderable, moved
+                  within her.</p>
+               <p>One evening, while they were dining in <placeName>a restaurant</placeName>,
+                     <persName key="lejeuneClaude">Claude</persName> said suddenly:</p>
+               <p>- My little <persName key="lili">Lili</persName>, I must take you back... It is
+                  getting too late, and I risk compromising you.</p>
+               <p><persName key="lili">Lili</persName> couldn’t stop laughing, because she never
+                  heard <persName key="lejeuneClaude">her cheerful companion</persName> utter such
+                  words. But when she raised her eyes to him, she saw that his face was serious,
+                  concentrated...</p>
+               <p>Getting into the taxi that brought them there, <persName key="lili"
+                     >Lili</persName> took <persName key="lejeuneClaude">her friend</persName>’s arm
+                  and said to him:</p>
+               <p>- Come on, <persName key="lejeuneClaude">Claude</persName>, what is it with you?
+                  Why this serious face... I confess that I can’t find your former cheerfulness!</p>
+               <p><persName key="lejeuneClaude">The young man</persName> took <persName key="lili"
+                     >Lili</persName>’s hand and exclaimed:</p>
+               <p>- Yes, yes, you are right... I find you so changed, there is something in you that
+                  I didn’t see before your new birth. Yes, you are, without doubt, young and
+                  vigorous... and still, you are only a young girl.</p>
+               <p><persName key="lili">Lili</persName> listened to him increasingly surprised.</p>
+               <p>- Alas! <persName key="lejeuneClaude">Claude</persName> continued, in a few days I
+                  will be forced to leave you; it is very painful for me to leave you alone, exposed
+                  to so many dangers! Ah! maybe you don’t believe it, but all those who knew
+                     <persName key="sparreAn">Andreas Sparre</persName>
+               see you as a phenomenon, and nothing else but a phenomenon.</p>
+               <p> - But what can I do? <persName key="lili">Lili</persName> sighed.</p>
+               <p>- Leave <placeName>this city</placeName>!</p>
+               <p>- That is my intention; <persName key="sparreGre">Grete</persName> waits for me in
+                     <placeName key="italy">Italy</placeName>.</p>
+               <p>- All you think of is voyages, long voyages, all alone!... And then, <persName
+                     key="sparreGre">Grete</persName> is doubtlessly very kind to offer you
+                  hospitality, but don’t forget that it is two young newlyweds. They have waited so
+                  long for happiness! Will they have place for a third person?</p>
+               <p>
+                  <persName key="lejeuneClaude">Claude</persName> went silent for a while, then:</p>
+               <p>- I am going to leave for <placeName key="turkey">Turkey</placeName>, where I am
+                  appointed to a consular post...</p>
+               <p>He fixed <persName key="lili">his friend</persName> with eyes full of generous
+                  kindness:</p>
+               <p>- Do you want to join me, <persName key="lili">Lili</persName>?</p>
+               <p>The question was so unexpected that she couldn’t repress a gesture of surprise.
+                  She whispered:</p>
+               <p>- Are you talking seriously, <persName key="lejeuneClaude">my
+                  friend</persName>?</p>
+               <p>- Can you doubt it, my little <persName key="lili">Lili</persName>?... Do you want
+                  to be my wife?</p>
+               <p>She could only cry:</p>
+               <p>- Yes! oh! yes, <persName key="lejeuneClaude">Claude</persName>!</p>
+               <p>Then <persName key="lejeuneClaude">the young man</persName> took her both hands
+                  and lifted them to his lips. He seemed seized by an intense excitement, but only
+                  when he moved his mouth closer to hers did <persName key="lili">Lili</persName>
+                  suddenly understand the sense of the words they had just spoken. A feeling at once
+                  of happiness and fear overcame her, and suddenly she thought she heard in her ears
+                  the voice of <persName key="kreutz">Werner Kreutz</persName>...</p>
+               <p>Terrified, she tore herself away from the embrace. <persName key="lejeuneClaude"
+                     >Claude</persName> looked at her anxiously:</p>
+               <p>- What is it, my dear? You don’t love me anymore?</p>
+               <p>- You know very well that I love you, <persName key="lili">Lili</persName> sighed,
+                  but I cannot consider marriage before consulting <persName key="kreutz">Professor
+                     Kreutz</persName>. I don’t dare begin anything without his permission... Only
+                  he has the right to dispose of me!</p>
+               <p><anchor type="commentRangeStart" n="1"/>The train slowed down when crossing the
+                  bridge over <placeName key="elbeRiver">Elbe</placeName>, and <persName key="lili"
+                     >Lili</persName> eagerly gathered her coat and hat.<anchor
+                     type="commentRangeEnd" n="1"/><note type="editor" source="plc"
+                     corresp="comment_1">This paragraph comes in abruptly. In the original
+                     publications, Lili explains to Claude that she must first go see the Professor
+                     in Dresden.</note> Suddenly, the panorama of <placeName key="dresden"
+                     >Dresden</placeName> emerged, reflecting its towers and houses in <placeName
+                     key="elbeRiver">the river</placeName> whose name <persName key="lili"
+                     >Lili</persName> now had.</p>
+               <p>She quivered, pressing her moist forehead against the window, clenching her teeth
+                  to not cry.</p>
+               <p>A few minutes later, she got off the train, and a taxi brought her to <placeName
+                     key="womensClinic">the Women’s Clinic</placeName>. Still moved, but already
+                  smiling, she stepped under the porch of the house that for her was the quiet port,
+                  the hearth of her heart.</p>
+               <p>Nothing had changed, and <persName key="lili">Lili</persName> threw herself with
+                  joy into the arms of <persName key="matron">the Matron</persName>. For a while,
+                  she breathed in the smell of ether and formalin floating over the corridors and
+                  let herself be flooded by the familiar noises of this vast medical hive.</p>
+               <p>Then, she waited, and a feeling of infinite peace enveloped her. The door opened,
+                  a slim and slender silhouette, dressed in white, hastened towards her. She saw the
+                  shaded glance, the dark hair framing a pensive forehead. Like a sleepwalker, she
+                  let herself be taken into <placeName>the examination room</placeName> of <persName
+                     key="kreutz">Professor Kreutz</persName>. Fascinated, she listened to the
+                  velvety voice, not knowing anymore for what purpose she had come. It was he who
+                  brought her back to reality:</p>
+               <p>- What did you intend to tell me? Go on, I’m listening.</p>
+               <p>And <persName key="lili">Lili</persName> answered:</p>
+               <p>- I came to ask if you consider me strong enough to undertake another surgery. I
+                  wish I could be a mother.</p>
+               <p>Here are a few fragments from <persName key="lili">Lili</persName>’s last letters,
+                  written in <placeName key="dresden">Dresden</placeName> between June 14 and August
+                  22, 1931.</p>
+               <p><hi rend="italics">14 June</hi></p>
+               <p><hi rend="italics">After he had examined me, the Professor decided to operate on
+                     me. The operation will probably take place on Tuesday, but you must promise me
+                     to say nothing of it to <persName key="sparreGre">Grete</persName>. We
+                     shouldn’t trouble her happiness... I deeply admire the Professor: not satisfied
+                     with the results already acquired, he is ready to risk a new surgery, so that I
+                     can marry, and who knows? maybe have children. If the worst happened (though I
+                     don’t think so), I would die happy at the thought that I have stayed, until my
+                     last breath, close to the one to whom I owe my life.</hi></p>
+               <p><hi rend="italics">15 June</hi></p>
+               <p><hi rend="italics">You must understand my desire to be a mother because I want to
+                     prove that Andreas has completely disappeared from me, and that he died for
+                     good. It is only through a child that I will convince myself that, from the
+                     beginning of my existence, I was in fact a woman... Those who can understand
+                     only the things related to the domain of "common sense" and the "normal" have
+                     often asked me if I have held any memory, however vague, of the amorous
+                     feelings, of the erotic sensibility of the male. A question that hurts me in
+                     the most sensitive point of my being! Because nature, helped by the consummate
+                     art of <persName key="kreutz">Kreutz</persName>, has worked the miracle of my
+                     metamorphosis, I would feel humiliated in my female pride if the sensations
+                     inherent to the other sex could still cross my mind! I fight against the
+                     ignorant who want to see in me only a phenomenon, an abnormal being. I am a
+                     woman, a woman like any other. Those who insist in considering me an
+                     "attraction" inflict such a grief on me, that I am often haunted by the idea of
+                     suicide. And, nonetheless, the will to live is stronger, I owe it to the
+                     scientist who has made of me a normal woman.</hi></p>
+               <p><hi rend="italics">16 June</hi></p>
+               <p><hi rend="italics">I will probably be operated on tomorrow. I am not afraid of
+                     pain. I wish I could remain here forever. But at times a vague anxiety grasps
+                     me. Why worry? I know everything will go smoothly. To die?... But this would be
+                     a betrayal!</hi></p>
+               <!-- am: dotted line follows this paragraph -->
+               <p><hi rend="italics">18 July</hi></p>
+               <p><hi rend="italics">Today it’s been a month since I have been operated on. The best
+                     persists and I am no more haunted by the thought of death. Yesterday, I dreamed
+                     that a friend had taken me in his arms, that he had taken me away, and I was
+                     happy. I have suffered infinitely, but a lot of things are still required of
+                     me. Now, I know that I am like other women.</hi></p>
+               <p><hi rend="italics">13 August</hi></p>
+               <p><hi rend="italics">The Professor went on vacation. My state throws me into
+                     despair. I don’t see any progress, and there are days when I am so exhausted,
+                     that I wish to die. But I don’t have this right. <persName key="kreutz">Werner
+                        Kreutz</persName> wouldn’t allow it.</hi></p>
+               <p><hi rend="italics">16 August</hi></p>
+               <p><hi rend="italics">I couldn’t describe my last surgery. It has been an abyss of
+                     suffering. Fortunately, <persName key="sparreGre">Grete</persName> doesn’t
+                     suspect anything. I am still very weak, but in September I intend to return to
+                        <placeName key="copenhagen">Copenhagen</placeName>. I must put my papers in
+                     order, for <persName key="lejeuneClaude">Claude</persName>...</hi></p>
+               <p><hi rend="italics">22 August</hi></p>
+               <p><hi rend="italics">I am exhausted, almost always exhausted. I haven’t left the
+                     bed. Almost every day, I receive flowers from <persName key="sparreGre"
+                        >Grete</persName>. If I had the strength, I would write to her and she would
+                     come. But I shouldn’t. I feel so lonely, so feeble. But at the moment when my
+                     sadness is at its height, <persName key="lejeuneClaude">Claude</persName>
+                     writes to me that he awaits me.</hi></p>
+               <p>The shadows of death descended upon <persName key="lili">Lili Elbe</persName>. At
+                  the beginning of September, she wrote the last letter, addressed to her
+                  sister:</p>
+               <p><hi rend="italics">I feel that the death is nearing. This night, I dreamt of our
+                     mother. She took me in her arms and called me <persName key="lili"
+                        >Lili</persName>... Father was there too...</hi></p>
+               <p>On September 12, her brother was sent for by telegram, <persName key="lili"
+                     >Lili</persName> spoke no more, but her eyes were still full of life. She wrote
+                  down a few farewell words on a card that she handed to her faithful nurse. Then
+                  she fell asleep and woke no more. The suffering defeated her.</p>
+               <p>Thus ended her life—this life of man and young girl, whose blooming was brief—an
+                  existence full of anxieties, pains, but also by a <anchor type="commentRangeStart"
+                     n="2"/>strange, extraordinary peripetia<anchor type="commentRangeEnd" n="2"
+                     /><note type="translator" source="bc" corresp="comment_2">We have retained the
+                     use of the literary term here, which could be translated as "adventure" or
+                     "sudden change in circumstance".</note>, that the most audacious imagination
+                  couldn’t invent.</p>
+               <p>END</p>
+               <p>Reproduction, even partial, forbidden.</p>
+               <p>(Copyright <persName key="hoyerNiels">Niels Hoyer</persName> 1934.)</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
