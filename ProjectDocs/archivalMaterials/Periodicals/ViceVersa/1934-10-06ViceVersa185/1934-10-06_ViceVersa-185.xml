@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-06_ViceVersa-185.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-06_ViceVersa-185.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!--<title>VICE - - VERSA</title>-->
+            <title>VICE - - VERSA</title>
             <title><hi rend="bold">un Homme change de sexe</hi>
                <hi rend="bold">D'après les documents authentiques et scientifiques réunis par
                      <persName key="hoyerNiels">Niels Hoyer</persName></hi>
@@ -87,13 +87,12 @@
                   <catDesc>Essay/Nonfiction</catDesc>
                </category>
                <category source="collex" xml:id="image">
-                  <!--<catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg</catDesc>
-                  <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg</catDesc>-->
-<!-- The illustrations in this issue need to be turned into individual illustration images in the media library with the filenames ending in i01, i02, etc. -->
+                  <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg</catDesc>
+                  <catDesc>http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg</catDesc>
                </category>
                <category source="collex" xml:id="text">
                   <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1934-10-06_ViceVersa-185.txt</catDesc>
-                  <!-- AC: Where do I find correct link? -->
+                  <!-- AC: Do I change this to the link provided on the Lili Elbe database? -->
                </category>
                <category source="dc" xml:id="date">
                   <catDesc>1934</catDesc>
@@ -101,7 +100,7 @@
                <category source="dcterms" xml:id="isPartOf" xml:lang="fre-B">
                   <catDesc>Voilà</catDesc>
                </category>
-               <!-- AC: I deleted <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng"> because we don't have a translation of the title-->
+             <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng"></category>
             </taxonomy>
          </classDecl>
          <editorialDecl>
@@ -119,10 +118,8 @@
             <div rend="head" style="periodical">
                <head><anchor type="commentRangeStart" n="1"/><hi rend="bold">VICE - - VERSA</hi><anchor
                      type="commentRangeEnd" n="1"/><note type="translator" source="ac"
-                     corresp="comment_1">Title spreads across both pages of the issue.</note></head>
+                     corresp="comment_1">Title spreads across both pages of the issue.</note> <!-- AC: Not sure how to fix this --></head>
                <head>un Homme change de sexe</head>
-               <head>D'après les documents authentiques et scientifiques réunis par <persName
-                     key="hoyerNiels">Niels Hoyer</persName></head>
             </div>
             <div rend="headlines">
                <list>
@@ -132,37 +129,11 @@
                </list>
             </div>
             <div rend="body">
-               <pb style="page" n="10"
-                  facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg"/>
-               <figure xml:id="i01"
-                  facs="http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg">
-                  <figDesc><hi rend="italics"><persName key="sparreAn">Andreas Sparre</persName>
-                        lors de son premier séjour à <placeName key="montparnasse"
-                           >Montparnasse</placeName> en 1914.</hi></figDesc>
-                  <note source="ac"><persName key="sparreAn">Andreas Sparre</persName> is dressed in
-                     a suit and holding painting materials.</note>
-               </figure>
-               <figure xml:id="i02"
-                  facs="http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg">
-                  <figDesc><hi rend="italics"><persName key="sparreAn">Andreas Sparre</persName> à
-                           <placeName key="paris">Paris</placeName> en 1918 prépare son envoi au
-                           <placeName key="salonAutomne">Salon</placeName>.</hi></figDesc>
-                  <note source="ac"><persName key="sparreAn">Andreas Sparre</persName> is outside
-                     holding a paintbrush and a palette.</note>
-               </figure>
-               <figure xml:id="i03"
-                  facs="http://www.lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_01.jpg">
-                  <figDesc><hi rend="italics">Portrait d'<persName key="sparreAn">Andreas</persName>
-                        par sa sœur, la dessinatrice <persName key="wegenerG">Gerda
-                           Wegener</persName></hi></figDesc>
-                  <note source="ac">This is a picture of <persName key="sparreAn"
-                     >Andreas</persName>' portrait. It was created by Gerda Wegener.</note>
-               </figure>
-               <p><hi rend="italics">Si l'on vient à analyser l'étange cas de <persName key="lili"
+               <p><hi rend="italics">Si l'on vient à analyser l'étrange cas de <persName key="lili"
                         >Lili Elbe</persName>, que <persName key="hoyerNiels">Niels Hoyer</persName>
-                     à bien voulu à conter aux lecteurs de</hi> Voilà,<hi rend="italics">si l'on
+                     à bien voulu conter aux lecteurs de</hi> Voilà, <hi rend="italics">si l'on
                      cherche à trouver à cette histoire extraordinaire une définition scientifique,
-                     on dira qu'il s'agit d'un de ces</hi>intersexuels<hi rend="italics">dont le
+                     on dira qu'il s'agit d'un de ces</hi> intersexuels <hi rend="italics">dont le
                         D<hi rend="super">r</hi><persName key="hirschfeld">Magnus
                         Hirshfeld</persName> nous a parlé l'an passé. Certes, le grand public n'a
                      encore qu'une idée extrêmement vague de ces êtres intermédiaires, à la
@@ -170,56 +141,54 @@
                         key="steinach">Steinach</persName> ou un <persName key="hirschfeld"
                         >Hirschfeld</persName> ont depuis longtemps classés, après avoir étudié
                      minutieusement leur morphologie et leurs dispositions psychiques.</hi></p>
-               <p><hi rend="italics">L'histoire du peintre danos <persName key="sparreAn">Andreas
+               <p><hi rend="italics">L'histoire du peintre danois <persName key="sparreAn">Andreas
                         Sparre</persName> est d'autant plus remarquable, qu'il s'agissait dans son
-                     cas d'un appareil génital double, ainsi que</hi>d'une double personnalité.<hi
+                     cas d'un appareil génital double, ainsi que</hi> d'une double personnalité. <hi
                      rend="italics"><persName key="sparreAn">Andreas Sparre</persName> jeune homme
                      qui semblait absolument normal, qui était marié et fort heureux dans sa vie
                      conjugale, était LITTÉRALEMENT POSSÉDÉ PAR SON MOI FÉMININ, AUQUEL IL PRETAIT
                      UNE PERSONNALITEÉ DISTINCTE. ET AUQUEL IL AVAIT DONNÉ LE NOM DE <persName
                         key="lili">LILI</persName>. On verra comment cet être semi-imaginaire,
-                     semi-réel était né dans les studeios d'artistes et les bals travestis. On verra
+                     semi-réel était né dans les studios d'artistes et les bals travestis. On verra
                      aussi comment la femme d'<persName key="sparreAn">Andreas</persName>,
-                     confidente dévouée et intellignete, témoin impuissant des souffrances et des
+                     confidente dévouée et intelligente, témoin impuissant des souffrances et des
                      angoisses de son mari, encouragea la métamorphose finale, qu'elle accepta comme
                      l'unique moyen de salut. C'est à l'aide d'opérations successives que le
                      Professeur <!-- AC: Who is the Professor? -->allemand, auquel <persName
                         key="hoyerNiels">Hoyer</persName> donne dans son récit le nom de <persName
-                        key="kreutz">Werner Kreutz</persName>, « LIVERA <persName key="lili"
+                        key="kreutz">Werner Kreutz</persName>, « LIBERA <persName key="lili"
                         >LILI</persName> » de son enveloppe masculine. La métamorphose sembla
-                     réussir pleinement, et <persName key="lili">Lili Elbe</persName>.
-                  une</hi>fraiche et radieuse jeune femme,<hi rend="italics">regagna le <placeName
+                     réussir pleinement, et <persName key="lili">Lili Elbe</persName>,
+                  une</hi> fraiche et radieuse jeune femme,<hi rend="italics"> regagna le <placeName
                         key="denmark">Danemark</placeName>, où elle obtint un nouvel état civil. A
                      la suite d'un commun accord le divorce fut prononcé, et, <persName
                         key="sparreGre">Grete Sparre</persName> épousait un ami italien. Cependant,
-                     l'étre nouveau, né à la clinique féminine de <placeName key="dresden"
+                     l'être nouveau, né à la clinique féminine de <placeName key="dresden"
                         >Dresde</placeName>, ne put se contenter des résultats atteints. L'instinct
                      libéré poussait impérieusement <persName key="lili">Lili</persName> à
                      parachever son destin en devenant mère. Un ami fidèle lui offre le mariage.
-                     Avant d'accepter, des suites desquelles elle succombe, en septembre 1931. Avant
+                     Avant d'accepter, <persName key="lili">Lili</persName> retourne à <placeName key="dresden">Dresde</placeName> où elle subit une nouvelle opération, des suites desquelles elle succombe, en septembre 1931. Avant
                      de mourir, elle confie l'histoire de sa vie à <persName key="hoyerNiels">Niels
                         Hoyer</persName>, qui s'engage à la publier et à prêter des noms fictifs aux
-                     personnages qu'il déerira. Mais, nous sommes autorisés à dire, qu'<persName
+                     personnages qu'il décerira. Mais, nous sommes autorisés à dire, qu'<persName
                         key="sparreAn">Andreas Sparre</persName> s'appelait en réalité <persName
                         key="wegenerE">Einar Wegener</persName>, et qu'il était bien connu dans les
                      milieux de peintres et d'artistes de <placeName key="paris"
                      >Paris</placeName>.</hi></p>
-               <p><hi rend="italics">Ajoutons que la version allemande de</hi>« Un homme change de
-                  sexe »<hi rend="italics">fut brûlée en place publique, lors de l'autodafé
+               <p><hi rend="italics">Ajoutons que la version allemande de</hi> « Un homme change de
+                  sexe » <hi rend="italics">fut brûlée en place publique, lors de l'autodafé
                      hitlérien de <placeName key="berlin">Berline</placeName>. Quant à <persName
                         key="hoyerNiels">Niels Hoyer</persName>, dont le véritable nom est <persName
                         key="harthernE">Ernst Harthern</persName>, il prépare actuellement un
-                     document non moins sensationnel intitulé</hi>« Un Juif s'en va en
+                     document non moins sensationnel intitulé</hi> « Un Juif s'en va en
                      <placeName>Palestine</placeName> ».</p>
-               <!-- AC: No tag for Palestine -->
                <p>F. F.</p>
                <p><hi rend="bold">I. <persName key="sparreAn">ANDREAS SPARRE</persName> RENCONTRE
                      SON DESTIN</hi></p>
-               <p>LA scène a lieu à <placeName key="paris">Paris</placeName>, dans le faubourg
+               <p>La scène a lieu à <placeName key="paris">Paris</placeName>, dans le faubourg
                      <placeName key="stGermain">Saint-Germain</placeName>, par une soirée de février
                   1930. Dans une rue tranquille qui abrite un majestueux palais, se trouve un petit
                   restaurant fréquenté par des étrangers, et surtout par des artistes.</p>
-               <!-- coding for capital letters? -->
                <p>Ce soir-là, un couple de peintres danois, <persName key="sparreAn"
                      >Andreas</persName> et <persName key="sparreGre">Grete Sparre</persName>, y
                   avaient retrouvé leur ami italien, <persName key="rossiniEr">Ernesto
@@ -227,7 +196,7 @@
                      key="rossiniEl">Elena</persName>. Les amis ne s'étaient pas revus depuis
                   plusieurs années. Un couple avait voyagé dans le Nord, l'autre dans le Midi de
                      l'<placeName key="europe">Europe</placeName>.</p>
-               <p>« Skaal ! » s'éeria <persName key="sparreAn">Andréeas</persName>, selon la bonne
+               <p>« Skaal ! » s'écria <persName key="sparreAn">Andréeas</persName>, selon la bonne
                   vieille coutume nordique et levant son verre :</p>
                <p>—Ce vin, mes enfants, est pour l'âme ce que le soleil alpin est pour le
                   corps...</p>
@@ -245,44 +214,41 @@
                   scandaleux de <placeName key="rome">Rome</placeName> et de <placeName key="madrid"
                      >Madrid</placeName>,</p>
                <p>— Ne buvez-vous pas un peu trop, <persName key="sparreAn">Andreas</persName> ?
-                  demanda</p>
-               <!-- AC: Pictures interrupt text -->
-               <p>brusquement <persName key="rossiniEl">Elena</persName>... Elle s'était aperçue de
+                  demanda brusquement <persName key="rossiniEl">Elena</persName>... Elle s'était aperçue de
                   l'excitation nerveuse de son compagnon :</p>
-               <p>« Vous voulez done jouer à l'homme bien portant ce sour ? »</p>
+               <p>« Vous voulez done jouer à l'homme bien portant ce soir ? »</p>
                <p><persName key="rossiniEr">Ernesto</persName> et <persName key="sparreGre"
                      >Grete</persName> surprirent les paroles d'<persName key="rossiniEl"
                      >Elena</persName>. <persName key="sparreGre">Grete</persName> lança un regard à
                      <persName key="sparreAn">Andreas</persName>. <persName key="rossiniEr"
-                     >Ernesto</persName> prit la main de soa ami.</p>
+                     >Ernesto</persName> prit la main de son ami.</p>
                <p>— <persName key="lili">Lili</persName> vous tourmente-t-elle de nouveau ?
                   demanda-t-il, plein de sollicitude.</p>
                <p>— Vous l'avez dit, <persName key="rossiniEr">Ernesto</persName>. répondit
                      <persName key="sparreAn">Andreas</persName> très sérieusement : eet état
                   devient intolérable. <persName key="lili">Lili</persName> n'est plus satisfaite de
                   partager mon existence. Elle veut avoir une existence à part. Je ne sais si vous
-                  me comprenez... <hi rend="italics">Moi,</hi>je ne suis plus bon à rien, je ne puis
+                  me comprenez... <hi rend="italics">Moi,</hi> je ne suis plus bon à rien, je ne puis
                   plus rien faire. <persName key="lili">Lili</persName> le sait depuis longtemps.
                   Voilà où nous en sommes. Par conséquent, elle se révolte plus énergiquement de
                   jour en jour. Je suis un homme fini... Mais plus un mot. Buvons ! buvons ce doux
                   Asti pour faire plaisir à <persName key="rossiniEl">Elena</persName>.</p>
-               <p>— Bravo ! s'écria <persName key="rossiniEl">Elena</persName>, sans d'étacher son
+               <p>— Bravo ! s'écria <persName key="rossiniEl">Elena</persName>, sans détacher son
                   regard d'<persName key="sparreAn">Andreas</persName> qui se leva d'un mouvement
                   las et sa dirigea vers le bar.</p>
                <p>Dites-moi vite, murmura <persName key="rossiniEl">Elena</persName>, en se tournant
                   vers <persName key="sparreGre">Grete</persName>, comment va votre mari ? Je le
-                  trouve de plus en plus fantastique, hors du monde étrange...</p>
+                  trouve de plus en plus fantastique, hors du monde, étrange...</p>
                <p>Le sourire disparut du visage de <persName key="sparreGre">Grete</persName>:</p>
                <p>— Il n'a jamais été plus mal !</p>
-               <p><persName key="rossiniEr">Ernesto</persName>et <persName key="rossiniEl"
+               <p><persName key="rossiniEr">Ernesto</persName> et <persName key="rossiniEl"
                      >Elena</persName> regardaient leur amie en silence :</p>
                <p>— J'ai presque perdu tout espoir de le sauver, reprit doucement la jeune femme, à
                   moins d'un miracle....</p>
-               <p><persName key="rossiniEl">Elena</persName> l'interrompit</p>
+               <p><persName key="rossiniEl">Elena</persName> l'interrompit:</p>
                <p>Ecoutez, vous avez parlé de miracle... (<persName key="sparreGre">Grete</persName>
-                  lança à</p>
-               <cb n="2"/>
-               <p>son amie un regard interrogateur) Eh bien ! oui, écoutez-moi bien. Un de nos très
+                  lança à <!-- AC: There's a column break <cb n="2"/> here, but the text continues -->
+                  son amie un regard interrogateur) Eh bien ! oui, écoutez-moi bien. Un de nos très
                   grands amis se trouve à <placeName key="paris">Paris</placeName>. Il vient de
                      <placeName key="dresden">Dresde</placeName>. C'est un gynécologues. Il m'ai
                   téléphoné ce matin quelques minutes après <persName key="sparreAn"
@@ -291,6 +257,10 @@
                      key="dresden">Dresde</placeName>... Mais, l'affaire est urgente, car il
                   retourne en <placeName key="germany">Allemagne</placeName>demain dans
                   l'après-midi. Je prendrai un rendez-vous dès ce soir.</p>
+               <p><persName key="sparreGre">Grete</persName> fit un geste las de la main :</p>
+               <p>— Chére <persName key="rossiniEl">Elena</persName>, c'est inutile. <persName key="sparreAn">Andreas</persName> ne veut plus voir de docteur.</p>
+               <p><persName key="rossiniEl">Elena</persName> saisit la main de son amie :</p>
+               <p>— <persName key="sparreGre">Grete</persName> chère, il ne faut pas me contredire. Cette fois, vous allez obéir. J'irai chez le docteur ce soir. Je sais qu'il est capable de m'aider.</p>
                <p><persName key="sparreGre">Grete</persName> alluma une cigarette, lança un nuage de
                   fumée bleue, qu'elle fixa d'un regard vide. Puis elle dit lentement, d'un ton lent
                   et distinct :</p>
@@ -301,9 +271,7 @@
                   un butin, deux bouteilles d'Asti.</p>
                <p>Lorsque, quelques heures plus tard <persName key="sparreGre">Grete</persName> et
                      <persName key="sparreAn">Andreas</persName> longèrent l'avenue qui se trouvait
-                  non loin de leur studio</p>
-               <!-- AC: Pictures interrupt text -->
-               <p>la jeune femme rendit compte, d'avord timidement, puis avec énergie, de sa
+                  non loin de leur studio, la jeune femme rendit compte, d'avord timidement, puis avec énergie, de sa
                   conversation avec <persName key="rossiniEl">Elena</persName>. <persName
                      key="sparreAn">Andreas</persName> était hors de lui. Il s'arrêta au milieu de
                   la rue, il déclara qu'il refusait de se faire examiner par un carabin, fût-il
@@ -339,33 +307,12 @@
                   ceux qui sont las et souffrants.</p>
                <p>Il avait réfléchi à tout, même au mode de sa disparition. Celà devait être comme
                   un acte d'obéissance polie envers la nature. A présent, on était en février. Mars,
-                  avril, seraient mois d'expectative... Il se sentait calme.</p>
+                  avril, seraient des mois d'expectative... Il se sentait calme.</p>
                <cb n="3"/>
                <!-- AC: end of page 10 -->
                <!-- AC: Page 11 begins -->
                <pb style="page" n="11"
                   facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg"/>
-               <figure xml:id="i04"
-                  facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg">
-                  <figDesc><persName key="lili">Lili Elbe</persName> en 1930 après sa première
-                     operation.</figDesc>
-                  <note source="ac"><persName key="lili">Lili Elbe</persName> is wearing a dress,
-                     jewelry, and heels and is standing among art-covered walls. She is leaning
-                     against a dresser.</note>
-               </figure>
-               <figure xml:id="i05"
-                  facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg">
-                  <note source="ac">Famous portrait of <persName key="lili">Lili Elbe</persName>
-                     sitting with a silk fan. Her hair is curled and she is wearing a dress.</note>
-               </figure>
-               <figure xml:id="i06"
-                  facs="http://lilielbe.org/media/periodicals/1934-10-6Voil%c3%a0_02.jpg">
-                  <figDesc>La tombe de <persName key="lili">Lili Elbe</persName> (<persName
-                        key="sparreAn">Andreas Sparre</persName>) au cimetière de <placeName
-                        key="dresden">Dresde</placeName>.</figDesc>
-                  <note source="ac">A photograph of <persName key="lili">Lili Elbe</persName>'s
-                     gravesite. Her name is engraved in big capital letters.</note>
-               </figure>
                <p><persName key="sparreGre">Grete</persName> connaissait ses pensées mélancoliques.
                   Et, pourtant, elle se disait que tout ce qu'elle pourrait suggérer en guise de
                   nouvel espoir, paraitrait bien futile. Tant de choses les liaient l'un à l'autre,
@@ -380,7 +327,7 @@
                <p>... Peu à peu, <persName key="lili">Lili</persName> avait pris un tel ascendant
                   sur <persName key="sparreAn">Andreas</persName>, que l'on pouvait la retrouver en
                   lui, aux heures mêmes où elle semblait s'être retirée. Mais, le contraire
-                  'arrivait jamais. <persName key="lili">Lili</persName> était joyeuse et respirait
+                  n'arrivait jamais. <persName key="lili">Lili</persName> était joyeuse et respirait
                   toute la fraîcheur de la jeunesse.</p>
                <p>Elle était devenue le modèle préféré de <persName key="sparreGre"
                   >Grete</persName>. <persName key="lili">Lili</persName> transparaissait dans ses
@@ -394,7 +341,8 @@
                   son mari. Elle lui démontra, sans insister, qu'il devait rendre visite à <persName
                      key="rossiniEl">Elena</persName>, n'était-ce que par simple devoir de
                   courtoisie. Une fois chez elle, il lui serait facile de trouver une excuse pour se
-                  dérober à l'expédition chez le médecin allemand. Une heure plus tard, <persName
+                  dérober à l'expédition chez le médecin allemand.</p> 
+               <p>Une heure plus tard, <persName
                      key="sparreAn">Andreas</persName> était en route pour <placeName key="passy"
                      >Passy</placeName>, où habitait <persName key="rossiniEl">Elena</persName>. A
                   midi très précise, leur voiture, stoppait devant la maison où le professeur était
@@ -419,15 +367,14 @@
                <p><persName key="sparreAn">Andreas</persName> ne pensait à rien, n'était conscient
                   de rien, sauf de la voix de docteur. <!-- AC: Is doctor encoded here? --> On eût
                   dit qu'il était sous l'empire d'un charme, — le charme de cette voix. Elle
-                  ressemblair aux yeux du docteur ; elle aussi, était à la fois sombre et claire.
+                  ressemblait aux yeux du docteur ; elle aussi, était à la fois sombre et claire.
                   Les yeux et la voix... ils paraissaient pénétrer jusqu'aux tréfonds de l'âme.</p>
-               <p>Et que lui dirait-elle, cette voix ? quel message ces yeux</p>
-               <cb n="1"/>
-               <p>lui réservaient-ils ? Une sentence de mort ?... pouvait-il vraiment s'attendre à
+               <p>Et que lui dirait-elle, cette voix ? quel message ces yeux <!-- AC: Column break <cb n="1"/> is here, but text continues -->
+                  lui réservaient-ils ? Une sentence de mort ?... pouvait-il vraiment s'attendre à
                   autre chose, espérer quoi que ce soit ? Etait-il venu ici dans un but bien défini
                   ?</p>
                <p>Le professeur se tenait devant lui, sans presque le regarder, et ne lui adressa
-                  que quelques brèves paroles. <persName key="sparreAn">Andreas</persName>, le
+                  que quelques brèves paroles. <persName key="sparreAn">Andreas</persName> le
                   suivit dans une chambre où on lui dit de se déshabiller. Il voulut parler, chercha
                   ses mots...</p>
                <p>Inutile de me donner des explications, Monsieur, l'interrompit le Professeur sur
@@ -442,7 +389,7 @@
                   photographies de « <persName key="lili">Lili</persName> » <anchor type="refStart"
                      n="1"/>(1)<anchor type="refEnd" n="1"/><note xml:id="fn_001" type="foot"
                      rend="asterisk">(1) C'est-à-dire d'<persName key="sparreAn">Andreas</persName>
-                     en travesti.</note><!-- the encoding guidelines say we can use a numerical value for the foot/end note, but oxygen only wants me to use an asterisk. the text has a numerical value. AM 2.25.20 -->, tira les protraits de l'enquées au verso, qu'il n'avait
+                     en travesti.</note><!-- the encoding guidelines say we can use a numerical value for the foot/end note, but oxygen only wants me to use an asterisk. the text has a numerical value. AM 2.25.20 -->, tira les protraits de l'enveloppe et les disposa sure table, selon les dates indiquées au verso, qu'il n'avait
                   pas eu le temps d'examiner.</p>
                <p>— Nous voyons ici, le développement clairement indiqué, dit-il simplement.
                      <persName key="sparreAn">Andreas</persName> ne fit aucun signe. J'apprends,
@@ -467,10 +414,8 @@
                <p>— Eh bien, professeur, que suis-je ?... Quoi ?...</p>
                <p>Le professeur se leva, fit les cent pas dans chambre comme pour médier la
                   question, puis il se tourna vers <persName key="sparreAn">Andreas</persName>. Et
-                  de ————</p>
-               <cb n="2"/>
-               <!-- one scan contains material from another scan, do i need to indicate that in the code -->
-               <p>nouveau, le jeune homme but ses paroles.</p>
+                  de ———— <!-- AC: column break takes place here <cb n="2"/> but paragraph continues -->
+                  nouveau, le jeune homme but ses paroles.</p>
                <p>— Venez me voir en <placeName key="germany">Allemagne</placeName>. J'espère
                   pouvoir vous donner une nouvelle vie et une nouvelle jeunesse.</p>
                <p><persName key="sparreAn">Andreas</persName> se leva, fit un effort pour
@@ -500,9 +445,8 @@
                      <persName key="rossiniEl">Elena</persName>, restez.</p>
                <p>Le Professeur vint à leur secours, et son sourire fut comme une délivrance : —
                   Quelle est l'attitude par exemple de... je crois que je vous ai entendu prononcer
-                  le nom de <persName key="lili">Lili</persName>... Eh bien,</p>
-               <cb n="2"/>
-               <p>oui, de <persName key="lili">Lili</persName> à l'égard desautres hommes ?</p>
+                  le nom de <persName key="lili">Lili</persName>... Eh bien, <!-- AC: column break <cb n="2"/> but paragraph continues -->
+                  oui, de <persName key="lili">Lili</persName> à l'égard des autres hommes ?</p>
                <p><persName key="rossiniEl">Elena</persName> se mit à rire : — C'est extraordinaire
                   à quel point <persName key="lili">Lili</persName> attire le sexe fort !</p>
                <p><persName key="sparreAn">Andreas</persName> voulut l'interrompre, mais le
@@ -512,8 +456,8 @@
                <p>Et <persName key="sparreAn">Andreas</persName> fut bien obligé d'écouter, tandis
                   qu'elle reprenait :</p>
                <p>— J'ai pu le constater de mes propres yeux, au cours de bal travestis.</p>
-               <p>Le Professeur redevin sérieux : — Ce que vous venez de me dire, Madame, s'accorde
-                  acev l'image qui s'est formée dans mon esprit... Pour le reste, l'operation qui
+               <p>Le Professeur redevint sérieux : — Ce que vous venez de me dire, Madame, s'accorde
+                  avec l'image qui s'est formée dans mon esprit... Pour le reste, l'operation qui
                   s'impose, créera — d'auntant plus qu'il s'agit de la première intervention
                   chirurgicale de ce genre — toute une série de situations singulières, dont
                   l'aspect juridique n'est pas le moindre. Mais... Et à ces mots le Professeur
@@ -528,7 +472,7 @@
                   fixant silencieusement la rue. <persName key="sparreAn">Andreas</persName>
                   s'approcha de lui en pleurant. Le Professeur dit doucement : — Je vous comprends.
                   Je sais combien vous avez souffert.</p>
-               <p><hi rend="italics">(à suivre)</hi><hi rend="bold">Niels HOYER.</hi></p>
+               <p><hi rend="italics">(à suivre)</hi><hi rend="bold"> Niels HOYER.</hi></p>
                <p><hi rend="italics">Reproduction même partielle interdite.</hi></p>
                <p>(Copyright by Niels HOYER 1934.)</p>
                <!-- AC : Page 11 ends -->
@@ -549,7 +493,6 @@
                </list>
             </div>
             <div rend="body">
-               <!-- AC: Picture translations: Andreas during his first stay at Montparnasse, in 1914 -->
                <p><hi rend="italics">If we analyze the strange case of <persName key="lili">Lili
                         Elbe</persName>, that <persName key="hoyerNiels">Niels Hoyer</persName>
                      kindly shared with the readers of </hi>Voilà<hi rend="italics">, if we try to
@@ -603,8 +546,8 @@
                      whose real name is <persName key="harthernE">Ernst Harthern</persName>, he is
                      preparing a no less sensational document, titled</hi>"A Jew goes to
                      <placeName>Palestine</placeName>".</p>
-               <!-- AC: no tag for Palestine -->
-               <p>I. <persName key="sparreAn">ANDREAS SPARRE</persName> MEETS HIS DESTINY</p>
+               <p>F. F.</p>
+               <p><hi rend="bold">I. <persName key="sparreAn">ANDREAS SPARRE</persName> MEETS HIS DESTINY</hi></p>
                <p>The scene takes place in <placeName key="paris">Paris</placeName>, in the suburb
                   of <placeName key="stGermain">Saint-Germain</placeName>, on a 1930 February
                   evening. On a quiet street that shelters a majestic palace, there is a small
@@ -732,9 +675,6 @@
                   months of expectation...He was feeling calm.</p>
                <!-- AC: End of Page 10 -->
                <!-- AC: Start of Page 11 -->
-               <!-- AC: Picture caption translations: The grave of <persName key="lili">Lili Elbe</persName><persName key="sparreAn">(Andreas Sparre)</persName>, in <placeName key="dresden">Dresden</placeName> cemetery 
-<persName key="lili">Lili Elbe</persName> in 1930, after her first surgery.
-<persName key="sparreAn">Andreas Sparre</persName> identified as <persName="lili">Lili Elbe</persName>, before his first surgery. -->
                <p><persName key="sparreGre">Grete</persName> knew his melancholic thoughts. However,
                   she told herself that anything she could suggest in order to renew his hope would
                   appear futile. So many things bound them together, so many battles, so many
@@ -793,9 +733,9 @@
                <p>And what would this voice tell him? what did these eyes have in store for him? A
                   death sentence?... could he really expect anything else, hope for anything? Did he
                   come here with a well-defined aim?</p>
-               <p>The<anchor type="commentRangeStart" n="1"/>professor<anchor type="commentRangeEnd"
+               <p>The <anchor type="commentRangeStart" n="1"/>professor<anchor type="commentRangeEnd"
                      n="1"/><note type="editor" source="plc" corresp="comment_1">The word
-                     &quot;professor&quot; is sometimes capitalized, sometimes not.</note> stood in
+                     "professor" is sometimes capitalized, sometimes not.</note> stood in
                   front of him, almost without looking at him, and addressed him only in a few short
                   instances. <persName key="sparreAn">Andreas</persName> followed him into a room
                   where he was told to undress. He wanted to talk, he searched for words...</p>
@@ -838,9 +778,9 @@
                <p>- Then, <persName key="kreutz">professor</persName>, what am I?... What?</p>
                <p><persName key="kreutz">The professor</persName> stood up, paced the room up and
                   down as if meditating on the question, then he turned to <persName key="sparreAn"
-                     >Andreas</persName>. And</p>
+                     >Andreas</persName>. And
                <!-- AC: Line break for footnote -->
-               <p>again, <persName key="sparreAn">the young man</persName> drank in his words.</p>
+               again, <persName key="sparreAn">the young man</persName> drank in his words.</p>
                <p>- Come see me in <placeName key="germany">Germany</placeName>. I hope I shall be
                   able to give you a new life and a new youth.</p>
                <p><persName key="sparreAn">Andreas</persName> stood up, made an effort to speak.</p>
@@ -874,10 +814,10 @@
                   you uttering the name <persName key="lili">Lili</persName>... well, yes, of
                      <persName key="lili">Lili</persName> towards other men?</p>
                <p><persName key="rossiniEl">Elena</persName> began to laugh. – It is extraordinary
-                  the degree to which <persName key="lili">Lili</persName> attracts<anchor
+                  the degree to which <persName key="lili">Lili</persName> attracts <anchor
                      type="commentRangeStart" n="5"/>the stronger sex<anchor type="commentRangeEnd"
                      n="5"/><note type="editor" source="plc" corresp="comment_5">It was advised to
-                     say &quot;the stronger sex.&quot;</note>!</p>
+                     say "the stronger sex."</note>!</p> <!-- AC: Unsure on how to fix this -->
                <p><persName key="sparreAn">Andreas</persName> wanted to interrupt her, but <persName
                      key="kreutz">the Professor</persName> too started to laugh heartily:</p>
                <p>- Please, allow <persName key="rossiniEl">the lady</persName> to talk.</p>
@@ -902,8 +842,7 @@
                   quietly at the street. <persName key="sparreAn">Andreas</persName> came up to him
                   crying. <persName key="kreutz">The Professor</persName> said softly: -- I
                   understand you. I know how much you have suffered.</p>
-               <p>(to be continued)</p>
-               <p><hi rend="bold"><persName key="hoyerNiels">Niels HOYER</persName>.</hi></p>
+               <p>(to be continued) <hi rend="bold"><persName key="hoyerNiels">Niels HOYER</persName>.</hi></p>
                <p><hi rend="italics">Reproduction, even partial, prohibited.</hi></p>
                <p>(Copyright by <persName key="hoyerNiels">Niels HOYER</persName> 1934.)</p>
                <!-- AC: End of page 11 -->
