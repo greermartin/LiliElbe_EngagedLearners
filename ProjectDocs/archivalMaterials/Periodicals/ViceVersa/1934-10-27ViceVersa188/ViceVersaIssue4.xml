@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ProjectDocs/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-27_ViceVersa-188.html" 
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-27_ViceVersa-188.xml">
     <!-- AC: Where do I find correct links for above? -->
@@ -188,7 +188,6 @@
                                 type="foot" rend="asterisk">(1) VOIR VOILA, depuiis le n<hi rend="super">0</hi>
                                 185.</note> — A LA <placeName key="womensClinic">CLINIQUE FÉMININE
                                 DE DRESDE</placeName></hi></p><!--I think this needs to be translated, then you should be able to use this same markup (with a new ref# for the footnote in the translated version.-->
-                    <!-- AC: Beginning letter L is big -->
                     <p>L'ARRIVÉE à <placeName key="dresden">Dresde</placeName>, et les premières
                         impressions de cette ville, qui devait jouer un rôle si important dans sa
                         vie, demeurèrent fort vagues dans le souvenir de <persName key="lili"
@@ -205,14 +204,14 @@
                         :</p>
                     <p>— Arrêtez, s'écria <persName key="lili">Lili</persName>, nous voici
                         arrivés.</p>
-                    <p>Le taxi stoppa devant un portail sur lequel on lisait : CLINIQUE FÉMININE
+                    <p>Le taxi stoppa devant un portail sur lequel on lisait : <placeName key="womensClinic">CLINIQUE FÉMININE</placeName>
                         MUNICIPALE.</p>
                     <p>— Comment avez-vous fait pour reconnaître la clinique ? s'écria son
                         compagnon avec surprise.</p>
                     <p>— Je l'ai deviné, murmura <persName key="lili">Lili</persName> faiblement, et
                         à présent aidez-moi à descendre ; je suis lasse...</p>
                     <p>Une infirmière vêtue de blanc apparut à l'une des fenêtres.</p>
-                    <cb n="1"/>
+                    <cb n="1"/> <!-- AC: Are we keeping column breaks? -->
                     <p>— Vous cherchez le service des malades privées ?... Veuillez traverser le
                         jardin...</p>
                     <p>Le soir tombait, le ciel crépusculaire versait une lumière très douce et
@@ -249,7 +248,7 @@
                         peinture...</p>
                     <p>Ces paroles achevèrent de démoraliser la patiente. Elle voulut implorer,
                         protester, mais elle ne put que murmurer en baissant les yeux :</p>
-                    <p> C'est entendu, docteur.</p>
+                    <p>C'est entendu, docteur.</p>
 
                     <p>Muette, elle serra la main qu'il lui tendit et sortit dans le couloir ou
                             <persName key="sparreGre">Grete</persName> l'attendait. Un seul regard
@@ -272,7 +271,7 @@
                         faisait que répéter d'une voix désolée : « Jamais ils ne voudront de moi à
                         la clinique féminine, ces lettres ont tout compromis... il ne nous reste
                         qu'à fuir... »</p>
-                    <p>Ce jour même, alors que Lili avait abandonné tout espoir, elle reçut un
+                    <p>Ce jour même, alors que <persName key="lili">Lili</persName> avait abandonné tout espoir, elle reçut un
                         message de <persName key="kreutz">Werner Kreutz</persName>, lui faisant
                         savoir qu'une chambre avait été réservée pour elle, et qu'elle pourrait dès
                         ce soir entrer à la clinique.</p>
@@ -418,7 +417,8 @@
                         qu'ils avaient naguère connu à <placeName key="rome">Rome</placeName>. Un lien d'affection
                         profonde liait ce jeune homme à <persName key="sparreGre">Grete</persName> ; au moment où <persName key="sparreAn">Andreas</persName>
                         traversait une de ses crises les plus douloureuses, sa femme s'était 
-                        instinctivement tournée vers <persName key="feruzziRi">Feruzzi</persName>, afin de chercher son soutien. <persName="sparreAn">Andreas</persName> le savait, et ce fut, à
+                        instinctivement tournée vers <persName key="feruzziRi">Feruzzi</persName>, afin de chercher son soutien. 
+                        <persName key="sparreAn">Andreas</persName> le savait, et ce fut, à
                         <placeName key="rome">Rome</placeName> qu'il avait fait son serment solennel : disparaître afin que <persName
                             key="sparreGre">Grete</persName> puisse refaire sa vie...</p>
                     <p>Au cours de ces longs mois de maladie, ni <persName key="sparreGre"
@@ -524,7 +524,7 @@
                             following story.</hi></p>
                     <p><hi rend="bold">IV.<hi rend="super">1</hi>— AT THE <placeName
                                 key="womensClinic">WOMEN'S CLINIC IN DRESDEN</placeName></hi></p>
-                    <!-- AC: Footnote for superscript 1 above footnote:  1 See Voilà from number 185. --> -->
+                    <!-- AC: Footnote for superscript 1 above footnote:  1 See Voilà from number 185. -->
                     <p>The arrival at <placeName key="dresden">Dresden</placeName> and the first
                         impressions about this city, which was to play such an important role in her
                         life, remained very vague in <persName key="lili">Lili</persName>’s memory
