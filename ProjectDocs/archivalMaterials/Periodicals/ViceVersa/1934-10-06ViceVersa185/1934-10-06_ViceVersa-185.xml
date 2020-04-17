@@ -2,7 +2,7 @@
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-06_ViceVersa-185.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-06_ViceVersa-185.xml">
    <teiHeader>
-      <fileDesc>
+      <fileDesc> 
          <titleStmt>
             <title>VICE - - VERSA</title>
             <title><hi rend="bold">un Homme change de sexe</hi>
