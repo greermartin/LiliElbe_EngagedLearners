@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Man%20Into%20Woman%20Project/lili-elbe-code/schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-20_ViceVersa-189.html"
    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-11-03_ViceVersa-189.xml">
    <teiHeader>
@@ -40,17 +40,15 @@
             </respStmt>
             <respStmt>
                <resp>HTML proofing completed by</resp>
-               <persName><!-- Insert Proofers name and initials in @ref--></persName>
+               <persName ref="ac">Aliana Capati</persName>
+               <persName ref="cb">Cristiana Bertola</persName>
+               <persName ref="ed">Emily Datskou</persName>
             </respStmt>
             <respStmt>
                <resp>Images prepared by</resp>
-               <persName><!-- Insert name and initials in @ref--></persName>
+               <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
             <!-- Start Illustrations; Include the following only if illustrations present in text being encoded. -->
-            <respStmt>
-               <resp>Illustrations prepared by</resp>
-               <persName><!-- Insert name and initials in @ref--></persName>
-            </respStmt>
             <!-- End Illustrations; -->
             <sponsor>Loyola University Chicago Libraries</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -71,10 +69,10 @@
          </publicationStmt>
          <sourceDesc source="Manuscript" xml:lang="freB">
             <p>A two-page printed article taking up two columns on each page, with the title running
-               across both pages; the first page (page 14) has a photograph of Andreas Sparre's
-               (Einar Wegener's) paintings at the top spanning both columns, the second page (page
-               15) has a photograph of Lili Elbe at the bottom of the second column where the series
-               ends. Copyright attributed to Niels Hoyer.</p>
+               across both pages; the first page (page 14) has a photograph of <persName key="sparreAn">Andreas Sparre</persName>'s
+               (<persName key="wegenerE">Einar Wegener</persName>'s) paintings at the top spanning both columns, the second page (page
+               15) has a photograph of <persName key="lili">Lili Elbe</persName> at the bottom of the second column where the series
+               ends. Copyright attributed to <persName key="hoyerNiels">Niels Hoyer</persName>.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -87,19 +85,16 @@
                   <catDesc>Essay/Nonfiction</catDesc>
                </category>
                <category source="collex" xml:id="image">
-                  <catDesc><!-- media library illustration URL --></catDesc>
-                  <catDesc><!-- media library illustration URL --></catDesc>
+                  <catDesc>http://lilielbe.org/media/periodicals/1934-11-3Voil%c3%a0_01.jpg</catDesc>
+                  <catDesc>http://lilielbe.org/media/periodicals/1934-11-3Voil%c3%a0_02.jpg</catDesc>
                </category>
                <category source="collex" xml:id="text">
                   <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc>
                   <!-- insert correct URL -->
                </category>
                <category source="dc" xml:id="date">
-                  <catDesc>
-                     <![CDATA[<dc:date>date metadata</dc:date>]]><!-- Do not forget to change the text between the dc:date tags AND include the <![CDATA[ before the dc:date tage and ]]> after it. -->
-                  </catDesc>
+                  <catDesc>1934</catDesc>
                </category>
-               <!-- Use the following category only when encoding a book section or periodical -->
                <category source="dcterms" xml:id="isPartOf" xml:lang="freB">
                   <catDesc>Voilá</catDesc>
                </category>
@@ -120,14 +115,18 @@
    <text>
       <body>
          <div type="original">
-            <pb facs="http://lilielbe.org/media/periodicals/1934-11-3Voil%C3%A0_01.jpg"/>
             <div rend="head" style="periodical"><head>VICE - - VERSA</head>
-              <head><title>UN HOMME CHANGE DE SEXE</title></head>
-                  <head>D'après les documents authentiques réunis par NIELS
-                        HOYER<!-- this header appears on the second page DRR: the other issues, we've tagged Niels here, but i'm not sure if its been showing up correctly.--></head>
-              
+              <head><title>UN HOMME CHANGE DE SEXE</title></head>              
+            </div>
+            <div rend="headlines">
+               <list>
+                  <item rend="primary">D'après les documents authentiques et scientifiques
+                     réunis par <persName key="hoyerNiels">Niels Hoyer</persName></item>
+                  <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+               </list>
             </div>
             <div rend="body">
+               <pb facs="http://lilielbe.org/media/periodicals/1934-11-3Voil%C3%A0_01.jpg"/>
                <p><hi rend="italics">Ainsi que ses proches et elle-même l'avaient prévu, <persName
                         key="lili">Lili</persName> allait traverser au <placeName key="denmark"
                         >Danemark</placeName> une crise des plus douloureuses. Ce fut d'abord la
@@ -190,11 +189,11 @@
                   d'exposition le jour de vernissage. Quelques intimes étaient au courant de la
                   métamorphose d'<persName key="sparreAn">Andreas</persName>, mais le grand public
                   ne connaissait que les vagues rumeurs, les allusions, les bruits fantastiques qui
-                  couraient dans la ville au sujet du jeune peintre. Personne n'osa acheter les
+                  couraient dans la ville au sujet du <persName key="sparreAn">jeune peintre</persName>. Personne n'osa acheter les
                   tableaux d'<persName key="sparreAn">Andreas</persName>.</p>
-               <p>C'est alors qu'<!-- Loulou? --><persName key="louLou">une journaliste</persName>, à laquelle
+               <p>C'est alors qu'<persName>une journaliste</persName>, à laquelle
                      <persName key="lili">Lili</persName> avait fait des confidences, vint à son
-                  secours. Depuis longtemps, <persName key="louLou">cette personne</persName>, collaboratrice
+                  secours. Depuis longtemps, <persName>cette personne</persName>, collaboratrice
                   d'un grand quotidien danois, avait voulu conter l'extraordinaire aventure. Mais
                      <persName key="lili">Lili</persName> s'y était toujours opposée. A présent,
                      <persName>la journaliste</persName> lui expliqua qu'il était indespensable de
@@ -290,10 +289,9 @@
                <p>— Hélas! reprit <persName key="lejeuneClaude">Claude</persName>, dans quelques
                   jours, je serai obligé de vous quitter; il m'est très douloureux de vous laisser
                   seule, exposée à tant de dangers! Ah! vous ne le croyez peut-être pas, mais tous
-                  ceux qui ont connu <persName key="sparreAn">Andreas Sparre</persName></p> <!-- AC This paragraph goes with the beginning of the next image.
-                  Do we combine them? -->
-               <pb style="page" n="17" facs="http://lilielbe.org/media/periodicals/1934-11-3Voil%C3%A0_02.jpg"/> <!-- AC: this appears in HTML; hopefully i fixed it -->
-               <p>vous considèrent comme un phénomène, et rien qu'un phénomène.</p>
+                  ceux qui ont connu <persName key="sparreAn">Andreas Sparre</persName>
+               <pb style="page" n="17" facs="http://lilielbe.org/media/periodicals/1934-11-3Voil%C3%A0_02.jpg"/>
+                  vous considèrent comme un phénomène, et rien qu'un phénomène.</p>
                <p>— Mais que dois-je faire? soupira <persName key="lili">Lili</persName>.</p>
                <p>— Quitter <placeName key="copenhagen">cette ville</placeName>!</p>
                <p>— C'est là mon intention; <persName key="sparreGre">Grete</persName> m'attend en
@@ -306,7 +304,7 @@
                <p><persName key="lejeuneClaude">Claude</persName> se tut un instant, puis:</p>
                <p>— Je vais partir pour la <placeName key="turkey">Turquie</placeName>, où je suis
                   nommé à un poste consulaire...</p>
-               <p>Il fixa son amie d'un regard plein de généreuse bonté:</p>
+               <p>Il fixa <persName key="lili">son amie</persName> d'un regard plein de généreuse bonté:</p>
                <p>— Voulez-vous m'accompagner, <persName key="lili">Lili</persName>?</p>
                <p>La question était si inattendue qu'elle ne put réprimer un geste d'étonnement.
                   Elle murmura:</p>
@@ -341,7 +339,7 @@
                <p>Quelques minutes plus tard, elle descendit du train, et un taxi l'emporta vers
                      <placeName key="womensClinic">la clinique féminine</placeName>. Encore émue,
                   mais déjà souriante, elle pénétra sons le porche tranquille, le foyer de son
-                  cœur.</p> <!-- AC: "sons" should be "sous," which means "under." It's a typographical error. -->
+                  cœur.</p>
                <p>Rien n'avait changé, et <persName key="lili">Lili</persName> se jeta avec joie
                   dans les bras de <persName key="matron">l'infirmière-major</persName>. Elle aspira
                   longuement l'odeur d'éther et de formol qui flottait dans couloirs et se laissa
@@ -401,7 +399,7 @@
                <p><!-- AC: Start of new column -->18 <hi rend="italics">juillet</hi></p>
                <p><hi rend="italics">Aujourd'hui, il y a un mois que j'ai été opérée. Le mieux se
                      maintient et je ne suis plus hantée par la pensée de la mort. Hier, j'ai rêvé
-                        qu'<persName>un ami</persName> m'avait prise dans ses bras, qu'il m'avait
+                        qu'<persName key="lejeuneClaude">un ami</persName> m'avait prise dans ses bras, qu'il m'avait
                      emportée, et j'étais heureuse. J'ai inifiniment souffert, mais bien des choses
                      seront encore exigées de moi. A présent, je sais que je suis comme les autres
                      femmes.</hi></p>
@@ -444,7 +442,7 @@
                   n'aurait su inventer.</p>
                <p>FIN</p>
                <p><hi rend="italics">Reproduction, même partielle interdite.</hi></p>
-               <p><hi rend="italics">(Copyright Niels Hoyer 1934)</hi>.</p>
+               <p><hi rend="italics">(Copyright <persName key="hoyerNiels">Niels Hoyer</persName> 1934)</hi>.</p>
             </div>
          </div>
          <div type="translation">
@@ -501,7 +499,7 @@
                         >Lili</persName>? Her situation with respect to <persName key="sparreGre"
                         >Grete</persName> had to be settled too. Should <persName key="sparreAn"
                         >Andreas</persName> be considered dead or disappeared?</hi></p>
-               <p>V. – DUSK</p>
+               <p><hi rend="bold">V. – DUSK</hi></p>
                <!-- subheading? DRR: you might div these as chapters? I'm not sure what they want from these editions, but see B1 if you want to see how we do chapters.-->
                <p>When <persName key="lili">Lili</persName> settled in <placeName key="copenhagen"
                      >Copenhagen</placeName>, <persName>an art dealer</persName>, who was one of the
@@ -510,20 +508,20 @@
                   gather the indispensable funds for her new existence. To avoid any indiscretions,
                   it was decided to send a note to the newspapers announcing that the exhibition had
                   to cover the costs for the treatment of <persName key="sparreAn">Andreas
-                     Sparre</persName>, seriously ill in a clinic in <placeName key="berlin"
-                     >Berlin</placeName>. </p>
+                     Sparre</persName>, seriously ill in a <placeName>clinic</placeName> in <placeName key="berlin"
+                     >Berlin</placeName>.</p>
                <p>Despite these precautions, an atmosphere of intense curiosity reigned in the
                   showroom, on the preview day. A few intimates knew of <persName key="sparreAn"
                      >Andreas</persName>’s metamorphosis, but the general public knew only the vague
-                  rumors, the allusions, the fantastic stories circulating in the city about the
-                  young painter. No one dared to buy <persName key="sparreAn">Andreas</persName>’s
+                  rumors, the allusions, the fantastic stories circulating in the city about <persName key="sparreAn">the
+                  young painter</persName>. No one dared to buy <persName key="sparreAn">Andreas</persName>’s
                   paintings.</p>
-               <p>It was then that <!-- is this loulou? --><persName key="louLou">a
+               <p>It was then that <persName>a
                      journalist</persName>, in whom <persName key="lili">Lili</persName> had
                   confided, came to her rescue. For a long time, <persName key="louLou">this
                      person</persName>, contributor to a great Danish daily, had wanted to tell the
                   extraordinary adventure. But <persName key="lili">Lili</persName> had always
-                  refused. Now, <persName key="louLou">the journalist</persName> explained to her
+                  refused. Now, <persName>the journalist</persName> explained to her
                   that it was essential to inform the public about the facts. A painter as
                   well-known as <persName key="sparreAn">Andreas</persName> certainly couldn’t
                   disappear without a trace; this mystery created all sorts of rumors impossible to
@@ -547,9 +545,9 @@
                   walked quietly the streets of <placeName key="copenhagen"
                   >Copenhagen</placeName>.</p>
                <p>Because, with the exception of those who knew her personally and had heard her
-                  story from her own mouth, no one knew that the elegant, young woman who they saw
+                  story from her own mouth, no one knew that <persName key="lili">the elegant, young woman</persName> who they saw
                   daily walking on the streets of <placeName key="copenhagen">Copenhagen</placeName>
-                  was none other than the famous <persName key="lili">Lili</persName>, the man who
+                  was none other than the famous <persName key="lili">Lili</persName>, — the man who
                   had changed sex...</p>
                <p>Her <anchor type="commentRangeStart" n="4"/>assumed identity<anchor
                      type="commentRangeEnd" n="4"/><note type="editor" source="plc"
@@ -583,7 +581,7 @@
                      key="lejeuneClaude">Claude Lejeune</persName>, announcing his imminent arrival.
                   And indeed, one morning he disembarked in <placeName key="copenhagen"
                      >Copenhagen</placeName>. During the eight days he spent in <placeName
-                     key="denmark">Denmark</placeName>, they did not leave each other; they visited
+                     key="denmark">Denmark</placeName>, <persName key="lejeuneClaude">Claude</persName> and <persName key="lili">Lili</persName> did not leave each other; they visited
                      <placeName>the city</placeName> together, went to theaters and restaurants,
                   took trips to the surrounding areas that the spring covered with an atmosphere at
                   once sweet and intense.</p>
@@ -595,7 +593,7 @@
                   within her.</p>
                <p>One evening, while they were dining in <placeName>a restaurant</placeName>,
                      <persName key="lejeuneClaude">Claude</persName> said suddenly:</p>
-               <p>- My little <persName key="lili">Lili</persName>, I must take you back... It is
+               <p>— My little <persName key="lili">Lili</persName>, I must take you back... It is
                   getting too late, and I risk compromising you.</p>
                <p><persName key="lili">Lili</persName> couldn’t stop laughing, because she never
                   heard <persName key="lejeuneClaude">her cheerful companion</persName> utter such
@@ -604,42 +602,42 @@
                <p>Getting into the taxi that brought them there, <persName key="lili"
                      >Lili</persName> took <persName key="lejeuneClaude">her friend</persName>’s arm
                   and said to him:</p>
-               <p>- Come on, <persName key="lejeuneClaude">Claude</persName>, what is it with you?
+               <p>— Come on, <persName key="lejeuneClaude">Claude</persName>, what is it with you?
                   Why this serious face... I confess that I can’t find your former cheerfulness!</p>
                <p><persName key="lejeuneClaude">The young man</persName> took <persName key="lili"
                      >Lili</persName>’s hand and exclaimed:</p>
-               <p>- Yes, yes, you are right... I find you so changed, there is something in you that
+               <p>— Yes, yes, you are right... I find you so changed, there is something in you that
                   I didn’t see before your new birth. Yes, you are, without doubt, young and
                   vigorous... and still, you are only a young girl.</p>
                <p><persName key="lili">Lili</persName> listened to him increasingly surprised.</p>
-               <p>- Alas! <persName key="lejeuneClaude">Claude</persName> continued, in a few days I
+               <p>— Alas! <persName key="lejeuneClaude">Claude</persName> continued, in a few days I
                   will be forced to leave you; it is very painful for me to leave you alone, exposed
                   to so many dangers! Ah! maybe you don’t believe it, but all those who knew
                      <persName key="sparreAn">Andreas Sparre</persName>
                see you as a phenomenon, and nothing else but a phenomenon.</p>
-               <p> - But what can I do? <persName key="lili">Lili</persName> sighed.</p>
-               <p>- Leave <placeName>this city</placeName>!</p>
-               <p>- That is my intention; <persName key="sparreGre">Grete</persName> waits for me in
+               <p>— But what can I do? <persName key="lili">Lili</persName> sighed.</p>
+               <p>— Leave <placeName key="copenhagen">this city</placeName>!</p>
+               <p>— That is my intention; <persName key="sparreGre">Grete</persName> waits for me in
                      <placeName key="italy">Italy</placeName>.</p>
-               <p>- All you think of is voyages, long voyages, all alone!... And then, <persName
+               <p>— All you think of is voyages, long voyages, all alone!... And then, <persName
                      key="sparreGre">Grete</persName> is doubtlessly very kind to offer you
                   hospitality, but don’t forget that it is two young newlyweds. They have waited so
                   long for happiness! Will they have place for a third person?</p>
                <p>
                   <persName key="lejeuneClaude">Claude</persName> went silent for a while, then:</p>
-               <p>- I am going to leave for <placeName key="turkey">Turkey</placeName>, where I am
+               <p>— I am going to leave for <placeName key="turkey">Turkey</placeName>, where I am
                   appointed to a consular post...</p>
                <p>He fixed <persName key="lili">his friend</persName> with eyes full of generous
                   kindness:</p>
-               <p>- Do you want to join me, <persName key="lili">Lili</persName>?</p>
+               <p>— Do you want to join me, <persName key="lili">Lili</persName>?</p>
                <p>The question was so unexpected that she couldn’t repress a gesture of surprise.
                   She whispered:</p>
-               <p>- Are you talking seriously, <persName key="lejeuneClaude">my
+               <p>— Are you talking seriously, <persName key="lejeuneClaude">my
                   friend</persName>?</p>
-               <p>- Can you doubt it, my little <persName key="lili">Lili</persName>?... Do you want
+               <p>— Can you doubt it, my little <persName key="lili">Lili</persName>?... Do you want
                   to be my wife?</p>
                <p>She could only cry:</p>
-               <p>- Yes! oh! yes, <persName key="lejeuneClaude">Claude</persName>!</p>
+               <p>— Yes! oh! yes, <persName key="lejeuneClaude">Claude</persName>!</p>
                <p>Then <persName key="lejeuneClaude">the young man</persName> took her both hands
                   and lifted them to his lips. He seemed seized by an intense excitement, but only
                   when he moved his mouth closer to hers did <persName key="lili">Lili</persName>
@@ -648,8 +646,8 @@
                   the voice of <persName key="kreutz">Werner Kreutz</persName>...</p>
                <p>Terrified, she tore herself away from the embrace. <persName key="lejeuneClaude"
                      >Claude</persName> looked at her anxiously:</p>
-               <p>- What is it, my dear? You don’t love me anymore?</p>
-               <p>- You know very well that I love you, <persName key="lili">Lili</persName> sighed,
+               <p>— What is it, <persName key="lili">my dear</persName>? You don’t love me anymore?</p>
+               <p>— You know very well that I love you, <persName key="lili">Lili</persName> sighed,
                   but I cannot consider marriage before consulting <persName key="kreutz">Professor
                      Kreutz</persName>. I don’t dare begin anything without his permission... Only
                   he has the right to dispose of me!</p>
@@ -667,7 +665,7 @@
                   to not cry.</p>
                <p>A few minutes later, she got off the train, and a taxi brought her to <placeName
                      key="womensClinic">the Women’s Clinic</placeName>. Still moved, but already
-                  smiling, she stepped under the porch of the house that for her was the quiet port,
+                  smiling, she will enter the porch of the house that for her was the quiet port,
                   the hearth of her heart.</p>
                <p>Nothing had changed, and <persName key="lili">Lili</persName> threw herself with
                   joy into the arms of <persName key="matron">the Matron</persName>. For a while,
@@ -680,25 +678,25 @@
                      key="kreutz">Professor Kreutz</persName>. Fascinated, she listened to the
                   velvety voice, not knowing anymore for what purpose she had come. It was he who
                   brought her back to reality:</p>
-               <p>- What did you intend to tell me? Go on, I’m listening.</p>
+               <p>— What did you intend to tell me? Go on, I’m listening.</p>
                <p>And <persName key="lili">Lili</persName> answered:</p>
-               <p>- I came to ask if you consider me strong enough to undertake another surgery. I
+               <p>— I came to ask if you consider me strong enough to undertake another surgery. I
                   wish I could be a mother.</p>
                <p>Here are a few fragments from <persName key="lili">Lili</persName>’s last letters,
                   written in <placeName key="dresden">Dresden</placeName> between June 14 and August
                   22, 1931.</p>
-               <p><hi rend="italics">14 June</hi></p>
-               <p><hi rend="italics">After he had examined me, the Professor decided to operate on
+               <p>14 <hi rend="italics">June</hi></p>
+               <p><hi rend="italics">After he had examined me, <persName key="kreutz">the Professor</persName> decided to operate on
                      me. The operation will probably take place on Tuesday, but you must promise me
                      to say nothing of it to <persName key="sparreGre">Grete</persName>. We
-                     shouldn’t trouble her happiness... I deeply admire the Professor: not satisfied
+                     shouldn’t trouble her happiness... I deeply admire <persName key="kreutz">the Professor</persName>: not satisfied
                      with the results already acquired, he is ready to risk a new surgery, so that I
                      can marry, and who knows? maybe have children. If the worst happened (though I
                      don’t think so), I would die happy at the thought that I have stayed, until my
                      last breath, close to the one to whom I owe my life.</hi></p>
-               <p><hi rend="italics">15 June</hi></p>
+               <p>15 <hi rend="italics">June</hi></p>
                <p><hi rend="italics">You must understand my desire to be a mother because I want to
-                     prove that Andreas has completely disappeared from me, and that he died for
+                     prove that <persName key="sparreAn">Andreas</persName> has completely disappeared from me, and that he died for
                      good. It is only through a child that I will convince myself that, from the
                      beginning of my existence, I was in fact a woman... Those who can understand
                      only the things related to the domain of "common sense" and the "normal" have
@@ -711,32 +709,32 @@
                      ignorant who want to see in me only a phenomenon, an abnormal being. I am a
                      woman, a woman like any other. Those who insist in considering me an
                      "attraction" inflict such a grief on me, that I am often haunted by the idea of
-                     suicide. And, nonetheless, the will to live is stronger, I owe it to the
-                     scientist who has made of me a normal woman.</hi></p>
-               <p><hi rend="italics">16 June</hi></p>
+                     suicide. And, nonetheless, the will to live is stronger, I owe it to <persName key="kreutz">the
+                     scientist</persName> who has made of me a normal woman.</hi></p>
+               <p>16 <hi rend="italics">June</hi></p>
                <p><hi rend="italics">I will probably be operated on tomorrow. I am not afraid of
                      pain. I wish I could remain here forever. But at times a vague anxiety grasps
                      me. Why worry? I know everything will go smoothly. To die?... But this would be
                      a betrayal!</hi></p>
                <!-- am: dotted line follows this paragraph -->
-               <p><hi rend="italics">18 July</hi></p>
+               <p>18 <hi rend="italics">July</hi></p>
                <p><hi rend="italics">Today it’s been a month since I have been operated on. The best
                      persists and I am no more haunted by the thought of death. Yesterday, I dreamed
-                     that a friend had taken me in his arms, that he had taken me away, and I was
+                     that <persName key="lejeuneClaude">a friend</persName> had taken me in his arms, that he had taken me away, and I was
                      happy. I have suffered infinitely, but a lot of things are still required of
                      me. Now, I know that I am like other women.</hi></p>
-               <p><hi rend="italics">13 August</hi></p>
-               <p><hi rend="italics">The Professor went on vacation. My state throws me into
+               <p>13 <hi rend="italics">August</hi></p>
+               <p><hi rend="italics"><persName key="kreutz">The Professor</persName> went on vacation. My state throws me into
                      despair. I don’t see any progress, and there are days when I am so exhausted,
                      that I wish to die. But I don’t have this right. <persName key="kreutz">Werner
                         Kreutz</persName> wouldn’t allow it.</hi></p>
-               <p><hi rend="italics">16 August</hi></p>
+               <p>16 <hi rend="italics">August</hi></p>
                <p><hi rend="italics">I couldn’t describe my last surgery. It has been an abyss of
                      suffering. Fortunately, <persName key="sparreGre">Grete</persName> doesn’t
                      suspect anything. I am still very weak, but in September I intend to return to
                         <placeName key="copenhagen">Copenhagen</placeName>. I must put my papers in
                      order, for <persName key="lejeuneClaude">Claude</persName>...</hi></p>
-               <p><hi rend="italics">22 August</hi></p>
+               <p>22 <hi rend="italics">August</hi></p>
                <p><hi rend="italics">I am exhausted, almost always exhausted. I haven’t left the
                      bed. Almost every day, I receive flowers from <persName key="sparreGre"
                         >Grete</persName>. If I had the strength, I would write to her and she would
@@ -744,19 +742,19 @@
                      sadness is at its height, <persName key="lejeuneClaude">Claude</persName>
                      writes to me that he awaits me.</hi></p>
                <p>The shadows of death descended upon <persName key="lili">Lili Elbe</persName>. At
-                  the beginning of September, she wrote the last letter, addressed to her
-                  sister:</p>
-               <p><hi rend="italics">I feel that the death is nearing. This night, I dreamt of our
-                     mother. She took me in her arms and called me <persName key="lili"
-                        >Lili</persName>... Father was there too...</hi></p>
-               <p>On September 12, her brother was sent for by telegram, <persName key="lili"
+                  the beginning of September, she wrote the last letter, addressed to <persName key="sister">her
+                  sister</persName>:</p>
+               <p><hi rend="italics">I feel that the death is nearing. This night, I dreamt of <persName key="mother">our
+                     mother</persName>. She took me in her arms and called me <persName key="lili"
+                        >Lili</persName>... <persName key="father">Father</persName> was there too...</hi></p>
+               <p>On September 12, <persName key="brotherChris">her brother</persName> was sent for by telegram, <persName key="lili"
                      >Lili</persName> spoke no more, but her eyes were still full of life. She wrote
                   down a few farewell words on a card that she handed to her faithful nurse. Then
                   she fell asleep and woke no more. The suffering defeated her.</p>
                <p>Thus ended her life—this life of man and young girl, whose blooming was brief—an
                   existence full of anxieties, pains, but also by a <anchor type="commentRangeStart"
                      n="2"/>strange, extraordinary peripetia<anchor type="commentRangeEnd" n="2"
-                     /><note type="translator" source="bc" corresp="comment_2">We have retained the
+                     /><note type="translator" source="cb" corresp="comment_2">We have retained the
                      use of the literary term here, which could be translated as "adventure" or
                      "sudden change in circumstance".</note>, that the most audacious imagination
                   couldn’t invent.</p>
