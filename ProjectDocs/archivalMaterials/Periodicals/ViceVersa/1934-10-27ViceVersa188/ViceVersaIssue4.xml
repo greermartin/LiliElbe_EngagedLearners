@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="ProjectDocs/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/1934-10-27_ViceVersa-188.html" 
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-27_ViceVersa-188.xml">
     <!-- AC: Where do I find correct links for above? -->
@@ -47,10 +47,11 @@
                     <resp>HTML proofing completed by</resp>
                     <persName ref="ac">Aliana Capati</persName>
                     <persName ref="cb">Cristiana Bertola</persName>
+                    <persName ref="ed">Emily Datskou</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared by</resp>
-                    <persName ref="plc">Pamela L. Caughie</persName>
+                    <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Illustrations prepared by</resp>
@@ -125,8 +126,6 @@
         <body>
             <div type="original">
                 <div rend="head" style="periodical">
-                    <pb style="page" n="14"
-                        facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_01.jpg"/>
                             <head><anchor type="commentRangeStart" n="1"/>VICE - - VERSA<anchor
                                 type="commentRangeEnd" n="1"/><note type="translator" source="ac"
                                     xml:id="comment_1">Title spreads across both pages.</note></head>
@@ -135,8 +134,9 @@
                                 key="hoyerNiels">Niels Hoyer</persName></head>
                         </div>
                 <div rend="body">
-                    <!--AC: Page 14 begins -->
-                    <p><hi rend="italics">Lorsque, après sa première opération. <persName
+                    <pb style="page" n="14"
+                        facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_01.jpg"/>
+                    <p><hi rend="italics">Lorsque, après sa première opération, <persName
                                 key="sparreAn">Andreas Sparre</persName> entra en convalescence, il
                             prit définitivement le nom de <persName key="lili">Lili</persName>.
                             D'ailleurs, son aspect extérieur n'avait plus rien de masculin et il
@@ -148,7 +148,7 @@
                             Parisienne, et la mystification fut complète. Après avoir fréquenté
                             quelques amis et connaissances, <persName key="lili">Lili</persName>
                             alla voir plusieurs médecins qui l'avaient traitée alors qu'elle était
-                            homme. Aucun d'eux ne la reconnut, et elle dut se rendre à l'évidence :
+                            homme. Aucun d'eux ne la reconnut, et elle dut se rendre à l'évidence:
                             il lui était absolument impossible de prouver que la sémillante
                                 <persName key="lili">Lili</persName> et le mélancolique <persName
                                 key="sparreAn">Andreas Sparre</persName> n'étaient qu'une seule et
@@ -159,12 +159,12 @@
                                 >Grete</persName>, que la loi considérait encore comme sa femme. Le
                             fidèle <persName key="hvideNiels">Niels</persName> avait tenu à faire
                             route avec ses amis. <persName key="kreutz">Werner Kreutz</persName>
-                            admit la patiente dans sa clinique et pratiqua une opération, que
+                            admit la patiente dans <placeName key="womensClinic">sa clinique</placeName> et pratiqua une opération, que
                                 <persName key="sparreGre">Grete</persName> définit de la façon
-                            suivante dans une lettre à des amis :</hi></p>
+                            suivante dans une lettre à des amis:</hi></p>
                     <p><hi rend="italics">« Lorsque son corps fut ouvert (c'est-à-dire le corps de
-                                <persName key="lili">Lili</persName>) on aperçut un enchevêtrement
-                            d'organes que l'imagination la plus débridée n'aurait pu concevoir : des
+                                Lili) on aperçut un enchevêtrement
+                            d'organes que l'imagination la plus débridée n'aurait pu concevoir: des
                             organes féminins atrophiés qui ne s'étaient pas développés voisinaient
                             avec des glandes séminales dont un destin capricieux avait doté ce
                             corps. Le secret de cette double constitution qu'aucun médecin n'avait
@@ -174,8 +174,8 @@
                                 key="paris">Paris</placeName>.</hi></p>
                     <p><hi rend="italics">Et à présent cette infortunée créature, si cruelement «
                             handicapée » dès sa naissance, a subi le traitement qui doit la sauver.
-                            Après avoir supprimé l'obstacle empêchant le développement des organes féminins, le professeur a pratiqué la greffe de
-                            deux ovaires empruntées à une femme jeune et robuste. » </hi></p>
+                            Après avoir supprimé l'obstacle empêchant le développement des organes féminins, <persName key="kreutz">le professeur</persName> a pratiqué la greffe de
+                            deux ovaires empruntées à <persName>une femme jeune</persName> et robuste. » </hi></p>
                     <p><hi rend="italics">Ainsi, après la castration subie à <placeName key="berlin"
                                 >Berlin</placeName>, l'ex-<persName key="sparreAn"
                                 >Andreas</persName> fut doté de nouvelles glandes ovariennes, et la
@@ -186,8 +186,8 @@
                     <p><hi rend="bold">IV.<anchor type="refStart" n="1"/><hi rend="italics"
                                 >(1)</hi><anchor type="refEnd" n="1"/><note xml:id="fn_001"
                                 type="foot" rend="asterisk">(1) VOIR VOILA, depuiis le n<hi rend="super">0</hi>
-                                185.</note> — A LA <placeName key="womensClinic">CLINIQUE FÉMININE
-                                DE DRESDE</placeName></hi></p><!--I think this needs to be translated, then you should be able to use this same markup (with a new ref# for the footnote in the translated version.-->
+                                185.</note> — A LA <placeName key="womensClinic">CLINIQUE FÉMININE</placeName>
+                                DE <placeName key="dresden">DRESDE</placeName></hi></p><!--I think this needs to be translated, then you should be able to use this same markup (with a new ref# for the footnote in the translated version.-->
                     <p>L'ARRIVÉE à <placeName key="dresden">Dresde</placeName>, et les premières
                         impressions de cette ville, qui devait jouer un rôle si important dans sa
                         vie, demeurèrent fort vagues dans le souvenir de <persName key="lili"
@@ -199,82 +199,81 @@
                         commerçantes, ils s'étaient engagés dans les faubourgs verdoyants, où
                         s'étalaient villas et jardins. Enfin, après avoir contourné une rangée de
                         vastes édifices, ils aperçurent de sveltes bouleaux aux troncs argentés
-                        dressant leur feuillage de filigrane au-dessus du mur d'un jardin ; au fond,
-                        l'on voyait les façades grises de plusieurs bâtiments d'un aspect sévère
-                        :</p>
+                        dressant leur feuillage de filigrane au-dessus du mur d'un jardin; au fond,
+                        l'on voyait les façades grises de plusieurs bâtiments d'un aspect sévère:</p>
                     <p>— Arrêtez, s'écria <persName key="lili">Lili</persName>, nous voici
                         arrivés.</p>
-                    <p>Le taxi stoppa devant un portail sur lequel on lisait : <placeName key="womensClinic">CLINIQUE FÉMININE</placeName>
-                        MUNICIPALE.</p>
-                    <p>— Comment avez-vous fait pour reconnaître la clinique ? s'écria son
-                        compagnon avec surprise.</p>
+                    <p>Le taxi stoppa devant un portail sur lequel on lisait: <placeName key="womensClinic">CLINIQUE FÉMININE
+                        MUNICIPALE</placeName>.</p>
+                    <p>— Comment avez-vous fait pour reconnaître <placeName key="womensClinic">la clinique</placeName>? s'écria <persName key="sparreGre">son
+                        compagnon</persName> avec surprise.</p>
                     <p>— Je l'ai deviné, murmura <persName key="lili">Lili</persName> faiblement, et
-                        à présent aidez-moi à descendre ; je suis lasse...</p>
-                    <p>Une infirmière vêtue de blanc apparut à l'une des fenêtres.</p>
-                    <cb n="1"/> <!-- AC: Are we keeping column breaks? -->
-                    <p>— Vous cherchez le service des malades privées ?... Veuillez traverser le
-                        jardin...</p>
+                        à présent aidez-moi à descendre; je suis lasse...</p>
+                    <p><persName>Une infirmière vêtue de blanc</persName> apparut à l'une des fenêtres.</p>
+                    <!-- <cb n="1"/> AC: Are we keeping column breaks? -->
+                    <p>— Vous cherchez le service des malades privées?... Veuillez traverser <placeName>le
+                        jardin</placeName>...</p>
                     <p>Le soir tombait, le ciel crépusculaire versait une lumière très douce et
-                        comme fluide sur le jardin. <persName key="lili">Lili</persName> marchait en
+                        comme fluide sur <placeName>le jardin</placeName>. <persName key="lili">Lili</persName> marchait en
                         tête du petit groupe. Elle était enfin arrivée au bercail.</p>
-                    <p>Il y avait de cela deux mois, le professeur <persName key="kreutz">Werner
+                    <p>Il y avait de cela deux mois, <persName key="kreutz">le professeur Werner
                             Kreutz</persName> avait eu une entrevue — la seule d'ailleurs — avec
                             <persName key="sparreAn">Andreas Sparre</persName>. Aujourd'hui, il
                         allait pouvoir contempler pour la première fois ce phénomène étrange qu'il
-                        avait fait surgir : <persName key="sparreAn">Andreas Sparre</persName>
+                        avait fait surgir: <persName key="sparreAn">Andreas Sparre</persName>
                         réincarné, transformé en jeune fille.</p>
                     <p>C'est avec une courtoisie un peu solennelle, comme lors de sa première visite
                         à <placeName key="paris">Paris</placeName>, que <persName key="kreutz"
                             >Werner Kreutz</persName> introduisit « sa patiente » dans son cabinet
                         de consultation, mais presque aussitôt, son visage austère s'éclaira d'un
                         sourire.</p>
-                    <p>— Le professeur <persName key="arns">Arns</persName> vous a-t-il communiqué
-                        les résultats de son analyse chimique et microscopique ? demanda-t-il.</p>
+                    <p>— <persName key="arns">Le professeur Arns</persName> vous a-t-il communiqué
+                        les résultats de son analyse chimique et microscopique? demanda-t-il.</p>
                     <p>— Non, murmura <persName key="lili">Lili</persName>, timidement.</p>
                     <p>— En ce cas, je serai le premier à vous annoncer une bonne nouvelle. Cet
-                        examen, fait par mon collègue, a pleinement confirmé mon hypothèse.</p>
+                        examen, fait par <persName key="arns">mon collègue</persName>, a pleinement confirmé mon hypothèse.</p>
                     <p><persName key="lili">Lili</persName> écoutait la voix profonde et veloutée de
                         l'homme qui lui parlait, et un sentiment de bonheur infini l'enveloppa tout
                         entière...</p>
-                    <p>— J'avais l'intention de vous faire admettre immédiatement dans cette
-                        clinique, commença-t-il, mais malheureusement, tous les lits sont occupés en
+                    <p>— J'avais l'intention de vous faire admettre immédiatement dans <placeName key="womensClinic">cette
+                        clinique</placeName>, commença-t-il, mais malheureusement, tous les lits sont occupés en
                         ce moment. D'ailleurs cela vaut mieux, car je suis à la recherche de glandes
                         pour vous, des glandes particulièrement saines et vigoureuses...</p>
                     <p>Cette façon de s'exprimer, concrète et prosaïque, fit frissonner <persName
                             key="lili">Lili</persName>; elle ne savait ou tourner la tête, tellement
                         elle se sentait intimidée, rougissante...</p>
-                    <p>— J'estime, reprit le savant, que vous ne pourez que profiter d'un bref
-                        séjour à l'hôtel. Visitez notre ville et ses musées, faites de la
+                    <p>— J'estime, reprit <persName key="kreutz">le savant</persName>, que vous ne pourez que profiter d'un bref
+                        séjour à l'hôtel. Visitez <placeName key="dresden">notre ville</placeName> et ses musées, faites de la
                         peinture...</p>
                     <p>Ces paroles achevèrent de démoraliser la patiente. Elle voulut implorer,
-                        protester, mais elle ne put que murmurer en baissant les yeux :</p>
-                    <p>C'est entendu, docteur.</p>
+                        protester, mais elle ne put que murmurer en baissant les yeux:</p>
+                    <p>C'est entendu, <persName key="kreutz">docteur</persName>.</p>
 
                     <p>Muette, elle serra la main qu'il lui tendit et sortit dans le couloir ou
                             <persName key="sparreGre">Grete</persName> l'attendait. Un seul regard
-                        de cet homme l'avait privée de sa volonté, étouffé sa révolte. Elle se
+                        de <persName key="kreutz">cet homme</persName> l'avait privée de sa volonté, étouffé sa révolte. Elle se
                         sentait devant lui faible et impuissante. Ce ne fut que bien plus tard
-                        qu'elle comprit le secret de cette réaction : <hi rend="italics">son nouveau
+                        qu'elle comprit le secret de cette réaction: <hi rend="italics">son nouveau
                             cœur, son cœur de femme</hi> avait tremblé, il avait tressailli pour la
                         premiére fois, devant son seigneur et maître.</p>
                     <p><persName key="lili">Lili</persName> passa une huitaine de jours á l'hôtel en
                         proie à une profonde mélancolie. Et cette dépression si douloureuse céda à
                         un sentiment de panique, lorsqu'un jour le portier lui remit un paquet de
-                        lettres que la clinique lui avait fait suivre et qui étaient adressées à «
+                        lettres que <placeName key="womensClinic">la clinique</placeName> lui avait fait suivre et qui étaient adressées à «
                         Monsieur <persName key="sparreAn">Andreas Sparre</persName>. ».</p>
                     <p>Il sembla un instant à <persName key="lili">Lili</persName> que son sosie
                         masculin cherchait à revivre, à s'affirmer, une fois de plus. Et cette
                         sensation de cauchemar, cette peur hallucinante furent si vives, que
                             <persName key="lili">Lili</persName> jeta les lettres au feu, sans même
                         se résoudre à les ouvrir... Une angoisse terrible s'était emparée d'elle.
-                        Sa métamorphose n'était-elle après tout qu'une triste imposture ? Elle ne
-                        faisait que répéter d'une voix désolée : « Jamais ils ne voudront de moi à
-                        la clinique féminine, ces lettres ont tout compromis... il ne nous reste
+                        Sa métamorphose n'était-elle après tout qu'une triste imposture? Elle ne
+                        faisait que répéter d'une voix désolée: « Jamais ils ne voudront de moi à
+                        <placeName key="womensClinic">la clinique féminine</placeName>, ces lettres ont tout compromis... il ne nous reste
                         qu'à fuir... »</p>
                     <p>Ce jour même, alors que <persName key="lili">Lili</persName> avait abandonné tout espoir, elle reçut un
                         message de <persName key="kreutz">Werner Kreutz</persName>, lui faisant
                         savoir qu'une chambre avait été réservée pour elle, et qu'elle pourrait dès
-                        ce soir entrer à la clinique.</p>
+                        ce soir entrer à <placeName key="womensClinic">la clinique</placeName>.</p>
                     <p>Son âme fut submergée par le sentiment d'une paix immense... Toute angoisse,
                         toute inquiétude avaient fui. Sa propre vie lui semblait à présent sans
                         importance. Un sentiment presque de dévotion l'exaltait, le sentiment de
@@ -286,77 +285,77 @@
                         s'ouvrait, une svelte silhouette masculine, vêtue d'une blouse blanche,
                         faissait son apparition dans la chambre, se tenait à son chevet... De ces
                         visites de <persName key="kreutz">Werner Kreutz</persName>, <persName
-                            key="lili">Lili</persName> devait garder un souvenir quasi magique : une
+                            key="lili">Lili</persName> devait garder un souvenir quasi magique: une
                         présence, une voix, qui la remplissaient d'espoir, de radieuse
                         confiance.</p>
-                    <p>Un matin, l'infirmière-major entra toute souriante dans sa chambre : « L'opération
+                    <p>Un matin, <persName key="matron">l'infirmière-major</persName> entra toute souriante dans sa chambre: « L'opération
                         est pour demain, mademoiselle <persName key="lili">Lili</persName>. Mais
                         vous n'avez rien à craindre... Il s'agit d'une simple bagatelle... »</p>
-                    <p><persName key="lili">Lili</persName> se mit à rire : « Je n'ai pas peur,
-                        madame ! Sachez qu'à <placeName key="berlin">Berlin</placeName> également, on me dit qu'il s'agissait d'une
+                    <p><persName key="lili">Lili</persName> se mit à rire: « Je n'ai pas peur,
+                        <persName key="matron">madame</persName>! Sachez qu'à <placeName key="berlin">Berlin</placeName> également, on me dit qu'il s'agissait d'une
                         bagatelle... Mais j'appris plus tard que j'étais restée une heure et demie
                         sur la table d'opération... N'importe, je ne suis pas venue iei pour
                         mourir...</p>
-                    <p>L'infirmière prit alors un air confidentiel : « Vous serez heureuse
-                        d'apprendre, Mademoiselle, que le professeur vous greffera des ovaires qui
+                    <p>L'infirmière prit alors un air confidentiel: « Vous serez heureuse
+                        d'apprendre, <persName key="lili">Mademoiselle</persName>, que <persName key="kreutz">le professeur</persName> vous greffera des ovaires qui
                         vous donneront une jeunesse nouvelle. C'est une jeune femme de vingt-sept
                         ans qui vous les fournit. »</p>
                     <p>Cette journée, qu'elle appela plus tard « le jour de ma vraie naissance » lui
                         laissa un souvenir confus, comme baigné de brumes épaisses. Debout à son
-                        chevet, le <persName key="kreutz">professeur Werner Kreutz</persName>
-                        assisté du médecin-chef, lui avait donné un ordre bref : « Comptez en danois
+                        chevet, <persName key="kreutz">le professeur Werner Kreutz</persName>
+                        assisté du médecin-chef, lui avait donné un ordre bref: « Comptez en danois
                         ou en français, comme vous voudrez... »</p>
-                    <p><persName key="lili">Lili</persName>, docile, se mit à compter : « Un, deux,
+                    <p><persName key="lili">Lili</persName>, docile, se mit à compter: « Un, deux,
                         trois... » Un masque à éther fut doucement posé sur son visage, elle
-                        continua à épeler les chiffres : « Quatre, cinq, six... » Elle avait de plus
+                        continua à épeler les chiffres: « Quatre, cinq, six... » Elle avait de plus
                         en plus de difficultés à remuer la langue. Lorsqu'elle eut atteint 18, elle
                         se sentit suffoquer, et le professeur reprit le compte... Sa voix se faisait
                         de plus en plus forte, elle résonnait à présent comme un immense bourdon...
                         <persName key="lili">Lili</persName> perdit connaissance.</p>
-                    <p>Elle fut réveillée par une douleur intense</p> <!-- AC: This sentence combines with the next one. Should we combine them? -->
-                    <cb n="2"/>
+                    <p>Elle fut réveillée par une douleur intense <!-- AC: This sentence combines with the next one. Should we combine them? -->
+                    <!-- AC: <cb n="2"/> -->
                     <!-- AC: End of Page 14 -->
                     <!-- AC: Is this a footnote? SOCIÉTE ANONYME DES PUBLICATIONS « ZED ». R. C. Seine n[AC: superscript]0 237.040 B.<hi rend="italiscs" Le gérant</hi> : Albert SOULILLOU. -->
                     <!-- AC: Page 15 begins -->
                     <pb style="page" n="15"
                         facs="http://www.lilielbe.org/media/periodicals/1934-10-27Voil%c3%a0_02.jpg"/>
-                    <p>et aperçut <persName key="sparreGre">Grete</persName> qui, debout près de son
+                    et aperçut <persName key="sparreGre">Grete</persName> qui, debout près de son
                         lit, lui tendait un bouquet de tulipes rouges. Une infirmière entra, lui
-                        administra de la morphine. Puis le professeur parut, lui prit la main en
+                        administra de la morphine. Puis <persName key="kreutz">le professeur</persName> parut, lui prit la main en
                         murmurant des paroles inintelligibles. Mais elle sentit sur elle son regard
                         clair-obscur, et sombra une fois de plus dans le néant.</p>
                     <p>Peu à peu, <persName key="lili">Lili</persName> s'accoutuma à la souffrance,
                         se disant qu'il fallait bien payer ce prix pour la nouvelle vie qui naissait
                         en elle... Des perspectives radieuses s'ouvraient. Sa chambre blanche était
-                        un paradis terrestre, dont le professeur était le gardien.</p>
+                        un paradis terrestre, dont <persName key="kreutz">le professeur</persName> était le gardien.</p>
                     <p>L'opération avait pleinement réussi. <persName key="sparreGre"
                             >Grete</persName> repartit pour <placeName key="paris"
-                            >Paris</placeName>.<persName key="lili">Lili</persName> se remettait
-                        lentement, et passait de longues heures dans le jardin de la clinique, qu'un
+                            >Paris</placeName>. <persName key="lili">Lili</persName> se remettait
+                        lentement, et passait de longues heures dans <placeName>le jardin</placeName> de <placeName key="womensClinic">la clinique</placeName>, qu'un
                         souffle printanier animait. Chaque jour ses amis parisiens lui envoyaient
-                        des messages d'encouragement et de réconfort.<persName key="sparreGre"
+                        des messages d'encouragement et de réconfort. <persName key="sparreGre"
                             >Grete</persName> se préoccupait sans cesse d'elle. <persName
                             key="lejeuneClaude">Claude</persName> lui écrivait des lettres pleines
                         d'affection... Elle répondait aux uns et aux artres, les tenant au courant
-                        des moindres détails de son traitement :</p>
-                    <p><placeName key="dresden">Dresde</placeName>. 25 mai</p>
+                        des moindres détails de son traitement:</p>
+                    <p><placeName key="dresden">Dresde</placeName>, 25 mai</p>
                     <p>« Ma chère <persName key="sparreGre">Grete</persName>,</p>
                     <p>« C'est à demain qu'est fixée ma troisième opération. Une fois de plus
-                        l'infirmière-major vint m'assurer que cette intervention était sans
+                        <persName key="matron">l'infirmière-major</persName> vint m'assurer que cette intervention était sans
                         gravité... D'ailleurs, les opérations elles-mêmes deviennent affaire
                         d'habitude. Ce matin, j'ai mis de l'ordre dans mon armoire et ma commode.
                         Mon petit « institut de beauté » est sur une table à portée de ma main. Je
                         ne te cacherai pas que je suis coquette et que je voudrais toujours faire
-                        jonneur au professeur.</p>
+                        jonneur <persName key="kreutz">au professeur</persName>.</p>
                     <p>Affectueusement, <persName key="lili">Lili</persName> »</p>
                     <p><placeName key="dresden">Dresde</placeName>, 27 mai.</p>
                     <p> « Ma chère <persName key="sparreGre">Grete</persName>,</p>
                     <p> « A présent, cela va un peu mieux et je ne sens presque plus aucune douleur.
-                        Je sais que le professeur t'a télégraphié que tout s'est bien passé. Mais le
+                        Je sais que <persName key="kreutz">le professeur</persName> t'a télégraphié que tout s'est bien passé. Mais le
                         réveil après l'operation fut affreux. « Il faut rester tranquille », me dit
-                        le professeur, et c'est alors que je m'aperçus que mes jambes étaient sans
+                        <persName key="kreutz">le professeur</persName>, et c'est alors que je m'aperçus que mes jambes étaient sans
                         cesse en mouvement, comme si elles activaient des pédales invisibles... à
-                        force de souffrance ! Mais sous le regard de <persName key="kreutz"
+                        force de souffrance! Mais sous le regard de <persName key="kreutz"
                             >Kreutz</persName>, je devins aussitôt immobile et bien sage, si grand
                         est son empire sur moi. Plus tard, il m'attacha aux pieds des sacs remplis
                         de sable. Je ne sais trop comment la soirée et la nuit se sont écoulées.
@@ -372,9 +371,9 @@
                     <p>Ta <persName key="lili">Lili</persName>. »</p>
                     <p><placeName key="dresden">Dresde</placeName>, 29 mai.</p>
                     <p>« Ma chère <persName key="sparreGre">Grete</persName>,</p>
-                    <p>« Je n'aime point me montrer au professeur sans poudre et sans rouge. Chaque
+                    <p>« Je n'aime point me montrer <persName key="kreutz">au professeur</persName> sans poudre et sans rouge. Chaque
                         matin, je passe des heures entières à ma toilette, n'importe l'effort que
-                        cela me coûte. Vanité ? oui, sans doute, et c'est elle qui me soutient ;
+                        cela me coûte. Vanité ? oui, sans doute, et c'est elle qui me soutient;
                         elle est ce qu'il y a de plus immortel en moi.</p>
                     <p><persName key="lili">Lili</persName>. »</p>
                     <p>Le départ de <placeName key="dresden">Dresde</placeName> se fit plus
@@ -382,21 +381,21 @@
                         l'avait supposé. <persName key="sparreGre">Grete</persName> était revenue
                         auprès d'elle afin de l'emmener à <placeName key="berlin"
                         >Berlin</placeName>, puis au <placeName key="denmark">Danemark</placeName>,
-                        leur patrie commune. Lorsque le professeur vint prendre congé de sa
-                        patiente, <persName key="lili">Lili</persName> dit simplement : « Je
+                        leur patrie commune. Lorsque <persName key="kreutz">le professeur</persName> vint prendre congé de sa
+                        patiente, <persName key="lili">Lili</persName> dit simplement: « Je
                     <!-- AC: <cb n="3"/> -->
                     vous dois non seulement une nouvelle vie, mais aussi ma foi dans l'avenir. Je
                         vais tenter de me plonger dans le tourbillon de la vie, mais si je rencontre
-                        de nouvelles épreuves, puis-je revenir auprès de vous ? »</p>
+                        de nouvelles épreuves, puis-je revenir auprès de vous? »</p>
                     <p>Et <persName key="kreutz">Werner Kreutz</persName> répondit, en prenant sa
-                        main dans la sienne : « Tenez-moi au courant de tout, écrivez-moi
+                        main dans la sienne: « Tenez-moi au courant de tout, écrivez-moi
                         régulièrement. Et si vous avez besoin d'aide, vouz trouverez toujours un
-                        refuge et des amis dans cetter maison ! »</p>
-                    <p>Hélas ! ce ne fut que bien plus tard que <persName key="sparreGre"
+                        refuge et des amis dans cetter maison! »</p>
+                    <p>Hélas! ce ne fut que bien plus tard que <persName key="sparreGre"
                             >Grete</persName> devait se rendre compte à quel point le séjour de
                             <placeName key="berlin">Berlin</placeName> marqua une transition brutale
-                        et douloureuse entre la paix de la clinique et le brouhaha du monde
-                        extérieur. Elle se trouva dans une vaste cité bruyante, au milieu d'une
+                        et douloureuse entre la paix de <placeName key="womensClinic">la clinique</placeName> et le brouhaha du monde
+                        extérieur. Elle se trouva dans <placeName key="dresden">une vaste cité bruyante</placeName>, au milieu d'une
                         foule affairée et indifférente. Il s'agissait à présent d'apprendre à vivre
                         en femme parmi les hommes, à partager de plus le rhythme fiévreux de
                         l'existence moderne.</p>
@@ -408,27 +407,26 @@
                             >Danemark</placeName>. Enfin, elle se préoccupait du sort de <persName
                             key="sparreGre">Grete</persName>... Fallait-il fuir pour lui éviter une
                         explication trop cruelle, ou lui dire simplement, en pleine franchise, que
-                        l'heure de la séparation avait sonné ?</p>
+                        l'heure de la séparation avait sonné?</p>
                     <p>Ces journées ou elle était assaillie de vaines questions étaient suivies de
                         nuits plus torturantes encore... Puis, peu à peu, deux noms surgirent dans
-                        son cerveau mis au supplice, deux visages apparurent dans ses rêves : celui
+                        son cerveau mis au supplice, deux visages apparurent dans ses rêves: celui
                         de <persName key="lejeuneClaude">Claude Lejeune</persName> et celui d'un
-                        jeune Italien, le lieutenant <persName key="feruzziRi">Feruzzi</persName>,
+                        jeune Italien, <persName key="feruzziRi">le lieutenant Feruzzi</persName>,
                         qu'ils avaient naguère connu à <placeName key="rome">Rome</placeName>. Un lien d'affection
-                        profonde liait ce jeune homme à <persName key="sparreGre">Grete</persName> ; au moment où <persName key="sparreAn">Andreas</persName>
-                        traversait une de ses crises les plus douloureuses, sa femme s'était 
+                        profonde liait <persName key="feruzziRi">ce jeune homme</persName> à <persName key="sparreGre">Grete</persName>; au moment où <persName key="sparreAn">Andreas</persName>
+                        traversait une de ses crises les plus douloureuses, <persName key="sparreGre">sa femme</persName> s'était 
                         instinctivement tournée vers <persName key="feruzziRi">Feruzzi</persName>, afin de chercher son soutien. 
                         <persName key="sparreAn">Andreas</persName> le savait, et ce fut, à
-                        <placeName key="rome">Rome</placeName> qu'il avait fait son serment solennel : disparaître afin que <persName
+                        <placeName key="rome">Rome</placeName> qu'il avait fait son serment solennel: disparaître afin que <persName
                             key="sparreGre">Grete</persName> puisse refaire sa vie...</p>
                     <p>Au cours de ces longs mois de maladie, ni <persName key="sparreGre"
                             >Grete</persName>, ni <persName key="lili">Lili</persName> n'avaient osé
-                        prononcer le nom de cet ami. L'heure n'était-elle pas venue de l'appeler
-                        ?</p>
+                        prononcer le nom de <persName key="feruzziRi">cet ami</persName>. L'heure n'était-elle pas venue de l'appeler?</p>
                     <p>Une nuit, <persName key="lili">Lili</persName> se réveilla brusquement,
                         quitta son lit et s'assit au chevet de <persName key="sparreGre"
-                            >Grete</persName>. La jeune femme ouvrit les yeux en souriant :</p>
-                    <p>— Je viens de faire un si beau rêve ! s'écria-t-elle.</p>
+                            >Grete</persName>. <persName key="sparreGre">La jeune femme</persName> ouvrit les yeux en souriant:</p>
+                    <p>— Je viens de faire un si beau rêve! s'écria-t-elle.</p>
                     <p>— Et où étais-tu, <persName key="sparreGre">Grete</persName>? demanda
                             <persName key="lili">Lili</persName>.</p>
                     <p>— En <placeName key="italy">Italie</placeName>, à <placeName key="rome"
@@ -436,8 +434,8 @@
                     <p>— Et je parie que <persName key="feruzziRi">Feruzzi</persName> était auprès de
                         toi, ajouta <persName key="lili">Lili</persName>, gaîment. Elles demeurèrent
                         fraternellement enlacées, leurs cœurs pleins de douce émotion.</p>
-                    <p>Le lendemain, <persName key="lili">Lili</persName> écrivit à l'Italien :</p>
-                    <p>« Cher ami,</p>
+                    <p>Le lendemain, <persName key="lili">Lili</persName> écrivit à <persName key="feruzziRi">l'Italien</persName>:</p>
+                    <p>« Cher <persName key="feruzziRi">ami</persName>,</p>
                     <p>« Il me suffira de vous dire qu'<persName key="sparreAn">Andreas</persName> a
                         tenu parole et qu'il est morte. Je sais que <persName key="sparreGre"
                             >Grete</persName> ne vous a encore rien dit. Ecrivez-lui, et ne
@@ -445,7 +443,7 @@
                     <p><persName key="lili">Lili</persName>.»</p>
                     <p>Ce jour-là, elle dit à <persName key="sparreGre">Grete</persName>:</p>
                     <p>— Je me porte à merveille, il est temps de rentrer.</p>
-                    <p>— Rentrer ? s'écria la jeune femme surprise.</p>
+                    <p>— Rentrer? s'écria <persName key="sparreGre">la jeune femme</persName> surprise.</p>
                     <p>— Oui, regagner le <placeName key="denmark">Danemark</placeName>... afin que
                         tu puisses te défaire d'un être qui est mort depuis longtemps et que chacune
                         de nous puisse recommencer sa vie.</p>
@@ -489,9 +487,9 @@
                                 the original text, "sa" implies only that
                                 "femme" is feminine, not the gender of the possessor, that
                                 is, <persName key="lili">Lili</persName></note>wife. The loyal
-                                <persName key="hoyerNiels">Niels</persName> insisted on going along
+                                <persName key="hvideNiels">Niels</persName> insisted on going along
                             with his friends. <persName key="kreutz">Werner Kreutz</persName>
-                            admitted the patient in his clinic and performed a surgery that
+                            admitted the patient in his <placeName key="womensClinic">clinic</placeName> and performed a surgery that
                                 <persName key="sparreGre">Grete</persName> described as follows in a
                             letter to some friends:</hi></p>
                     <p><hi rend="italics">"When her <anchor type="commentRangeStart" n="3"
@@ -513,7 +511,7 @@
                                 gender of the noun "naissance" ("birth"), not of
                                 the person.</note> birth, has undergone the treatment that must save
                             her. After he removed the obstacle preventing the development of the
-                            feminine organs, the professor transplanted two ovaries borrowed from a
+                            feminine organs, <persName key="kreutz">the professor</persName> transplanted two ovaries borrowed from a
                             young and robust woman."</hi></p>
                     <p><hi rend="italics">Thus, after the castration undergone in <placeName
                                 key="berlin">Berlin</placeName>, the former <persName key="sparreAn"
@@ -522,10 +520,11 @@
                             time. Such is the scientific and surgical nature of this new
                             metamorphosis. We will find its psychological and human side in the
                             following story.</hi></p>
-                    <p><hi rend="bold">IV.<hi rend="super">1</hi>— AT THE <placeName
-                                key="womensClinic">WOMEN'S CLINIC IN DRESDEN</placeName></hi></p>
-                    <!-- AC: Footnote for superscript 1 above footnote:  1 See Voilà from number 185. -->
-                    <p>The arrival at <placeName key="dresden">Dresden</placeName> and the first
+                    <p><hi rend="bold">IV.<anchor type="refStart" n=""/><hi rend="italics"
+                        >(1)</hi><anchor type="refEnd" n="9"/><note xml:id="fn_009"
+                            type="foot" rend="asterisk">(1) See Voilà from number 185.</note>— AT THE <placeName
+                                key="womensClinic">WOMEN'S CLINIC</placeName> IN <placeName key="dresden">DRESDEN</placeName></hi></p>
+                    <p>THE ARRIVAL at <placeName key="dresden">Dresden</placeName> and the first
                         impressions about this city, which was to play such an important role in her
                         life, remained very vague in <persName key="lili">Lili</persName>’s memory
                         (because this is how, following the example of her close friends, we will
@@ -538,14 +537,14 @@
                         trees with silvery trunks rising their filigree leaves above the wall of a
                         garden; in the back, one saw the grey facades of several buildings with a
                         stern appearance:</p>
-                    <p>- Stop, <persName key="lili">Lili</persName> cried out, we have arrived.</p>
+                    <p>— Stop, <persName key="lili">Lili</persName> cried out, we have arrived.</p>
                     <p>The taxi stopped in front of a portal on which one read: <placeName
                             key="womensClinic">MUNICIPAL WOMEN’S CLINIC</placeName>.</p>
-                    <p>- How did you recognize <placeName key="womensClinic">the clinic</placeName>? exclaimed <persName key="sparreGre">her companion</persName>, surprised.</p>
-                    <p>- I guessed, <persName key="lili">Lili</persName> whispered softly, and now
+                    <p>— How did you recognize <placeName key="womensClinic">the clinic</placeName>? exclaimed <persName key="sparreGre">her companion</persName>, surprised.</p>
+                    <p>— I guessed, <persName key="lili">Lili</persName> whispered softly, and now
                         help me get out; I am tired...</p>
                     <p><persName>A nurse dressed in white</persName> appeared at one of the windows.</p>
-                    <p>- Are you looking for the private patients’ service?... Kindly cross <placeName>the
+                    <p>— Are you looking for the private patients’ service?... Kindly cross <placeName>the
                         garden</placeName>...</p>
                     <p>The evening was falling, the twilight sky was shedding a very soft and fluid
                         light over <placeName>the garden</placeName>. <persName key="lili">Lili</persName> walked in front
@@ -556,42 +555,42 @@
                         for the first time this strange phenomenon that he had brought forth:
                             <persName key="sparreAn">Andreas Sparre</persName> reincarnated,
                         transformed into a girl.</p>
-                    <p>With a curtesy a bit solemn, as during his first visit in <placeName
+                    <p>With a courtesy a bit solemn, as during his first visit in <placeName
                             key="paris">Paris</placeName>, <persName key="kreutz">Werner
                             Kreutz</persName> led "his patient" into his consulting room, but almost
                         immediately, his serious face lit up with a smile.</p>
-                    <p>- Has professor <persName key="arns">arns</persName> communicated the results
+                    <p>— Has <persName key="arns">professor Arns</persName> communicated the results
                         of his chemical and microscopic analysis? he asked.</p>
-                    <p>- No, <persName key="lili">Lili</persName> whispered timidly.</p>
-                    <p>- In that case, I will be the first to give you the good news. This
+                    <p>— No, <persName key="lili">Lili</persName> whispered timidly.</p>
+                    <p>— In that case, I will be the first to give you the good news. This
                         examination, by <persName key="arns">my colleague</persName>, has fully confirmed my hypothesis.</p>
                     <p><persName key="lili">Lili</persName> listened to the deep and velvety voice
                         of the man who was talking to her, and a feeling of infinite happiness
                         enveloped her entirely...</p>
-                    <p>- I had the intention to admit you to <placeName key="womensClinic">the clinic</placeName> immediately, but
+                    <p>— I had the intention to admit you to <placeName key="womensClinic">the clinic</placeName> immediately, but
                         unfortunately all the beds are occupied at the moment. Besides, this is
                         better, because for now I am searching for glands for you, glands
                         particularly healthy and vigorous...</p>
                     <p>This manner of speaking, concrete and prosaic, made <persName key="lili"
                             >Lili</persName> shudder; she didn’t know where to turn her head, so
                         much she felt intimidated, blushing...</p>
-                    <p>- I think, <persName key="kreutz">the doctor</persName> resumed, that a brief stay at hotel will be
+                    <p>— I think, <persName key="kreutz">the doctor</persName> resumed, that a brief stay at hotel will be
                         advantageous for you. Visit <placeName key="dresden">our city</placeName> and museums, paint...</p>
                     <p>These words ended up demoralizing the patient. She wanted to entreat, to
                         protest, but all she could do was to whisper lowering her eyes:</p>
-                    <p>- I understand, doctor.</p>
+                    <p>— I understand, <persName key="kreutz">doctor</persName>.</p>
 
                     <p>Mute, she shook the hand he held out and went out on the corridor where
                             <persName key="sparreGre">Grete</persName> was waiting for her. Only one
                         glance from <persName key="kreutz">this man</persName> had deprived her of her will, stifled her revolt. In
                         front of him, she felt weak and powerless. Only later did she understand the
-                        secret of this reaction: her new heart, her trembling woman’s heart, had
+                        secret of this reaction: <hi rend="italics">her new heart, her trembling woman’s heart</hi>, had
                         started for the first time in front of her lord and master.</p>
                     <p><persName key="lili">Lili</persName> spent about eight days at a hotel prey to
                         a profound melancholy. And this painful depression yielded to a feeling of
                         panic when, one day <persName>the porter</persName> presented her with a pile of letters that <placeName key="womensClinic">the
-                        clinic</placeName> sent to her and which were addressed to "<persName
-                            key="sparreAn">Mister Andreas Sparre</persName>".</p>
+                            clinic</placeName> sent to her and which were addressed to "Mister <persName
+                                key="sparreAn">Andreas Sparre</persName>".</p>
                     <p>For a second, it seemed to <persName key="lili">Lili</persName> that her
                         masculine double was trying to come alive again, to affirm himself once
                         more. And this nightmarish feeling, this hallucinatory fear was so keen,
@@ -617,11 +616,11 @@
                             Kreutz</persName>, <persName key="lili">Lili</persName> was keeping an
                         almost magical memory: a presence, a voice, that was filling her with hope,
                         with radiant confidence.</p>
-                    <p>One day, <persName>the head nurse</persName> entered her room all smiles: "The surgery is
-                        tomorrow, <persName key="lili">miss Lili</persName>. But you shouldn’t be
+                    <p>One day, <persName key="matron">the head nurse</persName> entered her room all smiles: "The surgery is
+                        tomorrow, miss <persName key="lili">Lili</persName>. But you shouldn’t be
                         afraid... It’s a mere trifle..."</p>
                     <p><persName key="lili">Lili</persName> started to laugh: "I am not afraid,
-                        madam! Know that in <placeName key="berlin">Berlin</placeName> too, I was
+                        <persName key="matron">madam</persName>! Know that in <placeName key="berlin">Berlin</placeName> too, I was
                         told that it was a trifle... But later I learned that I had remained on the
                         surgery table for an hour and a half... It doesn’t matter, I didn’t come here
                         to die...<anchor type="commentRangeStart" n="5"/>"<anchor
@@ -629,7 +628,7 @@
                             corresp="comment_5">This quotation mark is missing in the
                             original.</note></p>
                     <p><persName>The nurse</persName> assumed then an air of confidentiality: "You will be happy to know,
-                        Miss, that <persName key="kreutz">the Professor</persName> will transplant ovaries that will give you new
+                        <persName key="lili">Miss</persName>, that <persName key="kreutz">the Professor</persName> will transplant ovaries that will give you new
                         youth. It is <persName>a young woman of 27 years</persName> who provides them for you."</p>
                     <p>That day, which she later called "the day of my real birth," left her a
                         confused recollection, as if bathed in thick mists. Standing by her bedside,
@@ -646,10 +645,10 @@
                         counting... His voice was growing stronger, now it was reverberating like an
                         immense drone... <persName key="lili">Lili</persName> lost her
                         consciousness.</p>
-                    <p>She was awakened by an intense pain</p> <!-- AC: this sentence goes with the next sentence. do we fuse them? -->
-                    <cb n="4"/>
+                    <p>She was awakened by an intense pain
+                    <!-- AC: <cb n="4"/> -->
                     <!-- AC: Start of page 15 -->
-                    <p>and saw <persName key="sparreGre">Grete</persName> who, by her bedside, held
+                    and saw <persName key="sparreGre">Grete</persName> who, by her bedside, held
                         out a bouquet of tulips to her. <persName>A nurse</persName> came in, gave her morphine. Then <persName key="kreutz">the
                         Professor</persName> appeared, seized her hand and whispered unintelligible words. But
                         she felt upon her his shaded glance and sank down once more into the
@@ -753,12 +752,12 @@
                     <p>One night, <persName key="lili">Lili</persName> woke up suddenly, left her
                         bed and sat by <persName key="sparreGre">Grete</persName>’s bedside. <persName key="sparreGre">The
                         young woman</persName> opened the eyes and smiled:</p>
-                    <p>- I just had such a beautiful dream! she exclaimed.</p>
-                    <p>- And where were you, <persName key="sparreGre">Grete</persName>? <persName
+                    <p>— I just had such a beautiful dream! she exclaimed.</p>
+                    <p>— And where were you, <persName key="sparreGre">Grete</persName>? <persName
                             key="lili">Lili</persName> asked.</p>
-                    <p>- In <placeName key="italy">Italy</placeName>, in <placeName key="rome"
+                    <p>— In <placeName key="italy">Italy</placeName>, in <placeName key="rome"
                             >Rome</placeName>...</p>
-                    <p>- And I bet <persName key="feruzziRi">Feruzzi</persName> was near you,
+                    <p>— And I bet <persName key="feruzziRi">Feruzzi</persName> was near you,
                             <persName key="lili">Lili</persName> added cheerfully. They remained in
                         a tight <anchor type="commentRangeStart" n="8"/>sisterly<anchor
                             type="commentRangeEnd" n="8"/><note type="editor" source="plc"
@@ -766,21 +765,21 @@
                             "brotherly"</note> embrace, their hearts full of a sweet
                         emotion.</p>
                     <p>The next day, <persName key="lili">Lili</persName> wrote to <persName key="feruzziRi">the Italian</persName>:</p>
-                    <p>"Dear friend,</p>
+                    <p>"<persName key="feruzziRi">Dear friend</persName>,</p>
                     <p>"It will suffice to tell you that <persName key="sparreAn">Andreas</persName>
                         has kept his word and died. I know <persName key="sparreGre"
                             >Grete</persName> hasn’t yet told you anything. Write to her, do not
                         abandon her.</p>
                     <p><persName key="lili">Lili</persName>."</p>
                     <p>That day, she told <persName key="sparreGre">Grete</persName>:</p>
-                    <p>- I feel wonderful, it’s time to go back.</p>
-                    <p>- Go back? <persName key="sparreGre">the young woman</persName> exclaimed with surprise.</p>
-                    <p>- Yes, return to <placeName key="denmark">Denmark</placeName>... so that you
+                    <p>— I feel wonderful, it’s time to go back.</p>
+                    <p>— Go back? <persName key="sparreGre">the young woman</persName> exclaimed with surprise.</p>
+                    <p>— Yes, return to <placeName key="denmark">Denmark</placeName>... so that you
                         can separate yourself from a being who died long ago and each of us can
                         start her life over again.</p>
                     <p><hi rend="italics">(To be continued.)</hi>
                         <hi rend="bold"><persName key="hoyerNiels">Niels Hoyer</persName></hi></p>
-                    <p><hi rend="italics">Even partial reproduction is forbidden.</hi> <hi rend="italics">Copyright by <persName key="hoyerNiels">Niels Hoyer</persName> 1934)</hi></p>
+                    <p><hi rend="italics">Even partial reproduction is forbidden.</hi> <hi rend="italics">Copyright by <persName key="hoyerNiels">Niels Hoyer</persName> 1934).</hi></p>
                     <!-- AC: End of page 15 -->
                 </div>
             </div>
