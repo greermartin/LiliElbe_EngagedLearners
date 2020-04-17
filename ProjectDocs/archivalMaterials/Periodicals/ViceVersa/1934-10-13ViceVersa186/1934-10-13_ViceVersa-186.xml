@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
     rendition="lilielbe.org/context/Periodicals/1934-10-13_ViceVersa-186.html"
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/1934-10-13_ViceVersa-186.xml">
@@ -75,7 +75,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc source="Periodical" xml:lang="fre-B">
-                <p>A two-page, three-columned printed article with the title runnig across the two
+                <p>A two-page, three-columned printed article with the title running across the two
                     pages, each page containing three photographs in the middle; page 10 has three
                     photographs of <persName key="sparreAn">Andreas Sparre</persName> <persName
                         key="wegenerE">(Einar Wegener)</persName>, page 11 has two photographs of
@@ -143,7 +143,7 @@
                     
                     <p>
                         <hi rend="italics">Voyant en la personne du <persName
-                            key="kreutz">professeur Werner Kreutz l'unique planche de salut —
+                            key="kreutz">professeur Werner Kreutz</persName> l'unique planche de salut —
                             puisque le savant allemand lui promettait de parachever sa métamorphose
                             — <persName key="sparreAn">Andreas Sparre</persName> résolut de suivre
                             aveuglément ses conseils et ses indications. Mais, afin que « <persName
@@ -415,14 +415,14 @@
                     <!-- AC: two boxes separate text -->
                     <p>Au cours des semaines qui suivirent, mon état nerveux empira. A des
                         intervalles réguliers j'étais victime de ces étranges crises de dépression
-                        accompagnées violentes hémorragies et de douleurs<!--DRR: Moved broken word to first page as per our guidelines--></p>
-                    <cb n="4"/>
+                        accompagnées violentes hémorragies et de douleurs<!--DRR: Moved broken word to first page as per our guidelines-->
+                    <!-- <cb n="4"/> -->
                     <!-- AC: End of Page 12 -->
                     <!-- AC: Beginning of Page 13 -->
                     <pb style="page" n="13"
                         facs="http://lilielbe.org/media/periodicals/1934-10-13Voil%c3%a0_02.jpg"/> <!-- AC: Do we combine this paragraph with the last one? Would be
                         paragraph 41 in total-->
-                    <p>intense. Et puis il y avait ces accès de larmes incompréhensibles. Au
+                        intense. Et puis il y avait ces accès de larmes incompréhensibles. Au
                         début, je pensais que j'avais déplace quelque organe interne au cours des
                         représentations de ballet, et <persName key="sparreGre"
                         >Grete</persName> partageait mon avis. Nous nous rendîmes chez un docteur...
