@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   rendition="lilielbe.org/context/letters/0000-00-00DraftbyErnstHarthern.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/00000000DraftbyErnstHarthern.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>            
+            <title><date when="1931">1931</date>
+            </title>
+            <author>
+               <persName key="harthernE" role="AUT">Ernst Harthern</persName>
+            </author>
+            <respStmt>
+               <resp>Photographed by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Images prepared by</resp>
+               <persName ref="xx">xx</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sm">Sabine Meyer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="twj" role="TRL">Tatjana Wlims-Jones</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation reviewed by</resp>
+               <persName ref="xx"><!-- Insert reviewer's name and initials in @ref --></persName>
+            </respStmt>           
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="db">Darcy Brady</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance and/or XML proofing completed by</resp>
+               <persName ref="xx"><!-- Insert Proofers name and initials in @ref--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML transformed into HTML
+                  <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                  by</resp>
+               <persName ref="rjp">Rebecca J. Parker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>HTML proofing completed by</resp>
+               <persName ref="xx"><!-- Insert Proofers name and initials in @ref--></persName>
+            </respStmt>
+            <sponsor>Loyola University Chicago Libraries</sponsor>
+            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="2019-07-06">July 6th, 2019</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                  Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                  Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc source="Manuscript" xml:lang="ger">
+            <p>A four-page handwritten document (undated) in pencil, written on one sheet folded into four sides, with Roman numerals "II" and "III" 
+               marked in darker pencil indicating those pages; a handwritten note in black ink appears on the top of the first page, and a handwritten 
+               comment in red crayon written sideways along the third page lefthand margin, and a sentence crossed out with revisions written above on the fourth page.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+               <category source="collex" xml:id="discipline">
+                  <catDesc>History/Book History</catDesc>
+               </category>
+               <category source="collex" xml:id="genre">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category source="collex" xml:id="text">
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/0000-00-00DraftbyErnstHarthern.txt</catDesc>
+               </category>
+               <category source="dc" xml:id="date">
+                  <catDesc>1931</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <hyphenation>
+               <p>We have removed the hyphenation that appears in the printed text during
+                  digitization and encoding. Original hyphenation can be consulted in the facsimile
+                  images.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_01.jpg"
+               style="page" n="1"/>
+            <div rend="head" style="letter">
+               <p>
+                  <add place="leftMargin" type="insertion" rend="pencil"><hi rend="underline">Anlage 4</hi></add>
+               </p>
+               <!-- DB: "Anlage 4" is written vertically in the margins of the letter, should a note be added to acknowledge this? 5/14/20-->
+            </div>
+            <div rend="body">
+               <p>I</p>
+               <!-- DB: The numeral "I" is written in pencil beneath the paragraph below that is written in ink. I placed "I" above this paragraph for now but I am not sure this is the desited location of it 5/14/20-->
+               <p>Ich habe <persName key="lili">Lili Elbe</persName> <date when="1913">1913</date> kennengelernt. Damals war sie ein Mann und hiess <persName key="wegenerE">Einar Wegener</persName>.</p>               
+               <p>Im Jahre <date when="1913">1913</date> traf ich im damaligen <anchor type="commentRangeStart" n="1"/>Hotel Brutze<anchor type="commentRangeEnd" n="1"/><note type="editor" source="sm" 
+                  corresp="comment_1">There is no record of a hotel by that name.</note> in <placeName key="copenhagen">Kopenhagen</placeName> <persName key="wegenerE">Einar 
+                  Wegener</persName>. Sein Bild steht mir noch deutlich vor Augen: ein zierlicher, sehr gut aussehender Mann von kaum dreißig, etwas älter als ich. Während der 
+                  Unterhaltung standen wir. Ich musste zu ihm niedersehen. Die Unterhaltung ging um Dinge der Kunst. <persName key="wegenerE">Einar Wegener</persName> bereitete eine 
+                  Ausstellung seiner Bilder, vor allem aber der Bilder und Zeichnungen seiner <persName key="wegenerG">Frau</persName> vor. Bayros war damals bei uns und auch hier oben die große Mode. 
+                  <persName key="wegenerE">Einar Wegeners</persName> tiefe, braune Augen hatten, während er auf die seiner Meinung nach überlegene Meisterschaft <persName key="wegenerG">Gerdas</persName></p>
+               <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_02.jpg"
+                  style="page" n="2"/>
+               <p>hinwies, einen <anchor type="commentRangeStart" n="2"/>faszinierenden<anchor type="commentRangeEnd" n="2"/><note type="editor" source="sm" corresp="comment_2">The
+                  script is not really legible towards the end of the word, but that is my best guess and probably the correct word.</note> Glanz. „Aber dürfte ich nach ihren eignen Bildern fragen,” 
+                  warf ich ein. – “Was ist davon zu sprechen,“ entgegnete er etwas lässig. Mir erschien dieses 
+                  Wort etwas hochmütig. – Sehr elegant, pariserisch, damals <anchor type="commentRangeStart" n="3"/>hatte<anchor type="commentRangeEnd" n="3"/><note type="editor" source="sm" 
+                  corresp="comment_3">This actually reads “fatte” in the original, but that is not a word and makes no sense, so I guess Harthern penned the letter “h” the wrong way.</note>  man auch 
+                  <anchor type="commentRangeStart" n="4"/>für<anchor type="commentRangeEnd" n="4"/><note type="editor" source="sm" corresp="comment_4">This “für” shouldn’t be in the sentence, 
+                  still it’s there. Harthern probably wanted to phrase it differently to begin with and then forgot to cross the “für” out. </note> die Bezeichnung dekadent dafür, gab er mir dann zum 
+                  Abschied die Hand. Seine Stimme hatte einen sehr warmen, <anchor type="commentRangeStart" n="5"/>[illegible]<anchor type="commentRangeEnd" n="5"/><note type="editor" source="sm" 
+                  corresp="comment_5">I cannot make that word out. It could be “dunk(e)len” (dark), but I am not sure.</note> Bariton.– </p>
+               <p>II</p>
+               <p>Fast 20 Jahre später, im <date when="193102">Februar 1931</date> trat bei mir eine elegante, 
+                  dunkeläugige, schlanke, kräftige <persName key="lili">Frau</persName> ein. Als ich ihren Blick fand, musste ich mein Auge geradeaus</p>
+               <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_01.jpg"
+                  style="page" n="3"/>               
+               <p>richten. Blitzartig durchzuckte mich da die Erinnerung von <date when="1913">1913</date> – damals sah ich nieder, um <persName key="wegenerE">Einar 
+                  Wegeners</persName> Auge zu finden. Jetzt stand eine <persName key="lili">Frau</persName>, gleich groß wie ich, vor mir: <persName key="lili">Lili Elbe</persName>. – Ich war 
+                  erschüttert. Ich war wie von einem Spuk berührt. – Nur diese wachen Augen, die mich ansahen, erinnerten an <persName key="wegenerE">Einar Wegener</persName>. [illegible] hier 
+                  <persName key="lili">Lili Elbes</persName> Stimme war ein warmer, hoher, völlig weiblicher Alt. Hier der</p>
+                  <!--DB: There are lines crossed out that "diese wachen" is written over, should there be a comment acknowledging this cancellation? 5/14/20 -->
+               <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_02.jpg"
+                  style="page" n="4"/>
+               <p>ganze Mensch mit jeder Bewegung, jede Geste, eine 100 prozent. Frau. Eine volle Büste, weiche, frauliche 
+                  <anchor type="commentRangeStart" n="6"/>Hände/Haare/Haut<anchor type="commentRangeEnd" n="6"/><note type="editor" source="sm" corresp="comment_6">The word here could be any of these; 
+                  the spelling would be incorrect in each case. </note>, die entzückendsten Beine, auch sie dürfen bei der Beschreibung ihres Bildes nicht vergessen werden – sprachen wir seitdem von 
+                  <persName key="wegenerE">Einar</persName>, war es ein drittes Wesen. </p>
+               <p>III</p>
+               <p>Die letzte tiefste Erschütterung, die mir dieses Wesen in <placeName key="copenhagen">Kopenhagen</placeName> bereitet hat, war am letzten Abend: 
+                  sie gab mir ein Buch von <persName key="wegenerE">Einar</persName>, ich sollte das Titelblatt lesen: ich las – – – –</p>
+               <p><anchor type="commentRangeStart" n="7"/>IN RED<anchor type="commentRangeEnd" n="7"/><note type="editor" source="sm" corresp="comment_7">I cannot make any sense of this, but it looks 
+                  like it refers to the way you should read this document: “Als Deutscher Blatt mit der ? ? (probably one word, the second half being “schaft”) aufs ? wenden.”</note></p>
+                  <!--DB: The "IN RED" lines are written vertically along the side of the letter, should there be a note acknowledging this? 5/14/20 -->
+                  <!--DB: Also, "IN RED" is how these lines are referred to in the html word doc, I'm not sure if this is how it should be in xml 5/14/20 -->
+            </div>
+         </div>
+         <div type="translation">
+            <pb style="page" n="1"/>
+            <div rend="head" style="letter">
+               <p>
+                  <add place="leftMargin" type="insertion" rend="pencil"><hi rend="underline">Annex 4</hi></add>
+               </p>
+            </div>
+            <div rend="body">
+               <p>I</p>
+               <p>I met <persName key="lili">Lili Elbe</persName> in <date when="1913">1913</date>. At the time, she was a man and her name was <persName key="wegenerE">Einar Wegener</persName>. </p>
+               <p>In <date when="1913">1913</date>, I met <persName key="wegenerE">Einar Wegener</persName> in what used to be Hotel Brutze in <placeName key="copenhagen">Copenhagen</placeName>. I can 
+                  still clearly see <persName key="lili">Lili Elbe</persName> in front of me: a delicate, very good-looking man, barely thirty, 
+                  a little older than me. We were standing during our conversation. I had to look down to him. 
+                  The conversation was about all things art. <persName key="wegenerE">Einar Wegener</persName> was preparing an exhibition of his 
+                  pictures, but especially the pictures and sketches of his <persName key="wegenerG">wife</persName>. At the time, Bayros was in 
+                  fashion in <placeName key="germany">Germany</placeName> and also up here. <persName key="wegenerE">Einar Wegener</persName>’s deep, brown eyes had a fascinating shimmer 
+                  when pointing out the – in his opinion – superior mastery of <persName key="wegenerG">Gerda</persName>. </p>
+               <p><pb style="page" n="2"/>“But may I ask about your own paintings,” I interposed. – “What is there to talk 
+                  about,” he nonchalantly replied. To me those words seemed a little arrogant. – Very elegant, 
+                  Parisian, back then one also used the word decadent for it, he shook my hand when saying goodbye. 
+                  His voice had a very warm [illegible] baritone.</p>
+               <p>II</p>  
+               <p>Almost 20 years later, in <date when="193102">February 1931</date>, an elegant, dark-eyed, slim, strong <persName key="lili">woman</persName> entered my home. 
+                  When I caught her gaze, I had to had to direct my eye straight</p>
+               <p><pb style="page" n="3"/>ahead. Suddenly, the memory of <date when="1913">1913</date> jolted through me – back then, I had to look down to 
+                  find <persName key="wegenerE">Einar Wegener</persName>’s eye. Now, a <persName key="lili">woman</persName>, the same height as me, stood before me: <persName key="lili">Lili Elbe</persName>. – I 
+                  was shocked. I felt as if I had been touched by a ghost. – Just those alert eyes, looking at me, 
+                  brought <persName key="wegenerE">Einar Wegener</persName> to mind. [illegible] here <persName key="lili">Lili Elbe</persName>’s voice was a warm, high-pitched, 
+                  completely female alto. Here the</p>
+               <p><pb style="page" n="4"/>whole person and every movement, every gesture, a 100 percent woman. A full bust, 
+                  soft, womanly hands/hair/skin, the loveliest legs, they too must not be forgotten when describing 
+                  her image – since then, when we spoke of <persName key="wegenerE">Einar</persName>, it was a third being.</p>
+               <p>III</p>
+               <p>The last deepest shock, this being gave me in <placeName key="copenhagen">Copenhagen</placeName>, occurred on the last evening: 
+                  she gave me a book of <persName key="wegenerE">Einar</persName>’s and I was supposed to read the front page: I read – – – – </p>
+               <p>IN RED</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
