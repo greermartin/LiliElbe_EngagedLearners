@@ -17,19 +17,21 @@
             </respStmt>
             <respStmt>
                <resp>Images prepared by</resp>
-               <persName ref="xx">xx</persName>
+               <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
             <respStmt>
                <resp>Transcription completed by</resp>
-               <persName ref="sm">Sabine Meyer</persName>
+               <persName ref="twj">Tatjana Wilms-Jones</persName>
             </respStmt>
             <respStmt>
                <resp>Translation completed by</resp>
                <persName ref="twj" role="TRL">Tatjana Wlims-Jones</persName>
+               <persName ref="sm" role="TRL">Sabine Meyer</persName>
             </respStmt>
             <respStmt>
                <resp>Translation reviewed by</resp>
-               <persName ref="xx"><!-- Insert reviewer's name and initials in @ref --></persName>
+               <persName ref="sm">Sabine Meyer</persName>
+               <persName ref="plc">Pamela Caughie</persName>
             </respStmt>           
             <respStmt>
                <resp>Encoding completed by</resp>
@@ -37,7 +39,7 @@
             </respStmt>
             <respStmt>
                <resp>Encoding assistance and/or XML proofing completed by</resp>
-               <persName ref="xx"><!-- Insert Proofers name and initials in @ref--></persName>
+               <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
@@ -47,7 +49,7 @@
             </respStmt>
             <respStmt>
                <resp>HTML proofing completed by</resp>
-               <persName ref="xx"><!-- Insert Proofers name and initials in @ref--></persName>
+               <persName ref="plc">Pamela Caughie</persName>
             </respStmt>
             <sponsor>Loyola University Chicago Libraries</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -109,7 +111,7 @@
             </div>
             <div rend="body">
                <p>I</p>
-               <!-- DB: The numeral "I" is written in pencil beneath the paragraph below that is written in ink. I placed "I" above this paragraph for now but I am not sure this is the desited location of it 5/14/20-->
+               <!-- DB: The numeral "I" is written in pencil within the paragraph below that is written in ink. I placed "I" above this paragraph for now but I am not sure this is the desited location of it 5/14/20-->
                <p>Ich habe <persName key="lili">Lili Elbe</persName> <date when="1913">1913</date> kennengelernt. Damals war sie ein Mann und hiess <persName key="wegenerE">Einar Wegener</persName>.</p>               
                <p>Im Jahre <date when="1913">1913</date> traf ich im damaligen <anchor type="commentRangeStart" n="1"/>Hotel Brutze<anchor type="commentRangeEnd" n="1"/><note type="editor" source="sm" 
                   corresp="comment_1">There is no record of a hotel by that name.</note> in <placeName key="copenhagen">Kopenhagen</placeName> <persName key="wegenerE">Einar 
@@ -137,7 +139,7 @@
                   Wegeners</persName> Auge zu finden. Jetzt stand eine <persName key="lili">Frau</persName>, gleich groß wie ich, vor mir: <persName key="lili">Lili Elbe</persName>. – Ich war 
                   erschüttert. Ich war wie von einem Spuk berührt. – Nur diese wachen Augen, die mich ansahen, erinnerten an <persName key="wegenerE">Einar Wegener</persName>. [illegible] hier 
                   <persName key="lili">Lili Elbes</persName> Stimme war ein warmer, hoher, völlig weiblicher Alt. Hier der</p>
-                  <!--DB: There are lines crossed out that "diese wachen" is written over, should there be a comment acknowledging this cancellation? 5/14/20 -->
+                  <!--DB: "diese wachen" is written over lines that are crossed out but are not written in the word doc, should there be a comment acknowledging this cancellation? 5/14/20 -->
                <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_02.jpg"
                   style="page" n="4"/>
                <p>ganze Mensch mit jeder Bewegung, jede Geste, eine 100 prozent. Frau. Eine volle Büste, weiche, frauliche 
@@ -150,7 +152,7 @@
                <p><anchor type="commentRangeStart" n="7"/>IN RED<anchor type="commentRangeEnd" n="7"/><note type="editor" source="sm" corresp="comment_7">I cannot make any sense of this, but it looks 
                   like it refers to the way you should read this document: “Als Deutscher Blatt mit der ? ? (probably one word, the second half being “schaft”) aufs ? wenden.”</note></p>
                   <!--DB: The "IN RED" lines are written vertically along the side of the letter, should there be a note acknowledging this? 5/14/20 -->
-                  <!--DB: Also, "IN RED" is how these lines are referred to in the html word doc, I'm not sure if this is how it should be in xml 5/14/20 -->
+                  <!--DB: Also, "IN RED" is how these lines are referred to in the word doc, I'm not sure if this is how it should be in xml 5/14/20 -->
             </div>
          </div>
          <div type="translation">
