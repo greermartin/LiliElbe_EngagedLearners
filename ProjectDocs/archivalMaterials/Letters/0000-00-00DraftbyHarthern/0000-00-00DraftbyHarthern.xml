@@ -20,10 +20,6 @@
                <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
             <respStmt>
-               <resp>Transcription completed by</resp>
-               <persName ref="twj">Tatjana Wilms-Jones</persName>
-            </respStmt>
-            <respStmt>
                <resp>Translation completed by</resp>
                <persName ref="twj" role="TRL">Tatjana Wlims-Jones</persName>
                <persName ref="sm" role="TRL">Sabine Meyer</persName>
@@ -50,6 +46,7 @@
             <respStmt>
                <resp>HTML proofing completed by</resp>
                <persName ref="plc">Pamela Caughie</persName>
+               <persName ref="ed">Emily Datskou</persName>
             </respStmt>
             <sponsor>Loyola University Chicago Libraries</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -105,7 +102,7 @@
                style="page" n="1"/>
             <div rend="head" style="letter">
                <p>
-                  <add place="leftMargin" type="insertion" rend="pencil"><hi rend="underline">Anlage 4</hi></add>
+                  <add place="left margin" type="insertion" rend="pencil"><hi rend="underline">Anlage 4</hi></add>
                </p>
                <!-- DB: "Anlage 4" is written vertically in the margins of the letter, should a note be added to acknowledge this? 5/14/20-->
             </div>
@@ -122,14 +119,14 @@
                <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_02.jpg"
                   style="page" n="2"/>
                <p>hinwies, einen <anchor type="commentRangeStart" n="2"/>faszinierenden<anchor type="commentRangeEnd" n="2"/><note type="editor" source="sm" corresp="comment_2">The
-                  script is not really legible towards the end of the word, but that is my best guess and probably the correct word.</note> Glanz. „Aber dürfte ich nach ihren eignen Bildern fragen,” 
-                  warf ich ein. – “Was ist davon zu sprechen,“ entgegnete er etwas lässig. Mir erschien dieses 
+                  script is not really legible towards the end of the word, but that is my best guess and probably the correct word.</note> Glanz. „Aber dürfte ich nach ihren eignen Bildern fragen," 
+                  warf ich ein. – „Was ist davon zu sprechen," entgegnete er etwas lässig. Mir erschien dieses 
                   Wort etwas hochmütig. – Sehr elegant, pariserisch, damals <anchor type="commentRangeStart" n="3"/>hatte<anchor type="commentRangeEnd" n="3"/><note type="editor" source="sm" 
                   corresp="comment_3">This actually reads “fatte” in the original, but that is not a word and makes no sense, so I guess Harthern penned the letter “h” the wrong way.</note>  man auch 
-                  <anchor type="commentRangeStart" n="4"/>für<anchor type="commentRangeEnd" n="4"/><note type="editor" source="sm" corresp="comment_4">This “für” shouldn’t be in the sentence, 
-                  still it’s there. Harthern probably wanted to phrase it differently to begin with and then forgot to cross the “für” out. </note> die Bezeichnung dekadent dafür, gab er mir dann zum 
+                  <anchor type="commentRangeStart" n="4"/>für<anchor type="commentRangeEnd" n="4"/><note type="editor" source="sm" corresp="comment_4">This "für" shouldn’t be in the sentence, 
+                  still it's there. Harthern probably wanted to phrase it differently to begin with and then forgot to cross the "für" out. </note> die Bezeichnung dekadent dafür, gab er mir dann zum 
                   Abschied die Hand. Seine Stimme hatte einen sehr warmen, <anchor type="commentRangeStart" n="5"/>[illegible]<anchor type="commentRangeEnd" n="5"/><note type="editor" source="sm" 
-                  corresp="comment_5">I cannot make that word out. It could be “dunk(e)len” (dark), but I am not sure.</note> Bariton.– </p>
+                  corresp="comment_5">I cannot make that word out. It could be "dunk(e)len" (dark), but I am not sure.</note> Bariton.– </p>
                <p>II</p>
                <p>Fast 20 Jahre später, im <date when="193102">Februar 1931</date> trat bei mir eine elegante, 
                   dunkeläugige, schlanke, kräftige <persName key="lili">Frau</persName> ein. Als ich ihren Blick fand, musste ich mein Auge geradeaus</p>
@@ -159,7 +156,7 @@
             <pb style="page" n="1"/>
             <div rend="head" style="letter">
                <p>
-                  <add place="leftMargin" type="insertion" rend="pencil"><hi rend="underline">Annex 4</hi></add>
+                  <add place="left margin" type="insertion" rend="pencil"><hi rend="underline">Annex 4</hi></add>
                </p>
             </div>
             <div rend="body">
@@ -172,8 +169,8 @@
                   pictures, but especially the pictures and sketches of his <persName key="wegenerG">wife</persName>. At the time, Bayros was in 
                   fashion in <placeName key="germany">Germany</placeName> and also up here. <persName key="wegenerE">Einar Wegener</persName>’s deep, brown eyes had a fascinating shimmer 
                   when pointing out the – in his opinion – superior mastery of <persName key="wegenerG">Gerda</persName>. </p>
-               <p><pb style="page" n="2"/>“But may I ask about your own paintings,” I interposed. – “What is there to talk 
-                  about,” he nonchalantly replied. To me those words seemed a little arrogant. – Very elegant, 
+               <p><pb style="page" n="2"/>"But may I ask about your own paintings," I interposed. – "What is there to talk 
+                  about," he nonchalantly replied. To me those words seemed a little arrogant. – Very elegant, 
                   Parisian, back then one also used the word decadent for it, he shook my hand when saying goodbye. 
                   His voice had a very warm [illegible] baritone.</p>
                <p>II</p>  
