@@ -108,45 +108,46 @@
             </div>
             <div rend="body">
                <p>I</p>
-               <!-- DB: The numeral "I" is written in pencil within the paragraph below that is written in ink. I placed "I" above this paragraph for now but I am not sure this is the desited location of it 5/14/20-->
-               <p>Ich habe <persName key="lili">Lili Elbe</persName> <date when="1913">1913</date> kennengelernt. Damals war sie ein Mann und hiess <persName key="wegenerE">Einar Wegener</persName>.</p>               
-               <p>Im Jahre <date when="1913">1913</date> traf ich im damaligen <anchor type="commentRangeStart" n="1"/>Hotel Brutze<anchor type="commentRangeEnd" n="1"/><note type="editor" source="sm" 
-                  corresp="comment_1">There is no record of a hotel by that name.</note> in <placeName key="copenhagen">Kopenhagen</placeName> <persName key="wegenerE">Einar 
+               <p><anchor type="commentRangeStart" n="1"/>Ich habe <persName key="lili">Lili Elbe</persName> <date when="1913">1913</date> kennengelernt. Damals war sie ein Mann und hiess <persName key="wegenerE">Einar Wegener</persName>.
+                  <anchor type="commentRangeEnd" n="1"/><note type="editor" source="plc" corresp="comment_1">These two sentences were added at the top of the first page in black ink, presumably by Harthern. Throughout the transcription/translation 
+                  we have indicated page breaks for the pages marked by roman numerals, dividing II into two paragraphs to mark the two sides of that page.  For ease of reading, we have followed the translation rather than strictly adhering to the 
+                  facsimile in marking the page break between the first page and page II.</note>             
+                  Im Jahre <date when="1913">1913</date> traf ich im damaligen <anchor type="commentRangeStart" n="2"/>Hotel Brutze<anchor type="commentRangeEnd" n="2"/><note type="editor" source="sm" 
+                  corresp="comment_2">There is no record of a hotel by that name.</note> in <placeName key="copenhagen">Kopenhagen</placeName> <persName key="wegenerE">Einar 
                   Wegener</persName>. Sein Bild steht mir noch deutlich vor Augen: ein zierlicher, sehr gut aussehender Mann von kaum dreißig, etwas älter als ich. Während der 
                   Unterhaltung standen wir. Ich musste zu ihm niedersehen. Die Unterhaltung ging um Dinge der Kunst. <persName key="wegenerE">Einar Wegener</persName> bereitete eine 
                   Ausstellung seiner Bilder, vor allem aber der Bilder und Zeichnungen seiner <persName key="wegenerG">Frau</persName> vor. Bayros war damals bei uns und auch hier oben die große Mode. 
-                  <persName key="wegenerE">Einar Wegeners</persName> tiefe, braune Augen hatten, während er auf die seiner Meinung nach überlegene Meisterschaft <persName key="wegenerG">Gerdas</persName></p>
+                  <persName key="wegenerE">Einar Wegeners</persName> tiefe, braune Augen hatten, während er auf die seiner Meinung nach überlegene Meisterschaft <persName key="wegenerG">Gerdas</persName>
+                  hinwies, einen <anchor type="commentRangeStart" n="3"/>faszinierenden<anchor type="commentRangeEnd" n="3"/><note type="editor" source="sm" corresp="comment_3">The
+                  script is not really legible towards the end of the word, but that is my best guess and probably the correct word.</note> Glanz.</p>
                <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_02.jpg"
                   style="page" n="2"/>
-               <p>hinwies, einen <anchor type="commentRangeStart" n="2"/>faszinierenden<anchor type="commentRangeEnd" n="2"/><note type="editor" source="sm" corresp="comment_2">The
-                  script is not really legible towards the end of the word, but that is my best guess and probably the correct word.</note> Glanz. „Aber dürfte ich nach ihren eignen Bildern fragen," 
-                  warf ich ein. – „Was ist davon zu sprechen," entgegnete er etwas lässig. Mir erschien dieses 
-                  Wort etwas hochmütig. – Sehr elegant, pariserisch, damals <anchor type="commentRangeStart" n="3"/>hatte<anchor type="commentRangeEnd" n="3"/><note type="editor" source="sm" 
-                  corresp="comment_3">This actually reads “fatte” in the original, but that is not a word and makes no sense, so I guess Harthern penned the letter “h” the wrong way.</note>  man auch 
-                  <anchor type="commentRangeStart" n="4"/>für<anchor type="commentRangeEnd" n="4"/><note type="editor" source="sm" corresp="comment_4">This "für" shouldn’t be in the sentence, 
-                  still it's there. Harthern probably wanted to phrase it differently to begin with and then forgot to cross the "für" out. </note> die Bezeichnung dekadent dafür, gab er mir dann zum 
-                  Abschied die Hand. Seine Stimme hatte einen sehr warmen, <anchor type="commentRangeStart" n="5"/>[illegible]<anchor type="commentRangeEnd" n="5"/><note type="editor" source="sm" 
-                  corresp="comment_5">I cannot make that word out. It could be "dunk(e)len" (dark), but I am not sure.</note> Bariton.– </p>
                <p>II</p>
-               <p>Fast 20 Jahre später, im <date when="193102">Februar 1931</date> trat bei mir eine elegante, 
-                  dunkeläugige, schlanke, kräftige <persName key="lili">Frau</persName> ein. Als ich ihren Blick fand, musste ich mein Auge geradeaus</p>
-               <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_01.jpg"
-                  style="page" n="3"/>               
-               <p>richten. Blitzartig durchzuckte mich da die Erinnerung von <date when="1913">1913</date> – damals sah ich nieder, um <persName key="wegenerE">Einar 
+               <p>„Aber dürfte ich nach ihren eignen Bildern fragen," 
+                  warf ich ein. – „Was ist davon zu sprechen," entgegnete er etwas lässig. Mir erschien dieses 
+                  Wort etwas hochmütig. – Sehr elegant, pariserisch, damals <anchor type="commentRangeStart" n="4"/>hatte<anchor type="commentRangeEnd" n="4"/><note type="editor" source="sm" 
+                  corresp="comment_4">This actually reads “fatte” in the original, but that is not a word and makes no sense, so I guess Harthern penned the letter “h” the wrong way.</note>  man auch 
+                  <anchor type="commentRangeStart" n="5"/>für<anchor type="commentRangeEnd" n="5"/><note type="editor" source="sm" corresp="comment_5">This "für" shouldn’t be in the sentence, 
+                  still it's there. Harthern probably wanted to phrase it differently to begin with and then forgot to cross the "für" out. </note> die Bezeichnung dekadent dafür, gab er mir dann zum 
+                  Abschied die Hand. Seine Stimme hatte einen sehr warmen, <anchor type="commentRangeStart" n="6"/>[illegible]<anchor type="commentRangeEnd" n="6"/><note type="editor" source="sm" 
+                  corresp="comment_6">I cannot make that word out. It could be "dunk(e)len" (dark), but I am not sure.</note> Bariton.– 
+                  Fast 20 Jahre später, im <date when="193102">Februar 1931</date> trat bei mir eine elegante, 
+                  dunkeläugige, schlanke, kräftige <persName key="lili">Frau</persName> ein. Als ich ihren Blick fand, musste ich mein Auge geradeaus richten.</p>       
+               <p>Blitzartig durchzuckte mich da die Erinnerung von <date when="1913">1913</date> – damals sah ich nieder, um <persName key="wegenerE">Einar 
                   Wegeners</persName> Auge zu finden. Jetzt stand eine <persName key="lili">Frau</persName>, gleich groß wie ich, vor mir: <persName key="lili">Lili Elbe</persName>. – Ich war 
                   erschüttert. Ich war wie von einem Spuk berührt. – Nur diese wachen Augen, die mich ansahen, erinnerten an <persName key="wegenerE">Einar Wegener</persName>. [illegible] hier 
                   <persName key="lili">Lili Elbes</persName> Stimme war ein warmer, hoher, völlig weiblicher Alt. Hier der</p>
                   <!--DB: "diese wachen" is written over lines that are crossed out but are not written in the word doc, should there be a comment acknowledging this cancellation? 5/14/20 -->
-               <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_02.jpg"
-                  style="page" n="4"/>
-               <p>ganze Mensch mit jeder Bewegung, jede Geste, eine 100 prozent. Frau. Eine volle Büste, weiche, frauliche 
-                  <anchor type="commentRangeStart" n="6"/>Hände/Haare/Haut<anchor type="commentRangeEnd" n="6"/><note type="editor" source="sm" corresp="comment_6">The word here could be any of these; 
-                  the spelling would be incorrect in each case. </note>, die entzückendsten Beine, auch sie dürfen bei der Beschreibung ihres Bildes nicht vergessen werden – sprachen wir seitdem von 
-                  <persName key="wegenerE">Einar</persName>, war es ein drittes Wesen. </p>
+               <pb facs="http://lilielbe.org/media/letters/0000-00-00DraftbyHarthern_01.jpg"
+                  style="page" n="3"/>
                <p>III</p>
-               <p>Die letzte tiefste Erschütterung, die mir <persName key="lili">dieses Wesen</persName> in <placeName key="copenhagen">Kopenhagen</placeName> bereitet hat, war am letzten Abend: 
+               <p>ganze Mensch mit jeder Bewegung, jede Geste, eine 100 prozent. Frau. Eine volle Büste, weiche, frauliche 
+                  <anchor type="commentRangeStart" n="7"/>Hände/Haare/Haut<anchor type="commentRangeEnd" n="7"/><note type="editor" source="sm" corresp="comment_7">The word here could be any of these; 
+                  the spelling would be incorrect in each case. </note>, die entzückendsten Beine, auch sie dürfen bei der Beschreibung ihres Bildes nicht vergessen werden – sprachen wir seitdem von 
+                  <persName key="wegenerE">Einar</persName>, war es ein drittes Wesen.
+                  Die letzte tiefste Erschütterung, die mir <persName key="lili">dieses Wesen</persName> in <placeName key="copenhagen">Kopenhagen</placeName> bereitet hat, war am letzten Abend: 
                   sie gab mir ein Buch von <persName key="wegenerE">Einar</persName>, ich sollte das Titelblatt lesen: ich las – – – –</p>
-               <p><anchor type="commentRangeStart" n="7"/>IN RED<anchor type="commentRangeEnd" n="7"/><note type="editor" source="sm" corresp="comment_7">"In red, written down the left-hand side 
+               <p><anchor type="commentRangeStart" n="8"/>IN RED<anchor type="commentRangeEnd" n="8"/><note type="editor" source="sm" corresp="comment_8">"In red, written down the left-hand side 
                   of the page, is some illegible wording. It looks like it refers to the way you should read this document: “Als Deutscher Blatt mit der ? ? (probably one word, the second half 
                   being “schaft”) aufs ? wenden.</note></p>
                   <!--DB: The "IN RED" lines are written vertically along the side of the letter, should there be a note acknowledging this? 5/14/20 -->
@@ -161,31 +162,31 @@
             </div>
             <div rend="body">
                <p>I</p>
-               <p>I met <persName key="lili">Lili Elbe</persName> in <date when="1913">1913</date>. At the time, she was a man and her name was <persName key="wegenerE">Einar Wegener</persName>. </p>
-               <p>In <date when="1913">1913</date>, I met <persName key="wegenerE">Einar Wegener</persName> in what used to be Hotel Brutze in <placeName key="copenhagen">Copenhagen</placeName>. I can 
+               <p>I met <persName key="lili">Lili Elbe</persName> in <date when="1913">1913</date>. At the time, she was a man and her name was <persName key="wegenerE">Einar Wegener</persName>.
+                  In <date when="1913">1913</date>, I met <persName key="wegenerE">Einar Wegener</persName> in what used to be Hotel Brutze in <placeName key="copenhagen">Copenhagen</placeName>. I can 
                   still clearly see <persName key="wegenerE">his picture</persName> in front of me: a delicate, very good-looking man, barely thirty, 
                   a little older than me. We were standing during our conversation. I had to look down to him. 
                   The conversation was about all things art. <persName key="wegenerE">Einar Wegener</persName> was preparing an exhibition of his 
                   pictures, but especially the pictures and sketches of his <persName key="wegenerG">wife</persName>. At the time, Bayros was in 
                   fashion in <placeName key="germany">Germany</placeName> and also up here. <persName key="wegenerE">Einar Wegener</persName>’s deep, brown eyes had a fascinating shimmer 
                   when pointing out the – in his opinion – superior mastery of <persName key="wegenerG">Gerda</persName>. </p>
+               <p>II</p>
                <p>"But may I ask about your own paintings," I interposed. – "What is there to talk 
                   about," he nonchalantly replied. To me those words seemed a little arrogant. – Very elegant, 
                   Parisian, back then one also used the word decadent for it, he shook my hand when saying goodbye. 
-                  His voice had a very warm [illegible] baritone.</p>
-               <p>II</p>  
-               <p>Almost 20 years later, in <date when="193102">February 1931</date>, an elegant, dark-eyed, slim, strong <persName key="lili">woman</persName> entered my home. 
-                  When I caught her gaze, I had to direct my eye straight</p>
-               <p>ahead. Suddenly, the memory of <date when="1913">1913</date> jolted through me – back then, I had to look down to 
+                  His voice had a very warm [illegible] baritone.  
+                  Almost 20 years later, in <date when="193102">February 1931</date>, an elegant, dark-eyed, slim, strong <persName key="lili">woman</persName> entered my home. 
+                  When I caught her gaze, I had to direct my eye straight ahead.</p>
+               <p>Suddenly, the memory of <date when="1913">1913</date> jolted through me – back then, I had to look down to 
                   find <persName key="wegenerE">Einar Wegener</persName>’s eye. Now, a <persName key="lili">woman</persName>, the same height as me, stood before me: <persName key="lili">Lili Elbe</persName>. – I 
                   was shocked. I felt as if I had been touched by a ghost. – Just those alert eyes, looking at me, 
                   brought <persName key="wegenerE">Einar Wegener</persName> to mind. [illegible] here <persName key="lili">Lili Elbe</persName>’s voice was a warm, high-pitched, 
                   completely female alto. Here the</p>
+               <p>III</p>
                <p>whole person and every movement, every gesture, a 100 percent woman. A full bust, 
                   soft, womanly hands/hair/skin, the loveliest legs, they too must not be forgotten when describing 
-                  her image – since then, when we spoke of <persName key="wegenerE">Einar</persName>, it was a third being.</p>
-               <p>III</p>
-               <p>The last deepest shock, <persName key="lili">this being</persName> gave me in <placeName key="copenhagen">Copenhagen</placeName>, occurred on the last evening: 
+                  her image – since then, when we spoke of <persName key="wegenerE">Einar</persName>, it was a third being.
+                  The last deepest shock, <persName key="lili">this being</persName> gave me in <placeName key="copenhagen">Copenhagen</placeName>, occurred on the last evening: 
                   she gave me a book of <persName key="wegenerE">Einar</persName>’s and I was supposed to read the front page: I read – – – – </p>
                <p>IN RED</p>
             </div>
