@@ -35,13 +35,13 @@
             </respStmt>
             <respStmt>
                <resp>Encoding assistance and/or XML proofing completed by</resp>
-               <persName ref="rjp">Rebecca J. Parker</persName>
+               <persName ref=""></persName>
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
                   <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
                   by</resp>
-               <persName ref="rjp">Rebecca J. Parker</persName>
+               <persName ref=""></persName>
             </respStmt>
             <respStmt>
                <resp>HTML proofing completed by</resp>
@@ -144,16 +144,16 @@
                   the spelling would be incorrect in each case. </note>, die entzückendsten Beine, auch sie dürfen bei der Beschreibung ihres Bildes nicht vergessen werden – sprachen wir seitdem von 
                   <persName key="wegenerE">Einar</persName>, war es ein drittes Wesen. </p>
                <p>III</p>
-               <p>Die letzte tiefste Erschütterung, die mir dieses Wesen in <placeName key="copenhagen">Kopenhagen</placeName> bereitet hat, war am letzten Abend: 
+               <p>Die letzte tiefste Erschütterung, die mir <persName key="lili">dieses Wesen</persName> in <placeName key="copenhagen">Kopenhagen</placeName> bereitet hat, war am letzten Abend: 
                   sie gab mir ein Buch von <persName key="wegenerE">Einar</persName>, ich sollte das Titelblatt lesen: ich las – – – –</p>
-               <p><anchor type="commentRangeStart" n="7"/>IN RED<anchor type="commentRangeEnd" n="7"/><note type="editor" source="sm" corresp="comment_7">I cannot make any sense of this, but it looks 
-                  like it refers to the way you should read this document: “Als Deutscher Blatt mit der ? ? (probably one word, the second half being “schaft”) aufs ? wenden.”</note></p>
+               <p><anchor type="commentRangeStart" n="7"/>IN RED<anchor type="commentRangeEnd" n="7"/><note type="editor" source="sm" corresp="comment_7">"In red, written down the left-hand side 
+                  of the page, is some illegible wording. It looks like it refers to the way you should read this document: “Als Deutscher Blatt mit der ? ? (probably one word, the second half 
+                  being “schaft”) aufs ? wenden.</note></p>
                   <!--DB: The "IN RED" lines are written vertically along the side of the letter, should there be a note acknowledging this? 5/14/20 -->
                   <!--DB: Also, "IN RED" is how these lines are referred to in the word doc, I'm not sure if this is how it should be in xml 5/14/20 -->
             </div>
          </div>
          <div type="translation">
-            <pb style="page" n="1"/>
             <div rend="head" style="letter">
                <p>
                   <add place="left margin" type="insertion" rend="pencil"><hi rend="underline">Annex 4</hi></add>
@@ -163,29 +163,29 @@
                <p>I</p>
                <p>I met <persName key="lili">Lili Elbe</persName> in <date when="1913">1913</date>. At the time, she was a man and her name was <persName key="wegenerE">Einar Wegener</persName>. </p>
                <p>In <date when="1913">1913</date>, I met <persName key="wegenerE">Einar Wegener</persName> in what used to be Hotel Brutze in <placeName key="copenhagen">Copenhagen</placeName>. I can 
-                  still clearly see <persName key="lili">Lili Elbe</persName> in front of me: a delicate, very good-looking man, barely thirty, 
+                  still clearly see <persName key="wegenerE">his picture</persName> in front of me: a delicate, very good-looking man, barely thirty, 
                   a little older than me. We were standing during our conversation. I had to look down to him. 
                   The conversation was about all things art. <persName key="wegenerE">Einar Wegener</persName> was preparing an exhibition of his 
                   pictures, but especially the pictures and sketches of his <persName key="wegenerG">wife</persName>. At the time, Bayros was in 
                   fashion in <placeName key="germany">Germany</placeName> and also up here. <persName key="wegenerE">Einar Wegener</persName>’s deep, brown eyes had a fascinating shimmer 
                   when pointing out the – in his opinion – superior mastery of <persName key="wegenerG">Gerda</persName>. </p>
-               <p><pb style="page" n="2"/>"But may I ask about your own paintings," I interposed. – "What is there to talk 
+               <p>"But may I ask about your own paintings," I interposed. – "What is there to talk 
                   about," he nonchalantly replied. To me those words seemed a little arrogant. – Very elegant, 
                   Parisian, back then one also used the word decadent for it, he shook my hand when saying goodbye. 
                   His voice had a very warm [illegible] baritone.</p>
                <p>II</p>  
                <p>Almost 20 years later, in <date when="193102">February 1931</date>, an elegant, dark-eyed, slim, strong <persName key="lili">woman</persName> entered my home. 
-                  When I caught her gaze, I had to had to direct my eye straight</p>
-               <p><pb style="page" n="3"/>ahead. Suddenly, the memory of <date when="1913">1913</date> jolted through me – back then, I had to look down to 
+                  When I caught her gaze, I had to direct my eye straight</p>
+               <p>ahead. Suddenly, the memory of <date when="1913">1913</date> jolted through me – back then, I had to look down to 
                   find <persName key="wegenerE">Einar Wegener</persName>’s eye. Now, a <persName key="lili">woman</persName>, the same height as me, stood before me: <persName key="lili">Lili Elbe</persName>. – I 
                   was shocked. I felt as if I had been touched by a ghost. – Just those alert eyes, looking at me, 
                   brought <persName key="wegenerE">Einar Wegener</persName> to mind. [illegible] here <persName key="lili">Lili Elbe</persName>’s voice was a warm, high-pitched, 
                   completely female alto. Here the</p>
-               <p><pb style="page" n="4"/>whole person and every movement, every gesture, a 100 percent woman. A full bust, 
+               <p>whole person and every movement, every gesture, a 100 percent woman. A full bust, 
                   soft, womanly hands/hair/skin, the loveliest legs, they too must not be forgotten when describing 
                   her image – since then, when we spoke of <persName key="wegenerE">Einar</persName>, it was a third being.</p>
                <p>III</p>
-               <p>The last deepest shock, this being gave me in <placeName key="copenhagen">Copenhagen</placeName>, occurred on the last evening: 
+               <p>The last deepest shock, <persName key="lili">this being</persName> gave me in <placeName key="copenhagen">Copenhagen</placeName>, occurred on the last evening: 
                   she gave me a book of <persName key="wegenerE">Einar</persName>’s and I was supposed to read the front page: I read – – – – </p>
                <p>IN RED</p>
             </div>
