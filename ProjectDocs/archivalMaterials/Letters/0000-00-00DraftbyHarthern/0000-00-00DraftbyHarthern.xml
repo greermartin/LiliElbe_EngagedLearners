@@ -88,9 +88,9 @@
          </classDecl>
          <editorialDecl>
             <hyphenation>
-               <p>We have removed the hyphenation that appears in the printed text during
-                  digitization and encoding. Original hyphenation can be consulted in the facsimile
-                  images.</p>
+               <p>Throughout the transcription/translation we have indicated page breaks for the pages marked by roman numerals, 
+                  dividing II into two paragraphs to mark the two sides of that page.  For ease of reading, we have followed the 
+                  translation rather than strictly adhering to the facsimile in marking the page break between the first page and page II. </p>
             </hyphenation>
          </editorialDecl>
       </encodingDesc>
