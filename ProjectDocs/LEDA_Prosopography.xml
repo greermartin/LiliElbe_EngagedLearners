@@ -1434,7 +1434,7 @@
                <persName source="#G1">König</persName>
                <note>King (fictional), modeled on Christian X, the King of Denmark from 1912 to
                   1947</note>
-            </person>
+		 </person>
             <person xml:id="knudsenP" source="historical" synch="#hvideNiels">
                <persName>Poul Knudsen</persName>
                <note>Poul Knudsen (1889-1974), Danish lawyer and writer, friend of the Wegeners,
@@ -1444,6 +1444,10 @@
                <persName>Vibeke Knudsen</persName>
                <note>Vibeke Knudsen (dates unknown), married to Poul Knudsen from 1925 to
                   1938</note>
+            </person>
+		 <person xml:id="kohlL" source="historical">
+                 <persName>Louis Henri von Kohl</persName>
+                 <note>Louis Henri von Kohl (1882-1962), a Danish film director and magazine editor. Likely a close friend of the Wegeners from Copenhagen, Kohl was, like Lili Elbe, a  Germanophile.</note>
             </person>
             <person xml:id="kreutz" source="fictional" synch="#warnekros">
                <persName source="#A1 #D1 #G1 #D1-TR">Kreutz Werner</persName>
@@ -1485,6 +1489,10 @@
             <person xml:id="leo" source="historical">
                <persName>Leo.</persName>
                <note>Leo. (historical), unidentified</note>
+            </person>
+	    <person xml:id="leyritzL" source="historical">
+               <persName>Léon Leyritz</persName>
+               <note>Léon Leyritz (1888-1976), a French sculptor and friend of the Wegeners with whom they stayed in Beaugency. The character Jean Tempête in the narrative is modeled on Leyritz.</note>
             </person>
             <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE">
                <persName>Lili</persName>
